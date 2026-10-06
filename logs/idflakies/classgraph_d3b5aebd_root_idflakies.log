@@ -1,0 +1,98 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.github.classgraph:classgraph[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding ClassGraph 4.8.48-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mclassgraph[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/classgraph/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:copy-resources[m [1m(copy-license-to-target)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:copy-resources[m [1m(copy-license-to-javadocs)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:4.2.1:manifest[m [1m(bundle-manifest)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:add-test-source[m [1m(add-test-source)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/classgraph/src/test/perf added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 28 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mclassgraph[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mclassgraph[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 162 tests. Time taken: 1.0169999599456787 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving io.github.classgraph:classgraph:4.8.48-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/classgraph/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/classgraph/.dtfixingtools/original-order
+---------------------------------------------------
+java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 25
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at edu.illinois.cs.dt.tools.detection.TestShuffler.className(TestShuffler.java:33)
+	at edu.illinois.cs.dt.tools.detection.TestShuffler.<init>(TestShuffler.java:53)
+	at edu.illinois.cs.dt.tools.detection.detectors.RandomDetector.<init>(RandomDetector.java:28)
+	at edu.illinois.cs.dt.tools.detection.detectors.DetectorFactory.makeDetector(DetectorFactory.java:20)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:292)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.437 s
+[[1;34mINFO[m] Finished at: 2026-10-02T07:53:23-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

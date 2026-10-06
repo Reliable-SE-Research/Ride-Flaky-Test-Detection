@@ -1,0 +1,333 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.jsonex:core:jar:0.1.21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.jsonex:jcParent:0.1.21, /home/a360/research/projects/jsonex/pom.xml, line 112, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36morg.jsonex:core[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding core 0.1.21[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcore[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.4:prepare-agent[m [1m(default-prepare-agent)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar=destfile=/home/a360/research/projects/jsonex/core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mcore[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jsonex/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mcore[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jsonex/core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcore[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mcore[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_WIVn0ygEb5Bs+yxfzsjK0O6JTkzUWI+NDwmis+rI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonex/core/.nondex/clean_WIVn0ygEb5Bs+yxfzsjK0O6JTkzUWI+NDwmis+rI=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jsonex.core.factory.InjectableInstanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec - in org.jsonex.core.factory.InjectableInstanceTest
+Running org.jsonex.core.factory.InjectableFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.jsonex.core.factory.InjectableFactoryTest
+Running org.jsonex.core.type.TypeRefTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.type.TypeRefTest
+Running org.jsonex.core.util.ListUtilTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.jsonex.core.util.ListUtilTest
+Running org.jsonex.core.util.TimeProviderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.jsonex.core.util.TimeProviderTest
+Running org.jsonex.core.util.LangUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.jsonex.core.util.LangUtilTest
+Running org.jsonex.core.util.EnumUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.jsonex.core.util.EnumUtilTest
+Running org.jsonex.core.util.MapBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.jsonex.core.util.MapBuilderTest
+Running org.jsonex.core.util.StringUtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.jsonex.core.util.StringUtilTest
+Running org.jsonex.core.util.ClassUtilTest
+[main] INFO org.jsonex.core.util.ClassUtilTest - intfs:[interface java.util.RandomAccess, interface java.lang.Comparable, interface java.util.List, interface java.io.Serializable, interface java.util.Collection, interface java.lang.Cloneable]
+[main] INFO org.jsonex.core.util.ClassUtilTest - testGetObjectByPath: path=java.lang.System/properties.0; val=awt.toolkit=sun.awt.X11.XToolkit
+[main] INFO org.jsonex.core.util.ClassUtilTest - Properties.keySet():[fieldA1, fieldA2, fieldA3, fieldA4, fieldB1, fieldB2, fieldB3, fieldB4, fieldB5, fieldB6, readOnly, writeOnly]
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in org.jsonex.core.util.ClassUtilTest
+Running org.jsonex.core.util.BeanProxyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.jsonex.core.util.BeanProxyTest
+Running org.jsonex.core.charsource.ArrayCharSourceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.jsonex.core.charsource.ArrayCharSourceTest
+Running org.jsonex.core.charsource.ReaderCharSourceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.jsonex.core.charsource.ReaderCharSourceTest
+
+Results :
+
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexJarDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexExecid=nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonex/core/.nondex/nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jsonex.core.factory.InjectableInstanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.jsonex.core.factory.InjectableInstanceTest
+Running org.jsonex.core.factory.InjectableFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.jsonex.core.factory.InjectableFactoryTest
+Running org.jsonex.core.type.TypeRefTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.jsonex.core.type.TypeRefTest
+Running org.jsonex.core.util.ListUtilTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.jsonex.core.util.ListUtilTest
+Running org.jsonex.core.util.TimeProviderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.jsonex.core.util.TimeProviderTest
+Running org.jsonex.core.util.LangUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.util.LangUtilTest
+Running org.jsonex.core.util.EnumUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.util.EnumUtilTest
+Running org.jsonex.core.util.MapBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.jsonex.core.util.MapBuilderTest
+Running org.jsonex.core.util.StringUtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.util.StringUtilTest
+Running org.jsonex.core.util.ClassUtilTest
+[main] INFO org.jsonex.core.util.ClassUtilTest - intfs:[interface java.io.Serializable, interface java.util.RandomAccess, interface java.util.Collection, interface java.lang.Comparable, interface java.lang.Cloneable, interface java.util.List]
+[main] INFO org.jsonex.core.util.ClassUtilTest - testGetObjectByPath: path=java.lang.System/properties.0; val=jdk.debug=release
+[main] INFO org.jsonex.core.util.ClassUtilTest - Properties.keySet():[fieldA3, fieldA1, fieldA4, fieldA2, fieldB2, fieldB1, fieldB4, fieldB5, fieldB3, fieldB6, readOnly, writeOnly]
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE! - in org.jsonex.core.util.ClassUtilTest
+testGetProperties(org.jsonex.core.util.ClassUtilTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<fieldA[1]> but was:<fieldA[3]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:285)
+	at org.junit.Assert.assertArrayEquals(Assert.java:300)
+	at org.jsonex.core.util.ClassUtilTest.testGetProperties(ClassUtilTest.java:85)
+
+Running org.jsonex.core.util.BeanProxyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.jsonex.core.util.BeanProxyTest
+Running org.jsonex.core.charsource.ArrayCharSourceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.jsonex.core.charsource.ArrayCharSourceTest
+Running org.jsonex.core.charsource.ReaderCharSourceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.charsource.ReaderCharSourceTest
+
+Results :
+
+Failed tests: 
+  ClassUtilTest.testGetProperties:85 arrays first differed at element [0]; expected:<fieldA[1]> but was:<fieldA[3]>
+
+Tests run: 76, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexJarDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexExecid=JFGQhB4viERfIl15+80NjcpjsJBatr65wil2z8EVb+g=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonex/core/.nondex/JFGQhB4viERfIl15+80NjcpjsJBatr65wil2z8EVb+g=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jsonex.core.factory.InjectableInstanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.jsonex.core.factory.InjectableInstanceTest
+Running org.jsonex.core.factory.InjectableFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.jsonex.core.factory.InjectableFactoryTest
+Running org.jsonex.core.type.TypeRefTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.jsonex.core.type.TypeRefTest
+Running org.jsonex.core.util.ListUtilTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in org.jsonex.core.util.ListUtilTest
+Running org.jsonex.core.util.TimeProviderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.jsonex.core.util.TimeProviderTest
+Running org.jsonex.core.util.LangUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.util.LangUtilTest
+Running org.jsonex.core.util.EnumUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.jsonex.core.util.EnumUtilTest
+Running org.jsonex.core.util.MapBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.jsonex.core.util.MapBuilderTest
+Running org.jsonex.core.util.StringUtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.util.StringUtilTest
+Running org.jsonex.core.util.ClassUtilTest
+[main] INFO org.jsonex.core.util.ClassUtilTest - intfs:[interface java.util.RandomAccess, interface java.io.Serializable, interface java.util.Collection, interface java.lang.Comparable, interface java.lang.Cloneable, interface java.util.List]
+[main] INFO org.jsonex.core.util.ClassUtilTest - testGetObjectByPath: path=java.lang.System/properties.0; val=awt.toolkit=sun.awt.X11.XToolkit
+[main] INFO org.jsonex.core.util.ClassUtilTest - Properties.keySet():[fieldA2, fieldA1, fieldA4, fieldA3, fieldB3, fieldB6, fieldB5, fieldB2, fieldB4, fieldB1, readOnly, writeOnly]
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec <<< FAILURE! - in org.jsonex.core.util.ClassUtilTest
+testGetProperties(org.jsonex.core.util.ClassUtilTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<fieldA[1]> but was:<fieldA[2]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:285)
+	at org.junit.Assert.assertArrayEquals(Assert.java:300)
+	at org.jsonex.core.util.ClassUtilTest.testGetProperties(ClassUtilTest.java:85)
+
+Running org.jsonex.core.util.BeanProxyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.jsonex.core.util.BeanProxyTest
+Running org.jsonex.core.charsource.ArrayCharSourceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.charsource.ArrayCharSourceTest
+Running org.jsonex.core.charsource.ReaderCharSourceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.charsource.ReaderCharSourceTest
+
+Results :
+
+Failed tests: 
+  ClassUtilTest.testGetProperties:85 arrays first differed at element [0]; expected:<fieldA[1]> but was:<fieldA[2]>
+
+Tests run: 76, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for JFGQhB4viERfIl15+80NjcpjsJBatr65wil2z8EVb+g=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexJarDir=/home/a360/research/projects/jsonex/core/.nondex
+nondexExecid=xIun5EDZKiadhMT3HzLePhX2X0y3vM2gwkp8QCmiW7o=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonex/core/.nondex/xIun5EDZKiadhMT3HzLePhX2X0y3vM2gwkp8QCmiW7o=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jsonex.core.factory.InjectableInstanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.factory.InjectableInstanceTest
+Running org.jsonex.core.factory.InjectableFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.jsonex.core.factory.InjectableFactoryTest
+Running org.jsonex.core.type.TypeRefTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.jsonex.core.type.TypeRefTest
+Running org.jsonex.core.util.ListUtilTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.jsonex.core.util.ListUtilTest
+Running org.jsonex.core.util.TimeProviderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.util.TimeProviderTest
+Running org.jsonex.core.util.LangUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.jsonex.core.util.LangUtilTest
+Running org.jsonex.core.util.EnumUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.jsonex.core.util.EnumUtilTest
+Running org.jsonex.core.util.MapBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.jsonex.core.util.MapBuilderTest
+Running org.jsonex.core.util.StringUtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.util.StringUtilTest
+Running org.jsonex.core.util.ClassUtilTest
+[main] INFO org.jsonex.core.util.ClassUtilTest - intfs:[interface java.io.Serializable, interface java.lang.Comparable, interface java.util.List, interface java.util.Collection, interface java.util.RandomAccess, interface java.lang.Cloneable]
+[main] INFO org.jsonex.core.util.ClassUtilTest - testGetObjectByPath: path=java.lang.System/properties.0; val=sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+[main] INFO org.jsonex.core.util.ClassUtilTest - Properties.keySet():[fieldA1, fieldA3, fieldA4, fieldA2, fieldB2, fieldB6, fieldB5, fieldB3, fieldB4, fieldB1, readOnly, writeOnly]
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE! - in org.jsonex.core.util.ClassUtilTest
+testGetProperties(org.jsonex.core.util.ClassUtilTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [1]; expected:<fieldA[2]> but was:<fieldA[3]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:285)
+	at org.junit.Assert.assertArrayEquals(Assert.java:300)
+	at org.jsonex.core.util.ClassUtilTest.testGetProperties(ClassUtilTest.java:85)
+
+Running org.jsonex.core.util.BeanProxyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.util.BeanProxyTest
+Running org.jsonex.core.charsource.ArrayCharSourceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.jsonex.core.charsource.ArrayCharSourceTest
+Running org.jsonex.core.charsource.ReaderCharSourceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.jsonex.core.charsource.ReaderCharSourceTest
+
+Results :
+
+Failed tests: 
+  ClassUtilTest.testGetProperties:85 arrays first differed at element [1]; expected:<fieldA[2]> but was:<fieldA[3]>
+
+Tests run: 76, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for xIun5EDZKiadhMT3HzLePhX2X0y3vM2gwkp8QCmiW7o=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jsonex/core/.nondex" -DnondexJarDir="/home/a360/research/projects/jsonex/core/.nondex" -DnondexExecid=nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.jsonex.core.util.ClassUtilTest#testGetProperties
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jsonex/core/.nondex" -DnondexJarDir="/home/a360/research/projects/jsonex/core/.nondex" -DnondexExecid=JFGQhB4viERfIl15+80NjcpjsJBatr65wil2z8EVb+g= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.jsonex.core.util.ClassUtilTest#testGetProperties
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jsonex/core/.nondex" -DnondexJarDir="/home/a360/research/projects/jsonex/core/.nondex" -DnondexExecid=xIun5EDZKiadhMT3HzLePhX2X0y3vM2gwkp8QCmiW7o= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.jsonex.core.util.ClassUtilTest#testGetProperties
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.jsonex.core.util.ClassUtilTest#testGetProperties
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/jsonex/core/.nondex/nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.661 s
+[[1;34mINFO[m] Finished at: 2026-10-02T08:13:21-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mcore[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/jsonex/core/.nondex/nPwqAl4NwmNy+rEWOoyxSk6SYbLlnvp0YSRlgJjArLQ= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,911 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 6.18
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 18
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 26.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.apache.pinot:pinot-spi[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Pinot Service Provider Interface 0.12.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mpinot-spi[0;1m >>>[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.19.0-GA during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.2:check[m [1m(checkstyle)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.3:create[m [1m(default)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd /home/a360/research/projects/pinot/pinot-spi && git rev-parse --verify HEAD
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/pinot/pinot-spi
+[[1;34mINFO[m] Storing buildNumber: 85e413ebe8c80513a8a676fc090b1af0f50861f0 at timestamp: 1790939579142
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd /home/a360/research/projects/pinot/pinot-spi && git rev-parse --verify HEAD
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/pinot/pinot-spi
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-dependency-convergence)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(default)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/pinot/pinot-spi/target/jacoco.exec,includes=org/apache/pinot/**/* -Xms4g -Xmx4g
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.6.0:process[m [1m(process-resource-bundles)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.6.0:process[m [1m(default)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/pinot/pinot-spi/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 11 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mpinot-spi[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mpinot-spi[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mpinot-spi[0;1m ---[m
+INFO: The original argline is: -Xms4g -Xmx4g
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_2P5Lt5t9t2dH1p+usR8Ttu56KMDHIww1Ik5PjDrqTg4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/home/a360/.m2/repository/org/codehaus/groovy/groovy-all/2.4.21/groovy-all-2.4.21.jar) to method java.lang.Object.finalize()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+06:13:03.834 ERROR [StreamDataDecoderImpl] [main] Failed to decode StreamMessage
+java.lang.RuntimeException: something failed during decoding
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:106) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:112) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:97) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImpl.decode(StreamDataDecoderImpl.java:47) [classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown(StreamDataDecoderImplTest.java:91) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.11.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:744) [testng-6.11.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1144) [testng-6.11.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1115) [testng-6.11.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+06:13:05.268 WARN [BasePinotFS] [main] Cannot move file:/tmp/LocalPinotFSTestfirst/ to file:/tmp/LocalPinotFSTestsecond/. Destination exists and overwrite flag set to false.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m112[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.676 s - in [1mTestSuite[m
+[[1;34mINFO[m] org.apache.pinot.spi.data.DateTimeFieldSpecUtilsTest.testConversionFromTimeToDateTimeSpec  Time elapsed: 0.645 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertBaseOperations  Time elapsed: 0.038 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertGetKeys  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertInvalidConfigPathBehavior  Time elapsed: 0.015 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromBaseConfiguration  Time elapsed: 0.006 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromFSSpec  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyOverride  Time elapsed: 0.006 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyPriorities  Time elapsed: 0.008 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertUnsupportedTypeBehavior  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithJsonTemplate  Time elapsed: 0.757 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplate  Time elapsed: 0.084 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFile  Time elapsed: 0.023 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndEnvironmentVariableOverride  Time elapsed: 0.019 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueAndEnvironmentVariableOverride  Time elapsed: 0.017 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueOverride  Time elapsed: 0.018 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithUnicodeCharForMultivalueFieldDelimiter  Time elapsed: 0.02 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamMessageTest.testAllowNullKeyAndMetadata  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.BatchConfigTest.testBatchConfig  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeKeyAndHeaders  Time elapsed: 0.007 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeValueOnly  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown  Time elapsed: 0.02 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataProducerTest.testRowWithKeyEquals  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.tenant.TenantTest.testDeserializeFromJson  Time elapsed: 0.032 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.ConfigUtilsTest.testDefaultObfuscation  Time elapsed: 0.014 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.ConfigUtilsTest.testIndexing  Time elapsed: 0.048 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetConfigMapWithPrefix  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushFrequency  Time elapsed: 0.034 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushType  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetStreamConfigMap  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.task.AdhocTaskConfigTest.testDeserializeFromJson  Time elapsed: 0.045 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeUtilsTest.testConvertDateTimeToMillis  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsPeriodValid  Time elapsed: 0.025 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsTimestampValid  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testComplexObject  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testCustomPattern  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonNode  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonString  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNested  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNoop  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNull  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testSimple  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.UpsertConfigTest.testUpsertConfig  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSegmentPartitionConfig  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSerDe  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testApplyTimestampIndex  Time elapsed: 0.023 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testExtractColumnsWithGranularity  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testTimestampIndexGranularity  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidQPSQuota  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidStorageQuota  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testQPSQuota  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testSerDe  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testStorageQuota  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.builder.TableNameBuilderTest.testGetTableNameVariations  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testDefaultRenderTemplate  Time elapsed: 0.021 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testIngestionJobTemplate  Time elapsed: 0.019 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testRenderTemplateWithGivenContextMap  Time elapsed: 0.072 s
+[[1;34mINFO[m] org.apache.pinot.spi.environmentprovider.PinotEnvironmentProviderFactoryTest.testCustomPinotEnvironmentProviderFactory  Time elapsed: 0.006 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompare  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareAtOffset  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareOutOfBounds  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testHashCode  Time elapsed: 0.09 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.DateTimeFormatSpecTest.testDateTimeFormatSpec  Time elapsed: 0.008 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.DateTimeFormatPatternSpecTest.testValidateFormat  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlatten  Time elapsed: 0.006 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenExclude  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenIncludePaths  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithDisableCrossArrayUnnest  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithMaxLevels  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testInferSchema  Time elapsed: 0.01 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testUnrecognizedJsonProperties  Time elapsed: 0.014 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithNoSameValueNotEqual  Time elapsed: 0.007 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithSomeSameValueNotEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowNotEqualToNonEmptyRow  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowsEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testIntValuesEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesDifferentSizeNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesSameSizeNotEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullAndNonNullValuesNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsNotEqual  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testRowDifferentValueNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testDoubleTimeColumn  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testFloatTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testIntTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testLongTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testStringTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testPrimaryKeyComparison  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerialization  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerializationSingleVal  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testBaseRetryPolicy  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testExponentialBackoffRetryPolicy  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testFixedDelayRetryPolicy  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testNoDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testRandomDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromDoubleArray  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromFloatArray  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromIntArray  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromLongArray  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromStringArray  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderClassName  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderConfigClassName  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.BigDecimalUtilsTest.testBigDecimal  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest.testBackwardCompatible  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad  Time elapsed: 0.015 s
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest.testSimple  Time elapsed: 0.786 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testFS  Time elapsed: 1.019 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testListFilesWithMetadata  Time elapsed: 0.016 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testCustomizedSegmentFetcherFactory  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testDefaultPinotFSFactory  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGeneration  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGenerationWithPort  Time elapsed: 0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 112, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexJarDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexExecid=4NrT9U5wFTXic3cflCTHr0iKfp611HzK23ICeqAASYM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/home/a360/.m2/repository/org/codehaus/groovy/groovy-all/2.4.21/groovy-all-2.4.21.jar) to method java.lang.Object.finalize()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+06:13:09.316 ERROR [StreamDataDecoderImpl] [main] Failed to decode StreamMessage
+java.lang.RuntimeException: something failed during decoding
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:106) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:112) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:97) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImpl.decode(StreamDataDecoderImpl.java:47) [classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown(StreamDataDecoderImplTest.java:91) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.11.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:744) [testng-6.11.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1144) [testng-6.11.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1115) [testng-6.11.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+06:13:10.848 WARN [BasePinotFS] [main] Cannot move file:/tmp/LocalPinotFSTestfirst/ to file:/tmp/LocalPinotFSTestsecond/. Destination exists and overwrite flag set to false.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m112[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.146 s - in [1mTestSuite[m
+[[1;34mINFO[m] org.apache.pinot.spi.data.DateTimeFieldSpecUtilsTest.testConversionFromTimeToDateTimeSpec  Time elapsed: 0.752 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertBaseOperations  Time elapsed: 0.036 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertGetKeys  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertInvalidConfigPathBehavior  Time elapsed: 0.015 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromBaseConfiguration  Time elapsed: 0.007 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromFSSpec  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyOverride  Time elapsed: 0.007 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyPriorities  Time elapsed: 0.011 s
+[[1;34mINFO[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertUnsupportedTypeBehavior  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithJsonTemplate  Time elapsed: 0.734 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplate  Time elapsed: 0.111 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFile  Time elapsed: 0.02 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndEnvironmentVariableOverride  Time elapsed: 0.024 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueAndEnvironmentVariableOverride  Time elapsed: 0.017 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueOverride  Time elapsed: 0.017 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithUnicodeCharForMultivalueFieldDelimiter  Time elapsed: 0.026 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamMessageTest.testAllowNullKeyAndMetadata  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.ingestion.batch.BatchConfigTest.testBatchConfig  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeKeyAndHeaders  Time elapsed: 0.008 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeValueOnly  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown  Time elapsed: 0.018 s
+[[1;34mINFO[m] org.apache.pinot.spi.stream.StreamDataProducerTest.testRowWithKeyEquals  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.tenant.TenantTest.testDeserializeFromJson  Time elapsed: 0.035 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.ConfigUtilsTest.testDefaultObfuscation  Time elapsed: 0.016 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.ConfigUtilsTest.testIndexing  Time elapsed: 0.06 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetConfigMapWithPrefix  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushFrequency  Time elapsed: 0.026 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushType  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetStreamConfigMap  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.task.AdhocTaskConfigTest.testDeserializeFromJson  Time elapsed: 0.02 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeUtilsTest.testConvertDateTimeToMillis  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsPeriodValid  Time elapsed: 0.026 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsTimestampValid  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testComplexObject  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testCustomPattern  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonNode  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonString  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNested  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNoop  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNull  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ObfuscatorTest.testSimple  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.UpsertConfigTest.testUpsertConfig  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSegmentPartitionConfig  Time elapsed: 0.006 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSerDe  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testApplyTimestampIndex  Time elapsed: 0.023 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testExtractColumnsWithGranularity  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testTimestampIndexGranularity  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidQPSQuota  Time elapsed: 0.008 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidStorageQuota  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testQPSQuota  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testSerDe  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testStorageQuota  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.builder.TableNameBuilderTest.testGetTableNameVariations  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testDefaultRenderTemplate  Time elapsed: 0.023 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testIngestionJobTemplate  Time elapsed: 0.02 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testRenderTemplateWithGivenContextMap  Time elapsed: 0.071 s
+[[1;34mINFO[m] org.apache.pinot.spi.environmentprovider.PinotEnvironmentProviderFactoryTest.testCustomPinotEnvironmentProviderFactory  Time elapsed: 0.009 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompare  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareAtOffset  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareOutOfBounds  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ByteArrayTest.testHashCode  Time elapsed: 0.137 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.DateTimeFormatSpecTest.testDateTimeFormatSpec  Time elapsed: 0.008 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.DateTimeFormatPatternSpecTest.testValidateFormat  Time elapsed: 0.003 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlatten  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenExclude  Time elapsed: 0.006 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenIncludePaths  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithDisableCrossArrayUnnest  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithMaxLevels  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testInferSchema  Time elapsed: 0.013 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.JsonUtilsTest.testUnrecognizedJsonProperties  Time elapsed: 0.015 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithNoSameValueNotEqual  Time elapsed: 0.009 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithSomeSameValueNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowNotEqualToNonEmptyRow  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowsEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testIntValuesEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesDifferentSizeNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesSameSizeNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullAndNonNullValuesNotEqual  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsNotEqual  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.GenericRowTest.testRowDifferentValueNotEqual  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testDoubleTimeColumn  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testFloatTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testIntTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testLongTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.TimeConverterTest.testStringTimeColumn  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testPrimaryKeyComparison  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerialization  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerializationSingleVal  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testBaseRetryPolicy  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testExponentialBackoffRetryPolicy  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testFixedDelayRetryPolicy  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testNoDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testRandomDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromDoubleArray  Time elapsed: 0.002 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromFloatArray  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromIntArray  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromLongArray  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromStringArray  Time elapsed: 0.004 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderClassName  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderConfigClassName  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.utils.BigDecimalUtilsTest.testBigDecimal  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest.testBackwardCompatible  Time elapsed: 0 s
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad  Time elapsed: 0.02 s
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest.testSimple  Time elapsed: 0.826 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testFS  Time elapsed: 1.026 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testListFilesWithMetadata  Time elapsed: 0.022 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testCustomizedSegmentFetcherFactory  Time elapsed: 0.005 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testDefaultPinotFSFactory  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGeneration  Time elapsed: 0.001 s
+[[1;34mINFO[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGenerationWithPort  Time elapsed: 0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 112, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexJarDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexExecid=Rq31MU4uxGEYLl8t0lDhB1F6XZwDyDO8MErWD0RevwI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/home/a360/.m2/repository/org/codehaus/groovy/groovy-all/2.4.21/groovy-all-2.4.21.jar) to method java.lang.Object.clone()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+06:13:14.958 ERROR [StreamDataDecoderImpl] [main] Failed to decode StreamMessage
+java.lang.RuntimeException: something failed during decoding
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:106) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:112) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:97) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImpl.decode(StreamDataDecoderImpl.java:47) [classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown(StreamDataDecoderImplTest.java:91) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.11.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:744) [testng-6.11.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1144) [testng-6.11.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1115) [testng-6.11.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+06:13:16.537 WARN [BasePinotFS] [main] Cannot move file:/tmp/LocalPinotFSTestfirst/ to file:/tmp/LocalPinotFSTestsecond/. Destination exists and overwrite flag set to false.
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m112[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 5.208 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] org.apache.pinot.spi.data.DateTimeFieldSpecUtilsTest.testConversionFromTimeToDateTimeSpec  Time elapsed: 0.721 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertBaseOperations  Time elapsed: 0.035 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertGetKeys  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertInvalidConfigPathBehavior  Time elapsed: 0.015 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromBaseConfiguration  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromFSSpec  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyOverride  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyPriorities  Time elapsed: 0.009 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertUnsupportedTypeBehavior  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithJsonTemplate  Time elapsed: 0.708 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplate  Time elapsed: 0.115 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFile  Time elapsed: 0.02 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndEnvironmentVariableOverride  Time elapsed: 0.019 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueAndEnvironmentVariableOverride  Time elapsed: 0.018 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueOverride  Time elapsed: 0.018 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithUnicodeCharForMultivalueFieldDelimiter  Time elapsed: 0.023 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamMessageTest.testAllowNullKeyAndMetadata  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.BatchConfigTest.testBatchConfig  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeKeyAndHeaders  Time elapsed: 0.009 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeValueOnly  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown  Time elapsed: 0.023 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataProducerTest.testRowWithKeyEquals  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.tenant.TenantTest.testDeserializeFromJson  Time elapsed: 0.049 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.ConfigUtilsTest.testDefaultObfuscation  Time elapsed: 0.016 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.ConfigUtilsTest.testIndexing  Time elapsed: 0.062 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetConfigMapWithPrefix  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushFrequency  Time elapsed: 0.036 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushType  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetStreamConfigMap  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.task.AdhocTaskConfigTest.testDeserializeFromJson  Time elapsed: 0.023 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeUtilsTest.testConvertDateTimeToMillis  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsPeriodValid  Time elapsed: 0.03 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsTimestampValid  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testComplexObject  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testCustomPattern  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonNode  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonString  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNested  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNoop  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNull  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testSimple  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.UpsertConfigTest.testUpsertConfig  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSegmentPartitionConfig  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSerDe  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testApplyTimestampIndex  Time elapsed: 0.028 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testExtractColumnsWithGranularity  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testTimestampIndexGranularity  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidQPSQuota  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidStorageQuota  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testQPSQuota  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testSerDe  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testStorageQuota  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.builder.TableNameBuilderTest.testGetTableNameVariations  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testDefaultRenderTemplate  Time elapsed: 0.02 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testIngestionJobTemplate  Time elapsed: 0.015 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testRenderTemplateWithGivenContextMap  Time elapsed: 0.072 s
+[[1;31mERROR[m] org.apache.pinot.spi.environmentprovider.PinotEnvironmentProviderFactoryTest.testCustomPinotEnvironmentProviderFactory  Time elapsed: 0.009 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompare  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareAtOffset  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareOutOfBounds  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testHashCode  Time elapsed: 0.075 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.DateTimeFormatSpecTest.testDateTimeFormatSpec  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.DateTimeFormatPatternSpecTest.testValidateFormat  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlatten  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenExclude  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenIncludePaths  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithDisableCrossArrayUnnest  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithMaxLevels  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testInferSchema  Time elapsed: 0.011 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testUnrecognizedJsonProperties  Time elapsed: 0.011 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithNoSameValueNotEqual  Time elapsed: 0.008 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithSomeSameValueNotEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowNotEqualToNonEmptyRow  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowsEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testIntValuesEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesDifferentSizeNotEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesSameSizeNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullAndNonNullValuesNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsNotEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testRowDifferentValueNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testDoubleTimeColumn  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testFloatTimeColumn  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testIntTimeColumn  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testLongTimeColumn  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testStringTimeColumn  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testPrimaryKeyComparison  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerialization  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerializationSingleVal  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testBaseRetryPolicy  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testExponentialBackoffRetryPolicy  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testFixedDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testNoDelayRetryPolicy  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testRandomDelayRetryPolicy  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromDoubleArray  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromFloatArray  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromIntArray  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromLongArray  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromStringArray  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderClassName  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderConfigClassName  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.BigDecimalUtilsTest.testBigDecimal  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.plugin.PluginManagerTest.testBackwardCompatible  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: p1 != p3 expected [p1] but found [p3]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:532)
+	at org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad(PluginManagerTest.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+[[1;31mERROR[m] org.apache.pinot.spi.plugin.PluginManagerTest.testSimple  Time elapsed: 0.904 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testFS  Time elapsed: 1.023 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testListFilesWithMetadata  Time elapsed: 0.019 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testCustomizedSegmentFetcherFactory  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testDefaultPinotFSFactory  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGeneration  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGenerationWithPort  Time elapsed: 0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  PluginManagerTest.testGetPluginsToLoad:116 Lists differ at element [0]: p1 != p3 expected [p1] but found [p3][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 112, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for Rq31MU4uxGEYLl8t0lDhB1F6XZwDyDO8MErWD0RevwI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexJarDir=/home/a360/research/projects/pinot/pinot-spi/.nondex
+nondexExecid=sjbbljk5stL6e545K9SYOesohX2K69qyYTlXInTx6C4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/home/a360/.m2/repository/org/codehaus/groovy/groovy-all/2.4.21/groovy-all-2.4.21.jar) to method java.lang.Object.registerNatives()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+06:13:20.677 ERROR [StreamDataDecoderImpl] [main] Failed to decode StreamMessage
+java.lang.RuntimeException: something failed during decoding
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:106) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:112) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest$ThrowingDecoder.decode(StreamDataDecoderImplTest.java:97) ~[test-classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImpl.decode(StreamDataDecoderImpl.java:47) [classes/:?]
+	at org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown(StreamDataDecoderImplTest.java:91) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869) [testng-6.11.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126) [testng-6.11.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.11.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:744) [testng-6.11.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340) [testng-6.11.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.11.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226) [testng-6.11.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1144) [testng-6.11.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1115) [testng-6.11.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+06:13:22.194 WARN [BasePinotFS] [main] Cannot move file:/tmp/LocalPinotFSTestfirst/ to file:/tmp/LocalPinotFSTestsecond/. Destination exists and overwrite flag set to false.
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m112[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 5.097 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] org.apache.pinot.spi.data.DateTimeFieldSpecUtilsTest.testConversionFromTimeToDateTimeSpec  Time elapsed: 0.752 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertBaseOperations  Time elapsed: 0.035 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertGetKeys  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertInvalidConfigPathBehavior  Time elapsed: 0.014 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromBaseConfiguration  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertiesFromFSSpec  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyOverride  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertPropertyPriorities  Time elapsed: 0.009 s
+[[1;31mERROR[m] org.apache.pinot.spi.env.PinotConfigurationTest.assertUnsupportedTypeBehavior  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithJsonTemplate  Time elapsed: 0.706 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplate  Time elapsed: 0.094 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFile  Time elapsed: 0.023 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndEnvironmentVariableOverride  Time elapsed: 0.018 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueAndEnvironmentVariableOverride  Time elapsed: 0.017 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithTemplateAndPropertyFileAndValueOverride  Time elapsed: 0.02 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.IngestionJobLauncherTest.testIngestionJobLauncherWithUnicodeCharForMultivalueFieldDelimiter  Time elapsed: 0.024 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamMessageTest.testAllowNullKeyAndMetadata  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.ingestion.batch.BatchConfigTest.testBatchConfig  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeKeyAndHeaders  Time elapsed: 0.008 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testDecodeValueOnly  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataDecoderImplTest.testNoExceptionIsThrown  Time elapsed: 0.022 s
+[[1;31mERROR[m] org.apache.pinot.spi.stream.StreamDataProducerTest.testRowWithKeyEquals  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.tenant.TenantTest.testDeserializeFromJson  Time elapsed: 0.048 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.ConfigUtilsTest.testDefaultObfuscation  Time elapsed: 0.014 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.ConfigUtilsTest.testIndexing  Time elapsed: 0.06 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetConfigMapWithPrefix  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushFrequency  Time elapsed: 0.033 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetPushType  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.IngestionConfigUtilsTest.testGetStreamConfigMap  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.task.AdhocTaskConfigTest.testDeserializeFromJson  Time elapsed: 0.022 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeUtilsTest.testConvertDateTimeToMillis  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsPeriodValid  Time elapsed: 0.03 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeUtilsTest.testIsTimestampValid  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testComplexObject  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testCustomPattern  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonNode  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testJsonString  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNested  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNoop  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testNull  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ObfuscatorTest.testSimple  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.UpsertConfigTest.testUpsertConfig  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSegmentPartitionConfig  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.IndexingConfigTest.testSerDe  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testApplyTimestampIndex  Time elapsed: 0.024 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testExtractColumnsWithGranularity  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimestampIndexUtilsTest.testTimestampIndexGranularity  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidQPSQuota  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testInvalidStorageQuota  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testQPSQuota  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testSerDe  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.config.table.QuotaConfigTest.testStorageQuota  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.builder.TableNameBuilderTest.testGetTableNameVariations  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testDefaultRenderTemplate  Time elapsed: 0.023 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testIngestionJobTemplate  Time elapsed: 0.018 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.GroovyTemplateUtilsTest.testRenderTemplateWithGivenContextMap  Time elapsed: 0.072 s
+[[1;31mERROR[m] org.apache.pinot.spi.environmentprovider.PinotEnvironmentProviderFactoryTest.testCustomPinotEnvironmentProviderFactory  Time elapsed: 0.007 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompare  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareAtOffset  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testCompareOutOfBounds  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ByteArrayTest.testHashCode  Time elapsed: 0.099 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.DateTimeFormatSpecTest.testDateTimeFormatSpec  Time elapsed: 0.006 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.DateTimeFormatPatternSpecTest.testValidateFormat  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlatten  Time elapsed: 0.006 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenExclude  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenIncludePaths  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithDisableCrossArrayUnnest  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testFlattenWithMaxLevels  Time elapsed: 0.003 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testInferSchema  Time elapsed: 0.012 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.JsonUtilsTest.testUnrecognizedJsonProperties  Time elapsed: 0.014 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithNoSameValueNotEqual  Time elapsed: 0.008 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testDifferentNumberOfKeysWithSomeSameValueNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowNotEqualToNonEmptyRow  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testEmptyRowsEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testIntValuesEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesDifferentSizeNotEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testMapValuesSameSizeNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullAndNonNullValuesNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testNullValueFieldsNotEqual  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.GenericRowTest.testRowDifferentValueNotEqual  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testDoubleTimeColumn  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testFloatTimeColumn  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testIntTimeColumn  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testLongTimeColumn  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.TimeConverterTest.testStringTimeColumn  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testPrimaryKeyComparison  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerialization  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.PrimaryKeyTest.testSerializationSingleVal  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testBaseRetryPolicy  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testExponentialBackoffRetryPolicy  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testFixedDelayRetryPolicy  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testNoDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.retry.RetryPolicyTest.testRandomDelayRetryPolicy  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromDoubleArray  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromFloatArray  Time elapsed: 0.002 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromIntArray  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromLongArray  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.ArrayCopyUtilsTest.testCopyFromStringArray  Time elapsed: 0.004 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderClassName  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.data.readers.RecordReaderFactoryTest.testGetRecordReaderConfigClassName  Time elapsed: 0 s
+[[1;31mERROR[m] org.apache.pinot.spi.utils.BigDecimalUtilsTest.testBigDecimal  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.plugin.PluginManagerTest.testBackwardCompatible  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: p1 != p2 expected [p1] but found [p2]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:567)
+	at org.testng.Assert.assertEquals(Assert.java:532)
+	at org.apache.pinot.spi.plugin.PluginManagerTest.testGetPluginsToLoad(PluginManagerTest.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+[[1;31mERROR[m] org.apache.pinot.spi.plugin.PluginManagerTest.testSimple  Time elapsed: 0.813 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testFS  Time elapsed: 1.022 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.LocalPinotFSTest.testListFilesWithMetadata  Time elapsed: 0.021 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testCustomizedSegmentFetcherFactory  Time elapsed: 0.005 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSFactoryTest.testDefaultPinotFSFactory  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGeneration  Time elapsed: 0.001 s
+[[1;31mERROR[m] org.apache.pinot.spi.filesystem.PinotFSTest.testMoveFileUriGenerationWithPort  Time elapsed: 0 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  PluginManagerTest.testGetPluginsToLoad:116 Lists differ at element [0]: p1 != p2 expected [p1] but found [p2][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 112, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for sjbbljk5stL6e545K9SYOesohX2K69qyYTlXInTx6C4=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/pinot/pinot-spi/.nondex" -DnondexJarDir="/home/a360/research/projects/pinot/pinot-spi/.nondex" -DnondexExecid=4NrT9U5wFTXic3cflCTHr0iKfp611HzK23ICeqAASYM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/pinot/pinot-spi/.nondex" -DnondexJarDir="/home/a360/research/projects/pinot/pinot-spi/.nondex" -DnondexExecid=Rq31MU4uxGEYLl8t0lDhB1F6XZwDyDO8MErWD0RevwI= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.pinot.spi.plugin.PluginManagerTest#testGetPluginsToLoad
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/pinot/pinot-spi/.nondex" -DnondexJarDir="/home/a360/research/projects/pinot/pinot-spi/.nondex" -DnondexExecid=sjbbljk5stL6e545K9SYOesohX2K69qyYTlXInTx6C4= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.pinot.spi.plugin.PluginManagerTest#testGetPluginsToLoad
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.pinot.spi.plugin.PluginManagerTest#testGetPluginsToLoad
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/pinot/pinot-spi/.nondex/4NrT9U5wFTXic3cflCTHr0iKfp611HzK23ICeqAASYM=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 4NrT9U5wFTXic3cflCTHr0iKfp611HzK23ICeqAASYM=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  26.954 s
+[[1;34mINFO[m] Finished at: 2026-10-02T06:13:23-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mpinot-spi[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/pinot/pinot-spi/.nondex/Rq31MU4uxGEYLl8t0lDhB1F6XZwDyDO8MErWD0RevwI= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

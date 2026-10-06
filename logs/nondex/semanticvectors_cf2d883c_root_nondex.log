@@ -1,0 +1,108 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mpitt.search:semanticvectors[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding semanticvectors 5.9[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36msemanticvectors[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0:enforce[m [1m(enforce-maven)[m @ [36msemanticvectors[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36msemanticvectors[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/semanticvectors/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.1:compile[m [1m(default-compile)[m @ [36msemanticvectors[0;1m ---[m
+[[1;34mINFO[m] Compiling 7 source files to /home/a360/research/projects/semanticvectors/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36msemanticvectors[0;1m ---[m
+[[1;34mINFO[m] Copying 25 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.1:testCompile[m [1m(default-testCompile)[m @ [36msemanticvectors[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36msemanticvectors[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36msemanticvectors[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Eg18iDKU4Cand6E2BjPJ4Y54eZMGxNibG1Mo7GciAk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Tests are skipped.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexJarDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexExecid=jXJksMPIZf3MYeHm3JjvdKC42qfF+fD1MwWGYgLZOaQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Tests are skipped.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexJarDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexExecid=NDoz9NWa8UVI3ZhbGcK8vhaGCKft2VOLZbzA6+9Qqes=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Tests are skipped.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexJarDir=/home/a360/research/projects/semanticvectors/.nondex
+nondexExecid=gio3geep9qJomg+iLnWXDBGYwurmAp6izU7lo7vnB8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/semanticvectors/.nondex" -DnondexJarDir="/home/a360/research/projects/semanticvectors/.nondex" -DnondexExecid=jXJksMPIZf3MYeHm3JjvdKC42qfF+fD1MwWGYgLZOaQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/semanticvectors/.nondex" -DnondexJarDir="/home/a360/research/projects/semanticvectors/.nondex" -DnondexExecid=NDoz9NWa8UVI3ZhbGcK8vhaGCKft2VOLZbzA6+9Qqes= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/semanticvectors/.nondex" -DnondexJarDir="/home/a360/research/projects/semanticvectors/.nondex" -DnondexExecid=gio3geep9qJomg+iLnWXDBGYwurmAp6izU7lo7vnB8= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/semanticvectors/.nondex/jXJksMPIZf3MYeHm3JjvdKC42qfF+fD1MwWGYgLZOaQ=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: jXJksMPIZf3MYeHm3JjvdKC42qfF+fD1MwWGYgLZOaQ=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.333 s
+[[1;34mINFO[m] Finished at: 2026-10-01T21:56:37-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

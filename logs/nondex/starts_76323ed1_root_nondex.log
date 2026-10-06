@@ -1,0 +1,413 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 40, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 33, column 13
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 42, column 14
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 200, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 3 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] STARTS                                                             [pom]
+[[1;34mINFO[m] starts-core                                                        [jar]
+[[1;34mINFO[m] STARTS Maven Plugin                                       [maven-plugin]
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-5: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-5 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-4: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.16.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36medu.illinois:starts[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding STARTS 1.4-SNAPSHOT                                       [1/3][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mstarts[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mstarts[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(pre-unit-test)[m @ [36mstarts[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/starts/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mstarts[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mstarts[0;1m ---[m
+SEVERE: Surefire is not explicitly declared in your pom.xml; we will use version 2.20, but you may want to change that.
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_0PoIzcqZxq6FnSiWS0VIdJ3DZketg0pdtRLW0KRoDJU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/.nondex
+nondexJarDir=/home/a360/research/projects/starts/.nondex
+nondexExecid=u7oD8HAOPbiNxwHPWwxegQMeY6b8ZBLUaZLAgOysoeU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/.nondex
+nondexJarDir=/home/a360/research/projects/starts/.nondex
+nondexExecid=myKbhgyFHtSZnithX0EZmfz+PAfLFpjrHGk0m6+oBic=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/.nondex
+nondexJarDir=/home/a360/research/projects/starts/.nondex
+nondexExecid=QxRxwrlTyfku1astmTMWooAPJBiQhrwLUGv4uuXVdQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/starts/.nondex" -DnondexJarDir="/home/a360/research/projects/starts/.nondex" -DnondexExecid=u7oD8HAOPbiNxwHPWwxegQMeY6b8ZBLUaZLAgOysoeU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/starts/.nondex" -DnondexJarDir="/home/a360/research/projects/starts/.nondex" -DnondexExecid=myKbhgyFHtSZnithX0EZmfz+PAfLFpjrHGk0m6+oBic= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/starts/.nondex" -DnondexJarDir="/home/a360/research/projects/starts/.nondex" -DnondexExecid=QxRxwrlTyfku1astmTMWooAPJBiQhrwLUGv4uuXVdQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/starts/.nondex/u7oD8HAOPbiNxwHPWwxegQMeY6b8ZBLUaZLAgOysoeU=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: u7oD8HAOPbiNxwHPWwxegQMeY6b8ZBLUaZLAgOysoeU=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36medu.illinois:starts-core[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding starts-core 1.4-SNAPSHOT                                  [2/3][m
+[[1;34mINFO[m]   from starts-core/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mstarts-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/MavenCFT.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:123:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/SurefireMojoInterceptor.java:16:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:48:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:67:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:84:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:98:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:107:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:157:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:169:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:185:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:199:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:214:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:230:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:48:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:65:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:73:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:79:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:87:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/FileUtil.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Cache.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:55:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:73:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:96:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:84:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:96:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:155:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:245:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:80:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:162:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:209:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/data/ZLCData.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/data/ZLCFileContent.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:94:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:105:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:124:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:33:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(pre-unit-test)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/starts/starts-core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:merge[m [1m(merge-id)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/a360/research/projects/starts/starts-core/../starts-core/target/jacoco.exec
+[[1;34mINFO[m] Writing merged execution data to /home/a360/research/projects/starts/starts-core/target/jacoco-merged.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/starts/starts-core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/starts/starts-core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mstarts-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mstarts-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_C42nuhOsUlj4JfcTBIWEHPT42bumdd9A2je9j6v6+w=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/starts/starts-core/.nondex/clean_C42nuhOsUlj4JfcTBIWEHPT42bumdd9A2je9j6v6+w=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.illinois.starts.helpers.WriterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 sec - in edu.illinois.starts.helpers.WriterTest
+Running edu.illinois.starts.helpers.YasglHelperTest
+...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in edu.illinois.starts.helpers.YasglHelperTest
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexJarDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexExecid=5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/starts/starts-core/.nondex/5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.illinois.starts.helpers.WriterTest
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec <<< FAILURE! - in edu.illinois.starts.helpers.WriterTest
+testWriteGrpahWithMultipleEdges(edu.illinois.starts.helpers.WriterTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[A B]> but was:<[C D]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at edu.illinois.starts.helpers.WriterTest.testWriteGrpahWithMultipleEdges(WriterTest.java:104)
+
+Running edu.illinois.starts.helpers.YasglHelperTest
+...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in edu.illinois.starts.helpers.YasglHelperTest
+
+Results :
+
+Failed tests: 
+  WriterTest.testWriteGrpahWithMultipleEdges:104 expected:<[A B]> but was:<[C D]>
+
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexJarDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexExecid=uExAQb6O0VPHZRBZiHU3G0Qsn7wp2f5F6DbMEabpg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/starts/starts-core/.nondex/uExAQb6O0VPHZRBZiHU3G0Qsn7wp2f5F6DbMEabpg=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.illinois.starts.helpers.WriterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec - in edu.illinois.starts.helpers.WriterTest
+Running edu.illinois.starts.helpers.YasglHelperTest
+...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in edu.illinois.starts.helpers.YasglHelperTest
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexJarDir=/home/a360/research/projects/starts/starts-core/.nondex
+nondexExecid=X7WF29eQNX+H2yfW52k8zjUapaFcahUTgbJLaT189kk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/starts/starts-core/.nondex/X7WF29eQNX+H2yfW52k8zjUapaFcahUTgbJLaT189kk=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.illinois.starts.helpers.WriterTest
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec <<< FAILURE! - in edu.illinois.starts.helpers.WriterTest
+testWriteGrpahWithMultipleEdges(edu.illinois.starts.helpers.WriterTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[A B]> but was:<[C D]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at edu.illinois.starts.helpers.WriterTest.testWriteGrpahWithMultipleEdges(WriterTest.java:104)
+
+Running edu.illinois.starts.helpers.YasglHelperTest
+...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in edu.illinois.starts.helpers.YasglHelperTest
+
+Results :
+
+Failed tests: 
+  WriterTest.testWriteGrpahWithMultipleEdges:104 expected:<[A B]> but was:<[C D]>
+
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for X7WF29eQNX+H2yfW52k8zjUapaFcahUTgbJLaT189kk=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/starts/starts-core/.nondex" -DnondexJarDir="/home/a360/research/projects/starts/starts-core/.nondex" -DnondexExecid=5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] edu.illinois.starts.helpers.WriterTest#testWriteGrpahWithMultipleEdges
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/starts/starts-core/.nondex" -DnondexJarDir="/home/a360/research/projects/starts/starts-core/.nondex" -DnondexExecid=uExAQb6O0VPHZRBZiHU3G0Qsn7wp2f5F6DbMEabpg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/starts/starts-core/.nondex" -DnondexJarDir="/home/a360/research/projects/starts/starts-core/.nondex" -DnondexExecid=X7WF29eQNX+H2yfW52k8zjUapaFcahUTgbJLaT189kk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] edu.illinois.starts.helpers.WriterTest#testWriteGrpahWithMultipleEdges
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] edu.illinois.starts.helpers.WriterTest#testWriteGrpahWithMultipleEdges
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/starts/starts-core/.nondex/5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for STARTS 1.4-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] STARTS ............................................. [1;32mSUCCESS[m [  2.266 s]
+[[1;34mINFO[m] starts-core ........................................ [1;31mFAILURE[m [  3.793 s]
+[[1;34mINFO[m] STARTS Maven Plugin ................................ [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.075 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:46:03-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mstarts-core[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/starts/starts-core/.nondex/5gy5agi3One1mUUPnT+2sAWCoi5sxqbS92kasNvebU= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :starts-core[m

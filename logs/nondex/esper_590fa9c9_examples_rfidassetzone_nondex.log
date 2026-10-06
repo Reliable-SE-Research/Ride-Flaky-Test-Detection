@@ -1,0 +1,324 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mcom.espertech:esper-example-rfidassetzone[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Esper Examples - RFIDAssetZone 8.0.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mesper-example-rfidassetzone[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/esper/examples/rfidassetzone/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:compile[m [1m(default-compile)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 11 resources from etc to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mesper-example-rfidassetzone[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_pnvRNYWbx+Fu8sPUsCWfprqUjHcDlFLEqfdCE8YeLI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/esper/examples/rfidassetzone/.nondex/clean_pnvRNYWbx+Fu8sPUsCWfprqUjHcDlFLEqfdCE8YeLI=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.espertech.esper.example.rfidassetzone.TestAssetZoneMoveStmt
+Summary: zone 1 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 1 now has count 3
+Summary: zone 2 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 2 now has count 2
+Summary: zone 1 now has count 1
+Summary: zone 2 now has count 3
+Summary: zone 1 now has count 0
+Summary: zone 3 now has count 1
+Summary: zone 2 now has count 2
+Summary: zone 3 now has count 2
+Summary: zone 2 now has count 1
+Summary: zone 3 now has count 3
+Summary: zone 2 now has count 0
+Summary: zone 4 now has count 1
+Summary: zone 3 now has count 2
+Summary: zone 4 now has count 2
+Summary: zone 3 now has count 1
+Summary: zone 4 now has count 3
+Summary: zone 3 now has count 0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.012 sec
+Running com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain
+08:19:25,141 INFO  [LRMovingSimMain] .tryPerf Creating asset ids
+08:19:25,537 INFO  [LRMovingSimMain] .tryPerf Sending one event for each asset
+08:19:25,586 INFO  [LRMovingSimMain] .tryPerf Thread 0 getting groups 0 to 99
+08:19:25,586 INFO  [LRMovingSimMain] .tryPerf Starting 1 threads
+08:19:25,587 INFO  [LRMovingSimMain] .tryPerf Running for 5 seconds
+08:19:25,587 INFO  [AssetEventGenCallable] .call Thread 17 starting
+08:19:26,588 INFO  [LRMovingSimMain] totalEvents=153255 delta=1.0 throughputOverall=153255.0 lastBatch=153255.0 zoneMoves=8467 zoneSame=42619 zoneSplits=0
+08:19:26,588 INFO  [LRMovingSimMain] .tryPerf Setting stop split flag on threads
+08:19:27,588 INFO  [LRMovingSimMain] totalEvents=713977 delta=2.001 throughputOverall=356810.09495252377 lastBatch=560722.0 zoneMoves=39726 zoneSame=198267 zoneSplits=0
+08:19:28,589 INFO  [LRMovingSimMain] totalEvents=1385139 delta=3.002 throughputOverall=461405.3964023984 lastBatch=671162.0 zoneMoves=77221 zoneSame=384492 zoneSplits=0
+08:19:29,590 INFO  [LRMovingSimMain] totalEvents=2095446 delta=4.003 throughputOverall=523468.89832625526 lastBatch=710307.0 zoneMoves=116888 zoneSame=581594 zoneSplits=0
+08:19:30,591 INFO  [LRMovingSimMain] totalEvents=2780109 delta=5.004 throughputOverall=555577.3381294964 lastBatch=684663.0 zoneMoves=155071 zoneSame=771632 zoneSplits=0
+08:19:30,591 INFO  [LRMovingSimMain] .tryPerf Shutting down threads
+08:19:30,591 INFO  [AssetEventGenCallable] .call Thread 17 done
+08:19:30,593 INFO  [LRMovingSimMain] .tryPerf Generated splits were [] groups
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.674 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexJarDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexExecid=IoqvwYyhsq3taiR5I3LZpNqJVfrfzRuc68CZpx9kM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/esper/examples/rfidassetzone/.nondex/IoqvwYyhsq3taiR5I3LZpNqJVfrfzRuc68CZpx9kM=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.espertech.esper.example.rfidassetzone.TestAssetZoneMoveStmt
+Summary: zone 1 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 1 now has count 3
+Summary: zone 2 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 2 now has count 2
+Summary: zone 1 now has count 1
+Summary: zone 2 now has count 3
+Summary: zone 1 now has count 0
+Summary: zone 3 now has count 1
+Summary: zone 2 now has count 2
+Summary: zone 3 now has count 2
+Summary: zone 2 now has count 1
+Summary: zone 3 now has count 3
+Summary: zone 2 now has count 0
+Summary: zone 4 now has count 1
+Summary: zone 3 now has count 2
+Summary: zone 4 now has count 2
+Summary: zone 3 now has count 1
+Summary: zone 4 now has count 3
+Summary: zone 3 now has count 0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.982 sec
+Running com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain
+08:19:33,124 INFO  [LRMovingSimMain] .tryPerf Creating asset ids
+08:19:33,542 INFO  [LRMovingSimMain] .tryPerf Sending one event for each asset
+08:19:33,587 INFO  [LRMovingSimMain] .tryPerf Thread 0 getting groups 0 to 99
+08:19:33,587 INFO  [LRMovingSimMain] .tryPerf Starting 1 threads
+08:19:33,589 INFO  [LRMovingSimMain] .tryPerf Running for 5 seconds
+08:19:33,589 INFO  [AssetEventGenCallable] .call Thread 17 starting
+08:19:34,589 INFO  [LRMovingSimMain] totalEvents=149936 delta=1.0 throughputOverall=149936.0 lastBatch=149936.0 zoneMoves=8377 zoneSame=41601 zoneSplits=0
+08:19:34,589 INFO  [LRMovingSimMain] .tryPerf Setting stop split flag on threads
+08:19:35,590 INFO  [LRMovingSimMain] totalEvents=710259 delta=2.001 throughputOverall=354952.023988006 lastBatch=560323.0 zoneMoves=39591 zoneSame=197162 zoneSplits=0
+08:19:36,590 INFO  [LRMovingSimMain] totalEvents=1436152 delta=3.001 throughputOverall=478557.81406197936 lastBatch=725893.0 zoneMoves=79766 zoneSame=398951 zoneSplits=0
+08:19:37,591 INFO  [LRMovingSimMain] totalEvents=2154931 delta=4.002 throughputOverall=538463.5182408796 lastBatch=718779.0 zoneMoves=119672 zoneSame=598639 zoneSplits=0
+08:19:38,593 INFO  [LRMovingSimMain] totalEvents=2900687 delta=5.004 throughputOverall=579673.6610711431 lastBatch=745756.0 zoneMoves=160936 zoneSame=805959 zoneSplits=0
+08:19:38,593 INFO  [LRMovingSimMain] .tryPerf Shutting down threads
+08:19:38,593 INFO  [AssetEventGenCallable] .call Thread 17 done
+08:19:38,595 INFO  [LRMovingSimMain] .tryPerf Generated splits were [] groups
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.692 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexJarDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexExecid=b8t3IHY822maGm0QoFh9qoeTsrct652CWd7n5xFx3k=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/esper/examples/rfidassetzone/.nondex/b8t3IHY822maGm0QoFh9qoeTsrct652CWd7n5xFx3k=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.espertech.esper.example.rfidassetzone.TestAssetZoneMoveStmt
+Summary: zone 1 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 1 now has count 3
+Summary: zone 2 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 2 now has count 2
+Summary: zone 1 now has count 1
+Summary: zone 2 now has count 3
+Summary: zone 1 now has count 0
+Summary: zone 3 now has count 1
+Summary: zone 2 now has count 2
+Summary: zone 3 now has count 2
+Summary: zone 2 now has count 1
+Summary: zone 3 now has count 3
+Summary: zone 2 now has count 0
+Summary: zone 4 now has count 1
+Summary: zone 3 now has count 2
+Summary: zone 4 now has count 2
+Summary: zone 3 now has count 1
+Summary: zone 4 now has count 3
+Summary: zone 3 now has count 0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.95 sec
+Running com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain
+08:19:41,071 INFO  [LRMovingSimMain] .tryPerf Creating asset ids
+08:19:41,480 INFO  [LRMovingSimMain] .tryPerf Sending one event for each asset
+08:19:41,534 INFO  [LRMovingSimMain] .tryPerf Thread 0 getting groups 0 to 99
+08:19:41,535 INFO  [LRMovingSimMain] .tryPerf Starting 1 threads
+08:19:41,536 INFO  [LRMovingSimMain] .tryPerf Running for 5 seconds
+08:19:41,536 INFO  [AssetEventGenCallable] .call Thread 17 starting
+08:19:42,534 INFO  [AssetEventGenCallable] .doZoneSplit Split group 17 to different zones, from zone 14 to zone 4
+08:19:42,537 INFO  [LRMovingSimMain] totalEvents=139509 delta=1.0 throughputOverall=139509.0 lastBatch=139509.0 zoneMoves=7848 zoneSame=38654 zoneSplits=1
+08:19:42,537 INFO  [LRMovingSimMain] .tryPerf Setting stop split flag on threads
+08:19:43,543 INFO  [LRMovingSimMain] totalEvents=505670 delta=2.007 throughputOverall=251953.16392625807 lastBatch=366161.0 zoneMoves=28359 zoneSame=140197 zoneSplits=1
+08:19:44,543 INFO  [LRMovingSimMain] totalEvents=1273054 delta=3.007 throughputOverall=423363.4852011972 lastBatch=767384.0 zoneMoves=71365 zoneSame=352985 zoneSplits=1
+08:19:45,544 INFO  [LRMovingSimMain] totalEvents=2052435 delta=4.008 throughputOverall=512084.58083832334 lastBatch=779381.0 zoneMoves=115037 zoneSame=569108 zoneSplits=1
+08:19:46,545 INFO  [LRMovingSimMain] totalEvents=2822116 delta=5.008 throughputOverall=563521.5654952077 lastBatch=769681.0 zoneMoves=157994 zoneSame=782710 zoneSplits=1
+08:19:46,545 INFO  [LRMovingSimMain] .tryPerf Shutting down threads
+08:19:46,545 INFO  [AssetEventGenCallable] .call Thread 17 done
+08:19:46,547 INFO  [LRMovingSimMain] .tryPerf Generated splits were [17] groups
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.602 sec <<< FAILURE!
+
+Results :
+
+Tests in error: 
+  testSim(com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain)
+
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+
+INFO: Surefire failed when running tests for b8t3IHY822maGm0QoFh9qoeTsrct652CWd7n5xFx3k=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexJarDir=/home/a360/research/projects/esper/examples/rfidassetzone/.nondex
+nondexExecid=WixDbwkrnmTNfwJXZqxHiWShsLJZcgJE3ToiM1utYkM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/esper/examples/rfidassetzone/.nondex/WixDbwkrnmTNfwJXZqxHiWShsLJZcgJE3ToiM1utYkM=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.espertech.esper.example.rfidassetzone.TestAssetZoneMoveStmt
+Summary: zone 1 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 1 now has count 3
+Summary: zone 2 now has count 1
+Summary: zone 1 now has count 2
+Summary: zone 2 now has count 2
+Summary: zone 1 now has count 1
+Summary: zone 2 now has count 3
+Summary: zone 1 now has count 0
+Summary: zone 3 now has count 1
+Summary: zone 2 now has count 2
+Summary: zone 3 now has count 2
+Summary: zone 2 now has count 1
+Summary: zone 3 now has count 3
+Summary: zone 2 now has count 0
+Summary: zone 4 now has count 1
+Summary: zone 3 now has count 2
+Summary: zone 4 now has count 2
+Summary: zone 3 now has count 1
+Summary: zone 4 now has count 3
+Summary: zone 3 now has count 0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.966 sec
+Running com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain
+08:19:48,973 INFO  [LRMovingSimMain] .tryPerf Creating asset ids
+08:19:49,395 INFO  [LRMovingSimMain] .tryPerf Sending one event for each asset
+08:19:49,438 INFO  [LRMovingSimMain] .tryPerf Thread 0 getting groups 0 to 99
+08:19:49,439 INFO  [LRMovingSimMain] .tryPerf Starting 1 threads
+08:19:49,440 INFO  [LRMovingSimMain] .tryPerf Running for 5 seconds
+08:19:49,440 INFO  [AssetEventGenCallable] .call Thread 17 starting
+08:19:50,440 INFO  [LRMovingSimMain] totalEvents=157745 delta=1.0 throughputOverall=157745.0 lastBatch=157745.0 zoneMoves=8784 zoneSame=43800 zoneSplits=0
+08:19:50,441 INFO  [LRMovingSimMain] .tryPerf Setting stop split flag on threads
+08:19:51,441 INFO  [LRMovingSimMain] totalEvents=785785 delta=2.001 throughputOverall=392696.151924038 lastBatch=628040.0 zoneMoves=43984 zoneSame=217944 zoneSplits=0
+08:19:52,442 INFO  [LRMovingSimMain] totalEvents=1488235 delta=3.002 throughputOverall=495747.8347768155 lastBatch=702450.0 zoneMoves=82917 zoneSame=413162 zoneSplits=0
+08:19:53,442 INFO  [LRMovingSimMain] totalEvents=2232704 delta=4.002 throughputOverall=557897.0514742628 lastBatch=744469.0 zoneMoves=124283 zoneSame=619952 zoneSplits=0
+08:19:54,443 INFO  [LRMovingSimMain] totalEvents=2994870 delta=5.003 throughputOverall=598614.8311013392 lastBatch=762166.0 zoneMoves=166665 zoneSame=831625 zoneSplits=0
+08:19:54,444 INFO  [LRMovingSimMain] .tryPerf Shutting down threads
+08:19:54,444 INFO  [AssetEventGenCallable] .call Thread 17 done
+08:19:54,446 INFO  [LRMovingSimMain] .tryPerf Generated splits were [] groups
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.697 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/esper/examples/rfidassetzone/.nondex" -DnondexJarDir="/home/a360/research/projects/esper/examples/rfidassetzone/.nondex" -DnondexExecid=IoqvwYyhsq3taiR5I3LZpNqJVfrfzRuc68CZpx9kM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/esper/examples/rfidassetzone/.nondex" -DnondexJarDir="/home/a360/research/projects/esper/examples/rfidassetzone/.nondex" -DnondexExecid=b8t3IHY822maGm0QoFh9qoeTsrct652CWd7n5xFx3k= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain#testSim
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/esper/examples/rfidassetzone/.nondex" -DnondexJarDir="/home/a360/research/projects/esper/examples/rfidassetzone/.nondex" -DnondexExecid=WixDbwkrnmTNfwJXZqxHiWShsLJZcgJE3ToiM1utYkM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.espertech.esper.example.rfidassetzone.TestLRMovingSimMain#testSim
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/esper/examples/rfidassetzone/.nondex/IoqvwYyhsq3taiR5I3LZpNqJVfrfzRuc68CZpx9kM=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: IoqvwYyhsq3taiR5I3LZpNqJVfrfzRuc68CZpx9kM=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  34.554 s
+[[1;34mINFO[m] Finished at: 2026-10-02T08:19:54-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mesper-example-rfidassetzone[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/esper/examples/rfidassetzone/.nondex/b8t3IHY822maGm0QoFh9qoeTsrct652CWd7n5xFx3k= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

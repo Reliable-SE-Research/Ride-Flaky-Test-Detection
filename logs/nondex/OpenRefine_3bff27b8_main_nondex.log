@@ -1,0 +1,1480 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36morg.openrefine:main[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding OpenRefine - main 3.7-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmain[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgit-commit-id:4.9.10:revision[m [1m(get-the-git-infos)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.3.0:add-source[m [1m(default)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/OpenRefine/main/src added.
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/OpenRefine/main/target/generated-sources added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlocalizer:1.31:generate[m [1m(default)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:resources[m [1m(default-resources)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Copying 483 resources
+[[1;34mINFO[m] Copying 133 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:compile[m [1m(default-compile)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:3.3.0:copy-dependencies[m [1m(default)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] org.openrefine.dependencies:butterfly:jar:1.2.3 already exists in destination.
+[[1;34mINFO[m] commons-lang:commons-lang:jar:2.6 already exists in destination.
+[[1;34mINFO[m] org.apache.velocity:velocity:jar:1.6.3 already exists in destination.
+[[1;34mINFO[m] org.mozilla:rhino:jar:1.7.14-RC1 already exists in destination.
+[[1;34mINFO[m] com.metaweb:lessen:jar:1.0 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-databind:jar:2.13.4 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-core:jar:2.13.4 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-lang3:jar:3.12.0 already exists in destination.
+[[1;34mINFO[m] commons-fileupload:commons-fileupload:jar:1.4 already exists in destination.
+[[1;34mINFO[m] commons-collections:commons-collections:jar:3.2.2 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-text:jar:1.10.0 already exists in destination.
+[[1;34mINFO[m] commons-validator:commons-validator:jar:1.7 already exists in destination.
+[[1;34mINFO[m] commons-beanutils:commons-beanutils:jar:1.9.4 already exists in destination.
+[[1;34mINFO[m] commons-digester:commons-digester:jar:2.1 already exists in destination.
+[[1;34mINFO[m] commons-logging:commons-logging:jar:1.2 already exists in destination.
+[[1;34mINFO[m] velocity:velocity:jar:1.5 already exists in destination.
+[[1;34mINFO[m] oro:oro:jar:2.0.8 already exists in destination.
+[[1;34mINFO[m] org.marc4j:marc4j:jar:2.9.2 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-compress:jar:1.22 already exists in destination.
+[[1;34mINFO[m] org.jsoup:jsoup:jar:1.15.3 already exists in destination.
+[[1;34mINFO[m] org.openrefine.dependencies:opencsv-multichar:jar:2.4 already exists in destination.
+[[1;34mINFO[m] org.apache.poi:poi:jar:5.2.3 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-collections4:jar:4.4 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-math3:jar:3.6.1 already exists in destination.
+[[1;34mINFO[m] com.zaxxer:SparseBitSet:jar:1.2 already exists in destination.
+[[1;34mINFO[m] org.apache.poi:poi-ooxml:jar:5.2.3 already exists in destination.
+[[1;34mINFO[m] org.apache.poi:poi-ooxml-lite:jar:5.2.3 already exists in destination.
+[[1;34mINFO[m] org.apache.xmlbeans:xmlbeans:jar:5.1.1 already exists in destination.
+[[1;34mINFO[m] com.github.virtuald:curvesapi:jar:1.07 already exists in destination.
+[[1;34mINFO[m] org.odftoolkit:odfdom-java:jar:0.9.0 already exists in destination.
+[[1;34mINFO[m] xerces:xercesImpl:jar:2.12.1 already exists in destination.
+[[1;34mINFO[m] net.rootdev:java-rdfa:jar:0.4.2 already exists in destination.
+[[1;34mINFO[m] org.openrefine.dependencies:vicino:jar:1.2 already exists in destination.
+[[1;34mINFO[m] com.wcohen:com.wcohen.secondstring:jar:0.1 already exists in destination.
+[[1;34mINFO[m] org.openrefine.dependencies:arithcode:jar:1.2 already exists in destination.
+[[1;34mINFO[m] commons-compress:commons-compress:jar:20050911 already exists in destination.
+[[1;34mINFO[m] org.clojure:clojure:jar:1.11.1 already exists in destination.
+[[1;34mINFO[m] org.clojure:spec.alpha:jar:0.3.218 already exists in destination.
+[[1;34mINFO[m] org.clojure:core.specs.alpha:jar:0.2.62 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents.client5:httpclient5:jar:5.1.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents.core5:httpcore5:jar:5.1.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents.core5:httpcore5-h2:jar:5.1.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpcore:jar:4.4.15 already exists in destination.
+[[1;34mINFO[m] org.sweble.wikitext:swc-parser-lazy:jar:3.1.9 already exists in destination.
+[[1;34mINFO[m] xtc:rats-runtime:jar:1.15.0 already exists in destination.
+[[1;34mINFO[m] de.fau.cs.osr.utils:utils:jar:3.0.8 already exists in destination.
+[[1;34mINFO[m] de.fau.cs.osr.ptk:ptk-common:jar:3.0.8 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-arq:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] com.github.jsonld-java:jsonld-java:jar:0.13.4 already exists in destination.
+[[1;34mINFO[m] com.google.code.gson:gson:jar:2.9.1 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpclient-cache:jar:4.5.13 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpclient:jar:4.5.13 already exists in destination.
+[[1;34mINFO[m] org.slf4j:jcl-over-slf4j:jar:1.7.36 already exists in destination.
+[[1;34mINFO[m] com.apicatalog:titanium-json-ld:jar:1.3.1 already exists in destination.
+[[1;34mINFO[m] org.glassfish:jakarta.json:jar:2.0.1 already exists in destination.
+[[1;34mINFO[m] com.google.protobuf:protobuf-java:jar:3.21.4 already exists in destination.
+[[1;34mINFO[m] org.apache.thrift:libthrift:jar:0.16.0 already exists in destination.
+[[1;34mINFO[m] javax.annotation:javax.annotation-api:jar:1.3.2 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-core:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-base:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-shaded-guava:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-csv:jar:1.9.0 already exists in destination.
+[[1;34mINFO[m] com.github.andrewoma.dexx:collection:jar:0.7 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-iri:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] commons-cli:commons-cli:jar:1.5.0 already exists in destination.
+[[1;34mINFO[m] commons-codec:commons-codec:jar:1.15 already exists in destination.
+[[1;34mINFO[m] commons-io:commons-io:jar:2.11.0 already exists in destination.
+[[1;34mINFO[m] com.google.guava:guava:jar:31.1-jre already exists in destination.
+[[1;34mINFO[m] com.google.guava:failureaccess:jar:1.0.1 already exists in destination.
+[[1;34mINFO[m] com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava already exists in destination.
+[[1;34mINFO[m] com.google.code.findbugs:jsr305:jar:3.0.2 already exists in destination.
+[[1;34mINFO[m] org.checkerframework:checker-qual:jar:3.12.0 already exists in destination.
+[[1;34mINFO[m] com.google.errorprone:error_prone_annotations:jar:2.11.0 already exists in destination.
+[[1;34mINFO[m] com.google.j2objc:j2objc-annotations:jar:1.3 already exists in destination.
+[[1;34mINFO[m] javax.xml.bind:jaxb-api:jar:2.3.1 already exists in destination.
+[[1;34mINFO[m] javax.activation:javax.activation-api:jar:1.2.0 already exists in destination.
+[[1;34mINFO[m] com.github.albfernandez:juniversalchardet:jar:2.4.0 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-servlets:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-continuation:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-http:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-util:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-io:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] com.optimaize.languagedetector:language-detector:jar:0.6 already exists in destination.
+[[1;34mINFO[m] net.arnx:jsonic:jar:1.2.11 already exists in destination.
+[[1;34mINFO[m] com.intellij:annotations:jar:12.0 already exists in destination.
+[[1;34mINFO[m] org.jvnet.localizer:localizer:jar:1.31 already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:testResources[m [1m(default-testResources)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Copying 44 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.8:prepare-agent[m [1m(prepare-agent)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] surefireArgs set to "-javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/home/a360/research/projects/OpenRefine/main/target/report/OpenRefine - main.exec,excludes=org/marc4j/converter/impl/*CodeTableGenerated*"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmain[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mmain[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_OXo9QHfTEQSjvxTDq+YEl5NzhLNRG4DbLMUuZaxY+g=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+22:09:36.995 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:37.119 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:37.126 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sdfasdfas': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"sdfasdfas"; line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:745)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2961)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2002)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.google.refine.browsing.EngineConfig.reconstruct(EngineConfig.java:68)
+	at com.google.refine.commands.Command.getEngineConfig(Command.java:124)
+	at com.google.refine.commands.CommandStub.wrapGetEngineConfig(CommandStub.java:54)
+	at com.google.refine.commands.CommandTests.getEngineConfigReturnsNullWithEmptyOrBadParameterValue(CommandTests.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+22:09:37.511 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:37.564 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:37.582 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:37.590 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:37.600 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+java.lang.IllegalStateException: hello world
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:67)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostCatchesExceptionFromWriter(CancelProcessesCommandTests.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+javax.servlet.ServletException: Failed to find project id #1234 - may be corrupt
+	at com.google.refine.commands.Command.getProject(Command.java:178)
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:62)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostThrowsIfCommand_getProjectReturnsNull(CancelProcessesCommandTests.java:213)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+22:09:37.806 [main] ERROR XmlImportUtilities - Exception from XML parse
+com.google.refine.importers.tree.TreeReaderException: Unexpected character (';' (code 59)): was expecting comma to separate Object entries
+	at com.google.refine.importers.JsonImporter$JSONTreeReader.next(JsonImporter.java:364) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:461) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:463) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processRecord(XmlImportUtilities.java:306) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.findRecord(XmlImportUtilities.java:249) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.importTreeData(XmlImportUtilities.java:156) ~[classes/:?]
+	at com.google.refine.importers.tree.TreeImportingParserBase.parseOneFile(TreeImportingParserBase.java:241) ~[classes/:?]
+	at com.google.refine.importers.JsonImporter.parseOneFile(JsonImporter.java:209) ~[classes/:?]
+	at com.google.refine.importers.JsonImporterTests.canThrowError(JsonImporterTests.java:130) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.6.1.jar:7.6.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:806) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestRunner.run(TestRunner.java:601) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Oct 01, 2026 10:09:38 PM org.odftoolkit.odfdom.dom.OdfSchemaDocument getTables
+SEVERE: null
+java.lang.NullPointerException
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.fillTableList(OdfSchemaDocument.java:351)
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.getTables(OdfSchemaDocument.java:334)
+	at org.odftoolkit.odfdom.doc.OdfDocument.getTableList(OdfDocument.java:714)
+	at com.google.refine.importers.OdsImporter.parseOneFile(OdsImporter.java:143)
+	at com.google.refine.importers.ImporterTest.parseOneFileAndReturnExceptions(ImporterTest.java:120)
+	at com.google.refine.importers.OdsImporterTests.showErrorDialogWhenWrongFormat(OdsImporterTests.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+22:09:48.360 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:48.369 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:09:48.384 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>"; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2005)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4703)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3076)
+	at com.google.refine.util.ParsingUtilities.evaluateJsonStringToObjectNode(ParsingUtilities.java:277)
+	at com.google.refine.model.recon.StandardReconConfig.batchRecon(StandardReconConfig.java:457)
+	at com.google.refine.operations.recon.ReconOperation$ReconProcess.run(ReconOperation.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:09:53.642 [Thread-7] ERROR refine-standard-recon - Failed to parse string as JSON: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m697[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.695 s - in [1mTestSuite[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 697, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexJarDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexExecid=FtnpHduwU5SOV6xxB4oscLSJSBTK8k9rBgPtLjt1kw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+[ [ {          [ ]
+  "c" : 1,     
+  "v" : "ab"   
+}, {           
+  "c" : 1,     
+  "v" : "abc"  
+} ] ]          
+Oct 01, 2026 10:10:17 PM org.odftoolkit.odfdom.dom.OdfSchemaDocument getTables
+SEVERE: null
+java.lang.NullPointerException
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.fillTableList(OdfSchemaDocument.java:351)
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.getTables(OdfSchemaDocument.java:334)
+	at org.odftoolkit.odfdom.doc.OdfDocument.getTableList(OdfDocument.java:714)
+	at com.google.refine.importers.OdsImporter.parseOneFile(OdsImporter.java:143)
+	at com.google.refine.importers.ImporterTest.parseOneFileAndReturnExceptions(ImporterTest.java:120)
+	at com.google.refine.importers.OdsImporterTests.showErrorDialogWhenWrongFormat(OdsImporterTests.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+22:10:17.915 [main] ERROR XmlImportUtilities - Exception from XML parse
+com.google.refine.importers.tree.TreeReaderException: Unexpected character (';' (code 59)): was expecting comma to separate Object entries
+	at com.google.refine.importers.JsonImporter$JSONTreeReader.next(JsonImporter.java:364) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:461) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:463) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processRecord(XmlImportUtilities.java:306) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.findRecord(XmlImportUtilities.java:249) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.importTreeData(XmlImportUtilities.java:156) ~[classes/:?]
+	at com.google.refine.importers.tree.TreeImportingParserBase.parseOneFile(TreeImportingParserBase.java:241) ~[classes/:?]
+	at com.google.refine.importers.JsonImporter.parseOneFile(JsonImporter.java:209) ~[classes/:?]
+	at com.google.refine.importers.JsonImporterTests.canThrowError(JsonImporterTests.java:130) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.6.1.jar:7.6.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:806) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestRunner.run(TestRunner.java:601) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>"; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2005)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4703)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3076)
+	at com.google.refine.util.ParsingUtilities.evaluateJsonStringToObjectNode(ParsingUtilities.java:277)
+	at com.google.refine.model.recon.StandardReconConfig.batchRecon(StandardReconConfig.java:457)
+	at com.google.refine.operations.recon.ReconOperation$ReconProcess.run(ReconOperation.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:10:19.426 [Thread-1] ERROR refine-standard-recon - Failed to parse string as JSON: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>
+java.lang.IllegalStateException: hello world
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:67)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostCatchesExceptionFromWriter(CancelProcessesCommandTests.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+javax.servlet.ServletException: Failed to find project id #1234 - may be corrupt
+	at com.google.refine.commands.Command.getProject(Command.java:178)
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:62)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostThrowsIfCommand_getProjectReturnsNull(CancelProcessesCommandTests.java:213)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+22:10:22.391 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:22.476 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:22.492 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:22.502 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:22.510 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sdfasdfas': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"sdfasdfas"; line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:745)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2961)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2002)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.google.refine.browsing.EngineConfig.reconstruct(EngineConfig.java:68)
+	at com.google.refine.commands.Command.getEngineConfig(Command.java:124)
+	at com.google.refine.commands.CommandStub.wrapGetEngineConfig(CommandStub.java:54)
+	at com.google.refine.commands.CommandTests.getEngineConfigReturnsNullWithEmptyOrBadParameterValue(CommandTests.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+22:10:22.789 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:22.800 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:22.810 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:36.790 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:36.802 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:36.806 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m697[m, [1;31mFailures: [0;1;31m3[m, Errors: 0, Skipped: 0, Time elapsed: 36.595 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] serializekNNClusterer(com.google.refine.clustering.knn.kNNClustererTests)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.clustering.knn.kNNClustererTests.serializekNNClusterer(kNNClustererTests.java:76)
+
+[[1;31mERROR[m] reconTest(com.google.refine.model.recon.StandardReconConfigTests)  Time elapsed: 1.518 s  <<< FAILURE!
+java.lang.AssertionError: expected [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22properties%22%3A%5B%7B%22pid%22%3A%22P57%22%2C%22v%22%3A%22david+lynch%22%7D%5D%2C%22type_strict%22%3A%22should%22%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22properties%22%3A%5B%7B%22v%22%3A%22david+lynch%22%2C%22pid%22%3A%22P57%22%7D%5D%2C%22type%22%3A%22Q11424%22%2C%22query%22%3A%22david+lynch%22%2C%22type_strict%22%3A%22should%22%7D%7D]
+	at com.google.refine.model.recon.StandardReconConfigTests.reconTest(StandardReconConfigTests.java:381)
+
+[[1;31mERROR[m] testGuessTypes(com.google.refine.commands.recon.GuessTypesOfColumnCommandTests)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: expected [queries=%7B%22q1%22%3A%7B%22query%22%3A%22Japan%22%2C%22limit%22%3A3%7D%2C%22q0%22%3A%7B%22query%22%3A%22France%22%2C%22limit%22%3A3%7D%7D] but found [queries=%7B%22q1%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22Japan%22%7D%2C%22q0%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22France%22%7D%7D]
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommandTests.testGuessTypes(GuessTypesOfColumnCommandTests.java:152)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  kNNClustererTests.serializekNNClusterer:76 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  GuessTypesOfColumnCommandTests.testGuessTypes:152 expected [queries=%7B%22q1%22%3A%7B%22query%22%3A%22Japan%22%2C%22limit%22%3A3%7D%2C%22q0%22%3A%7B%22query%22%3A%22France%22%2C%22limit%22%3A3%7D%7D] but found [queries=%7B%22q1%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22Japan%22%7D%2C%22q0%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22France%22%7D%7D][m
+[[1;31mERROR[m] [1;31m  StandardReconConfigTests.reconTest:381 expected [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22properties%22%3A%5B%7B%22pid%22%3A%22P57%22%2C%22v%22%3A%22david+lynch%22%7D%5D%2C%22type_strict%22%3A%22should%22%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22properties%22%3A%5B%7B%22v%22%3A%22david+lynch%22%2C%22pid%22%3A%22P57%22%7D%5D%2C%22type%22%3A%22Q11424%22%2C%22query%22%3A%22david+lynch%22%2C%22type_strict%22%3A%22should%22%7D%7D][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 697, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for FtnpHduwU5SOV6xxB4oscLSJSBTK8k9rBgPtLjt1kw=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexJarDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexExecid=mdHmKCJHLujkuEREuPjD7lt5FA+mfSPuFp1as08Jq4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+22:10:50.320 [main] ERROR XmlImportUtilities - Exception from XML parse
+com.google.refine.importers.tree.TreeReaderException: Unexpected character (';' (code 59)): was expecting comma to separate Object entries
+	at com.google.refine.importers.JsonImporter$JSONTreeReader.next(JsonImporter.java:364) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:461) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:463) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processRecord(XmlImportUtilities.java:306) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.findRecord(XmlImportUtilities.java:249) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.importTreeData(XmlImportUtilities.java:156) ~[classes/:?]
+	at com.google.refine.importers.tree.TreeImportingParserBase.parseOneFile(TreeImportingParserBase.java:241) ~[classes/:?]
+	at com.google.refine.importers.JsonImporter.parseOneFile(JsonImporter.java:209) ~[classes/:?]
+	at com.google.refine.importers.JsonImporterTests.canThrowError(JsonImporterTests.java:130) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.6.1.jar:7.6.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:806) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestRunner.run(TestRunner.java:601) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Oct 01, 2026 10:10:52 PM org.odftoolkit.odfdom.dom.OdfSchemaDocument getTables
+SEVERE: null
+java.lang.NullPointerException
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.fillTableList(OdfSchemaDocument.java:351)
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.getTables(OdfSchemaDocument.java:334)
+	at org.odftoolkit.odfdom.doc.OdfDocument.getTableList(OdfDocument.java:714)
+	at com.google.refine.importers.OdsImporter.parseOneFile(OdsImporter.java:143)
+	at com.google.refine.importers.ImporterTest.parseOneFileAndReturnExceptions(ImporterTest.java:120)
+	at com.google.refine.importers.OdsImporterTests.showErrorDialogWhenWrongFormat(OdsImporterTests.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+22:10:56.776 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:56.882 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:56.889 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+{                                  {
+  "choices" : [ {                    "choices" : [ {
+    "c" : 1,                           "c" : 1,
+    "s" : true,                        "s" : false,
+    "v" : {                            "v" : {
+      "l" : "foobar",                    "l" : "barbar",
+      "v" : "foobar"                     "v" : "barbar"
+    }                                  }
+  }, {                               }, {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : true,
+    "v" : {                            "v" : {
+      "l" : "barbar",                    "l" : "foobar",
+      "v" : "barbar"                     "v" : "foobar"
+    }                                  }
+  } ],                               } ],
+  "columnName" : "Column A",         "columnName" : "Column A",
+  "expression" : "value+\"bar\"",    "expression" : "value+\"bar\"",
+  "invert" : false,                  "invert" : false,
+  "name" : "facet A"                 "name" : "facet A"
+}                                  }
+{                                  {
+  "choices" : [ {                    "choices" : [ {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : false,
+    "v" : {                            "v" : {
+      "l" : "ebar",                      "l" : "cbar",
+      "v" : "ebar"                       "v" : "cbar"
+    }                                  }
+  }, {                               }, {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : false,
+    "v" : {                            "v" : {
+      "l" : "cbar",                      "l" : "ebar",
+      "v" : "cbar"                       "v" : "ebar"
+    }                                  }
+  }, {                               }, {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : false,
+    "v" : {                            "v" : {
+      "l" : "abar",                      "l" : "abar",
+      "v" : "abar"                       "v" : "abar"
+    }                                  }
+  }, {                               }, {
+    "c" : 0,                           "c" : 0,
+    "s" : true,                        "s" : true,
+    "v" : {                            "v" : {
+      "l" : "true",                      "l" : "true",
+      "v" : "foobar"                     "v" : "foobar"
+    }                                  }
+  } ],                               } ],
+  "columnName" : "Column A",         "columnName" : "Column A",
+  "expression" : "value+\"bar\"",    "expression" : "value+\"bar\"",
+  "invert" : false,                  "invert" : false,
+  "name" : "facet A"                 "name" : "facet A"
+}                                  }
+22:10:59.005 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:59.018 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:10:59.040 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+[ [ {        [ [ {
+  "c" : 1,     "c" : 1,
+  "v" : "a"    "v" : "c"
+}, {         }, {
+  "c" : 1,     "c" : 1,
+  "v" : "à"    "v" : "?"
+} ], [ {     } ], [ {
+  "c" : 1,     "c" : 1,
+  "v" : "c"    "v" : "a"
+}, {         }, {
+  "c" : 1,     "c" : 1,
+  "v" : "?"    "v" : "à"
+} ] ]        } ] ]
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>"; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2005)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4703)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3076)
+	at com.google.refine.util.ParsingUtilities.evaluateJsonStringToObjectNode(ParsingUtilities.java:277)
+	at com.google.refine.model.recon.StandardReconConfig.batchRecon(StandardReconConfig.java:457)
+	at com.google.refine.operations.recon.ReconOperation$ReconProcess.run(ReconOperation.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:11:13.278 [Thread-8] ERROR refine-standard-recon - Failed to parse string as JSON: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>
+22:11:15.989 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:16.053 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:16.065 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:16.072 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:16.079 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+java.lang.IllegalStateException: hello world
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:67)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostCatchesExceptionFromWriter(CancelProcessesCommandTests.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+javax.servlet.ServletException: Failed to find project id #1234 - may be corrupt
+	at com.google.refine.commands.Command.getProject(Command.java:178)
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:62)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostThrowsIfCommand_getProjectReturnsNull(CancelProcessesCommandTests.java:213)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sdfasdfas': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"sdfasdfas"; line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:745)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2961)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2002)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.google.refine.browsing.EngineConfig.reconstruct(EngineConfig.java:68)
+	at com.google.refine.commands.Command.getEngineConfig(Command.java:124)
+	at com.google.refine.commands.CommandStub.wrapGetEngineConfig(CommandStub.java:54)
+	at com.google.refine.commands.CommandTests.getEngineConfigReturnsNullWithEmptyOrBadParameterValue(CommandTests.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m697[m, [1;31mFailures: [0;1;31m5[m, Errors: 0, Skipped: 0, Time elapsed: 36.95 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] serializeListFacet(com.google.refine.browsing.facets.ListFacetTests)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.browsing.facets.ListFacetTests.serializeListFacet(ListFacetTests.java:107)
+
+[[1;31mERROR[m] testSelectedEmptyChoice(com.google.refine.browsing.facets.ListFacetTests)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.browsing.facets.ListFacetTests.testSelectedEmptyChoice(ListFacetTests.java:132)
+
+[[1;31mERROR[m] testSerializeBinningClusterer(com.google.refine.clustering.binning.BinningClustererTests)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.clustering.binning.BinningClustererTests.testSerializeBinningClusterer(BinningClustererTests.java:86)
+
+[[1;31mERROR[m] reconTest(com.google.refine.model.recon.StandardReconConfigTests)  Time elapsed: 1.514 s  <<< FAILURE!
+java.lang.AssertionError: expected [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22properties%22%3A%5B%7B%22pid%22%3A%22P57%22%2C%22v%22%3A%22david+lynch%22%7D%5D%2C%22type_strict%22%3A%22should%22%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22properties%22%3A%5B%7B%22v%22%3A%22david+lynch%22%2C%22pid%22%3A%22P57%22%7D%5D%2C%22type%22%3A%22Q11424%22%2C%22type_strict%22%3A%22should%22%7D%7D]
+	at com.google.refine.model.recon.StandardReconConfigTests.reconTest(StandardReconConfigTests.java:381)
+
+[[1;31mERROR[m] testGuessTypes(com.google.refine.commands.recon.GuessTypesOfColumnCommandTests)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected [queries=%7B%22q1%22%3A%7B%22query%22%3A%22Japan%22%2C%22limit%22%3A3%7D%2C%22q0%22%3A%7B%22query%22%3A%22France%22%2C%22limit%22%3A3%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22France%22%7D%2C%22q1%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22Japan%22%7D%7D]
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommandTests.testGuessTypes(GuessTypesOfColumnCommandTests.java:152)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ListFacetTests.serializeListFacet:107 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  ListFacetTests.testSelectedEmptyChoice:132 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  BinningClustererTests.testSerializeBinningClusterer:86 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  GuessTypesOfColumnCommandTests.testGuessTypes:152 expected [queries=%7B%22q1%22%3A%7B%22query%22%3A%22Japan%22%2C%22limit%22%3A3%7D%2C%22q0%22%3A%7B%22query%22%3A%22France%22%2C%22limit%22%3A3%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22France%22%7D%2C%22q1%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22Japan%22%7D%7D][m
+[[1;31mERROR[m] [1;31m  StandardReconConfigTests.reconTest:381 expected [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22properties%22%3A%5B%7B%22pid%22%3A%22P57%22%2C%22v%22%3A%22david+lynch%22%7D%5D%2C%22type_strict%22%3A%22should%22%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22properties%22%3A%5B%7B%22v%22%3A%22david+lynch%22%2C%22pid%22%3A%22P57%22%7D%5D%2C%22type%22%3A%22Q11424%22%2C%22type_strict%22%3A%22should%22%7D%7D][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 697, Failures: 5, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for mdHmKCJHLujkuEREuPjD7lt5FA+mfSPuFp1as08Jq4=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexJarDir=/home/a360/research/projects/OpenRefine/main/.nondex
+nondexExecid=xZJGHgaR7Wg9GMCgb+gBOsoE3laWIk7nxI118rx0R68=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+{                                  {
+  "choices" : [ {                    "choices" : [ {
+    "c" : 1,                           "c" : 1,
+    "s" : true,                        "s" : false,
+    "v" : {                            "v" : {
+      "l" : "foobar",                    "l" : "barbar",
+      "v" : "foobar"                     "v" : "barbar"
+    }                                  }
+  }, {                               }, {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : true,
+    "v" : {                            "v" : {
+      "l" : "barbar",                    "l" : "foobar",
+      "v" : "barbar"                     "v" : "foobar"
+    }                                  }
+  } ],                               } ],
+  "columnName" : "Column A",         "columnName" : "Column A",
+  "expression" : "value+\"bar\"",    "expression" : "value+\"bar\"",
+  "invert" : false,                  "invert" : false,
+  "name" : "facet A"                 "name" : "facet A"
+}                                  }
+{                                  {
+  "choices" : [ {                    "choices" : [ {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : false,
+    "v" : {                            "v" : {
+      "l" : "ebar",                      "l" : "ebar",
+      "v" : "ebar"                       "v" : "ebar"
+    }                                  }
+  }, {                               }, {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : false,
+    "v" : {                            "v" : {
+      "l" : "cbar",                      "l" : "abar",
+      "v" : "cbar"                       "v" : "abar"
+    }                                  }
+  }, {                               }, {
+    "c" : 1,                           "c" : 1,
+    "s" : false,                       "s" : false,
+    "v" : {                            "v" : {
+      "l" : "abar",                      "l" : "cbar",
+      "v" : "abar"                       "v" : "cbar"
+    }                                  }
+  }, {                               }, {
+    "c" : 0,                           "c" : 0,
+    "s" : true,                        "s" : true,
+    "v" : {                            "v" : {
+      "l" : "true",                      "l" : "true",
+      "v" : "foobar"                     "v" : "foobar"
+    }                                  }
+  } ],                               } ],
+  "columnName" : "Column A",         "columnName" : "Column A",
+  "expression" : "value+\"bar\"",    "expression" : "value+\"bar\"",
+  "invert" : false,                  "invert" : false,
+  "name" : "facet A"                 "name" : "facet A"
+}                                  }
+Oct 01, 2026 10:11:30 PM org.odftoolkit.odfdom.dom.OdfSchemaDocument getTables
+SEVERE: null
+java.lang.NullPointerException
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.fillTableList(OdfSchemaDocument.java:351)
+	at org.odftoolkit.odfdom.dom.OdfSchemaDocument.getTables(OdfSchemaDocument.java:334)
+	at org.odftoolkit.odfdom.doc.OdfDocument.getTableList(OdfDocument.java:714)
+	at com.google.refine.importers.OdsImporter.parseOneFile(OdsImporter.java:143)
+	at com.google.refine.importers.ImporterTest.parseOneFileAndReturnExceptions(ImporterTest.java:120)
+	at com.google.refine.importers.OdsImporterTests.showErrorDialogWhenWrongFormat(OdsImporterTests.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+22:11:31.055 [main] ERROR XmlImportUtilities - Exception from XML parse
+com.google.refine.importers.tree.TreeReaderException: Unexpected character (';' (code 59)): was expecting comma to separate Object entries
+	at com.google.refine.importers.JsonImporter$JSONTreeReader.next(JsonImporter.java:364) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:461) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processSubRecord(XmlImportUtilities.java:463) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.processRecord(XmlImportUtilities.java:306) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.findRecord(XmlImportUtilities.java:249) ~[classes/:?]
+	at com.google.refine.importers.tree.XmlImportUtilities.importTreeData(XmlImportUtilities.java:156) ~[classes/:?]
+	at com.google.refine.importers.tree.TreeImportingParserBase.parseOneFile(TreeImportingParserBase.java:241) ~[classes/:?]
+	at com.google.refine.importers.JsonImporter.parseOneFile(JsonImporter.java:209) ~[classes/:?]
+	at com.google.refine.importers.JsonImporterTests.canThrowError(JsonImporterTests.java:130) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.6.1.jar:7.6.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:806) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestRunner.run(TestRunner.java:601) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120) ~[surefire-testng-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>"; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2005)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4703)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3076)
+	at com.google.refine.util.ParsingUtilities.evaluateJsonStringToObjectNode(ParsingUtilities.java:277)
+	at com.google.refine.model.recon.StandardReconConfig.batchRecon(StandardReconConfig.java:457)
+	at com.google.refine.operations.recon.ReconOperation$ReconProcess.run(ReconOperation.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:11:35.778 [Thread-1] ERROR refine-standard-recon - Failed to parse string as JSON: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+  </head>
+  <body>
+    You have reached an error page.
+  </body>
+</html>
+[ [ {        [ [ {
+  "c" : 1,     "c" : 1,
+  "v" : "a"    "v" : "c"
+}, {         }, {
+  "c" : 1,     "c" : 1,
+  "v" : "à"    "v" : "?"
+} ], [ {     } ], [ {
+  "c" : 1,     "c" : 1,
+  "v" : "c"    "v" : "a"
+}, {         }, {
+  "c" : 1,     "c" : 1,
+  "v" : "?"    "v" : "à"
+} ] ]        } ] ]
+22:11:44.906 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:44.924 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:44.931 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.317 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.336 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.340 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.470 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.552 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.567 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.576 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+22:11:52.584 [main] ERROR FileProjectManager - Failed to load workspace from any attempted alternatives.
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sdfasdfas': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"sdfasdfas"; line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:745)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2961)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2002)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.google.refine.browsing.EngineConfig.reconstruct(EngineConfig.java:68)
+	at com.google.refine.commands.Command.getEngineConfig(Command.java:124)
+	at com.google.refine.commands.CommandStub.wrapGetEngineConfig(CommandStub.java:54)
+	at com.google.refine.commands.CommandTests.getEngineConfigReturnsNullWithEmptyOrBadParameterValue(CommandTests.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+java.lang.IllegalStateException: hello world
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:67)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostCatchesExceptionFromWriter(CancelProcessesCommandTests.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+javax.servlet.ServletException: Failed to find project id #1234 - may be corrupt
+	at com.google.refine.commands.Command.getProject(Command.java:178)
+	at com.google.refine.commands.history.CancelProcessesCommand.doPost(CancelProcessesCommand.java:62)
+	at com.google.refine.commands.util.CancelProcessesCommandTests.doPostThrowsIfCommand_getProjectReturnsNull(CancelProcessesCommandTests.java:213)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m697[m, [1;31mFailures: [0;1;31m5[m, Errors: 0, Skipped: 0, Time elapsed: 36.806 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] serializeListFacet(com.google.refine.browsing.facets.ListFacetTests)  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.browsing.facets.ListFacetTests.serializeListFacet(ListFacetTests.java:107)
+
+[[1;31mERROR[m] testSelectedEmptyChoice(com.google.refine.browsing.facets.ListFacetTests)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.browsing.facets.ListFacetTests.testSelectedEmptyChoice(ListFacetTests.java:132)
+
+[[1;31mERROR[m] reconTest(com.google.refine.model.recon.StandardReconConfigTests)  Time elapsed: 1.519 s  <<< FAILURE!
+java.lang.AssertionError: expected [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22properties%22%3A%5B%7B%22pid%22%3A%22P57%22%2C%22v%22%3A%22david+lynch%22%7D%5D%2C%22type_strict%22%3A%22should%22%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22properties%22%3A%5B%7B%22v%22%3A%22david+lynch%22%2C%22pid%22%3A%22P57%22%7D%5D%2C%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22type_strict%22%3A%22should%22%7D%7D]
+	at com.google.refine.model.recon.StandardReconConfigTests.reconTest(StandardReconConfigTests.java:381)
+
+[[1;31mERROR[m] testSerializeBinningClusterer(com.google.refine.clustering.binning.BinningClustererTests)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Objects above are not equal as JSON strings.
+	at com.google.refine.clustering.binning.BinningClustererTests.testSerializeBinningClusterer(BinningClustererTests.java:86)
+
+[[1;31mERROR[m] testGuessTypes(com.google.refine.commands.recon.GuessTypesOfColumnCommandTests)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: expected [queries=%7B%22q1%22%3A%7B%22query%22%3A%22Japan%22%2C%22limit%22%3A3%7D%2C%22q0%22%3A%7B%22query%22%3A%22France%22%2C%22limit%22%3A3%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22France%22%7D%2C%22q1%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22Japan%22%7D%7D]
+	at com.google.refine.commands.recon.GuessTypesOfColumnCommandTests.testGuessTypes(GuessTypesOfColumnCommandTests.java:152)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ListFacetTests.serializeListFacet:107 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  ListFacetTests.testSelectedEmptyChoice:132 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  BinningClustererTests.testSerializeBinningClusterer:86 Objects above are not equal as JSON strings.[m
+[[1;31mERROR[m] [1;31m  GuessTypesOfColumnCommandTests.testGuessTypes:152 expected [queries=%7B%22q1%22%3A%7B%22query%22%3A%22Japan%22%2C%22limit%22%3A3%7D%2C%22q0%22%3A%7B%22query%22%3A%22France%22%2C%22limit%22%3A3%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22France%22%7D%2C%22q1%22%3A%7B%22limit%22%3A3%2C%22query%22%3A%22Japan%22%7D%7D][m
+[[1;31mERROR[m] [1;31m  StandardReconConfigTests.reconTest:381 expected [queries=%7B%22q0%22%3A%7B%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22properties%22%3A%5B%7B%22pid%22%3A%22P57%22%2C%22v%22%3A%22david+lynch%22%7D%5D%2C%22type_strict%22%3A%22should%22%7D%7D] but found [queries=%7B%22q0%22%3A%7B%22properties%22%3A%5B%7B%22v%22%3A%22david+lynch%22%2C%22pid%22%3A%22P57%22%7D%5D%2C%22query%22%3A%22david+lynch%22%2C%22type%22%3A%22Q11424%22%2C%22type_strict%22%3A%22should%22%7D%7D][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 697, Failures: 5, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for xZJGHgaR7Wg9GMCgb+gBOsoE3laWIk7nxI118rx0R68=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/OpenRefine/main/.nondex" -DnondexJarDir="/home/a360/research/projects/OpenRefine/main/.nondex" -DnondexExecid=FtnpHduwU5SOV6xxB4oscLSJSBTK8k9rBgPtLjt1kw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.google.refine.clustering.knn.kNNClustererTests#serializekNNClusterer
+[[1;33mWARNING[m] com.google.refine.model.recon.StandardReconConfigTests#reconTest
+[[1;33mWARNING[m] com.google.refine.commands.recon.GuessTypesOfColumnCommandTests#testGuessTypes
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/OpenRefine/main/.nondex" -DnondexJarDir="/home/a360/research/projects/OpenRefine/main/.nondex" -DnondexExecid=mdHmKCJHLujkuEREuPjD7lt5FA+mfSPuFp1as08Jq4= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.google.refine.browsing.facets.ListFacetTests#serializeListFacet
+[[1;33mWARNING[m] com.google.refine.browsing.facets.ListFacetTests#testSelectedEmptyChoice
+[[1;33mWARNING[m] com.google.refine.clustering.binning.BinningClustererTests#testSerializeBinningClusterer
+[[1;33mWARNING[m] com.google.refine.model.recon.StandardReconConfigTests#reconTest
+[[1;33mWARNING[m] com.google.refine.commands.recon.GuessTypesOfColumnCommandTests#testGuessTypes
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/OpenRefine/main/.nondex" -DnondexJarDir="/home/a360/research/projects/OpenRefine/main/.nondex" -DnondexExecid=xZJGHgaR7Wg9GMCgb+gBOsoE3laWIk7nxI118rx0R68= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.google.refine.browsing.facets.ListFacetTests#serializeListFacet
+[[1;33mWARNING[m] com.google.refine.browsing.facets.ListFacetTests#testSelectedEmptyChoice
+[[1;33mWARNING[m] com.google.refine.model.recon.StandardReconConfigTests#reconTest
+[[1;33mWARNING[m] com.google.refine.clustering.binning.BinningClustererTests#testSerializeBinningClusterer
+[[1;33mWARNING[m] com.google.refine.commands.recon.GuessTypesOfColumnCommandTests#testGuessTypes
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.google.refine.clustering.knn.kNNClustererTests#serializekNNClusterer
+[[1;34mINFO[m] com.google.refine.model.recon.StandardReconConfigTests#reconTest
+[[1;34mINFO[m] com.google.refine.commands.recon.GuessTypesOfColumnCommandTests#testGuessTypes
+[[1;34mINFO[m] com.google.refine.browsing.facets.ListFacetTests#serializeListFacet
+[[1;34mINFO[m] com.google.refine.browsing.facets.ListFacetTests#testSelectedEmptyChoice
+[[1;34mINFO[m] com.google.refine.clustering.binning.BinningClustererTests#testSerializeBinningClusterer
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/OpenRefine/main/.nondex/FtnpHduwU5SOV6xxB4oscLSJSBTK8k9rBgPtLjt1kw=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: FtnpHduwU5SOV6xxB4oscLSJSBTK8k9rBgPtLjt1kw=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  02:31 min
+[[1;34mINFO[m] Finished at: 2026-10-01T22:11:56-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mmain[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/OpenRefine/main/.nondex/FtnpHduwU5SOV6xxB4oscLSJSBTK8k9rBgPtLjt1kw= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

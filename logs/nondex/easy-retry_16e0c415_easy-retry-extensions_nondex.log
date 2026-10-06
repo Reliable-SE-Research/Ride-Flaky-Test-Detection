@@ -1,0 +1,857 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] easy-retry-extensions                                              [pom]
+[[1;34mINFO[m] easy-retry-spring-extension                                        [jar]
+[[1;34mINFO[m] easy-retry-mybatis-extension                                       [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.alibaba:easy-retry-extensions[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding easy-retry-extensions 1.0.0                               [1/3][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36measy-retry-extensions[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.1.0:flatten[m [1m(flatten)[m @ [36measy-retry-extensions[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project com.alibaba:easy-retry-extensions:pom:1.0.0...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36measy-retry-extensions[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36measy-retry-extensions[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_NKLKdzviD0YcWA5pO3Daf+qAEO3wuiLsivTvRTDygs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexExecid=z6uszMMgOMsKf3IhnQZpnz6dq1FszzJ83BfORjO3ebs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexExecid=joFo+nFhEm7y3PX6dPr0cGxmYrhvSEkVqTRnemL5olo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex
+nondexExecid=mGp9XCtzz4EaefHnJ4pt1pcu3xddfaTW1vPcMWAxYNM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex" -DnondexExecid=z6uszMMgOMsKf3IhnQZpnz6dq1FszzJ83BfORjO3ebs= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex" -DnondexExecid=joFo+nFhEm7y3PX6dPr0cGxmYrhvSEkVqTRnemL5olo= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex" -DnondexExecid=mGp9XCtzz4EaefHnJ4pt1pcu3xddfaTW1vPcMWAxYNM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/easy-retry/easy-retry-extensions/.nondex/z6uszMMgOMsKf3IhnQZpnz6dq1FszzJ83BfORjO3ebs=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: z6uszMMgOMsKf3IhnQZpnz6dq1FszzJ83BfORjO3ebs=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.alibaba:easy-retry-spring-extension[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding easy-retry-spring-extension 1.0.0                         [2/3][m
+[[1;34mINFO[m]   from easy-retry-spring-extension/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36measy-retry-spring-extension[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.1.0:flatten[m [1m(flatten)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project com.alibaba:easy-retry-spring-extension:jar:1.0.0...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36measy-retry-spring-extension[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36measy-retry-spring-extension[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_hGeaY9YFSp81TiDa6uX1z4LVVJWRXsoWPdw8rMqMDw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexExecid=b+Lr1V8nodP+WIAzIwQMDZXmF4TonBZNk6KDNmYd2Q=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexExecid=846JBQb4M9z0VGHrHNRVZmcI6r3qw9iuEFd8Q1wcCCg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex
+nondexExecid=GDMaiYkFr4enMYAXSYFFQHhWulDz6fmeAokqyNGqUCA=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex" -DnondexExecid=b+Lr1V8nodP+WIAzIwQMDZXmF4TonBZNk6KDNmYd2Q= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex" -DnondexExecid=846JBQb4M9z0VGHrHNRVZmcI6r3qw9iuEFd8Q1wcCCg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex" -DnondexExecid=GDMaiYkFr4enMYAXSYFFQHhWulDz6fmeAokqyNGqUCA= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/.nondex/b+Lr1V8nodP+WIAzIwQMDZXmF4TonBZNk6KDNmYd2Q=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: b+Lr1V8nodP+WIAzIwQMDZXmF4TonBZNk6KDNmYd2Q=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.alibaba:easy-retry-mybatis-extension[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding easy-retry-mybatis-extension 1.0.0                        [3/3][m
+[[1;34mINFO[m]   from easy-retry-mybatis-extension/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36measy-retry-mybatis-extension[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.1.0:flatten[m [1m(flatten)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project com.alibaba:easy-retry-mybatis-extension:jar:1.0.0...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36measy-retry-mybatis-extension[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_6dt42VOPCj+0yrOBDED+0zb2G434X7uis12HNaojfdw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+23:01:13.310 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:13.358 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057
+23:01:13.362 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+23:01:13.368 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+23:01:13.368 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+23:01:13.368 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+23:01:13.369 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+23:01:13.369 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+23:01:13.369 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+23:01:13.369 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+23:01:13.369 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+23:01:13.370 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+23:01:13.370 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+23:01:13.370 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"org.h2.Driver"
+23:01:13.370 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+23:01:13.371 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+23:01:13.371 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+23:01:13.371 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+23:01:13.371 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+23:01:13.371 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+23:01:13.372 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;INIT=runscript from 'classpath:/task.sql'
+23:01:13.372 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+23:01:13.372 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+23:01:13.372 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+23:01:13.372 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+23:01:13.373 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+23:01:13.373 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+23:01:13.373 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+23:01:13.373 [main] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+23:01:13.373 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+23:01:13.373 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - username................................"sa"
+23:01:13.374 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+23:01:13.376 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:01:13.589 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+23:01:13.592 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:01:13.593 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:13.679 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.692 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+23:01:13.700 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:13.702 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:test user=SA
+23:01:13.706 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:test user=SA
+23:01:13.709 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:test user=SA
+23:01:13.713 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:test user=SA
+23:01:13.716 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:test user=SA
+23:01:13.718 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:test user=SA
+23:01:13.721 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:test user=SA
+23:01:13.724 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:test user=SA
+23:01:13.726 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:test user=SA
+23:01:13.726 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+23:01:13.758 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 2(Long), 127.0.1.1(String), 2(String), null, null, 0(Integer), null, 2026-10-01 23:01:13.594(Timestamp), 2026-10-01 23:01:13.594(Timestamp), {}(String)
+23:01:13.764 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:13.764 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1525844775 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.793 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.794 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:13.797 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 1(Integer), 2(Long)
+23:01:13.799 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:13.799 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1251897263 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.806 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.806 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1690481990 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.807 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:13.813 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:13.848 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:13.853 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1690481990 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.854 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1690481990 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.887 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.888 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:13.889 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 2(Integer), 2(Long)
+23:01:13.890 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:13.890 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1928312257 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.891 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.892 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1834031967 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.892 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:13.893 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:13.895 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:13.895 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1834031967 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.895 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1834031967 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.898 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.899 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:13.900 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 2(Long)
+23:01:13.901 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:13.901 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1337835760 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.902 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.902 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@718512571 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.902 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:13.903 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:13.904 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:13.904 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@718512571 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.905 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@718512571 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.964 s - in com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+23:01:13.924 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.925 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:13.926 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 1(Long), null, 1(String), null, null, 1(Integer), null, 2026-10-01 23:01:13.924(Timestamp), 2026-10-01 23:01:13.924(Timestamp), null
+23:01:13.927 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:13.927 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1984328477 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.931 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.931 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1893899796 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.931 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:13.932 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 1(Integer)
+23:01:13.934 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:13.935 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1893899796 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.935 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1893899796 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[RetryTaskPO(id=1, sharding=null, bizId=1, executorName=null, executorMethodName=null, retryStatus=1, argsStr=null, gmtCreate=Thu Oct 01 23:01:13 CDT 2026, gmtModified=Thu Oct 01 23:01:13 CDT 2026, extAttrs=null)]
+23:01:13.943 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.944 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:13.945 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 1(Long)
+23:01:13.946 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:13.946 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@364704856 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.947 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:13.947 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1526305386 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.947 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:13.949 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 3(Integer)
+23:01:13.950 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:13.950 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1526305386 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:13.950 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1526305386 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexExecid=VbmdrkjlrITUE7M7bE7W5iulypFANkvKHwx40EABOvE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+23:01:15.366 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:15.419 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3ecf72fd
+23:01:15.424 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+23:01:15.431 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+23:01:15.431 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+23:01:15.431 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+23:01:15.431 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+23:01:15.431 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+23:01:15.432 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+23:01:15.432 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+23:01:15.432 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+23:01:15.432 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+23:01:15.433 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>, prepStmtCacheSqlLimit=2048, prepStmtCacheSize=250, cachePrepStmts=true}
+23:01:15.433 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"org.h2.Driver"
+23:01:15.434 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+23:01:15.434 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+23:01:15.434 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+23:01:15.434 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+23:01:15.435 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+23:01:15.435 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+23:01:15.435 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;INIT=runscript from 'classpath:/task.sql'
+23:01:15.436 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+23:01:15.436 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+23:01:15.436 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+23:01:15.436 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+23:01:15.436 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+23:01:15.437 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+23:01:15.437 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+23:01:15.437 [main] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+23:01:15.437 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+23:01:15.438 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+23:01:15.438 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+23:01:15.438 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+23:01:15.438 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+23:01:15.439 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+23:01:15.439 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+23:01:15.439 [main] DEBUG com.zaxxer.hikari.HikariConfig - username................................"sa"
+23:01:15.439 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+23:01:15.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:01:15.667 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+23:01:15.670 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:01:15.670 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:15.769 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+23:01:15.778 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.781 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:test user=SA
+23:01:15.785 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:test user=SA
+23:01:15.787 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:test user=SA
+23:01:15.790 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:test user=SA
+23:01:15.793 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:test user=SA
+23:01:15.795 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:test user=SA
+23:01:15.796 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:15.798 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:test user=SA
+23:01:15.801 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:test user=SA
+23:01:15.803 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:test user=SA
+23:01:15.803 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+23:01:15.856 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 2(Long), 127.0.1.1(String), 2(String), null, null, 0(Integer), null, 2026-10-01 23:01:15.672(Timestamp), 2026-10-01 23:01:15.672(Timestamp), {}(String)
+23:01:15.864 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:15.864 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@296234255 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.901 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.901 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:15.905 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 1(Integer), 2(Long)
+23:01:15.907 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:15.908 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1274225913 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.918 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.918 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@233519968 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.918 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:15.925 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:15.946 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:15.951 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@233519968 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.952 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@233519968 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.983 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.984 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:15.985 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 2(Integer), 2(Long)
+23:01:15.986 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:15.986 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@403960809 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.987 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.987 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@684429600 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.988 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:15.989 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:15.990 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:15.990 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@684429600 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.990 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@684429600 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.995 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.995 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:15.996 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 2(Long)
+23:01:15.997 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:15.997 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1366499339 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.998 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:15.998 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@633727380 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:15.998 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:15.999 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:15.999 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:15.999 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@633727380 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.000 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@633727380 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.973 s - in com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+23:01:16.045 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:16.045 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:16.047 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 1(Long), null, 1(String), null, null, 1(Integer), null, 2026-10-01 23:01:16.045(Timestamp), 2026-10-01 23:01:16.045(Timestamp), null
+23:01:16.048 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:16.048 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@906347731 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.055 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:16.055 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1482429406 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.055 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:16.056 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 1(Integer)
+23:01:16.059 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:16.059 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1482429406 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.059 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1482429406 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[RetryTaskPO(id=1, sharding=null, bizId=1, executorName=null, executorMethodName=null, retryStatus=1, argsStr=null, gmtCreate=Thu Oct 01 23:01:16 CDT 2026, gmtModified=Thu Oct 01 23:01:16 CDT 2026, extAttrs=null)]
+23:01:16.073 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:16.073 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:16.074 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 1(Long)
+23:01:16.075 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:16.076 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@102052782 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.076 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:16.077 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1932244589 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.077 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:16.078 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 3(Integer)
+23:01:16.079 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:16.079 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1932244589 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:16.079 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1932244589 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexExecid=XjrFWuhc9RYs4ioaWTLPTxeQZgS8nM7vDly3Q6Xlbas=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+23:01:17.547 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:17.601 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3ecf72fd
+23:01:17.606 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+23:01:17.612 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+23:01:17.612 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+23:01:17.613 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+23:01:17.613 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+23:01:17.613 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+23:01:17.613 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+23:01:17.614 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+23:01:17.614 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+23:01:17.614 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+23:01:17.614 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{prepStmtCacheSqlLimit=2048, prepStmtCacheSize=250, password=<masked>, cachePrepStmts=true}
+23:01:17.615 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"org.h2.Driver"
+23:01:17.615 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+23:01:17.615 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+23:01:17.616 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+23:01:17.616 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+23:01:17.616 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+23:01:17.616 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+23:01:17.617 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;INIT=runscript from 'classpath:/task.sql'
+23:01:17.617 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+23:01:17.617 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+23:01:17.618 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+23:01:17.618 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+23:01:17.618 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+23:01:17.618 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+23:01:17.619 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+23:01:17.619 [main] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+23:01:17.619 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+23:01:17.619 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+23:01:17.619 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+23:01:17.619 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+23:01:17.620 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+23:01:17.620 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+23:01:17.620 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+23:01:17.620 [main] DEBUG com.zaxxer.hikari.HikariConfig - username................................"sa"
+23:01:17.620 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+23:01:17.623 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:01:17.876 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+23:01:17.879 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:01:17.880 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:17.980 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:17.980 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+23:01:17.991 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:test user=SA
+23:01:17.996 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:test user=SA
+23:01:17.999 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:test user=SA
+23:01:18.002 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:test user=SA
+23:01:18.005 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:test user=SA
+23:01:18.008 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:test user=SA
+23:01:18.008 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:18.012 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:test user=SA
+23:01:18.016 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:test user=SA
+23:01:18.019 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:test user=SA
+23:01:18.019 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+23:01:18.072 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 2(Long), 127.0.1.1(String), 2(String), null, null, 0(Integer), null, 2026-10-01 23:01:17.882(Timestamp), 2026-10-01 23:01:17.882(Timestamp), {}(String)
+23:01:18.079 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:18.079 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1688770224 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.109 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.109 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:18.112 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 1(Integer), 2(Long)
+23:01:18.115 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:18.115 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1062181581 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.123 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.124 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@742568993 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.124 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:18.130 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:18.151 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:18.156 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@742568993 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.157 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@742568993 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.187 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.187 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:18.188 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 2(Integer), 2(Long)
+23:01:18.189 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:18.190 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1687087217 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.191 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.191 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@928734079 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.191 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:18.193 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:18.195 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:18.195 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@928734079 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.195 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@928734079 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.201 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.201 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:18.202 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 2(Long)
+23:01:18.203 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:18.204 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@991242536 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.204 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.204 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1450712470 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.205 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:18.206 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:18.207 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:18.207 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1450712470 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.207 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1450712470 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.018 s - in com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+23:01:18.243 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.243 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:18.244 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 1(Long), null, 1(String), null, null, 1(Integer), null, 2026-10-01 23:01:18.243(Timestamp), 2026-10-01 23:01:18.243(Timestamp), null
+23:01:18.246 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:18.246 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1031775150 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.252 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.252 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1476812556 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.252 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:18.253 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 1(Integer)
+23:01:18.254 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:18.255 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1476812556 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.255 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1476812556 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[RetryTaskPO(id=1, sharding=null, bizId=1, executorName=null, executorMethodName=null, retryStatus=1, argsStr=null, gmtCreate=Thu Oct 01 23:01:18 CDT 2026, gmtModified=Thu Oct 01 23:01:18 CDT 2026, extAttrs=null)]
+23:01:18.267 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.267 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:18.268 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 1(Long)
+23:01:18.269 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:18.269 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@13643661 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.270 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:18.270 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1622863652 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.270 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:18.271 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 3(Integer)
+23:01:18.272 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:18.273 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1622863652 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:18.273 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1622863652 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexJarDir=/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex
+nondexExecid=GNe0pT3Ie2XiCizrvsa6fC8WFmp4W6OgAqULPFX7ZsY=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+23:01:19.681 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:19.737 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3ecf72fd
+23:01:19.742 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+23:01:19.748 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+23:01:19.749 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+23:01:19.749 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+23:01:19.749 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+23:01:19.749 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+23:01:19.749 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+23:01:19.750 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+23:01:19.750 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+23:01:19.750 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+23:01:19.751 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{cachePrepStmts=true, prepStmtCacheSize=250, password=<masked>, prepStmtCacheSqlLimit=2048}
+23:01:19.751 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"org.h2.Driver"
+23:01:19.752 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+23:01:19.752 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+23:01:19.752 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+23:01:19.752 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+23:01:19.753 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+23:01:19.753 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+23:01:19.753 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;INIT=runscript from 'classpath:/task.sql'
+23:01:19.753 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+23:01:19.754 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+23:01:19.754 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+23:01:19.754 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+23:01:19.754 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+23:01:19.754 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+23:01:19.754 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+23:01:19.755 [main] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+23:01:19.755 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+23:01:19.755 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+23:01:19.755 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+23:01:19.755 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+23:01:19.755 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+23:01:19.756 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+23:01:19.756 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+23:01:19.756 [main] DEBUG com.zaxxer.hikari.HikariConfig - username................................"sa"
+23:01:19.756 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+23:01:19.758 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:01:19.995 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+23:01:19.997 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:01:19.998 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:01:20.088 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.098 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+23:01:20.103 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:20.108 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:test user=SA
+23:01:20.112 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:test user=SA
+23:01:20.115 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:test user=SA
+23:01:20.118 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:test user=SA
+23:01:20.121 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:test user=SA
+23:01:20.123 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:test user=SA
+23:01:20.127 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:test user=SA
+23:01:20.130 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:test user=SA
+23:01:20.132 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:test user=SA
+23:01:20.132 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+23:01:20.158 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 2(Long), 127.0.1.1(String), 2(String), null, null, 0(Integer), null, 2026-10-01 23:01:19.999(Timestamp), 2026-10-01 23:01:19.999(Timestamp), {}(String)
+23:01:20.168 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:20.168 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1688770224 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.199 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.200 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:20.202 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 1(Integer), 2(Long)
+23:01:20.205 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:20.205 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1062181581 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.212 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.213 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@742568993 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.213 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:20.218 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:20.240 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:20.246 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@742568993 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.246 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@742568993 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.280 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.280 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==>  Preparing: UPDATE easy_retry_task SET gmt_modified = now() ,retry_status = ? WHERE id=?
+23:01:20.281 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - ==> Parameters: 2(Integer), 2(Long)
+23:01:20.282 [main] DEBUG c.a.e.e.m.d.R.updateRetryTask - <==    Updates: 1
+23:01:20.282 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1687087217 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.283 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.283 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@928734079 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.283 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:20.284 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:20.285 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:20.285 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@928734079 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.285 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@928734079 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.290 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.290 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:20.291 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 2(Long)
+23:01:20.292 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:20.292 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@991242536 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.293 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.293 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1450712470 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.293 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE sharding = ? AND retry_status IN ( ? , ? ) AND id > ? order by id Asc limit 500
+23:01:20.294 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 127.0.1.1(String), 0(Integer), 1(Integer), 1(Long)
+23:01:20.295 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:20.295 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1450712470 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.295 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1450712470 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.948 s - in com.alibaba.easyretry.extension.mybatis.access.[1mMybatisRetryTaskAccessTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.alibaba.easyretry.extension.mybatis.common.utils.[1mHostUtilsTest[m
+[[1;34mINFO[m] Running com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+23:01:20.330 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.330 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==>  Preparing: INSERT INTO easy_retry_task (`id`, `sharding`, `biz_id`, `executor_name`, `executor_method_name`, `retry_status`, `args_str`, `gmt_create`, `gmt_modified`, `ext_attrs`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+23:01:20.332 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - ==> Parameters: 1(Long), null, 1(String), null, null, 1(Integer), null, 2026-10-01 23:01:20.33(Timestamp), 2026-10-01 23:01:20.33(Timestamp), null
+23:01:20.333 [main] DEBUG c.a.e.e.m.d.R.saveRetryTask - <==    Updates: 1
+23:01:20.334 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1031775150 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.340 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.340 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1476812556 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.341 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:20.342 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 1(Integer)
+23:01:20.344 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 1
+23:01:20.344 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1476812556 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.344 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1476812556 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[RetryTaskPO(id=1, sharding=null, bizId=1, executorName=null, executorMethodName=null, retryStatus=1, argsStr=null, gmtCreate=Thu Oct 01 23:01:20 CDT 2026, gmtModified=Thu Oct 01 23:01:20 CDT 2026, extAttrs=null)]
+23:01:20.356 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.357 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==>  Preparing: DELETE FROM easy_retry_task WHERE id = ?
+23:01:20.357 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - ==> Parameters: 1(Long)
+23:01:20.358 [main] DEBUG c.a.e.e.m.d.R.deleteRetryTask - <==    Updates: 1
+23:01:20.358 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@13643661 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.359 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23:01:20.359 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [HikariProxyConnection@1622863652 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.359 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==>  Preparing: SELECT * FROM easy_retry_task WHERE retry_status IN ( ? ) order by id Asc limit 500
+23:01:20.360 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - ==> Parameters: 3(Integer)
+23:01:20.361 [main] DEBUG c.a.e.e.m.d.R.listRetryTask - <==      Total: 0
+23:01:20.361 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [HikariProxyConnection@1622863652 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+23:01:20.361 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [HikariProxyConnection@1622863652 wrapping conn0: url=jdbc:h2:mem:test user=SA]
+[]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.alibaba.easyretry.extension.mybatis.dao.[1mRetryTaskDAOImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex" -DnondexExecid=VbmdrkjlrITUE7M7bE7W5iulypFANkvKHwx40EABOvE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex" -DnondexExecid=XjrFWuhc9RYs4ioaWTLPTxeQZgS8nM7vDly3Q6Xlbas= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex" -DnondexJarDir="/home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex" -DnondexExecid=GNe0pT3Ie2XiCizrvsa6fC8WFmp4W6OgAqULPFX7ZsY= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.nondex/VbmdrkjlrITUE7M7bE7W5iulypFANkvKHwx40EABOvE=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: VbmdrkjlrITUE7M7bE7W5iulypFANkvKHwx40EABOvE=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for easy-retry-extensions 1.0.0:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] easy-retry-extensions .............................. [1;32mSUCCESS[m [  1.406 s]
+[[1;34mINFO[m] easy-retry-spring-extension ........................ [1;32mSUCCESS[m [  0.612 s]
+[[1;34mINFO[m] easy-retry-mybatis-extension ....................... [1;32mSUCCESS[m [  8.722 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.009 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:01:20-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

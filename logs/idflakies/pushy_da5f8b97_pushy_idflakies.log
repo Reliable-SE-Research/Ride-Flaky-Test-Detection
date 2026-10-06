@@ -1,0 +1,72 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.2.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mcom.eatthepath:pushy[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding Pushy 0.15.3-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mpushy[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.5.0:resources[m [1m(default-resources)[m @ [36mpushy[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:compile[m [1m(default-compile)[m @ [36mpushy[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 64 source files to /home/a360/research/projects/pushy/pushy/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.5.0:testResources[m [1m(default-testResources)[m @ [36mpushy[0;1m ---[m
+[[1;34mINFO[m] Copying 16 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mpushy[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mpushy[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mpushy[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 170 tests. Time taken: 0.5499999523162842 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.eatthepath:pushy:0.15.3-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/pushy/pushy/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/pushy/pushy/.dtfixingtools/original-order
+[INFO] Getting original results (170 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (65.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (65.3 seconds elapsed (130.9 total), 32.7 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (130.9 seconds elapsed (196.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/pushy/pushy/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/pushy/pushy/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  04:27 min
+[[1;34mINFO[m] Finished at: 2026-10-02T10:11:33-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

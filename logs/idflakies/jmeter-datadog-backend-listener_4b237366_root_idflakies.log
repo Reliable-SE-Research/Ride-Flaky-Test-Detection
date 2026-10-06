@@ -1,0 +1,51 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Not installing Nexus Staging features:
+[[1;34mINFO[m]  * Preexisting staging related goal bindings found in 1 modules.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.datadoghq:jmeter-datadog-backend-listener[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding jmeter-datadog-backend-listener 0.2.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjmeter-datadog-backend-listener[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:resources[m [1m(default-resources)[m @ [36mjmeter-datadog-backend-listener[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jmeter-datadog-backend-listener/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36mjmeter-datadog-backend-listener[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:testResources[m [1m(default-testResources)[m @ [36mjmeter-datadog-backend-listener[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jmeter-datadog-backend-listener/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mjmeter-datadog-backend-listener[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjmeter-datadog-backend-listener[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mjmeter-datadog-backend-listener[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 27 tests. Time taken: 0.5139999389648438 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.datadoghq:jmeter-datadog-backend-listener:0.2.0 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/jmeter-datadog-backend-listener/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/jmeter-datadog-backend-listener/.dtfixingtools/original-order
+[INFO] Getting original results (27 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (9.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (9.9 seconds elapsed (19.9 total), 5.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (19.9 seconds elapsed (29.7 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/jmeter-datadog-backend-listener/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/jmeter-datadog-backend-listener/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  43.410 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:01:24-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,219 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.amazon.hub.counter:amazon-hub-counter-sdk[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding amazon-hub-counter-sdk 1.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mamazon-hub-counter-sdk[0;1m >>>[m
+[[1;33mWARNING[m] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model for com.sun.xml.bind:jaxb-osgi:2.2.10
+[ERROR] 'dependencyManagement.dependencies.dependency.systemPath' for com.sun:tools:jar must specify an absolute path but is ${tools.jar} @ 
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.4:prepare-agent[m [1m(default)[m @ [36mamazon-hub-counter-sdk[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar=destfile=/home/a360/research/projects/amazon-hub-counter-sdk-java/target/jacoco.exec,excludes=**/com/amazon/hub/counter/entities/*:**/com/amazon/hub/counter/login/*
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mamazon-hub-counter-sdk[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mamazon-hub-counter-sdk[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mamazon-hub-counter-sdk[0;1m ---[m
+[[1;34mINFO[m] Copying 15 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mamazon-hub-counter-sdk[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mamazon-hub-counter-sdk[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mamazon-hub-counter-sdk[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_BT4JRSXtCmcKn3AAkFdPfqvQIfg3ZIRWPp6e4mtSWo=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.hub.counter.AccessPointTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec - in com.amazon.hub.counter.AccessPointTest
+Running com.amazon.hub.counter.HttpUtilsTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.908 sec - in com.amazon.hub.counter.HttpUtilsTest
+Running com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+01 Oct 2026 23:27:15.222/CDT [INFO ] - Created Feed with FeedID: [9c3a0529-37e6-40dd-8b48-d5w1fgojr8mq]
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.813 sec - in com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexExecid=FJovDSr1BcOhURN8kaOJlNUVKrxsOE4lFyYDzE2Mv5c=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.hub.counter.AccessPointTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 sec - in com.amazon.hub.counter.AccessPointTest
+Running com.amazon.hub.counter.HttpUtilsTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.19 sec - in com.amazon.hub.counter.HttpUtilsTest
+Running com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+01 Oct 2026 23:27:19.816/CDT [INFO ] - Created Feed with FeedID: [9c3a0529-37e6-40dd-8b48-d5w1fgojr8mq]
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.192 sec <<< FAILURE! - in com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+postFeedSerializationTest()  Time elapsed: 0.03 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"accessPoints":[{"address":{"countryCode":"US","postalCode":"98101","longitude":"-122.335819","addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","latitude":"47.615564"},"standardHours":[{"day":"MONDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"TUESDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"WEDNESDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"THURSDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"FRIDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"midDayClosures":[{"endTime":"13:00:00","startTime":"12:00:00"}],"day":"SATURDAY","closingTime":"20:00:00","openingTime":"08:30:00"}],"accessPointId":"AMAZON-US-HQ","timeZone":"America/Los_Angeles","isRestrictedAccess":false,"capabilities":["PICK_UP","DROP_OFF"],"isActive":true,"accessPointName":"Amazon Hub Counter - Amazon US HQ","exceptionalClosures":[{"endDateTime":"2038-01-20","startDateTime":"2038-01-19"}],"terminationDate":"2199-12-31","communicationDetails":{"emailId":"store-id@example.com","phoneNumber":"00 1 206-922-0880"}}]}> but was: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","accessPointName":"Amazon Hub Counter - Amazon US HQ","isActive":true,"isRestrictedAccess":false,"timeZone":"America/Los_Angeles","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","postalCode":"98101","countryCode":"US","latitude":"47.615564","longitude":"-122.335819"},"terminationDate":"2199-12-31","capabilities":["PICK_UP","DROP_OFF"],"standardHours":[{"day":"MONDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"TUESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"WEDNESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"THURSDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"FRIDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"SATURDAY","openingTime":"08:30:00","closingTime":"20:00:00","midDayClosures":[{"startTime":"12:00:00","endTime":"13:00:00"}]}],"exceptionalClosures":[{"startDateTime":"2038-01-19","endDateTime":"2038-01-20"}],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"}}]}>
+	at com.amazon.hub.counter.AmazonHubCounterFeedAPITest.postFeedSerializationTest(AmazonHubCounterFeedAPITest.java:608)
+
+
+Results :
+
+Failed tests: 
+  AmazonHubCounterFeedAPITest.postFeedSerializationTest:608 expected: <{"accessPoints":[{"address":{"countryCode":"US","postalCode":"98101","longitude":"-122.335819","addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","latitude":"47.615564"},"standardHours":[{"day":"MONDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"TUESDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"WEDNESDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"THURSDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"day":"FRIDAY","closingTime":"20:00:00","openingTime":"08:30:00"},{"midDayClosures":[{"endTime":"13:00:00","startTime":"12:00:00"}],"day":"SATURDAY","closingTime":"20:00:00","openingTime":"08:30:00"}],"accessPointId":"AMAZON-US-HQ","timeZone":"America/Los_Angeles","isRestrictedAccess":false,"capabilities":["PICK_UP","DROP_OFF"],"isActive":true,"accessPointName":"Amazon Hub Counter - Amazon US HQ","exceptionalClosures":[{"endDateTime":"2038-01-20","startDateTime":"2038-01-19"}],"terminationDate":"2199-12-31","communicationDetails":{"emailId":"store-id@example.com","phoneNumber":"00 1 206-922-0880"}}]}> but was: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","accessPointName":"Amazon Hub Counter - Amazon US HQ","isActive":true,"isRestrictedAccess":false,"timeZone":"America/Los_Angeles","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","postalCode":"98101","countryCode":"US","latitude":"47.615564","longitude":"-122.335819"},"terminationDate":"2199-12-31","capabilities":["PICK_UP","DROP_OFF"],"standardHours":[{"day":"MONDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"TUESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"WEDNESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"THURSDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"FRIDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"SATURDAY","openingTime":"08:30:00","closingTime":"20:00:00","midDayClosures":[{"startTime":"12:00:00","endTime":"13:00:00"}]}],"exceptionalClosures":[{"startDateTime":"2038-01-19","endDateTime":"2038-01-20"}],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"}}]}>
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for FJovDSr1BcOhURN8kaOJlNUVKrxsOE4lFyYDzE2Mv5c=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexExecid=AynsjWasWBNT5m1JZbkwsXXG1mA0eoj+QtYH1Pk1Lcs=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.hub.counter.AccessPointTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.183 sec - in com.amazon.hub.counter.AccessPointTest
+Running com.amazon.hub.counter.HttpUtilsTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.195 sec - in com.amazon.hub.counter.HttpUtilsTest
+Running com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+01 Oct 2026 23:27:24.431/CDT [INFO ] - Created Feed with FeedID: [9c3a0529-37e6-40dd-8b48-d5w1fgojr8mq]
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.15 sec <<< FAILURE! - in com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+postFeedSerializationTest()  Time elapsed: 0.029 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"},"isRestrictedAccess":false,"capabilities":["PICK_UP","DROP_OFF"],"isActive":true,"timeZone":"America/Los_Angeles","standardHours":[{"openingTime":"08:30:00","day":"MONDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"TUESDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"WEDNESDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"THURSDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"FRIDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","midDayClosures":[{"endTime":"13:00:00","startTime":"12:00:00"}],"day":"SATURDAY","closingTime":"20:00:00"}],"accessPointName":"Amazon Hub Counter - Amazon US HQ","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","countryCode":"US","city":"Seattle","latitude":"47.615564","postalCode":"98101","longitude":"-122.335819"},"exceptionalClosures":[{"endDateTime":"2038-01-20","startDateTime":"2038-01-19"}],"terminationDate":"2199-12-31"}]}> but was: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","accessPointName":"Amazon Hub Counter - Amazon US HQ","isActive":true,"isRestrictedAccess":false,"timeZone":"America/Los_Angeles","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","postalCode":"98101","countryCode":"US","latitude":"47.615564","longitude":"-122.335819"},"terminationDate":"2199-12-31","capabilities":["PICK_UP","DROP_OFF"],"standardHours":[{"day":"MONDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"TUESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"WEDNESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"THURSDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"FRIDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"SATURDAY","openingTime":"08:30:00","closingTime":"20:00:00","midDayClosures":[{"startTime":"12:00:00","endTime":"13:00:00"}]}],"exceptionalClosures":[{"startDateTime":"2038-01-19","endDateTime":"2038-01-20"}],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"}}]}>
+	at com.amazon.hub.counter.AmazonHubCounterFeedAPITest.postFeedSerializationTest(AmazonHubCounterFeedAPITest.java:608)
+
+
+Results :
+
+Failed tests: 
+  AmazonHubCounterFeedAPITest.postFeedSerializationTest:608 expected: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"},"isRestrictedAccess":false,"capabilities":["PICK_UP","DROP_OFF"],"isActive":true,"timeZone":"America/Los_Angeles","standardHours":[{"openingTime":"08:30:00","day":"MONDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"TUESDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"WEDNESDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"THURSDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","day":"FRIDAY","closingTime":"20:00:00"},{"openingTime":"08:30:00","midDayClosures":[{"endTime":"13:00:00","startTime":"12:00:00"}],"day":"SATURDAY","closingTime":"20:00:00"}],"accessPointName":"Amazon Hub Counter - Amazon US HQ","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","countryCode":"US","city":"Seattle","latitude":"47.615564","postalCode":"98101","longitude":"-122.335819"},"exceptionalClosures":[{"endDateTime":"2038-01-20","startDateTime":"2038-01-19"}],"terminationDate":"2199-12-31"}]}> but was: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","accessPointName":"Amazon Hub Counter - Amazon US HQ","isActive":true,"isRestrictedAccess":false,"timeZone":"America/Los_Angeles","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","postalCode":"98101","countryCode":"US","latitude":"47.615564","longitude":"-122.335819"},"terminationDate":"2199-12-31","capabilities":["PICK_UP","DROP_OFF"],"standardHours":[{"day":"MONDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"TUESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"WEDNESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"THURSDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"FRIDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"SATURDAY","openingTime":"08:30:00","closingTime":"20:00:00","midDayClosures":[{"startTime":"12:00:00","endTime":"13:00:00"}]}],"exceptionalClosures":[{"startDateTime":"2038-01-19","endDateTime":"2038-01-20"}],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"}}]}>
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for AynsjWasWBNT5m1JZbkwsXXG1mA0eoj+QtYH1Pk1Lcs=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex
+nondexExecid=5Ms4F6WJiIgmPKsV0VD9oPsVIjuEX3osQNbC6ugpDY=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.hub.counter.AccessPointTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec - in com.amazon.hub.counter.AccessPointTest
+Running com.amazon.hub.counter.HttpUtilsTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.216 sec - in com.amazon.hub.counter.HttpUtilsTest
+Running com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+01 Oct 2026 23:27:29.053/CDT [INFO ] - Created Feed with FeedID: [9c3a0529-37e6-40dd-8b48-d5w1fgojr8mq]
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.189 sec <<< FAILURE! - in com.amazon.hub.counter.AmazonHubCounterFeedAPITest
+postFeedSerializationTest()  Time elapsed: 0.028 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"accessPoints":[{"isRestrictedAccess":false,"isActive":true,"exceptionalClosures":[{"endDateTime":"2038-01-20","startDateTime":"2038-01-19"}],"capabilities":["PICK_UP","DROP_OFF"],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"},"accessPointId":"AMAZON-US-HQ","timeZone":"America/Los_Angeles","terminationDate":"2199-12-31","accessPointName":"Amazon Hub Counter - Amazon US HQ","address":{"latitude":"47.615564","city":"Seattle","countryCode":"US","addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","longitude":"-122.335819","postalCode":"98101"},"standardHours":[{"closingTime":"20:00:00","day":"MONDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"TUESDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"WEDNESDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"THURSDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"FRIDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"SATURDAY","openingTime":"08:30:00","midDayClosures":[{"endTime":"13:00:00","startTime":"12:00:00"}]}]}]}> but was: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","accessPointName":"Amazon Hub Counter - Amazon US HQ","isActive":true,"isRestrictedAccess":false,"timeZone":"America/Los_Angeles","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","postalCode":"98101","countryCode":"US","latitude":"47.615564","longitude":"-122.335819"},"terminationDate":"2199-12-31","capabilities":["PICK_UP","DROP_OFF"],"standardHours":[{"day":"MONDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"TUESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"WEDNESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"THURSDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"FRIDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"SATURDAY","openingTime":"08:30:00","closingTime":"20:00:00","midDayClosures":[{"startTime":"12:00:00","endTime":"13:00:00"}]}],"exceptionalClosures":[{"startDateTime":"2038-01-19","endDateTime":"2038-01-20"}],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"}}]}>
+	at com.amazon.hub.counter.AmazonHubCounterFeedAPITest.postFeedSerializationTest(AmazonHubCounterFeedAPITest.java:608)
+
+
+Results :
+
+Failed tests: 
+  AmazonHubCounterFeedAPITest.postFeedSerializationTest:608 expected: <{"accessPoints":[{"isRestrictedAccess":false,"isActive":true,"exceptionalClosures":[{"endDateTime":"2038-01-20","startDateTime":"2038-01-19"}],"capabilities":["PICK_UP","DROP_OFF"],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"},"accessPointId":"AMAZON-US-HQ","timeZone":"America/Los_Angeles","terminationDate":"2199-12-31","accessPointName":"Amazon Hub Counter - Amazon US HQ","address":{"latitude":"47.615564","city":"Seattle","countryCode":"US","addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","longitude":"-122.335819","postalCode":"98101"},"standardHours":[{"closingTime":"20:00:00","day":"MONDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"TUESDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"WEDNESDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"THURSDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"FRIDAY","openingTime":"08:30:00"},{"closingTime":"20:00:00","day":"SATURDAY","openingTime":"08:30:00","midDayClosures":[{"endTime":"13:00:00","startTime":"12:00:00"}]}]}]}> but was: <{"accessPoints":[{"accessPointId":"AMAZON-US-HQ","accessPointName":"Amazon Hub Counter - Amazon US HQ","isActive":true,"isRestrictedAccess":false,"timeZone":"America/Los_Angeles","address":{"addressFieldOne":"1918 8th Ave, Seattle, WA 98101, USA","city":"Seattle","postalCode":"98101","countryCode":"US","latitude":"47.615564","longitude":"-122.335819"},"terminationDate":"2199-12-31","capabilities":["PICK_UP","DROP_OFF"],"standardHours":[{"day":"MONDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"TUESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"WEDNESDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"THURSDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"FRIDAY","openingTime":"08:30:00","closingTime":"20:00:00"},{"day":"SATURDAY","openingTime":"08:30:00","closingTime":"20:00:00","midDayClosures":[{"startTime":"12:00:00","endTime":"13:00:00"}]}],"exceptionalClosures":[{"startDateTime":"2038-01-19","endDateTime":"2038-01-20"}],"communicationDetails":{"phoneNumber":"00 1 206-922-0880","emailId":"store-id@example.com"}}]}>
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 5Ms4F6WJiIgmPKsV0VD9oPsVIjuEX3osQNbC6ugpDY=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex" -DnondexExecid=FJovDSr1BcOhURN8kaOJlNUVKrxsOE4lFyYDzE2Mv5c= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.amazon.hub.counter.AmazonHubCounterFeedAPITest#postFeedSerializationTest
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex" -DnondexExecid=AynsjWasWBNT5m1JZbkwsXXG1mA0eoj+QtYH1Pk1Lcs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.amazon.hub.counter.AmazonHubCounterFeedAPITest#postFeedSerializationTest
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex" -DnondexExecid=5Ms4F6WJiIgmPKsV0VD9oPsVIjuEX3osQNbC6ugpDY= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.amazon.hub.counter.AmazonHubCounterFeedAPITest#postFeedSerializationTest
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.amazon.hub.counter.AmazonHubCounterFeedAPITest#postFeedSerializationTest
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex/FJovDSr1BcOhURN8kaOJlNUVKrxsOE4lFyYDzE2Mv5c=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: FJovDSr1BcOhURN8kaOJlNUVKrxsOE4lFyYDzE2Mv5c=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  20.458 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:27:29-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mamazon-hub-counter-sdk[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/amazon-hub-counter-sdk-java/.nondex/FJovDSr1BcOhURN8kaOJlNUVKrxsOE4lFyYDzE2Mv5c= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,271 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mcom.fasterxml.jackson.core:jackson-annotations[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding Jackson-annotations 2.14.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjackson-annotations[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-java)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.7:add-source[m [1m(add-generated-sources)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/jackson-annotations/target/generated-sources added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.7:add-resource[m [1m(add-resource)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jackson-annotations/src/main/resources
+[[1;34mINFO[m] Copying 1 resource to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 46 source files to /home/a360/research/projects/jackson-annotations/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 6
+[[1;33mWARNING[m] source value 6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] target value 1.6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jackson-annotations/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjackson-annotations[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 11 source files to /home/a360/research/projects/jackson-annotations/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 6
+[[1;33mWARNING[m] source value 6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] target value 1.6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjackson-annotations[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mjackson-annotations[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_K22Rh4LzKqZdI90ZWDyHRMQy1mUDGYYl4uHkjHcZbI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 55, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexJarDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexExecid=U9nN4Zw2j1hLKvmvzcRgnBUZ0PaM1Va2jJd44fnpwfg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 55, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexJarDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexExecid=ZA49nKgm5mKid7TrokLQAttSeiGBA1Sk2SLfcluF9U=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m5[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.01 s[1;31m <<< FAILURE![m - in com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;31mERROR[m] testFromAnnotation(com.fasterxml.jackson.annotation.JsonIncludePropertiesTest)  Time elapsed: 0.007 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...ies.Value(included=[[bar, foo]])> but was:<...ies.Value(included=[[foo, bar]])>
+	at com.fasterxml.jackson.annotation.JsonIncludePropertiesTest.testFromAnnotation(JsonIncludePropertiesTest.java:37)
+
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  JsonIncludePropertiesTest.testFromAnnotation:37 expected:<...ies.Value(included=[[bar, foo]])> but was:<...ies.Value(included=[[foo, bar]])>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 55, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for ZA49nKgm5mKid7TrokLQAttSeiGBA1Sk2SLfcluF9U=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexJarDir=/home/a360/research/projects/jackson-annotations/.nondex
+nondexExecid=TfuqUL2vDhjJNHyrC3LVcs3oNdLaoLQ4p8e9OC8AdM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.jackson.annotation.[1mOptBooleanTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.fasterxml.jackson.annotation.[1mObjectIdStuffTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.jackson.annotation.[1mIncludeTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.jackson.annotation.[1mJsonSetterTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.jackson.annotation.[1mVisibilityTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.jackson.annotation.[1mPropertyAccessorTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.jackson.annotation.[1mJacksonInjectTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.jackson.annotation.[1mJsonIgnorePropertiesTest[m
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m5[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.013 s[1;31m <<< FAILURE![m - in com.fasterxml.jackson.annotation.[1mJsonIncludePropertiesTest[m
+[[1;31mERROR[m] testFromAnnotation(com.fasterxml.jackson.annotation.JsonIncludePropertiesTest)  Time elapsed: 0.006 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...ies.Value(included=[[bar, foo]])> but was:<...ies.Value(included=[[foo, bar]])>
+	at com.fasterxml.jackson.annotation.JsonIncludePropertiesTest.testFromAnnotation(JsonIncludePropertiesTest.java:37)
+
+[[1;34mINFO[m] Running com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.jackson.annotation.[1mFormatTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  JsonIncludePropertiesTest.testFromAnnotation:37 expected:<...ies.Value(included=[[bar, foo]])> but was:<...ies.Value(included=[[foo, bar]])>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 55, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for TfuqUL2vDhjJNHyrC3LVcs3oNdLaoLQ4p8e9OC8AdM=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jackson-annotations/.nondex" -DnondexJarDir="/home/a360/research/projects/jackson-annotations/.nondex" -DnondexExecid=U9nN4Zw2j1hLKvmvzcRgnBUZ0PaM1Va2jJd44fnpwfg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jackson-annotations/.nondex" -DnondexJarDir="/home/a360/research/projects/jackson-annotations/.nondex" -DnondexExecid=ZA49nKgm5mKid7TrokLQAttSeiGBA1Sk2SLfcluF9U= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.fasterxml.jackson.annotation.JsonIncludePropertiesTest#testFromAnnotation
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jackson-annotations/.nondex" -DnondexJarDir="/home/a360/research/projects/jackson-annotations/.nondex" -DnondexExecid=TfuqUL2vDhjJNHyrC3LVcs3oNdLaoLQ4p8e9OC8AdM= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.fasterxml.jackson.annotation.JsonIncludePropertiesTest#testFromAnnotation
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.fasterxml.jackson.annotation.JsonIncludePropertiesTest#testFromAnnotation
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/jackson-annotations/.nondex/U9nN4Zw2j1hLKvmvzcRgnBUZ0PaM1Va2jJd44fnpwfg=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: U9nN4Zw2j1hLKvmvzcRgnBUZ0PaM1Va2jJd44fnpwfg=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.489 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:17:40-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mjackson-annotations[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/jackson-annotations/.nondex/ZA49nKgm5mKid7TrokLQAttSeiGBA1Sk2SLfcluF9U= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,87 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;33mWARNING[m] The project com.fasterxml:classmate:bundle:1.5.2-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.fasterxml:classmate[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding ClassMate 1.5.2-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mclassmate[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-java)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.7:add-source[m [1m(add-generated-sources)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/java-classmate/target/generated-sources added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mclassmate[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 38 source files to /home/a360/research/projects/java-classmate/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 6
+[[1;33mWARNING[m] source value 6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] target value 1.6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/java-classmate/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mclassmate[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 36 source files to /home/a360/research/projects/java-classmate/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 6
+[[1;33mWARNING[m] source value 6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] target value 1.6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/ResolvedPrimitiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/TypeBindingsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/ResolvedArrayTypeTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/ResolvedRecursiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/AnnotationsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[11,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/TypePlaceHolderTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[6,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/ResolvedTypeWithMembersTest.java:[14,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/HierarchicTypeTest.java:[7,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedMemberTest.java:[15,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mclassmate[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mclassmate[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 229 tests. Time taken: 0.7130000591278076 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.fasterxml:classmate:1.5.2-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/java-classmate/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/java-classmate/.dtfixingtools/original-order
+[INFO] Getting original results (229 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (1.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (1.1 seconds elapsed (2.2 total), 0.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (2.2 seconds elapsed (3.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/java-classmate/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/java-classmate/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.878 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:23:18-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

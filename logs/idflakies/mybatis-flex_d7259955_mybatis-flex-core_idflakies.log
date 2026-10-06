@@ -1,0 +1,67 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.mybatis-flex:mybatis-flex-core:jar:1.7.7
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.mybatis-flex:mybatis-flex-annotation:jar -> version ${mybatis-flex.version} vs 1.7.7 @ line 101, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.mybatis-flex:mybatis-flex-core[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding mybatis-flex-core 1.7.7[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmybatis-flex-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 254 source files to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/target/classes
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/keygen/RowJdbc3KeyGenerator.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/keygen/RowJdbc3KeyGenerator.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/query/QueryWrapper.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/query/QueryWrapper.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 27 source files to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/target/test-classes
+mybatis flex processor run start...
+mybatis flex processor run start...
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/test/java/com/mybatisflex/coretest/Fastjson2TypeHandlerTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/test/java/com/mybatisflex/coretest/Fastjson2TypeHandlerTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmybatis-flex-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mmybatis-flex-core[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 115 tests. Time taken: 0.3300001621246338 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.mybatis-flex:mybatis-flex-core:1.7.7 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.dtfixingtools/original-order
+[INFO] Getting original results (115 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (2.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (2.3 seconds elapsed (4.5 total), 1.2 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (4.5 seconds elapsed (6.6 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  22.102 s
+[[1;34mINFO[m] Finished at: 2026-10-02T17:32:47-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

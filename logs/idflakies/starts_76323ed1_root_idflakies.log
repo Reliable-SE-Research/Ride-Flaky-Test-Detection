@@ -1,0 +1,388 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 40, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 33, column 13
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 42, column 14
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 200, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 3 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] STARTS                                                             [pom]
+[[1;34mINFO[m] starts-core                                                        [jar]
+[[1;34mINFO[m] STARTS Maven Plugin                                       [maven-plugin]
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-5: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-5 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-4: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.16.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36medu.illinois:starts[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding STARTS 1.4-SNAPSHOT                                       [1/3][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mstarts[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mstarts[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(pre-unit-test)[m @ [36mstarts[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/starts/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mstarts[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mstarts[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.039999961853027344 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving edu.illinois:starts:1.4-SNAPSHOT 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36medu.illinois:starts-core[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding starts-core 1.4-SNAPSHOT                                  [2/3][m
+[[1;34mINFO[m]   from starts-core/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mstarts-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/MavenCFT.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:123:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/maven/SurefireMojoInterceptor.java:16:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:48:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:67:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:84:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:98:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:107:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:157:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:169:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:185:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:199:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:214:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:230:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:48:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:65:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:73:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:79:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:87:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/FileUtil.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Cache.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:55:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:73:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:96:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:84:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:96:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:155:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:245:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:80:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:162:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:209:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/data/ZLCData.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/data/ZLCFileContent.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:94:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:105:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:124:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:33:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(pre-unit-test)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/starts/starts-core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:merge[m [1m(merge-id)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/a360/research/projects/starts/starts-core/../starts-core/target/jacoco.exec
+[[1;34mINFO[m] Writing merged execution data to /home/a360/research/projects/starts/starts-core/target/jacoco-merged.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/starts/starts-core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/starts/starts-core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mstarts-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mstarts-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mstarts-core[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 17 tests. Time taken: 0.07299995422363281 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving edu.illinois:starts-core:1.4-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/starts/starts-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/starts/starts-core/.dtfixingtools/original-order
+[INFO] Getting original results (17 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (0.8 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (0.9 seconds elapsed (1.7 total), 0.4 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (1.7 seconds elapsed (2.6 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/starts/starts-core/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/starts/starts-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36medu.illinois:starts-maven-plugin[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding STARTS Maven Plugin 1.4-SNAPSHOT                          [3/3][m
+[[1;34mINFO[m]   from starts-plugin/pom.xml
+[[1;34mINFO[m] [1m----------------------------[ maven-plugin ]----------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mstarts-maven-plugin[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/DiffMojo.java:62:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/DiffMojo.java:139:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/CleanMojo.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/RunMojo.java:77:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/ImpactedMojo.java:63:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/SelectMojo.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/StartsMojo.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/SetupUtil.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/VerifyUtil.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /home/a360/research/projects/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/VerifyUtil.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(pre-unit-test)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/starts/starts-plugin/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.3:helpmojo[m [1m(help-goal)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to read mojo metadata.
+[[1;34mINFO[m] Applying mojo extractor for language: java
+[[1;34mINFO[m] Mojo extractor for language: java found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: bsh
+[[1;34mINFO[m] Mojo extractor for language: bsh found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: java-annotations
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[[1;34mINFO[m] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 8 source files with javac [debug target 8] to target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java:[137,100] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Class<?> for a varargs call
+  cast to java.lang.Class<?>[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java:[139,77] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[[1;34mINFO[m] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.3:descriptor[m [1m(default-descriptor)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to read mojo metadata.
+[[1;34mINFO[m] Applying mojo extractor for language: java
+[[1;34mINFO[m] Mojo extractor for language: java found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: bsh
+[[1;34mINFO[m] Mojo extractor for language: bsh found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: java-annotations
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[[1;34mINFO[m] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.3:descriptor[m [1m(mojo-descriptor)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to read mojo metadata.
+[[1;34mINFO[m] Applying mojo extractor for language: java
+[[1;34mINFO[m] Mojo extractor for language: java found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: bsh
+[[1;34mINFO[m] Mojo extractor for language: bsh found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: java-annotations
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[[1;33mWARNING[m] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[[1;33mWARNING[m] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[[1;34mINFO[m] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/starts/starts-plugin/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mstarts-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 2 source files with javac [debug target 8] to target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mstarts-maven-plugin[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mstarts-maven-plugin[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.01399993896484375 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving edu.illinois:starts-maven-plugin:1.4-SNAPSHOT 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for STARTS 1.4-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] STARTS ............................................. [1;32mSUCCESS[m [  2.505 s]
+[[1;34mINFO[m] starts-core ........................................ [1;32mSUCCESS[m [  4.890 s]
+[[1;34mINFO[m] STARTS Maven Plugin ................................ [1;32mSUCCESS[m [  6.401 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  14.944 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:45:54-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

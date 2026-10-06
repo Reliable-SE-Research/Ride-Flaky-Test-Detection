@@ -1,0 +1,95 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-lang3[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Lang 3.10-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcommons-lang3[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat:0.13:check[m [1m(rat-check)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Enabled default license matchers.
+[[1;34mINFO[m] Will parse SCM ignores for exclusions...
+[[1;34mINFO[m] Parsing exclusions from /home/a360/research/projects/commons-lang/.gitignore
+[[1;34mINFO[m] Finished adding exclusions from SCM ignore files.
+[[1;34mINFO[m] 73 implicit excludes (use -debug for more details).
+[[1;34mINFO[m] 14 explicit excludes (use -debug for more details).
+[[1;34mINFO[m] 372 resources included (use -debug for more details)
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 367 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mantrun:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.4:create[m [1m(default)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/commons-lang
+[[1;34mINFO[m] Storing buildNumber: 7c32e527651a8a235d1b78b2f5d3f53d5e9bb6cb at timestamp: 1790916680734
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/commons-lang
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/commons-lang/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 156 source files to /home/a360/research/projects/commons-lang/target/classes
+[[1;34mINFO[m] /home/a360/research/projects/commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/commons-lang/src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/a360/research/projects/commons-lang/src/main/java/org/apache/commons/lang3/text/StrBuilder.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/commons-lang/src/main/java/org/apache/commons/lang3/text/StrBuilder.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:4.1.0:manifest[m [1m(bundle-manifest)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer:1.17:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-lang3[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcommons-lang3[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mcommons-lang3[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 3387 tests. Time taken: 1.9679999351501465 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.commons:commons-lang3:3.10-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/commons-lang/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/commons-lang/.dtfixingtools/original-order
+[INFO] Getting original results (3387 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (91.0 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (91.0 seconds elapsed (180.8 total), 45.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (180.8 seconds elapsed (271.6 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/commons-lang/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/commons-lang/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  06:15 min
+[[1;34mINFO[m] Finished at: 2026-10-01T23:57:32-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,128 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.everit.json:org.everit.json.schema:bundle:0.0.0-develop
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 192, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 204, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-source-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-source-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-source-plugin
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-source-plugin:3.4.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-5: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-5 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-4: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.16.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.2.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-deploy-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-deploy-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-deploy-plugin:3.2.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36morg.everit.json:org.everit.json.schema[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding everit-org/json-schema 0.0.0-develop[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36morg.everit.json.schema[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(default-prepare-agent)[m @ [36morg.everit.json.schema[0;1m ---[m
+[[1;34mINFO[m] surefireArgLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/json-schema/core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.5.0:resources[m [1m(default-resources)[m @ [36morg.everit.json.schema[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/json-schema/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.16.0:compile[m [1m(default-compile)[m @ [36morg.everit.json.schema[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.5.0:testResources[m [1m(default-testResources)[m @ [36morg.everit.json.schema[0;1m ---[m
+[[1;34mINFO[m] Copying 63 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.16.0:testCompile[m [1m(default-testCompile)[m @ [36morg.everit.json.schema[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36morg.everit.json.schema[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36morg.everit.json.schema[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 731 tests. Time taken: 0.8930001258850098 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.everit.json:org.everit.json.schema:0.0.0-develop 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/json-schema/core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/json-schema/core/.dtfixingtools/original-order
+[INFO] Getting original results (731 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (17.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (17.3 seconds elapsed (34.8 total), 8.7 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (34.8 seconds elapsed (52.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/json-schema/core/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/json-schema/core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:13 min
+[[1;34mINFO[m] Finished at: 2026-10-02T08:21:45-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

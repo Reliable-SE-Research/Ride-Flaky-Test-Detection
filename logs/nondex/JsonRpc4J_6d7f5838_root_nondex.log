@@ -1,0 +1,325 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36meliasstar:json-rpc[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding JsonRpc4J 2.0.7[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjson-rpc[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mjson-rpc[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/JsonRpc4J/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mjson-rpc[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjson-rpc[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/JsonRpc4J/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjson-rpc[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjson-rpc[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mjson-rpc[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_MqmZ1u4gZG+YDrYNgthHI3EMKbPPWv7MRSC1sCYboWY=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.294 s - in eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;34mINFO[m] Running eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 25, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexJarDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexExecid=BVLj+BCbPLzILX1BLRu2ukNZccJUlXrQ14utrzt7y9M=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.331 s - in eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.018 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.NotificationTests.testNotificationSerialization  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>
+	at eliasstar.jsonrpc.objects.NotificationTests.testNotificationSerialization(NotificationTests.java:46)
+
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.023 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.RequestTests.testRequestParamsSerialization  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":["test",0,null]}> but was: <{"method":"test","jsonrpc":"2.0","params":["test",0,null]}>
+	at eliasstar.jsonrpc.objects.RequestTests.testRequestParamsSerialization(RequestTests.java:79)
+
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.RequestTests.testRequestIdSerialization  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"id":"test","method":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0","id":"test"}>
+	at eliasstar.jsonrpc.objects.RequestTests.lambda$testRequestIdSerialization$2(RequestTests.java:56)
+	at eliasstar.jsonrpc.objects.RequestTests.testRequestIdSerialization(RequestTests.java:56)
+
+[[1;34mINFO[m] Running eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  NotificationTests.testNotificationSerialization:46 Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>[m
+[[1;31mERROR[m] [1;31m  RequestTests.testRequestIdSerialization:56->lambda$testRequestIdSerialization$2:56 Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"id":"test","method":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0","id":"test"}>[m
+[[1;31mERROR[m] [1;31m  RequestTests.testRequestParamsSerialization:79 expected: <{"jsonrpc":"2.0","method":"test","params":["test",0,null]}> but was: <{"method":"test","jsonrpc":"2.0","params":["test",0,null]}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 25, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for BVLj+BCbPLzILX1BLRu2ukNZccJUlXrQ14utrzt7y9M=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexJarDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexExecid=Gf5TO1OSZpdYvI8JgoPMvLRhhyuLcYhXqlAS90W2IsU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.334 s - in eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m13[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.213 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.ConnectionTests.testNotificationSending  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":[]}> but was: <{"jsonrpc":"2.0","params":[],"method":"test"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":{}}> but was: <{"jsonrpc":"2.0","params":{},"method":"test"}>
+	at eliasstar.jsonrpc.ConnectionTests.testNotificationSending(ConnectionTests.java:171)
+
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.013 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.NotificationTests.testNotificationSerialization  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>
+	at eliasstar.jsonrpc.objects.NotificationTests.testNotificationSerialization(NotificationTests.java:46)
+
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.024 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.RequestTests.testRequestParamsSerialization  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":{"string":"test","number":0,"null":null}}> but was: <{"method":"test","jsonrpc":"2.0","params":{"string":"test","number":0,"null":null}}>
+	at eliasstar.jsonrpc.objects.RequestTests.testRequestParamsSerialization(RequestTests.java:87)
+
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.RequestTests.testRequestIdSerialization  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"id":"test","jsonrpc":"2.0","method":"test"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"method":"test","id":"test","jsonrpc":"2.0"}>
+	at eliasstar.jsonrpc.objects.RequestTests.lambda$testRequestIdSerialization$2(RequestTests.java:56)
+	at eliasstar.jsonrpc.objects.RequestTests.testRequestIdSerialization(RequestTests.java:56)
+
+[[1;34mINFO[m] Running eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.011 s[1;31m <<< FAILURE![m - in eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;31mERROR[m] eliasstar.gson.OptionalTypeAdapterTests.testOptionalSerialization  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"testString":null,"testOptional":"test"}> but was: <{"testOptional":"test","testString":null}>
+	at eliasstar.gson.OptionalTypeAdapterTests.testOptionalSerialization(OptionalTypeAdapterTests.java:50)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  OptionalTypeAdapterTests.testOptionalSerialization:50 expected: <{"testString":null,"testOptional":"test"}> but was: <{"testOptional":"test","testString":null}>[m
+[[1;31mERROR[m] [1;31m  ConnectionTests.testNotificationSending:171 Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":[]}> but was: <{"jsonrpc":"2.0","params":[],"method":"test"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":{}}> but was: <{"jsonrpc":"2.0","params":{},"method":"test"}>[m
+[[1;31mERROR[m] [1;31m  NotificationTests.testNotificationSerialization:46 Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>[m
+[[1;31mERROR[m] [1;31m  RequestTests.testRequestIdSerialization:56->lambda$testRequestIdSerialization$2:56 Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"id":"test","jsonrpc":"2.0","method":"test"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"method":"test","id":"test","jsonrpc":"2.0"}>[m
+[[1;31mERROR[m] [1;31m  RequestTests.testRequestParamsSerialization:87 expected: <{"jsonrpc":"2.0","method":"test","params":{"string":"test","number":0,"null":null}}> but was: <{"method":"test","jsonrpc":"2.0","params":{"string":"test","number":0,"null":null}}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 25, Failures: 5, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for Gf5TO1OSZpdYvI8JgoPMvLRhhyuLcYhXqlAS90W2IsU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexJarDir=/home/a360/research/projects/JsonRpc4J/.nondex
+nondexExecid=onZQ4LcZBezWaJ5oedaE0Bv84L9RxOXSfo1r5jF1dk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 s - in eliasstar.jsonrpc.[1mConnectionBuilderTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m13[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.206 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.[1mConnectionTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.ConnectionTests.testNotificationSending  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (3 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":[]}> but was: <{"params":[],"method":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":{}}> but was: <{"params":{},"method":"test","jsonrpc":"2.0"}>
+	at eliasstar.jsonrpc.ConnectionTests.testNotificationSending(ConnectionTests.java:171)
+
+[[1;34mINFO[m] Running eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in eliasstar.jsonrpc.[1mJsonRpcTests[m
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.012 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.objects.[1mNotificationTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.NotificationTests.testNotificationSerialization  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>
+	at eliasstar.jsonrpc.objects.NotificationTests.testNotificationSerialization(NotificationTests.java:46)
+
+[[1;34mINFO[m] Running eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.023 s[1;31m <<< FAILURE![m - in eliasstar.jsonrpc.objects.[1mRequestTests[m
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.RequestTests.testRequestParamsSerialization  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":["test",0,null]}> but was: <{"jsonrpc":"2.0","params":["test",0,null],"method":"test"}>
+	at eliasstar.jsonrpc.objects.RequestTests.testRequestParamsSerialization(RequestTests.java:79)
+
+[[1;31mERROR[m] eliasstar.jsonrpc.objects.RequestTests.testRequestIdSerialization  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"method":"test","id":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"jsonrpc":"2.0","method":"test","id":"test"}>
+	at eliasstar.jsonrpc.objects.RequestTests.lambda$testRequestIdSerialization$2(RequestTests.java:56)
+	at eliasstar.jsonrpc.objects.RequestTests.testRequestIdSerialization(RequestTests.java:56)
+
+[[1;34mINFO[m] Running eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.011 s[1;31m <<< FAILURE![m - in eliasstar.gson.[1mOptionalTypeAdapterTests[m
+[[1;31mERROR[m] eliasstar.gson.OptionalTypeAdapterTests.testOptionalSerialization  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"testString":null,"testOptional":"test"}> but was: <{"testOptional":"test","testString":null}>
+	at eliasstar.gson.OptionalTypeAdapterTests.testOptionalSerialization(OptionalTypeAdapterTests.java:50)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  OptionalTypeAdapterTests.testOptionalSerialization:50 expected: <{"testString":null,"testOptional":"test"}> but was: <{"testOptional":"test","testString":null}>[m
+[[1;31mERROR[m] [1;31m  ConnectionTests.testNotificationSending:171 Multiple Failures (3 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":[]}> but was: <{"params":[],"method":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test","params":{}}> but was: <{"params":{},"method":"test","jsonrpc":"2.0"}>[m
+[[1;31mERROR[m] [1;31m  NotificationTests.testNotificationSerialization:46 Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","method":"test"}> but was: <{"method":"test","jsonrpc":"2.0"}>[m
+[[1;31mERROR[m] [1;31m  RequestTests.testRequestIdSerialization:56->lambda$testRequestIdSerialization$2:56 Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"method":"test","id":"test","jsonrpc":"2.0"}>
+	org.opentest4j.AssertionFailedError: expected: <{"jsonrpc":"2.0","id":"test","method":"test"}> but was: <{"jsonrpc":"2.0","method":"test","id":"test"}>[m
+[[1;31mERROR[m] [1;31m  RequestTests.testRequestParamsSerialization:79 expected: <{"jsonrpc":"2.0","method":"test","params":["test",0,null]}> but was: <{"jsonrpc":"2.0","params":["test",0,null],"method":"test"}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 25, Failures: 5, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for onZQ4LcZBezWaJ5oedaE0Bv84L9RxOXSfo1r5jF1dk=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/JsonRpc4J/.nondex" -DnondexJarDir="/home/a360/research/projects/JsonRpc4J/.nondex" -DnondexExecid=BVLj+BCbPLzILX1BLRu2ukNZccJUlXrQ14utrzt7y9M= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.RequestTests#testRequestParamsSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.RequestTests#testRequestIdSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.NotificationTests#testNotificationSerialization
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/JsonRpc4J/.nondex" -DnondexJarDir="/home/a360/research/projects/JsonRpc4J/.nondex" -DnondexExecid=Gf5TO1OSZpdYvI8JgoPMvLRhhyuLcYhXqlAS90W2IsU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.RequestTests#testRequestParamsSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.RequestTests#testRequestIdSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.ConnectionTests#testNotificationSending
+[[1;33mWARNING[m] eliasstar.gson.OptionalTypeAdapterTests#testOptionalSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.NotificationTests#testNotificationSerialization
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/JsonRpc4J/.nondex" -DnondexJarDir="/home/a360/research/projects/JsonRpc4J/.nondex" -DnondexExecid=onZQ4LcZBezWaJ5oedaE0Bv84L9RxOXSfo1r5jF1dk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.RequestTests#testRequestParamsSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.RequestTests#testRequestIdSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.ConnectionTests#testNotificationSending
+[[1;33mWARNING[m] eliasstar.gson.OptionalTypeAdapterTests#testOptionalSerialization
+[[1;33mWARNING[m] eliasstar.jsonrpc.objects.NotificationTests#testNotificationSerialization
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] eliasstar.jsonrpc.objects.RequestTests#testRequestParamsSerialization
+[[1;34mINFO[m] eliasstar.jsonrpc.objects.RequestTests#testRequestIdSerialization
+[[1;34mINFO[m] eliasstar.jsonrpc.objects.NotificationTests#testNotificationSerialization
+[[1;34mINFO[m] eliasstar.jsonrpc.ConnectionTests#testNotificationSending
+[[1;34mINFO[m] eliasstar.gson.OptionalTypeAdapterTests#testOptionalSerialization
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/JsonRpc4J/.nondex/BVLj+BCbPLzILX1BLRu2ukNZccJUlXrQ14utrzt7y9M=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: BVLj+BCbPLzILX1BLRu2ukNZccJUlXrQ14utrzt7y9M=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.531 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:02:48-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mjson-rpc[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/JsonRpc4J/.nondex/BVLj+BCbPLzILX1BLRu2ukNZccJUlXrQ14utrzt7y9M= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

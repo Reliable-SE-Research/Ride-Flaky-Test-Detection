@@ -1,0 +1,972 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.sap.cloud.security:spring-security[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding spring-security 2.11.3[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mspring-security[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.7:prepare-agent[m [1m(default-prepare-agent)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/cloud-security-services-integration-library/spring-security/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] Copying 4 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mspring-security[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mspring-security[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_YuyB6eybaKG1PF6qLPd7GXWhpcfAqOGMxYR4QajF8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+22:18:26.093 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@43dac38f
+22:18:26.106 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:26.160 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:26.163 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:26.165 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:26.167 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:26.172 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:26.173 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:26.173 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:26.182 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'xsuaaServiceConfigurationsTest.EnablePropertiesConfiguration'
+22:18:26.187 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:26.189 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:26.191 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.xsuaa-com.sap.cloud.security.spring.config.XsuaaServiceConfiguration'
+22:18:26.332 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services-com.sap.cloud.security.spring.config.XsuaaServiceConfigurations'
+22:18:26.397 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@43dac38f, started on Thu Oct 01 22:18:26 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.575 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+22:18:26.478 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b43fbf6
+22:18:26.479 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:26.484 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:26.484 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:26.485 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:26.486 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:26.486 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:26.487 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:26.487 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:26.488 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:18:26.489 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:26.490 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:26.490 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:18:26.506 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b43fbf6, started on Thu Oct 01 22:18:26 CDT 2026
+22:18:26.511 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fea7088
+22:18:26.512 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:26.515 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:26.515 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:26.515 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:26.516 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:26.516 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:26.517 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:26.517 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:26.518 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:18:26.519 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:26.519 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:26.520 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:18:26.530 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fea7088, started on Thu Oct 01 22:18:26 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+22:18:26.546 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:18:26.549 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:18:26.557 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:18:26.568 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest], using SpringBootContextLoader
+22:18:26.570 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTest-context.xml] does not exist
+22:18:26.571 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTestContext.groovy] does not exist
+22:18:26.571 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:18:26.606 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]
+22:18:26.625 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: using defaults.
+22:18:26.625 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22:18:26.640 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+22:18:26.641 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:18:26.642 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@184497d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f9d87b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ffab045, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@26fb628, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e2943ab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70dd7e15, org.springframework.test.context.event.EventPublishingTestExecutionListener@4a9f80d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@35beb15e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41fe9859, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ac86ba5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c67e137, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2c9399a4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@191ae03f]
+22:18:26.646 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5fcacc0 testClass = IdentityServicesPropertySourceFactoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@533b266e testClass = IdentityServicesPropertySourceFactoryTest, locations = '{}', classes = '{class com.sap.cloud.security.spring.config.TestConfigurationFromFile}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3f1c5af9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3e8f7922, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@58bf8650, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4e517165, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@9bd0fa6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@589b3632], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+22:18:26.737 [main] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+22:18:26.739 [main] INFO org.eclipse.jetty.util.log - Logging initialized @1757ms to org.eclipse.jetty.util.log.Slf4jLog
+22:18:26.739 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - InitialContextFactory.getInitialContext()
+22:18:26.743 [main] DEBUG org.eclipse.jetty.jndi.NamingContext - new org.eclipse.jetty.jndi.local.localContextRoot$NamingRoot@6928f576[name=null,parent=,bindings.size=0]
+22:18:26.744 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@69f63d95
+22:18:26.744 [main] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+22:18:26.746 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:18:27.064  WARN 85625 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:18:27.086  INFO 85625 --- [           main] dentityServicesPropertySourceFactoryTest : Starting IdentityServicesPropertySourceFactoryTest using Java 11.0.32.1 on Toast with PID 85625 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:18:27.086  INFO 85625 --- [           main] dentityServicesPropertySourceFactoryTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:18:27.319  INFO 85625 --- [           main] dentityServicesPropertySourceFactoryTest : Started IdentityServicesPropertySourceFactoryTest in 0.572 seconds (JVM running for 2.338)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.128 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+2026-10-01 22:18:27.698  INFO 85625 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest], using SpringBootContextLoader
+2026-10-01 22:18:27.699  INFO 85625 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-10-01 22:18:27.705  INFO 85625 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-10-01 22:18:27.706  INFO 85625 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d95a72e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28da7d11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@77b919a3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5624657a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36681447, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d21c56e, org.springframework.test.context.event.EventPublishingTestExecutionListener@726aa968, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7100dea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@712cfb63, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@32e54a9d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15639440, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@121bb45b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4faa298]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:18:27.771  WARN 85625 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:18:27.773  INFO 85625 --- [           main] tyServicesPropertySourceFactoryMultiTest : Starting IdentityServicesPropertySourceFactoryMultiTest using Java 11.0.32.1 on Toast with PID 85625 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:18:27.773  INFO 85625 --- [           main] tyServicesPropertySourceFactoryMultiTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:18:27.780  INFO 85625 --- [           main] c.s.c.security.config.cf.CFEnvParser     : More than one service configuration available for service XSUAA.
+2026-10-01 22:18:27.812  INFO 85625 --- [           main] tyServicesPropertySourceFactoryMultiTest : Started IdentityServicesPropertySourceFactoryMultiTest in 0.101 seconds (JVM running for 2.83)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+2026-10-01 22:18:27.945  WARN 85625 --- [           main] uration$$EnhancerBySpringCGLIB$$1c7071ba : In productive environment provide a well configured certificate based RestOperations bean
+2026-10-01 22:18:28.172  INFO 85625 --- [           main] c.s.c.security.client.HttpClientFactory  : loaded HttpClientFactory service providers: [com.sap.cloud.security.client.DefaultHttpClientFactory@5e8507f1]
+2026-10-01 22:18:28.173  WARN 85625 --- [           main] c.s.c.s.client.DefaultHttpClientFactory  : In productive environment provide well configured HttpClientFactory service
+2026-10-01 22:18:28.357  WARN 85625 --- [           main] uration$$EnhancerBySpringCGLIB$$1c7071ba : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:28.405  WARN 85625 --- [           main] uration$$EnhancerBySpringCGLIB$$1c7071ba : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:28.483  WARN 85625 --- [           main] uration$$EnhancerBySpringCGLIB$$1c7071ba : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:28.518  WARN 85625 --- [           main] uration$$EnhancerBySpringCGLIB$$1c7071ba : In productive environment provide a well configured client secret based RestOperations bean
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.934 s - in com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+2026-10-01 22:18:28.896  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:28.897  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:28.898  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:28.946  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.003  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.003  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:29.003  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.004  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.004  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:29.004  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid2.
+2026-10-01 22:18:29.005  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.044  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.044  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:29.044  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.131  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:29.131  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:29.131  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+2026-10-01 22:18:29.704  INFO 85625 --- [           main] com.sap.cloud.security.token.Token       : loaded TokenFactory service providers: [com.sap.cloud.security.servlet.HybridTokenFactory@58feb6b0]
+2026-10-01 22:18:30.160  WARN 85625 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.95 s - in com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+2026-10-01 22:18:30.583  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:30.769  WARN 85625 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.599 s - in com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+2026-10-01 22:18:30.826  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:30.826  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:30.827  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:30.827  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:30.828  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:30.829  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:30.829  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:30.829  INFO 85625 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s - in com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+2026-10-01 22:18:31.185  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 s - in com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.38 s - in com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+2026-10-01 22:18:31.724  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:32.320  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:32.500  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:33.039  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:33.301  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:33.711  WARN 85625 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.596 s - in com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 79, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexJarDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexExecid=fnjoiUJo31I1yWc1YCHl4yx5XIWlHhlAHD7oDofDgZ0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+22:18:35.868 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71329995
+22:18:35.886 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:35.944 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:35.947 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:35.949 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:35.951 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:35.956 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:35.956 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:35.957 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:35.965 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'xsuaaServiceConfigurationsTest.EnablePropertiesConfiguration'
+22:18:35.970 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:35.971 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:35.974 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.xsuaa-com.sap.cloud.security.spring.config.XsuaaServiceConfiguration'
+22:18:36.137 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services-com.sap.cloud.security.spring.config.XsuaaServiceConfigurations'
+22:18:36.213 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@71329995, started on Thu Oct 01 22:18:35 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.639 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+22:18:36.333 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d10fb8
+22:18:36.334 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:36.338 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:36.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:36.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:36.340 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:36.340 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:36.340 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:36.341 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:36.342 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:18:36.343 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:36.343 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:36.344 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:18:36.358 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d10fb8, started on Thu Oct 01 22:18:36 CDT 2026
+22:18:36.365 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@433ffad1
+22:18:36.365 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:36.368 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:36.369 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:36.369 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:36.370 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:36.370 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:36.370 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:36.370 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:36.371 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:18:36.372 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:36.372 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:36.373 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:18:36.385 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@433ffad1, started on Thu Oct 01 22:18:36 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+22:18:36.402 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:18:36.404 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:18:36.413 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:18:36.424 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest], using SpringBootContextLoader
+22:18:36.426 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTest-context.xml] does not exist
+22:18:36.427 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTestContext.groovy] does not exist
+22:18:36.427 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:18:36.461 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]
+22:18:36.479 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: using defaults.
+22:18:36.479 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22:18:36.490 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+22:18:36.490 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:18:36.490 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74cf8b28, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36c54a56, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3359c978, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ba63fe5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73386d72, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f330eb9, org.springframework.test.context.event.EventPublishingTestExecutionListener@125c082e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@584f5497, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68ace111, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1f9d6c7b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6df20ade, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fbb001b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4010d494]
+22:18:36.495 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5e63cad testClass = IdentityServicesPropertySourceFactoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6759f091 testClass = IdentityServicesPropertySourceFactoryTest, locations = '{}', classes = '{class com.sap.cloud.security.spring.config.TestConfigurationFromFile}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6548bb7d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1556f2dd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5a772895, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@c0b41d6, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5dda14d0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6b8ca3c8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+22:18:36.566 [main] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+22:18:36.569 [main] INFO org.eclipse.jetty.util.log - Logging initialized @2263ms to org.eclipse.jetty.util.log.Slf4jLog
+22:18:36.569 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - InitialContextFactory.getInitialContext()
+22:18:36.573 [main] DEBUG org.eclipse.jetty.jndi.NamingContext - new org.eclipse.jetty.jndi.local.localContextRoot$NamingRoot@40620d8e[name=null,parent=,bindings.size=0]
+22:18:36.573 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@49b07ee3
+22:18:36.574 [main] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+22:18:36.576 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:18:37.012  WARN 85671 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:18:37.033  INFO 85671 --- [           main] dentityServicesPropertySourceFactoryTest : Starting IdentityServicesPropertySourceFactoryTest using Java 11.0.32.1 on Toast with PID 85671 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:18:37.034  INFO 85671 --- [           main] dentityServicesPropertySourceFactoryTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:18:37.239  INFO 85671 --- [           main] dentityServicesPropertySourceFactoryTest : Started IdentityServicesPropertySourceFactoryTest in 0.661 seconds (JVM running for 2.933)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.235 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+2026-10-01 22:18:37.674  INFO 85671 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest], using SpringBootContextLoader
+2026-10-01 22:18:37.676  INFO 85671 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-10-01 22:18:37.684  INFO 85671 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-10-01 22:18:37.685  INFO 85671 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f8aba08, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ff19c33, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@52b3bf03, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7cca01a8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@462abec3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35c9a231, org.springframework.test.context.event.EventPublishingTestExecutionListener@7a4d582c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5626d18c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45e9b12d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3dc95b8b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d55e826, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d1ff6b1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@45f756e6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:18:37.783  WARN 85671 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:18:37.785  INFO 85671 --- [           main] tyServicesPropertySourceFactoryMultiTest : Starting IdentityServicesPropertySourceFactoryMultiTest using Java 11.0.32.1 on Toast with PID 85671 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:18:37.785  INFO 85671 --- [           main] tyServicesPropertySourceFactoryMultiTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:18:37.794  INFO 85671 --- [           main] c.s.c.security.config.cf.CFEnvParser     : More than one service configuration available for service XSUAA.
+2026-10-01 22:18:37.824  INFO 85671 --- [           main] tyServicesPropertySourceFactoryMultiTest : Started IdentityServicesPropertySourceFactoryMultiTest in 0.134 seconds (JVM running for 3.519)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+2026-10-01 22:18:38.024  WARN 85671 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured certificate based RestOperations bean
+2026-10-01 22:18:38.343  INFO 85671 --- [           main] c.s.c.security.client.HttpClientFactory  : loaded HttpClientFactory service providers: [com.sap.cloud.security.client.DefaultHttpClientFactory@1b90fee4]
+2026-10-01 22:18:38.343  WARN 85671 --- [           main] c.s.c.s.client.DefaultHttpClientFactory  : In productive environment provide well configured HttpClientFactory service
+2026-10-01 22:18:38.598  WARN 85671 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:38.658  WARN 85671 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:38.804  WARN 85671 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:38.863  WARN 85671 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.251 s - in com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s - in com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+2026-10-01 22:18:39.321  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.322  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:39.323  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.396  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.494  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.494  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:39.495  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.496  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.496  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:39.496  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid2.
+2026-10-01 22:18:39.496  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.572  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.573  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:39.573  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.730  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:39.730  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:39.731  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.524 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+2026-10-01 22:18:40.417  INFO 85671 --- [           main] com.sap.cloud.security.token.Token       : loaded TokenFactory service providers: [com.sap.cloud.security.servlet.HybridTokenFactory@53125718]
+2026-10-01 22:18:40.979  WARN 85671 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.069 s - in com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+2026-10-01 22:18:41.547  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:41.987  WARN 85671 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.995 s - in com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+2026-10-01 22:18:42.057  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:42.058  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:42.058  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:42.058  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:42.061  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:42.061  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:42.061  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:42.061  INFO 85671 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+2026-10-01 22:18:42.396  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 s - in com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.611 s[1;31m <<< FAILURE![m - in com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;31mERROR[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <AuthenticationToken [Principal=Jwt header
+	{"kid":"default-kid-ias","alg":"RS256"}
+Jwt payload
+	{"azp":"theClientId","user_uuid":"the-user-id","aud":"theClientId","exp":6974056800,"cid":"theClientId","zone_uuid":"the-zone-id"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]> but was: <AuthenticationToken [Principal=Jwt header
+	{"kid":"default-kid-ias","alg":"RS256"}
+Jwt payload
+	{"aud":"theClientId","azp":"theClientId","zone_uuid":"the-zone-id","user_uuid":"the-user-id","exp":6974056800,"cid":"theClientId"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]>
+	at com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals(AuthenticationTokenTest.java:41)
+
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+2026-10-01 22:18:43.464  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:43.945  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:44.121  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:44.798  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:45.335  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:45.806  WARN 85671 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.111 s - in com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  AuthenticationTokenTest.equals:41 expected: <AuthenticationToken [Principal=Jwt header
+	{"kid":"default-kid-ias","alg":"RS256"}
+Jwt payload
+	{"azp":"theClientId","user_uuid":"the-user-id","aud":"theClientId","exp":6974056800,"cid":"theClientId","zone_uuid":"the-zone-id"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]> but was: <AuthenticationToken [Principal=Jwt header
+	{"kid":"default-kid-ias","alg":"RS256"}
+Jwt payload
+	{"aud":"theClientId","azp":"theClientId","zone_uuid":"the-zone-id","user_uuid":"the-user-id","exp":6974056800,"cid":"theClientId"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 79, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for fnjoiUJo31I1yWc1YCHl4yx5XIWlHhlAHD7oDofDgZ0=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexJarDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexExecid=PUEVHB6kXrUOZUjttgXOCz9d5TJ+SB5zj4t52I+QDtk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+22:18:47.866 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71329995
+22:18:47.883 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:47.943 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:47.946 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:47.948 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:47.950 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:47.955 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:47.956 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:47.956 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:47.965 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'xsuaaServiceConfigurationsTest.EnablePropertiesConfiguration'
+22:18:47.970 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:47.972 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:47.975 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.xsuaa-com.sap.cloud.security.spring.config.XsuaaServiceConfiguration'
+22:18:48.151 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services-com.sap.cloud.security.spring.config.XsuaaServiceConfigurations'
+22:18:48.229 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@71329995, started on Thu Oct 01 22:18:47 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.642 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+22:18:48.345 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d10fb8
+22:18:48.346 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:48.351 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:48.351 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:48.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:48.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:48.353 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:48.353 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:48.353 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:48.354 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:18:48.355 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:48.355 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:48.356 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:18:48.376 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d10fb8, started on Thu Oct 01 22:18:48 CDT 2026
+22:18:48.383 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@433ffad1
+22:18:48.384 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:18:48.387 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:18:48.387 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:18:48.388 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:18:48.388 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:18:48.388 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:18:48.389 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:18:48.389 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:18:48.390 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:18:48.390 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:18:48.391 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:18:48.391 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:18:48.405 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@433ffad1, started on Thu Oct 01 22:18:48 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+22:18:48.420 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:18:48.423 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:18:48.430 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:18:48.438 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest], using SpringBootContextLoader
+22:18:48.440 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTest-context.xml] does not exist
+22:18:48.441 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTestContext.groovy] does not exist
+22:18:48.441 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:18:48.479 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]
+22:18:48.497 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: using defaults.
+22:18:48.498 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22:18:48.511 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+22:18:48.511 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:18:48.512 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74cf8b28, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36c54a56, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3359c978, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ba63fe5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73386d72, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f330eb9, org.springframework.test.context.event.EventPublishingTestExecutionListener@125c082e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@584f5497, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68ace111, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1f9d6c7b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6df20ade, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fbb001b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4010d494]
+22:18:48.515 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5e63cad testClass = IdentityServicesPropertySourceFactoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6759f091 testClass = IdentityServicesPropertySourceFactoryTest, locations = '{}', classes = '{class com.sap.cloud.security.spring.config.TestConfigurationFromFile}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6548bb7d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1556f2dd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5a772895, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@c0b41d6, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5dda14d0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6b8ca3c8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+22:18:48.586 [main] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+22:18:48.589 [main] INFO org.eclipse.jetty.util.log - Logging initialized @2217ms to org.eclipse.jetty.util.log.Slf4jLog
+22:18:48.589 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - InitialContextFactory.getInitialContext()
+22:18:48.593 [main] DEBUG org.eclipse.jetty.jndi.NamingContext - new org.eclipse.jetty.jndi.local.localContextRoot$NamingRoot@40620d8e[name=null,parent=,bindings.size=0]
+22:18:48.593 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@49b07ee3
+22:18:48.594 [main] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+22:18:48.596 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:18:49.001  WARN 85714 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:18:49.020  INFO 85714 --- [           main] dentityServicesPropertySourceFactoryTest : Starting IdentityServicesPropertySourceFactoryTest using Java 11.0.32.1 on Toast with PID 85714 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:18:49.021  INFO 85714 --- [           main] dentityServicesPropertySourceFactoryTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:18:49.211  INFO 85714 --- [           main] dentityServicesPropertySourceFactoryTest : Started IdentityServicesPropertySourceFactoryTest in 0.614 seconds (JVM running for 2.84)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.195 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+2026-10-01 22:18:49.667  INFO 85714 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest], using SpringBootContextLoader
+2026-10-01 22:18:49.670  INFO 85714 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-10-01 22:18:49.679  INFO 85714 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-10-01 22:18:49.681  INFO 85714 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f8aba08, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ff19c33, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@52b3bf03, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7cca01a8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@462abec3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35c9a231, org.springframework.test.context.event.EventPublishingTestExecutionListener@7a4d582c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5626d18c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45e9b12d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3dc95b8b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d55e826, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d1ff6b1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@45f756e6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:18:49.803  WARN 85714 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:18:49.805  INFO 85714 --- [           main] tyServicesPropertySourceFactoryMultiTest : Starting IdentityServicesPropertySourceFactoryMultiTest using Java 11.0.32.1 on Toast with PID 85714 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:18:49.805  INFO 85714 --- [           main] tyServicesPropertySourceFactoryMultiTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:18:49.814  INFO 85714 --- [           main] c.s.c.security.config.cf.CFEnvParser     : More than one service configuration available for service XSUAA.
+2026-10-01 22:18:49.852  INFO 85714 --- [           main] tyServicesPropertySourceFactoryMultiTest : Started IdentityServicesPropertySourceFactoryMultiTest in 0.166 seconds (JVM running for 3.481)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+2026-10-01 22:18:50.038  WARN 85714 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured certificate based RestOperations bean
+2026-10-01 22:18:50.330  INFO 85714 --- [           main] c.s.c.security.client.HttpClientFactory  : loaded HttpClientFactory service providers: [com.sap.cloud.security.client.DefaultHttpClientFactory@1b90fee4]
+2026-10-01 22:18:50.330  WARN 85714 --- [           main] c.s.c.s.client.DefaultHttpClientFactory  : In productive environment provide well configured HttpClientFactory service
+2026-10-01 22:18:50.587  WARN 85714 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:50.657  WARN 85714 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:50.786  WARN 85714 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:18:50.847  WARN 85714 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.194 s - in com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+2026-10-01 22:18:51.263  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.263  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:51.265  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.346  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.449  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.450  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:51.450  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.451  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.451  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:51.451  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid2.
+2026-10-01 22:18:51.451  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.515  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.515  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:51.515  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.702  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:18:51.703  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:18:51.703  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.538 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+2026-10-01 22:18:52.838  INFO 85714 --- [           main] com.sap.cloud.security.token.Token       : loaded TokenFactory service providers: [com.sap.cloud.security.servlet.HybridTokenFactory@53125718]
+2026-10-01 22:18:53.265  WARN 85714 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.369 s - in com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+2026-10-01 22:18:54.239  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:54.609  WARN 85714 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.332 s - in com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+2026-10-01 22:18:54.677  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:54.677  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:54.677  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:54.677  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:54.680  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:54.680  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:18:54.681  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:18:54.681  INFO 85714 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+2026-10-01 22:18:55.046  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 s - in com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.727 s[1;31m <<< FAILURE![m - in com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;31mERROR[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <AuthenticationToken [Principal=Jwt header
+	{"alg":"RS256","kid":"default-kid-ias"}
+Jwt payload
+	{"aud":"theClientId","exp":6974056800,"zone_uuid":"the-zone-id","cid":"theClientId","azp":"theClientId","user_uuid":"the-user-id"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]> but was: <AuthenticationToken [Principal=Jwt header
+	{"kid":"default-kid-ias","alg":"RS256"}
+Jwt payload
+	{"zone_uuid":"the-zone-id","cid":"theClientId","user_uuid":"the-user-id","exp":6974056800,"aud":"theClientId","azp":"theClientId"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]>
+	at com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals(AuthenticationTokenTest.java:41)
+
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+2026-10-01 22:18:55.967  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:56.715  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:56.823  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:57.787  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:58.487  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:18:58.781  WARN 85714 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.641 s - in com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  AuthenticationTokenTest.equals:41 expected: <AuthenticationToken [Principal=Jwt header
+	{"alg":"RS256","kid":"default-kid-ias"}
+Jwt payload
+	{"aud":"theClientId","exp":6974056800,"zone_uuid":"the-zone-id","cid":"theClientId","azp":"theClientId","user_uuid":"the-user-id"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]> but was: <AuthenticationToken [Principal=Jwt header
+	{"kid":"default-kid-ias","alg":"RS256"}
+Jwt payload
+	{"zone_uuid":"the-zone-id","cid":"theClientId","user_uuid":"the-user-id","exp":6974056800,"aud":"theClientId","azp":"theClientId"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 79, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for PUEVHB6kXrUOZUjttgXOCz9d5TJ+SB5zj4t52I+QDtk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexJarDir=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex
+nondexExecid=sITuES9lCjCqcrw9EgXL4EFS9hfOBcqCJw6SLMpzAYk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+22:19:01.142 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71329995
+22:19:01.155 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:19:01.214 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:19:01.216 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:19:01.218 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:19:01.219 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:19:01.223 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:19:01.224 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:19:01.224 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:19:01.232 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'xsuaaServiceConfigurationsTest.EnablePropertiesConfiguration'
+22:19:01.237 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:19:01.238 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:19:01.241 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.xsuaa-com.sap.cloud.security.spring.config.XsuaaServiceConfiguration'
+22:19:01.410 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services-com.sap.cloud.security.spring.config.XsuaaServiceConfigurations'
+22:19:01.486 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@71329995, started on Thu Oct 01 22:19:01 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.637 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationsTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in com.sap.cloud.security.spring.config.[1mOAuth2ServiceConfigurationPropertiesTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+22:19:01.609 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d10fb8
+22:19:01.610 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:19:01.614 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:19:01.614 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:19:01.615 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:19:01.615 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:19:01.615 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:19:01.616 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:19:01.616 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:19:01.617 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:19:01.618 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:19:01.618 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:19:01.619 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:19:01.639 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@52d10fb8, started on Thu Oct 01 22:19:01 CDT 2026
+22:19:01.645 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@433ffad1
+22:19:01.645 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+22:19:01.648 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+22:19:01.649 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+22:19:01.649 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+22:19:01.650 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+22:19:01.650 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+22:19:01.650 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+22:19:01.650 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+22:19:01.651 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'identityServiceConfigurationTest.EnablePropertiesConfiguration'
+22:19:01.651 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+22:19:01.652 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+22:19:01.653 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sap.security.services.identity-com.sap.cloud.security.spring.config.IdentityServiceConfiguration'
+22:19:01.667 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@433ffad1, started on Thu Oct 01 22:19:01 CDT 2026
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in com.sap.cloud.security.spring.config.[1mIdentityServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+22:19:01.683 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:19:01.685 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:19:01.694 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:19:01.702 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest], using SpringBootContextLoader
+22:19:01.704 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTest-context.xml] does not exist
+22:19:01.705 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: class path resource [com/sap/cloud/security/spring/config/IdentityServicesPropertySourceFactoryTestContext.groovy] does not exist
+22:19:01.705 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:19:01.734 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]
+22:19:01.749 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryTest]: using defaults.
+22:19:01.749 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22:19:01.760 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+22:19:01.760 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:19:01.761 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74cf8b28, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36c54a56, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3359c978, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ba63fe5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73386d72, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f330eb9, org.springframework.test.context.event.EventPublishingTestExecutionListener@125c082e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@584f5497, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68ace111, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1f9d6c7b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6df20ade, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fbb001b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4010d494]
+22:19:01.764 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5e63cad testClass = IdentityServicesPropertySourceFactoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6759f091 testClass = IdentityServicesPropertySourceFactoryTest, locations = '{}', classes = '{class com.sap.cloud.security.spring.config.TestConfigurationFromFile}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6548bb7d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1556f2dd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5a772895, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@c0b41d6, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5dda14d0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6b8ca3c8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+22:19:01.837 [main] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+22:19:01.839 [main] INFO org.eclipse.jetty.util.log - Logging initialized @2242ms to org.eclipse.jetty.util.log.Slf4jLog
+22:19:01.839 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - InitialContextFactory.getInitialContext()
+22:19:01.843 [main] DEBUG org.eclipse.jetty.jndi.NamingContext - new org.eclipse.jetty.jndi.local.localContextRoot$NamingRoot@40620d8e[name=null,parent=,bindings.size=0]
+22:19:01.843 [main] DEBUG org.eclipse.jetty.jndi.InitialContextFactory - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@49b07ee3
+22:19:01.844 [main] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+22:19:01.846 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:19:02.253  WARN 85757 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:19:02.270  INFO 85757 --- [           main] dentityServicesPropertySourceFactoryTest : Starting IdentityServicesPropertySourceFactoryTest using Java 11.0.32.1 on Toast with PID 85757 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:19:02.271  INFO 85757 --- [           main] dentityServicesPropertySourceFactoryTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:19:02.478  INFO 85757 --- [           main] dentityServicesPropertySourceFactoryTest : Started IdentityServicesPropertySourceFactoryTest in 0.632 seconds (JVM running for 2.881)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.214 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.sap.cloud.security.spring.config.[1mXsuaaServiceConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+2026-10-01 22:19:02.949  INFO 85757 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest], using SpringBootContextLoader
+2026-10-01 22:19:02.951  INFO 85757 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sap.cloud.security.spring.config.IdentityServicesPropertySourceFactoryMultiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-10-01 22:19:02.961  INFO 85757 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-10-01 22:19:02.963  INFO 85757 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f8aba08, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7ff19c33, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@52b3bf03, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7cca01a8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@462abec3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35c9a231, org.springframework.test.context.event.EventPublishingTestExecutionListener@7a4d582c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5626d18c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45e9b12d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3dc95b8b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d55e826, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d1ff6b1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@45f756e6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2026-10-01 22:19:03.101  WARN 85757 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/a360/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/home/a360/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-01 22:19:03.103  INFO 85757 --- [           main] tyServicesPropertySourceFactoryMultiTest : Starting IdentityServicesPropertySourceFactoryMultiTest using Java 11.0.32.1 on Toast with PID 85757 (started by a360 in /home/a360/research/projects/cloud-security-services-integration-library/spring-security)
+2026-10-01 22:19:03.103  INFO 85757 --- [           main] tyServicesPropertySourceFactoryMultiTest : No active profile set, falling back to default profiles: default
+2026-10-01 22:19:03.114  INFO 85757 --- [           main] c.s.c.security.config.cf.CFEnvParser     : More than one service configuration available for service XSUAA.
+2026-10-01 22:19:03.154  INFO 85757 --- [           main] tyServicesPropertySourceFactoryMultiTest : Started IdentityServicesPropertySourceFactoryMultiTest in 0.185 seconds (JVM running for 3.557)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.223 s - in com.sap.cloud.security.spring.config.[1mIdentityServicesPropertySourceFactoryMultiTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+2026-10-01 22:19:03.347  WARN 85757 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured certificate based RestOperations bean
+2026-10-01 22:19:03.673  INFO 85757 --- [           main] c.s.c.security.client.HttpClientFactory  : loaded HttpClientFactory service providers: [com.sap.cloud.security.client.DefaultHttpClientFactory@7edb6fca]
+2026-10-01 22:19:03.673  WARN 85757 --- [           main] c.s.c.s.client.DefaultHttpClientFactory  : In productive environment provide well configured HttpClientFactory service
+2026-10-01 22:19:03.930  WARN 85757 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:19:04.007  WARN 85757 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:19:04.150  WARN 85757 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+2026-10-01 22:19:04.197  WARN 85757 --- [           main] uration$$EnhancerBySpringCGLIB$$67f787eb : In productive environment provide a well configured client secret based RestOperations bean
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.245 s - in com.sap.cloud.security.spring.autoconfig.[1mXsuaaTokenFlowAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in com.sap.cloud.security.spring.autoconfig.[1mSecurityContextAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+2026-10-01 22:19:04.621  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.621  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:19:04.623  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.707  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.809  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.810  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:19:04.810  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.811  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.812  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:19:04.812  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid2.
+2026-10-01 22:19:04.812  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.887  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:04.887  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:19:04.887  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:05.077  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+2026-10-01 22:19:05.077  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId theAppName.
+2026-10-01 22:19:05.077  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId cid.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.57 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridIdentityServicesAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in com.sap.cloud.security.spring.autoconfig.[1mHybridAuthorizationAutoConfigurationTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+2026-10-01 22:19:05.801  INFO 85757 --- [           main] com.sap.cloud.security.token.Token       : loaded TokenFactory service providers: [com.sap.cloud.security.servlet.HybridTokenFactory@621f23ac]
+2026-10-01 22:19:06.395  WARN 85757 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.152 s - in com.sap.cloud.security.spring.token.authentication.[1mIasJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+2026-10-01 22:19:07.024  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:19:07.205  WARN 85757 --- [           main] c.s.c.s.t.validation.ValidationResults   : error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.799 s - in com.sap.cloud.security.spring.token.authentication.[1mHybridJwtDecoderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+2026-10-01 22:19:07.280  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:19:07.281  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:19:07.281  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:19:07.281  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:19:07.283  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:19:07.284  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+2026-10-01 22:19:07.284  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId clientId.
+2026-10-01 22:19:07.285  INFO 85757 --- [           main] c.s.c.s.t.v.v.JwtAudienceValidator       : configured JwtAudienceValidator with clientId otherClientId.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s - in com.sap.cloud.security.spring.token.authentication.[1mJwtDecoderBuilderTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+2026-10-01 22:19:07.758  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.364 s - in com.sap.cloud.security.spring.token.authentication.[1mXsuaaTokenAuthorizationConverterTest[m
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.456 s[1;31m <<< FAILURE![m - in com.sap.cloud.security.spring.token.authentication.[1mAuthenticationTokenTest[m
+[[1;31mERROR[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <AuthenticationToken [Principal=Jwt header
+	{"alg":"RS256","kid":"default-kid-ias"}
+Jwt payload
+	{"exp":6974056800,"aud":"theClientId","user_uuid":"the-user-id","zone_uuid":"the-zone-id","azp":"theClientId","cid":"theClientId"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]> but was: <AuthenticationToken [Principal=Jwt header
+	{"alg":"RS256","kid":"default-kid-ias"}
+Jwt payload
+	{"zone_uuid":"the-zone-id","azp":"theClientId","cid":"theClientId","aud":"theClientId","exp":6974056800,"user_uuid":"the-user-id"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]>
+	at com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest.equals(AuthenticationTokenTest.java:41)
+
+[[1;34mINFO[m] Running com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+2026-10-01 22:19:08.430  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:19:08.789  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:19:09.084  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:19:09.733  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:19:10.102  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+2026-10-01 22:19:10.580  WARN 85757 --- [           main] c.s.c.s.servlet.HybridTokenFactory       : There is no xsuaa service configuration: no local scope check possible.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.814 s - in com.sap.cloud.security.spring.token.[1mSpringSecurityContextTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  AuthenticationTokenTest.equals:41 expected: <AuthenticationToken [Principal=Jwt header
+	{"alg":"RS256","kid":"default-kid-ias"}
+Jwt payload
+	{"exp":6974056800,"aud":"theClientId","user_uuid":"the-user-id","zone_uuid":"the-zone-id","azp":"theClientId","cid":"theClientId"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]> but was: <AuthenticationToken [Principal=Jwt header
+	{"alg":"RS256","kid":"default-kid-ias"}
+Jwt payload
+	{"zone_uuid":"the-zone-id","azp":"theClientId","cid":"theClientId","aud":"theClientId","exp":6974056800,"user_uuid":"the-user-id"}
+, Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 79, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for sITuES9lCjCqcrw9EgXL4EFS9hfOBcqCJw6SLMpzAYk=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex" -DnondexJarDir="/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex" -DnondexExecid=fnjoiUJo31I1yWc1YCHl4yx5XIWlHhlAHD7oDofDgZ0= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest#equals
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex" -DnondexJarDir="/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex" -DnondexExecid=PUEVHB6kXrUOZUjttgXOCz9d5TJ+SB5zj4t52I+QDtk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest#equals
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex" -DnondexJarDir="/home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex" -DnondexExecid=sITuES9lCjCqcrw9EgXL4EFS9hfOBcqCJw6SLMpzAYk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest#equals
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.sap.cloud.security.spring.token.authentication.AuthenticationTokenTest#equals
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex/fnjoiUJo31I1yWc1YCHl4yx5XIWlHhlAHD7oDofDgZ0=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: fnjoiUJo31I1yWc1YCHl4yx5XIWlHhlAHD7oDofDgZ0=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  48.915 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:19:11-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mspring-security[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/cloud-security-services-integration-library/spring-security/.nondex/fnjoiUJo31I1yWc1YCHl4yx5XIWlHhlAHD7oDofDgZ0= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

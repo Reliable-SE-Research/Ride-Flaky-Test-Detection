@@ -1,0 +1,61 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.alibaba.nacos:nacos-api[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding nacos-api 1.4.0-SNAPSHOT 1.4.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mnacos-api[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:check[m [1m(validate)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.7.8:prepare-agent[m [1m(default-prepare-agent)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/home/a360/research/projects/nacos/api/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:resources[m [1m(default-resources)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:compile[m [1m(default-compile)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:testResources[m [1m(default-testResources)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/nacos/api/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mnacos-api[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mnacos-api[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 17 tests. Time taken: 0.1529998779296875 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.alibaba.nacos:nacos-api:1.4.0-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/nacos/api/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/nacos/api/.dtfixingtools/original-order
+[INFO] Getting original results (17 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified com.alibaba.nacos.api.naming.pojo.healthcheck.HealthCheckerFactoryTest.testDeserializeExtend, status: expected ERROR, got ERROR
+Verified com.alibaba.nacos.api.naming.pojo.healthcheck.HealthCheckerFactoryTest.testDeserializeExtend, status: expected PASS, got PASS
+[INFO] Found 1 tests in round 1 of 3 (0.0 seconds elapsed (3.2 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (0.0 seconds elapsed (4.2 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (1.1 seconds elapsed (5.4 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /home/a360/research/projects/nacos/api/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/nacos/api/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  12.529 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:24:20-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,162 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcn.hutool:hutool-cron[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding hutool-cron 4.1.14[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mhutool-cron[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mhutool-cron[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/hutool/hutool-cron/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:compile[m [1m(default-compile)[m @ [36mhutool-cron[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 37 source files to /home/a360/research/projects/hutool/hutool-cron/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mhutool-cron[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mhutool-cron[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mhutool-cron[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mhutool-cron[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Vqx8zdM0iYMs8GXKexm0rVpUInpLOAXcm+oHdp5HOs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/hutool/hutool-cron/.nondex/clean_Vqx8zdM0iYMs8GXKexm0rVpUInpLOAXcm+oHdp5HOs=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cn.hutool.cron.test.CronTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 sec - in cn.hutool.cron.test.CronTest
+Running cn.hutool.cron.demo.CronTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 sec - in cn.hutool.cron.demo.CronTest
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexJarDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexExecid=m4MIOxAxvBhZ1mof1KnjuAXjFESi2BkgNTfvT8SXb+w=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/hutool/hutool-cron/.nondex/m4MIOxAxvBhZ1mof1KnjuAXjFESi2BkgNTfvT8SXb+w=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cn.hutool.cron.test.CronTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 sec - in cn.hutool.cron.test.CronTest
+Running cn.hutool.cron.demo.CronTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 sec - in cn.hutool.cron.demo.CronTest
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexJarDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexExecid=1sVbGZosuusmcT9a1wegrBiZK0OABxI0UqOYvyhe60=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/hutool/hutool-cron/.nondex/1sVbGZosuusmcT9a1wegrBiZK0OABxI0UqOYvyhe60=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cn.hutool.cron.test.CronTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 sec - in cn.hutool.cron.test.CronTest
+Running cn.hutool.cron.demo.CronTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 sec - in cn.hutool.cron.demo.CronTest
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexJarDir=/home/a360/research/projects/hutool/hutool-cron/.nondex
+nondexExecid=AS8Pr0XdK9k5sU6wKb9IxTIqS95YB1SWuv3WiwfDowI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/hutool/hutool-cron/.nondex/AS8Pr0XdK9k5sU6wKb9IxTIqS95YB1SWuv3WiwfDowI=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cn.hutool.cron.test.CronTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 sec - in cn.hutool.cron.test.CronTest
+Running cn.hutool.cron.demo.CronTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 sec - in cn.hutool.cron.demo.CronTest
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hutool/hutool-cron/.nondex" -DnondexJarDir="/home/a360/research/projects/hutool/hutool-cron/.nondex" -DnondexExecid=m4MIOxAxvBhZ1mof1KnjuAXjFESi2BkgNTfvT8SXb+w= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hutool/hutool-cron/.nondex" -DnondexJarDir="/home/a360/research/projects/hutool/hutool-cron/.nondex" -DnondexExecid=1sVbGZosuusmcT9a1wegrBiZK0OABxI0UqOYvyhe60= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hutool/hutool-cron/.nondex" -DnondexJarDir="/home/a360/research/projects/hutool/hutool-cron/.nondex" -DnondexExecid=AS8Pr0XdK9k5sU6wKb9IxTIqS95YB1SWuv3WiwfDowI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/hutool/hutool-cron/.nondex/m4MIOxAxvBhZ1mof1KnjuAXjFESi2BkgNTfvT8SXb+w=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: m4MIOxAxvBhZ1mof1KnjuAXjFESi2BkgNTfvT8SXb+w=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.741 s
+[[1;34mINFO[m] Finished at: 2026-10-02T16:58:45-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

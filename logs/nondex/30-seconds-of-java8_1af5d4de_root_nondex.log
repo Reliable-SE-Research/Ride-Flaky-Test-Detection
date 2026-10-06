@@ -1,0 +1,254 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mio.github.biezhi:30-seconds-of-java8[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding 30-seconds-of-java8 1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36m30-seconds-of-java8[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36m30-seconds-of-java8[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/30-seconds-of-java8/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36m30-seconds-of-java8[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36m30-seconds-of-java8[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/30-seconds-of-java8/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36m30-seconds-of-java8[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36m30-seconds-of-java8[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36m30-seconds-of-java8[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_VrvG4aUrNFaSRGFR6A6fqM2bLiUwTUEM9CdDT5I9ywo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running snippets.[1mSnippetsTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m86[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in snippets.[1mSnippetsTests[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 86, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexJarDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexExecid=Jg3LlXEMUniffpXRZjBetbAPoX7FPzyuOXIknnipQdA=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running snippets.[1mSnippetsTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m86[m, [1;31mFailures: [0;1;31m3[m, Errors: 0, Skipped: 0, Time elapsed: 0.186 s[1;31m <<< FAILURE![m - in snippets.[1mSnippetsTests[m
+[[1;31mERROR[m] pick_should_pick_key_pairs_corresponding_to_keys(snippets.SnippetsTests)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key="c", value=3]>
+whereas expected element was:
+  <a=1>
+
+	at snippets.SnippetsTests.pick_should_pick_key_pairs_corresponding_to_keys(SnippetsTests.java:331)
+
+[[1;31mERROR[m] union_test(snippets.SnippetsTests)  Time elapsed: 0.003 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[1, 2], 3, 4]> but was:<[[2, 1], 3, 4]>
+	at snippets.SnippetsTests.union_test(SnippetsTests.java:412)
+
+[[1;31mERROR[m] group_elements_by_length(snippets.SnippetsTests)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key=5, value=["three"]]>
+whereas expected element was:
+  <3=[one, two]>
+
+	at snippets.SnippetsTests.group_elements_by_length(SnippetsTests.java:232)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  SnippetsTests.group_elements_by_length:232 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key=5, value=["three"]]>
+whereas expected element was:
+  <3=[one, two]>
+[m
+[[1;31mERROR[m] [1;31m  SnippetsTests.pick_should_pick_key_pairs_corresponding_to_keys:331 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key="c", value=3]>
+whereas expected element was:
+  <a=1>
+[m
+[[1;31mERROR[m] [1;31m  SnippetsTests.union_test:412 expected:<[[1, 2], 3, 4]> but was:<[[2, 1], 3, 4]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 86, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for Jg3LlXEMUniffpXRZjBetbAPoX7FPzyuOXIknnipQdA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexJarDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexExecid=sK8VMr5EBongu9uPkjlIrmHDxxOZWuAKw1mAz1U3rw0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running snippets.[1mSnippetsTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m86[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.174 s[1;31m <<< FAILURE![m - in snippets.[1mSnippetsTests[m
+[[1;31mERROR[m] pick_should_pick_key_pairs_corresponding_to_keys(snippets.SnippetsTests)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key="c", value=3]>
+whereas expected element was:
+  <a=1>
+
+	at snippets.SnippetsTests.pick_should_pick_key_pairs_corresponding_to_keys(SnippetsTests.java:331)
+
+[[1;31mERROR[m] union_test(snippets.SnippetsTests)  Time elapsed: 0.004 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[1, 2, 3, 4]]> but was:<[[4, 3, 2, 1]]>
+	at snippets.SnippetsTests.union_test(SnippetsTests.java:412)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  SnippetsTests.pick_should_pick_key_pairs_corresponding_to_keys:331 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key="c", value=3]>
+whereas expected element was:
+  <a=1>
+[m
+[[1;31mERROR[m] [1;31m  SnippetsTests.union_test:412 expected:<[[1, 2, 3, 4]]> but was:<[[4, 3, 2, 1]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 86, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for sK8VMr5EBongu9uPkjlIrmHDxxOZWuAKw1mAz1U3rw0=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexJarDir=/home/a360/research/projects/30-seconds-of-java8/.nondex
+nondexExecid=oLbrjVnHJljGH3T6blaq4MKnZVx5Gxy9uwDcD0ecm8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running snippets.[1mSnippetsTests[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m86[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.189 s[1;31m <<< FAILURE![m - in snippets.[1mSnippetsTests[m
+[[1;31mERROR[m] union_test(snippets.SnippetsTests)  Time elapsed: 0.012 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[1, 2, 3, 4]]> but was:<[[3, 1, 4, 2]]>
+	at snippets.SnippetsTests.union_test(SnippetsTests.java:412)
+
+[[1;31mERROR[m] group_elements_by_length(snippets.SnippetsTests)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key=5, value=["three"]]>
+whereas expected element was:
+  <3=[one, two]>
+
+	at snippets.SnippetsTests.group_elements_by_length(SnippetsTests.java:232)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  SnippetsTests.group_elements_by_length:232 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <MapEntry[key=5, value=["three"]]>
+whereas expected element was:
+  <3=[one, two]>
+[m
+[[1;31mERROR[m] [1;31m  SnippetsTests.union_test:412 expected:<[[1, 2, 3, 4]]> but was:<[[3, 1, 4, 2]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 86, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for oLbrjVnHJljGH3T6blaq4MKnZVx5Gxy9uwDcD0ecm8=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/30-seconds-of-java8/.nondex" -DnondexJarDir="/home/a360/research/projects/30-seconds-of-java8/.nondex" -DnondexExecid=Jg3LlXEMUniffpXRZjBetbAPoX7FPzyuOXIknnipQdA= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] snippets.SnippetsTests#pick_should_pick_key_pairs_corresponding_to_keys
+[[1;33mWARNING[m] snippets.SnippetsTests#union_test
+[[1;33mWARNING[m] snippets.SnippetsTests#group_elements_by_length
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/30-seconds-of-java8/.nondex" -DnondexJarDir="/home/a360/research/projects/30-seconds-of-java8/.nondex" -DnondexExecid=sK8VMr5EBongu9uPkjlIrmHDxxOZWuAKw1mAz1U3rw0= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] snippets.SnippetsTests#pick_should_pick_key_pairs_corresponding_to_keys
+[[1;33mWARNING[m] snippets.SnippetsTests#union_test
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/30-seconds-of-java8/.nondex" -DnondexJarDir="/home/a360/research/projects/30-seconds-of-java8/.nondex" -DnondexExecid=oLbrjVnHJljGH3T6blaq4MKnZVx5Gxy9uwDcD0ecm8= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] snippets.SnippetsTests#union_test
+[[1;33mWARNING[m] snippets.SnippetsTests#group_elements_by_length
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] snippets.SnippetsTests#pick_should_pick_key_pairs_corresponding_to_keys
+[[1;34mINFO[m] snippets.SnippetsTests#union_test
+[[1;34mINFO[m] snippets.SnippetsTests#group_elements_by_length
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/30-seconds-of-java8/.nondex/Jg3LlXEMUniffpXRZjBetbAPoX7FPzyuOXIknnipQdA=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: Jg3LlXEMUniffpXRZjBetbAPoX7FPzyuOXIknnipQdA=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.690 s
+[[1;34mINFO[m] Finished at: 2026-10-02T09:24:11-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36m30-seconds-of-java8[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/30-seconds-of-java8/.nondex/Jg3LlXEMUniffpXRZjBetbAPoX7FPzyuOXIknnipQdA= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

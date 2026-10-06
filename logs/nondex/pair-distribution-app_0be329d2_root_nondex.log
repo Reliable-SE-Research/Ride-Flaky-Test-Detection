@@ -1,0 +1,1211 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcom.sap.cloud:pair-distribution-application[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding pair-distribution-application 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mpair-distribution-application[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:resources[m [1m(default-resources)[m @ [36mpair-distribution-application[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:compile[m [1m(default-compile)[m @ [36mpair-distribution-application[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:testResources[m [1m(default-testResources)[m @ [36mpair-distribution-application[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/pair-distribution-app/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mpair-distribution-application[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mpair-distribution-application[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mpair-distribution-application[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_xc1WPmYYt6lM0280L20kmI+3mA3cKnkT02uLm3SU10=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 s - in pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+22:27:51.410 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:51.419 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:51.419 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:51.427 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] Running pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+22:27:51.552 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:51.553 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update by date found
+22:27:51.553 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Repository state: Pairs [pairs={oldTrack=Pair [devs=[], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:51.554 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Board state: Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:51.554 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update finished
+22:27:51.555 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:51.555 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:51.555 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:51.555 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:51.579 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:51.579 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.579 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.580 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:51.580 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:51.580 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.580 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.581 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.581 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:51.581 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:51.591 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.591 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:51.591 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.591 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:51.594 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.594 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:51.594 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.594 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.594 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:51.595 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:51.595 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:51.595 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.595 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:51.597 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.597 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:51.598 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.598 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.598 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:51.598 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:51.598 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.599 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.599 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:51.602 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:51.602 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:51.602 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.602 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:51.603 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:51.603 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.603 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:51.605 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: bar-track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.606 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:51.607 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:51.607 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:51.607 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.607 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev5
+22:27:51.618 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.619 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.619 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:51.619 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.619 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.619 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:51.620 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:51.620 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.620 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.620 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.620 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:51.621 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:51.623 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:51.623 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.623 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: null
+22:27:51.623 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.624 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:51.624 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair three days back: null
+22:27:51.624 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.624 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Same track solo again track2 or solo dev dev3 not available. Solo dev should rotate.
+22:27:51.626 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:51.627 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:51.628 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:51.628 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:51.628 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:51.628 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:51.629 [main] INFO pair.distribution.app.helpers.DayPairsHelper - More than one entry found. They are: [Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=30-09-2026], Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=29-09-2026], Pairs [pairs={track1=Pair [devs=[dev1, dev4], opsPair=false, locked=false], track2=Pair [devs=[dev2, dev3], opsPair=false, locked=false]}, date=28-09-2026]]
+22:27:51.631 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.631 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:51.632 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.632 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.632 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:51.632 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:51.632 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:51.633 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.633 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.633 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:51.633 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:51.633 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:51.633 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.634 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.634 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev5
+22:27:51.634 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+{track1=Pair [devs=[dev4, dev5], opsPair=false, locked=false], track2=Pair [devs=[dev1, dev6], opsPair=false, locked=false], track3=Pair [devs=[dev2, dev3], opsPair=false, locked=false]}
+22:27:51.636 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:51.636 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:51.644 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:51.644 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:51.644 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.644 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.645 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:51.645 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:51.645 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.645 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.645 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:51.645 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:51.646 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:51.649 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:51.649 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.649 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:51.650 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:51.650 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:51.650 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:51.652 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:51.652 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.652 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:51.652 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:51.652 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:51.652 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.209 s - in pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 131, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexJarDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexExecid=xotGRNhOD29JOWzYSdPizejMolR5IVVcXqjrTm2RDk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.464 s - in pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+22:27:53.311 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:53.319 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:53.320 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:53.329 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] Running pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+22:27:53.461 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:53.462 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update by date found
+22:27:53.462 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Repository state: Pairs [pairs={oldTrack=Pair [devs=[], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:53.462 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Board state: Pairs [pairs={track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:53.463 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update finished
+22:27:53.463 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:53.464 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:53.464 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:53.464 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:53.483 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:53.484 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.484 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.485 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:53.485 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:53.485 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.485 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.485 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.486 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:53.486 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:53.498 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.498 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:53.498 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.498 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:53.501 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.501 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:53.501 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.501 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.502 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:53.502 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:53.502 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:53.502 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.503 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:53.505 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.506 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:53.506 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.506 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.506 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:53.506 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:53.506 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.507 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.507 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:53.510 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:53.510 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:53.510 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.510 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:53.511 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:53.511 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.511 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:53.514 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.514 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: bar-track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:53.514 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.514 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:53.515 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:53.515 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.515 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.515 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:53.516 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:53.516 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:53.516 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.516 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev5
+22:27:53.526 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.527 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.527 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:53.527 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.527 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.527 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:53.527 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:53.528 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.529 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.529 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.529 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:53.529 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:53.531 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.532 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair three days back: null
+22:27:53.532 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.532 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:53.532 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: null
+22:27:53.532 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.532 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:53.534 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:53.535 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:53.535 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:53.535 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:53.536 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:53.536 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:53.536 [main] INFO pair.distribution.app.helpers.DayPairsHelper - More than one entry found. They are: [Pairs [pairs={track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false]}, date=30-09-2026], Pairs [pairs={track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false]}, date=29-09-2026], Pairs [pairs={track2=Pair [devs=[dev2, dev3], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev4], opsPair=false, locked=false]}, date=28-09-2026]]
+22:27:53.538 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.539 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:53.539 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.539 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.539 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:53.539 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:53.539 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:53.540 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.540 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.540 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:53.540 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:53.540 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:53.541 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.541 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.541 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev5
+22:27:53.541 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:53.543 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:53.543 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:53.551 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:53.551 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:53.551 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.552 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.552 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:53.552 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:53.552 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.553 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.553 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:53.553 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:53.553 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:53.557 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:53.557 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.557 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:53.559 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:53.559 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:53.559 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:53.561 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:53.561 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.561 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:53.561 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:53.561 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:53.561 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m39[m, [1;31mFailures: [0;1;31m3[m, Errors: 0, Skipped: 0, Time elapsed: 0.221 s[1;31m <<< FAILURE![m - in pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+[[1;31mERROR[m] testGenerateNewDayPairsWithEverydayRotation(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithEverydayRotation(DayPairsHelperTest.java:140)
+
+[[1;31mERROR[m] testGenerateNewDayPairsWithSmallestWeight(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2", "track3"]
+     but: item 0: was "track3"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight(DayPairsHelperTest.java:164)
+
+[[1;31mERROR[m] testGenerateNewDayPairsNoPastState(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState(DayPairsHelperTest.java:274)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsNoPastState:274 
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"[m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsWithEverydayRotation:140 
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"[m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight:164 
+Expected: iterable containing ["track1", "track2", "track3"]
+     but: item 0: was "track3"[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 131, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for xotGRNhOD29JOWzYSdPizejMolR5IVVcXqjrTm2RDk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexJarDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexExecid=47ykQ+bdHXaDwxilFTjIjCRcvtgLJhEVZt7tmlKLxU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.45 s - in pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+22:27:55.119 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:55.126 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:55.126 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:55.134 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] Running pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+22:27:55.256 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:55.257 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update by date found
+22:27:55.257 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Repository state: Pairs [pairs={oldTrack=Pair [devs=[], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:55.257 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Board state: Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:55.258 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update finished
+22:27:55.258 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:55.259 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:55.259 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:55.259 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:55.276 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:55.276 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.277 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.277 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:55.277 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:55.277 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.277 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.278 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.278 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:55.278 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:55.291 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.291 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:55.291 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.291 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:55.294 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.294 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:55.294 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.294 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.294 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:55.295 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:55.295 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:55.295 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.295 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:55.298 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.298 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:55.298 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.298 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.298 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:55.298 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:55.299 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.299 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.299 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:55.302 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:55.302 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:55.302 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.302 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:55.303 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:55.303 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.303 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:55.306 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.306 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: bar-track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:55.306 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.306 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:55.307 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:55.307 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.307 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.307 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:55.307 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:55.308 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:55.308 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.308 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev5
+22:27:55.320 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.321 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.321 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:55.321 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.321 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.321 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:55.321 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:55.322 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.322 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.322 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.322 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:55.322 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:55.325 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.325 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair three days back: null
+22:27:55.325 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.325 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:55.325 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: null
+22:27:55.325 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.326 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:55.327 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:55.329 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:55.329 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:55.329 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:55.329 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:55.330 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:55.330 [main] INFO pair.distribution.app.helpers.DayPairsHelper - More than one entry found. They are: [Pairs [pairs={track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false]}, date=30-09-2026], Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=29-09-2026], Pairs [pairs={track1=Pair [devs=[dev1, dev4], opsPair=false, locked=false], track2=Pair [devs=[dev2, dev3], opsPair=false, locked=false]}, date=28-09-2026]]
+22:27:55.333 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.333 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:55.333 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.333 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.333 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:55.333 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:55.334 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:55.334 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.334 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.334 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:55.334 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:55.334 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:55.335 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.335 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.335 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev5
+22:27:55.335 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+{track3=Pair [devs=[dev2, dev3], opsPair=false, locked=false], track2=Pair [devs=[dev1, dev6], opsPair=false, locked=false], track1=Pair [devs=[dev4, dev5], opsPair=false, locked=false]}
+22:27:55.338 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:55.338 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:55.345 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:55.345 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:55.345 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.346 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.346 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:55.346 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:55.346 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.346 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.347 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:55.347 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:55.347 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:55.350 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:55.350 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.350 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:55.352 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:55.352 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:55.352 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:55.353 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:55.353 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.353 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:55.353 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:55.353 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:55.353 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m39[m, [1;31mFailures: [0;1;31m4[m, Errors: 0, Skipped: 0, Time elapsed: 0.21 s[1;31m <<< FAILURE![m - in pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+[[1;31mERROR[m] testGenerateNewDayPairsWithEverydayRotation(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: 
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithEverydayRotation(DayPairsHelperTest.java:140)
+
+[[1;31mERROR[m] testGenerateNewDayPairsOnlyOldDevAvailableForStory(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory(DayPairsHelperTest.java:212)
+
+[[1;31mERROR[m] testGenerateNewDayPairsSoloRequired(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsSoloRequired(DayPairsHelperTest.java:181)
+
+[[1;31mERROR[m] testGenerateNewDayPairsNoPastState(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: 
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsNoPastState(DayPairsHelperTest.java:274)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsNoPastState:274 
+Expected: iterable containing ["track1", "track2"]
+     but: [m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory:212 
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"[m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsSoloRequired:181 
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"[m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsWithEverydayRotation:140 
+Expected: iterable containing ["track1", "track2"]
+     but: [m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 131, Failures: 4, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 47ykQ+bdHXaDwxilFTjIjCRcvtgLJhEVZt7tmlKLxU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexJarDir=/home/a360/research/projects/pair-distribution-app/.nondex
+nondexExecid=d40ohvOJE4uCFzk0ixfYMiy1HNYERxF1GL1mZMWhds=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.453 s - in pair.distribution.app.trello.[1mPairingBoardTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in pair.distribution.app.trello.entities.[1mDayPairsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in pair.distribution.app.trello.entities.[1mDeveloperTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in pair.distribution.app.trello.entities.[1mOpsPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in pair.distribution.app.trello.entities.[1mPairTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+22:27:56.839 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:56.846 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:56.847 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:56.854 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in pair.distribution.app.trello.entities.[1mDevPairsCombinationsTest[m
+[[1;34mINFO[m] Running pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in pair.distribution.app.trello.entities.[1mCompanyTest[m
+[[1;34mINFO[m] Running pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+22:27:56.981 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:56.982 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update by date found
+22:27:56.982 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Repository state: Pairs [pairs={oldTrack=Pair [devs=[], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:56.982 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Board state: Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=30-09-2026]
+22:27:56.983 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Update finished
+22:27:56.983 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:56.984 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:56.984 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:56.984 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:57.001 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:57.001 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.002 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.002 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:57.002 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:57.002 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.002 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.002 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.003 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:57.003 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:57.016 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.016 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:57.016 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.016 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:57.019 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.019 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:57.019 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.019 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.019 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:57.020 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:57.020 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:57.020 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.020 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:57.022 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.023 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:57.023 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.023 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.023 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:57.024 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:57.024 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.024 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.024 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev3
+22:27:57.029 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : true
+22:27:57.030 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:57.030 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.031 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:57.031 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair two days back: null
+Pair three days back: null
+22:27:57.031 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.031 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:57.034 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.034 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: bar-track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:57.034 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:57.035 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:57.036 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.036 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Only one past Dev available dev5
+22:27:57.049 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.050 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.050 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:57.050 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.050 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:57.051 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:57.055 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.055 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3], opsPair=false, locked=false]
+Pair three days back: null
+22:27:57.055 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.055 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Solo dev should stay on track because it is not solo any more.
+22:27:57.055 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: null
+22:27:57.056 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.056 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No enough history for longest dev. Add one dev random
+22:27:57.058 [main] INFO pair.distribution.app.helpers.DayPairsHelper - pair with new Developers and needs adaptation. Pair is: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:57.059 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No pairs found for today.
+22:27:57.059 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:57.059 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:57.060 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No update found. Adding to repository
+22:27:57.060 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Adding finished
+22:27:57.060 [main] INFO pair.distribution.app.helpers.DayPairsHelper - More than one entry found. They are: [Pairs [pairs={track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false]}, date=30-09-2026], Pairs [pairs={track1=Pair [devs=[dev1, dev2], opsPair=false, locked=false], track2=Pair [devs=[dev3, dev4], opsPair=false, locked=false]}, date=29-09-2026], Pairs [pairs={track2=Pair [devs=[dev2, dev3], opsPair=false, locked=false], track1=Pair [devs=[dev1, dev4], opsPair=false, locked=false]}, date=28-09-2026]]
+22:27:57.063 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.063 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+22:27:57.063 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.064 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.064 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:57.064 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:57.064 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev6], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+22:27:57.064 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.065 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.065 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:57.065 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev6
+22:27:57.065 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track3
+Pair one day back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev5], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev5, dev6], opsPair=false, locked=false]
+22:27:57.065 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.065 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.066 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev5
+22:27:57.066 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:57.068 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:57.068 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:57.077 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : true and for NewDevelopers is : false
+22:27:57.077 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev1, dev2], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+22:27:57.077 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.077 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev1
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev2
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev3, dev4], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - There is history to find longest dev
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Longest dev is dev3
+22:27:57.078 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Dev with context to stay is dev4
+22:27:57.082 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:57.082 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.083 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:57.084 [main] INFO pair.distribution.app.trello.entities.DevPairCombinations - Rotation time for longest dev is : false and for NewDevelopers is : false
+22:27:57.084 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: Pair [devs=[dev1, dev4], opsPair=false, locked=false]
+Pair two days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+Pair three days back: Pair [devs=[dev2, dev3], opsPair=false, locked=false]
+22:27:57.085 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No rotation required
+22:27:57.086 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track1
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:57.086 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.086 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+22:27:57.086 [main] INFO pair.distribution.app.helpers.DayPairsHelper - Track is: track2
+Pair one day back: null
+Pair two days back: null
+Pair three days back: null
+22:27:57.086 [main] INFO pair.distribution.app.helpers.DayPairsHelper - time to rotate
+22:27:57.086 [main] INFO pair.distribution.app.helpers.DayPairsHelper - No history or both past Devs are unavailable. Add one dev random from available devs
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m39[m, [1;31mFailures: [0;1;31m5[m, Errors: 0, Skipped: 0, Time elapsed: 0.222 s[1;31m <<< FAILURE![m - in pair.distribution.app.helpers.[1mDayPairsHelperTest[m
+[[1;31mERROR[m] testGenerateNewDayPairsWithEverydayRotation(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: 
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithEverydayRotation(DayPairsHelperTest.java:140)
+
+[[1;31mERROR[m] testGenerateNewDayPairsOnlyOldDevAvailableForStory(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory(DayPairsHelperTest.java:212)
+
+[[1;31mERROR[m] testGenerateNewDayPairsSoloRequired(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: 
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsSoloRequired(DayPairsHelperTest.java:181)
+
+[[1;31mERROR[m] testGenerateNewDayPairsWithSmallestWeight(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2", "track3"]
+     but: 
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight(DayPairsHelperTest.java:164)
+
+[[1;31mERROR[m] testGenerateNewDayPairs(pair.distribution.app.helpers.DayPairsHelperTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"
+	at pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairs(DayPairsHelperTest.java:116)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairs:116 
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"[m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsOnlyOldDevAvailableForStory:212 
+Expected: iterable containing ["track1", "track2"]
+     but: item 0: was "track2"[m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsSoloRequired:181 
+Expected: iterable containing ["track1", "track2"]
+     but: [m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsWithEverydayRotation:140 
+Expected: iterable containing ["track1", "track2"]
+     but: [m
+[[1;31mERROR[m] [1;31m  DayPairsHelperTest.testGenerateNewDayPairsWithSmallestWeight:164 
+Expected: iterable containing ["track1", "track2", "track3"]
+     but: [m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 131, Failures: 5, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for d40ohvOJE4uCFzk0ixfYMiy1HNYERxF1GL1mZMWhds=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/pair-distribution-app/.nondex" -DnondexJarDir="/home/a360/research/projects/pair-distribution-app/.nondex" -DnondexExecid=xotGRNhOD29JOWzYSdPizejMolR5IVVcXqjrTm2RDk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithEverydayRotation
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithSmallestWeight
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsNoPastState
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/pair-distribution-app/.nondex" -DnondexJarDir="/home/a360/research/projects/pair-distribution-app/.nondex" -DnondexExecid=47ykQ+bdHXaDwxilFTjIjCRcvtgLJhEVZt7tmlKLxU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithEverydayRotation
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsOnlyOldDevAvailableForStory
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsSoloRequired
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsNoPastState
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/pair-distribution-app/.nondex" -DnondexJarDir="/home/a360/research/projects/pair-distribution-app/.nondex" -DnondexExecid=d40ohvOJE4uCFzk0ixfYMiy1HNYERxF1GL1mZMWhds= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithEverydayRotation
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsOnlyOldDevAvailableForStory
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsSoloRequired
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithSmallestWeight
+[[1;33mWARNING[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairs
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithEverydayRotation
+[[1;34mINFO[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsWithSmallestWeight
+[[1;34mINFO[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsNoPastState
+[[1;34mINFO[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsOnlyOldDevAvailableForStory
+[[1;34mINFO[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairsSoloRequired
+[[1;34mINFO[m] pair.distribution.app.helpers.DayPairsHelperTest#testGenerateNewDayPairs
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/pair-distribution-app/.nondex/xotGRNhOD29JOWzYSdPizejMolR5IVVcXqjrTm2RDk=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: xotGRNhOD29JOWzYSdPizejMolR5IVVcXqjrTm2RDk=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.236 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:27:57-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mpair-distribution-application[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/pair-distribution-app/.nondex/xotGRNhOD29JOWzYSdPizejMolR5IVVcXqjrTm2RDk= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

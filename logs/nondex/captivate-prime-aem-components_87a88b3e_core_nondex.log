@@ -1,0 +1,332 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.adobe.prime:captivate-prime.core:bundle:1.3.0
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.mockito:mockito-core:jar -> duplicate declaration of version (?) @ line 143, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.adobe.prime:captivate-prime.core[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding CPWidget - Core 1.3.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcaptivate-prime.core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:resources[m [1m(default-resources)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/captivate-prime-aem-components/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbnd:5.1.2:bnd-process[m [1m(bnd-process)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;34mINFO[m] skip project with packaging=bundle
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscr:1.26.0:scr[m [1m(generate-scr-descriptor)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.java [1:1]:  Component com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet has set a label. However metatype is set to false. This label is ignored.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.java [1:1]:  Component com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet has set a description. However metatype is set to false. This description is ignored.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.java [1:1]: Property sling.servlet.resourceTypes in class com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet is set as private. This is redundant as no metatype will be generated.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.java [1:1]: Property sling.servlet.methods in class com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet is set as private. This is redundant as no metatype will be generated.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.java [1:1]:  Component com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet has set a label. However metatype is set to false. This label is ignored.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.java [1:1]:  Component com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet has set a description. However metatype is set to false. This description is ignored.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.java [1:1]: Property sling.servlet.resourceTypes in class com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet is set as private. This is redundant as no metatype will be generated.
+[[1;33mWARNING[m] /home/a360/research/projects/captivate-prime-aem-components/core/src/main/java/com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.java [1:1]: Property sling.servlet.methods in class com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet is set as private. This is redundant as no metatype will be generated.
+[[1;34mINFO[m] Generating 1 MetaType Descriptors in /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/metatype/com.adobe.prime.core.services.EmbeddableWidgetServiceImpl.xml
+[[1;34mINFO[m] Writing 1 Service Component Descriptors to /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/com.adobe.prime.core.services.EmbeddableWidgetConfigurationServiceImpl.xml
+[[1;34mINFO[m] Writing 1 Service Component Descriptors to /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/com.adobe.prime.core.services.EmbeddableWidgetServiceImpl.xml
+[[1;34mINFO[m] Writing 1 Service Component Descriptors to /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/com.adobe.prime.core.services.EmbeddableWidgetUserServiceImpl.xml
+[[1;34mINFO[m] Writing 1 Service Component Descriptors to /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet.xml
+[[1;34mINFO[m] Writing 1 Service Component Descriptors to /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/com.adobe.prime.core.servlets.EmbeddableAdminConfigDsServlet.xml
+[[1;34mINFO[m] Writing 1 Service Component Descriptors to /home/a360/research/projects/captivate-prime-aem-components/core/target/classes/OSGI-INF/com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:4.1.0:manifest[m [1m(generate-osgi-metadata-for-unittests)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 :  Component com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet has set a label. However metatype is set to false. This label is ignored. [com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 :  Component com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet has set a description. However metatype is set to false. This description is ignored. [com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 : Property sling.servlet.resourceTypes in class com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet is set as private. This is redundant as no metatype will be generated. [com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 : Property sling.servlet.methods in class com.adobe.prime.core.servlets.EmbeddableWidgetDatasourceServlet is set as private. This is redundant as no metatype will be generated. [com/adobe/prime/core/servlets/EmbeddableWidgetDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 :  Component com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet has set a label. However metatype is set to false. This label is ignored. [com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 :  Component com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet has set a description. However metatype is set to false. This description is ignored. [com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 : Property sling.servlet.resourceTypes in class com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet is set as private. This is redundant as no metatype will be generated. [com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.class,1:1]
+[[1;33mWARNING[m] Manifest com.adobe.prime:captivate-prime.core:bundle:1.3.0 : Property sling.servlet.methods in class com.adobe.prime.core.servlets.EmbeddableWidgetListDatasourceServlet is set as private. This is redundant as no metatype will be generated. [com/adobe/prime/core/servlets/EmbeddableWidgetListDatasourceServlet.class,1:1]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:testResources[m [1m(default-testResources)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcaptivate-prime.core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcaptivate-prime.core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mcaptivate-prime.core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_6dI+yAm0hrytFbFeqDqh4kpIxEFahYE+JC7ysukOpzU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/uk/org/lidalia/slf4j-test/1.0.1/slf4j-test-1.0.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/com/adobe/aem/aem-sdk-api/2021.4.5139.20210407T003220Z-210325/aem-sdk-api-2021.4.5139.20210407T003220Z-210325.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [uk.org.lidalia.slf4jtest.TestLoggerFactory]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.805 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.286 s - in com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 28, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexJarDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexExecid=i0VglNtwb7v6H9lsQkaKwXxtHonXv6SW6mmSwOFc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/uk/org/lidalia/slf4j-test/1.0.1/slf4j-test-1.0.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/com/adobe/aem/aem-sdk-api/2021.4.5139.20210407T003220Z-210325/aem-sdk-api-2021.4.5139.20210407T003220Z-210325.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [uk.org.lidalia.slf4jtest.TestLoggerFactory]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.114 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.667 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.686 s - in com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 28, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexJarDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexExecid=we8qNWP6TeHFYLjy3O7yiqAV3QT9tPv2yjrcnJGIEc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/uk/org/lidalia/slf4j-test/1.0.1/slf4j-test-1.0.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/com/adobe/aem/aem-sdk-api/2021.4.5139.20210407T003220Z-210325/aem-sdk-api-2021.4.5139.20210407T003220Z-210325.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [uk.org.lidalia.slf4jtest.TestLoggerFactory]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.114 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.684 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 1.746 s[1;31m <<< FAILURE![m - in com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;31mERROR[m] testWidgetConfigs  Time elapsed: 0.06 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.adobe.prime.core.sightly.models.EmbeddableWidgetModelTest.testWidgetConfigs(EmbeddableWidgetModelTest.java:93)
+
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  EmbeddableWidgetModelTest.testWidgetConfigs:93 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 28, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for we8qNWP6TeHFYLjy3O7yiqAV3QT9tPv2yjrcnJGIEc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexJarDir=/home/a360/research/projects/captivate-prime-aem-components/core/.nondex
+nondexExecid=NyeS3IFW1kv86smtDke1ItS6AP8H3k4z6zB012F582E=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/uk/org/lidalia/slf4j-test/1.0.1/slf4j-test-1.0.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/a360/.m2/repository/com/adobe/aem/aem-sdk-api/2021.4.5139.20210407T003220Z-210325/aem-sdk-api-2021.4.5139.20210407T003220Z-210325.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [uk.org.lidalia.slf4jtest.TestLoggerFactory]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.195 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetConfigurationServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.666 s - in com.adobe.prime.core.services.[1mEmbeddableWidgetUserServiceImplTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 1.78 s[1;31m <<< FAILURE![m - in com.adobe.prime.core.sightly.models.[1mEmbeddableWidgetModelTest[m
+[[1;31mERROR[m] testWidgetConfigs  Time elapsed: 0.052 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.adobe.prime.core.sightly.models.EmbeddableWidgetModelTest.testWidgetConfigs(EmbeddableWidgetModelTest.java:93)
+
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetListDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigDsServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigPostServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in com.adobe.prime.core.servlets.[1mEmbeddableAdminConfigGetServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.adobe.prime.core.servlets.[1mConfigPublishServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in com.adobe.prime.core.servlets.[1mEmbeddableWidgetDatasourceServletTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.adobe.prime.core.utils.[1mEmbeddableWidgetConfigUtilsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetOptionsTest[m
+[[1;34mINFO[m] Running com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.adobe.prime.core.entity.[1mEmbeddableWidgetsConfigTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  EmbeddableWidgetModelTest.testWidgetConfigs:93 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 28, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for NyeS3IFW1kv86smtDke1ItS6AP8H3k4z6zB012F582E=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/captivate-prime-aem-components/core/.nondex" -DnondexJarDir="/home/a360/research/projects/captivate-prime-aem-components/core/.nondex" -DnondexExecid=i0VglNtwb7v6H9lsQkaKwXxtHonXv6SW6mmSwOFc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/captivate-prime-aem-components/core/.nondex" -DnondexJarDir="/home/a360/research/projects/captivate-prime-aem-components/core/.nondex" -DnondexExecid=we8qNWP6TeHFYLjy3O7yiqAV3QT9tPv2yjrcnJGIEc= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.adobe.prime.core.sightly.models.EmbeddableWidgetModelTest#testWidgetConfigs
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/captivate-prime-aem-components/core/.nondex" -DnondexJarDir="/home/a360/research/projects/captivate-prime-aem-components/core/.nondex" -DnondexExecid=NyeS3IFW1kv86smtDke1ItS6AP8H3k4z6zB012F582E= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.adobe.prime.core.sightly.models.EmbeddableWidgetModelTest#testWidgetConfigs
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.adobe.prime.core.sightly.models.EmbeddableWidgetModelTest#testWidgetConfigs
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/captivate-prime-aem-components/core/.nondex/i0VglNtwb7v6H9lsQkaKwXxtHonXv6SW6mmSwOFc=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: i0VglNtwb7v6H9lsQkaKwXxtHonXv6SW6mmSwOFc=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  33.358 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:56:05-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mcaptivate-prime.core[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/captivate-prime-aem-components/core/.nondex/we8qNWP6TeHFYLjy3O7yiqAV3QT9tPv2yjrcnJGIEc= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

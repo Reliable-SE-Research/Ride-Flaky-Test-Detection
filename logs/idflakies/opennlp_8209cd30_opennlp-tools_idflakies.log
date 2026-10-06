@@ -1,0 +1,337 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.opennlp:opennlp-tools[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache OpenNLP Tools 1.9.4-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mopennlp-tools[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-java)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.7:check[m [1m(default)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 842 class file(s) for forbidden API invocations (in 0.92s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.7:testCheck[m [1m(default)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 277 class file(s) for forbidden API invocations (in 0.31s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:2.17:check[m [1m(validate)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'testSourceDirectory' is deprecated: instead use {@link #testSourceDirectories}
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.5:process[m [1m(process-resource-bundles)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.7:resources[m [1m(default-resources)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 5 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 678 source files to /home/a360/research/projects/opennlp/opennlp-tools/target/classes
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/dictionary/serializer/DictionaryEntryPersistor.java:[41,27] org.xml.sax.helpers.XMLReaderFactory in org.xml.sax.helpers has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[380,32] opennlp.tools.util.featuregen.CustomFeatureGenerator in opennlp.tools.util.featuregen has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[382,9] opennlp.tools.util.featuregen.CustomFeatureGenerator in opennlp.tools.util.featuregen has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[382,51] opennlp.tools.util.featuregen.CustomFeatureGenerator in opennlp.tools.util.featuregen has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[413,38] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.AggregatedFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[414,34] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.CachedFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[415,42] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.CharacterNgramFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[416,38] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.DefinitionFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[417,38] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.DictionaryFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[418,41] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.DocumentBeginFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[419,39] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.PreviousMapFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[420,36] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.SentenceFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[421,38] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.TokenClassFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[422,33] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.TokenFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[423,38] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.BigramNameFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[424,40] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.TokenPatternFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[425,37] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.PosTaggerFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[426,34] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.PrefixFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[427,34] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.SuffixFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[428,34] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.WindowFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[429,39] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.WordClusterFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[430,45] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.BrownClusterTokenFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[431,50] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.BrownClusterTokenClassFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[432,46] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.BrownClusterBigramFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[434,41] register(java.util.Map<java.lang.String,opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory>) in opennlp.tools.util.featuregen.POSTaggerNameFeatureGeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[534,64] unchecked call to getConstructor(java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java:[631,64] unchecked call to getConstructor(java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DictionaryFeatureGeneratorFactory.java:[35,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SuffixFeatureGeneratorFactory.java:[32,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderEventStream.java:[72,28] DefaultNameContextGenerator() in opennlp.tools.namefind.DefaultNameContextGenerator has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java:[161,14] unchecked conversion
+  required: opennlp.tools.ml.model.SequenceClassificationModel<java.lang.String>
+  found:    opennlp.tools.ml.model.SequenceClassificationModel
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/BaseToolFactory.java:[126,34] newInstance() in java.lang.Class has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java:[153,26] CachedFeatureGenerator(opennlp.tools.util.featuregen.AdaptiveFeatureGenerator...) in opennlp.tools.util.featuregen.CachedFeatureGenerator has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java:[221,50] unchecked conversion
+  required: opennlp.tools.util.SequenceCodec<java.lang.String>
+  found:    opennlp.tools.util.SequenceCodec
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerModel.java:[113,14] unchecked conversion
+  required: opennlp.tools.ml.model.SequenceClassificationModel<java.lang.String>
+  found:    opennlp.tools.ml.model.SequenceClassificationModel
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerCrossValidatorTool.java:[64,15] getDetailedF() in opennlp.tools.cmdline.params.DetailedFMeasureEvaluatorParams has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java:[122,88] unchecked method invocation: method createBuiltinTrainer in class opennlp.tools.ml.TrainerFactory is applied to given types
+  required: java.lang.Class<T>
+  found: java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java:[123,33] unchecked conversion
+  required: java.lang.Class<T>
+  found:    java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java:[144,107] unchecked method invocation: method createBuiltinTrainer in class opennlp.tools.ml.TrainerFactory is applied to given types
+  required: java.lang.Class<T>
+  found: java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java:[145,33] unchecked conversion
+  required: java.lang.Class<T>
+  found:    java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java:[168,79] unchecked method invocation: method createBuiltinTrainer in class opennlp.tools.ml.TrainerFactory is applied to given types
+  required: java.lang.Class<T>
+  found: java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java:[169,31] unchecked conversion
+  required: java.lang.Class<T>
+  found:    java.lang.Class
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java:[138,36] unchecked conversion
+  required: java.util.List<opennlp.tools.langdetect.Language[]>
+  found:    java.util.LinkedList
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CharacterNgramFeatureGeneratorFactory.java:[31,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/entitylinker/LinkedSpan.java:[132,51] unchecked cast
+  required: opennlp.tools.entitylinker.LinkedSpan<T>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSModel.java:[155,14] unchecked conversion
+  required: opennlp.tools.ml.model.SequenceClassificationModel<java.lang.String>
+  found:    opennlp.tools.ml.model.SequenceClassificationModel
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSModel.java:[180,26] getDictionary() in opennlp.tools.postag.POSTaggerFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerModel.java:[140,14] unchecked conversion
+  required: opennlp.tools.ml.model.SequenceClassificationModel<opennlp.tools.util.TokenTag>
+  found:    opennlp.tools.ml.model.SequenceClassificationModel
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/model/POSModelSerializer.java:[47,65] getPosModel() in opennlp.tools.postag.POSModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGeneratorFactory.java:[33,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/cmdline/StreamFactoryRegistry.java:[224,55] newInstance() in java.lang.Class has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterTokenClassFeatureGeneratorFactory.java:[33,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/languagemodel/NGramLanguageModel.java:[94,21] predictNextTokens(opennlp.tools.util.StringList) in opennlp.tools.languagemodel.LanguageModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/languagemodel/NGramLanguageModel.java:[60,17] calculateProbability(opennlp.tools.util.StringList) in opennlp.tools.languagemodel.LanguageModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DocumentBeginFeatureGeneratorFactory.java:[28,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/formats/leipzig/LeipzigLanguageSampleStreamFactory.java:[73,35] unchecked call to SampleShuffleStream(opennlp.tools.util.ObjectStream<T>) as a member of the raw type opennlp.tools.formats.leipzig.SampleShuffleStream
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/formats/leipzig/LeipzigLanguageSampleStreamFactory.java:[73,14] unchecked call to SampleSkipStream(opennlp.tools.util.ObjectStream<T>,int) as a member of the raw type opennlp.tools.formats.leipzig.SampleSkipStream
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/formats/leipzig/LeipzigLanguageSampleStreamFactory.java:[73,14] unchecked conversion
+  required: opennlp.tools.util.ObjectStream<opennlp.tools.langdetect.LanguageSample>
+  found:    opennlp.tools.formats.leipzig.SampleSkipStream
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderCrossValidatorTool.java:[93,15] getDetailedF() in opennlp.tools.cmdline.params.DetailedFMeasureEvaluatorParams has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SentenceFeatureGeneratorFactory.java:[31,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PosTaggerFeatureGeneratorFactory.java:[28,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/dictionary/serializer/DictionaryEntryPersistor.java:[220,19] org.xml.sax.helpers.XMLReaderFactory in org.xml.sax.helpers has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/POSTaggerNameFeatureGeneratorFactory.java:[35,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PrefixFeatureGeneratorFactory.java:[32,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/parser/treeinsert/AttachContextGenerator.java:[38,81] unchecked cast
+  required: java.util.List<opennlp.tools.parser.Parse>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenClassFeatureGeneratorFactory.java:[32,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WordClusterFeatureGeneratorFactory.java:[35,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterBigramFeatureGeneratorFactory.java:[33,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AggregatedFeatureGeneratorFactory.java:[37,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerME.java:[118,16] getPosModel() in opennlp.tools.postag.POSModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerME.java:[194,21] getPosModel() in opennlp.tools.postag.POSModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerME.java:[196,42] getPosModel() in opennlp.tools.postag.POSModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/model/ChunkerModelSerializer.java:[38,58] getChunkerModel() in opennlp.tools.chunker.ChunkerModel has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/cmdline/entitylinker/EntityLinkerTool.java:[123,34] unchecked conversion
+  required: java.util.List<opennlp.tools.util.Span>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/sentdetect/lang/th/SentenceContextGenerator.java:[34,18] collectFeatures(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in opennlp.tools.sentdetect.DefaultSDContextGenerator has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/parser/AbstractParserEventStream.java:[55,37] CHUNK in opennlp.tools.parser.ParserEventTypeEnum has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/parser/AbstractParserEventStream.java:[58,42] TAG in opennlp.tools.parser.ParserEventTypeEnum has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/parser/AbstractParserEventStream.java:[78,37] TAG in opennlp.tools.parser.ParserEventTypeEnum has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/parser/AbstractParserEventStream.java:[81,42] CHUNK in opennlp.tools.parser.ParserEventTypeEnum has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterTokenFeatureGeneratorFactory.java:[33,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TrigramNameFeatureGeneratorFactory.java:[28,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/ext/ExtensionLoader.java:[70,30] newInstance() in java.lang.Class has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenFeatureGeneratorFactory.java:[28,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/ext/OSGiExtensionLoader.java:[81,56] unchecked cast
+  required: T
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CachedFeatureGeneratorFactory.java:[34,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerCrossValidator.java:[129,40] create(java.lang.String,opennlp.tools.dictionary.Dictionary,opennlp.tools.postag.TagDictionary) in opennlp.tools.postag.POSTaggerFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerCrossValidator.java:[170,12] POSTaggerFactory(opennlp.tools.dictionary.Dictionary,opennlp.tools.postag.TagDictionary) in opennlp.tools.postag.POSTaggerFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java:[75,15] getDetailedF() in opennlp.tools.cmdline.params.DetailedFMeasureEvaluatorParams has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/PerceptronModelWriter.java:[51,60] unchecked cast
+  required: java.util.Map<java.lang.String,opennlp.tools.ml.model.Context>
+  found:    java.lang.Object
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BigramNameFeatureGeneratorFactory.java:[28,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenPatternFeatureGeneratorFactory.java:[31,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PreviousMapFeatureGeneratorFactory.java:[32,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java:[62,15] getDetailedF() in opennlp.tools.cmdline.params.DetailedFMeasureEvaluatorParams has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DefinitionFeatureGeneratorFactory.java:[31,32] opennlp.tools.util.featuregen.GeneratorFactory.XmlFeatureGeneratorFactory in opennlp.tools.util.featuregen.GeneratorFactory has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.7:testResources[m [1m(default-testResources)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 101 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mopennlp-tools[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 226 source files to /home/a360/research/projects/opennlp/opennlp-tools/target/test-classes
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/langdetect/LanguageDetectorFactoryTest.java:[84,23] unchecked call to HashSet(java.util.Collection<? extends E>) as a member of the raw type java.util.HashSet
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/langdetect/LanguageDetectorFactoryTest.java:[84,23] unchecked conversion
+  required: java.util.Set<java.lang.String>
+  found:    java.util.HashSet
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[50,30] getSettings() in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[75,39] getSettings() in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[76,45] getSettings(java.lang.String) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[77,39] getSettings(java.lang.String) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[78,25] getSettings(java.lang.String) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[88,45] getSettings() in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[134,12] TrainingParameters(java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[148,29] getSettings() in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/TrainingParametersTest.java:[155,28] getSettings() in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/model/OnePassDataIndexerTest.java:[50,18] TrainingParameters(java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/featuregen/CachedFeatureGeneratorTest.java:[56,40] CachedFeatureGenerator(opennlp.tools.util.featuregen.AdaptiveFeatureGenerator...) in opennlp.tools.util.featuregen.CachedFeatureGenerator has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/util/featuregen/CachedFeatureGeneratorTest.java:[110,40] CachedFeatureGenerator(opennlp.tools.util.featuregen.AdaptiveFeatureGenerator...) in opennlp.tools.util.featuregen.CachedFeatureGenerator has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/MockSequenceTrainer.java:[34,15] init(java.util.Map<java.lang.String,java.lang.String>,java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.ml.EventModelSequenceTrainer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/languagemodel/NgramLanguageModelTest.java:[139,31] readLines(java.io.InputStream) in org.apache.commons.io.IOUtils has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/MockEventTrainer.java:[41,15] init(java.util.Map<java.lang.String,java.lang.String>,java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.ml.EventTrainer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/langdetect/DummyFactory.java:[66,30] unchecked call to ArrayList(java.util.Collection<? extends E>) as a member of the raw type java.util.ArrayList
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/langdetect/DummyFactory.java:[66,30] unchecked conversion
+  required: java.util.List<java.lang.String>
+  found:    java.util.ArrayList
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/ArrayMathTest.java:[102,51] unchecked method invocation: method toDoubleArray in class opennlp.tools.ml.ArrayMath is applied to given types
+  required: java.util.List<java.lang.Double>
+  found: java.util.List
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/ArrayMathTest.java:[102,63] unchecked conversion
+  required: java.util.List<java.lang.Double>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/ArrayMathTest.java:[110,48] unchecked method invocation: method toIntArray in class opennlp.tools.ml.ArrayMath is applied to given types
+  required: java.util.List<java.lang.Integer>
+  found: java.util.List
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/ArrayMathTest.java:[110,60] unchecked conversion
+  required: java.util.List<java.lang.Integer>
+  found:    java.util.List
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/postag/POSTaggerFactoryTest.java:[114,21] create(java.lang.String,opennlp.tools.dictionary.Dictionary,opennlp.tools.postag.TagDictionary) in opennlp.tools.postag.POSTaggerFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/postag/POSTaggerFactoryTest.java:[124,21] create(java.lang.String,opennlp.tools.dictionary.Dictionary,opennlp.tools.postag.TagDictionary) in opennlp.tools.postag.POSTaggerFactory has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/model/TwoPassDataIndexerTest.java:[57,18] TrainingParameters(java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/model/TwoPassDataIndexerTest.java:[87,18] TrainingParameters(java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/ml/model/OnePassRealValueDataIndexerTest.java:[37,18] TrainingParameters(java.util.Map<java.lang.String,java.lang.String>) in opennlp.tools.util.TrainingParameters has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/convert/FileToStringSampleStreamTest.java:[52,14] writeStringToFile(java.io.File,java.lang.String) in org.apache.commons.io.FileUtils has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/opennlp/opennlp-tools/src/test/java/opennlp/tools/convert/FileToStringSampleStreamTest.java:[55,14] writeStringToFile(java.io.File,java.lang.String) in org.apache.commons.io.FileUtils has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mopennlp-tools[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mopennlp-tools[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 877 tests. Time taken: 1.1340000629425049 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.opennlp:opennlp-tools:1.9.4-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/opennlp/opennlp-tools/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/opennlp/opennlp-tools/.dtfixingtools/original-order
+[INFO] Getting original results (877 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishMiscMaxentQn, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishOrganizationMaxentQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishOrganizationMaxentQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishCombinedMaxentQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishCombinedMaxentQn, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseSentenceDetectorGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishLocationMaxentGis, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishLocationMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll00ChunkerEval.evalEnglishMaxentQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.Conll00ChunkerEval.evalEnglishMaxentQn, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchLocationPerceptron, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishLocationPerceptron, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchMiscMaxentQn, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.OntoNotes4PosTaggerEval.evalEnglishMaxentTagger, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseTokenizerPerceptron, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishPersonPerceptron, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchMiscMaxentGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerTimeModel, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerTimeModel, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalDanishMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalDanishMaxentQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalDanishMaxentQn, status: expected SKIPPED, got ERROR
+[INFO] Found 2 tests in round 1 of 3 (0.0 seconds elapsed (275.6 total), 0.0 seconds remaining).
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishPersonMaxentQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishPersonMaxentQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.OntoNotes4NameFinderEval.evalAllTypesWithPOSNameFinder, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalPortugueseMaxentQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalPortugueseMaxentQn, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerPerceptron, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerPerceptron, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerLocationModel, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerLocationModel, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishLocationMaxentQn, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseTokenizerGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchPersonMaxentQn, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchPersonPerceptron, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishCombinedPerceptron, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.OntoNotes4ParserEval.evalEnglishMaxent, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchCombinedPerceptron, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchCombinedPerceptron, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishOrganizationMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.OntoNotes4NameFinderEval.evalAllTypesNameFinder, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.OntoNotes4NameFinderEval.evalAllTypesNameFinder, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchOrganizationMaxentQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchOrganizationMaxentQn, status: expected ERROR, got ERROR
+[INFO] Found 7 tests in round 2 of 3 (0.0 seconds elapsed (759.2 total), 0.0 seconds remaining).
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerGis, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerMoneyModel, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerDateModel, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerDateModel, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalDutchMaxentQn, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerOrganizationModel, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalNerOrganizationModel, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchMiscPerceptron, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchMiscPerceptron, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerPerceptron, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerPerceptron, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalChunkerModel, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll00ChunkerEval.evalEnglishPerceptron, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalSwedishMaxentQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalSwedishMaxentQn, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishLocationMaxentGis, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishLocationMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseTokenizerGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll00ChunkerEval.evalEnglishMaxentGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseTokenizerMaxentQn, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseTokenizerMaxentQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalDutchMaxentGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalSentenceModel, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalSentenceModel, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishPersonMaxentGis, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishPersonMaxentGis, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalSwedishMaxentGis, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ConllXPosTaggerEval.evalSwedishMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerQn, status: expected SKIPPED, got SKIPPED
+Verified opennlp.tools.eval.ArvoresDeitadasEval.evalPortugueseChunkerQn, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchOrganizationMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchPersonMaxentGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchCombinedMaxentGis, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchCombinedMaxentGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchMiscMaxentGis, status: expected SKIPPED, got ERROR
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalSpanishMiscMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.Conll02NameFinderEval.evalDutchLocationMaxentGis, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.OntoNotes4NameFinderEval.evalEnglishDateNameFinder, status: expected ERROR, got SKIPPED
+Verified opennlp.tools.eval.SourceForgeModelEval.evalTokenModel, status: expected ERROR, got ERROR
+Verified opennlp.tools.eval.SourceForgeModelEval.evalTokenModel, status: expected SKIPPED, got ERROR
+[INFO] Found 15 tests in round 3 of 3 (0.0 seconds elapsed (1144.1 total), 0.0 seconds remaining).
+
+[INFO] Found 24 tests, writing list to /home/a360/research/projects/opennlp/opennlp-tools/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/opennlp/opennlp-tools/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  22:30 min
+[[1;34mINFO[m] Finished at: 2026-10-02T06:00:03-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

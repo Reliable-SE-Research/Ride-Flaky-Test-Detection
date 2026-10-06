@@ -1,0 +1,68 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.apache.gora:gora-hbase[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Gora :: HBase 1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mgora-hbase[0;1m >>>[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.apache.hadoop:hadoop-annotations:jar:2.5.2 during dependency collection step for project (use -X to see details)
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.19.0-GA during dependency collection step for project (use -X to see details)
+[[1;33mWARNING[m] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.20.0-GA during dependency collection step for project (use -X to see details)
+[90mDownloading from [0mjvnet-nexus-snapshots[90m: https://maven.java.net/content/repositories/snapshots/[0morg/glassfish/javax.el/maven-metadata.xml
+[90mDownloading from [0mjava.net.Releases[90m: https://maven.java.net/content/repositories/releases/[0morg/glassfish/javax.el/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata org.glassfish:javax.el/maven-metadata.xml from/to java.net.Releases (https://maven.java.net/content/repositories/releases): transfer failed for https://maven.java.net/content/repositories/releases/org/glassfish/javax.el/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata org.glassfish:javax.el/maven-metadata.xml from/to jvnet-nexus-snapshots (https://maven.java.net/content/repositories/snapshots): transfer failed for https://maven.java.net/content/repositories/snapshots/org/glassfish/javax.el/maven-metadata.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-maven-version)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-java-version)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-output-timestamp-property)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.7:add-source[m [1m(default)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/gora/gora-hbase/src/examples/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/gora/gora-hbase/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 19 source files to /home/a360/research/projects/gora/gora-hbase/target/classes
+[[1;33mWARNING[m] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+/home/a360/research/projects/gora/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseStoreMetadataAnalyzer.java:[89,19] [deprecation] finalize() in Object has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/gora/gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseStoreMetadataAnalyzer.java:[91,13] [deprecation] finalize() in Object has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36mgora-hbase[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mgora-hbase[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] org.glassfish:javax.el/maven-metadata.xml failed to transfer from https://maven.java.net/content/repositories/releases during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of java.net.Releases has elapsed or updates are forced. Original error: Could not transfer metadata org.glassfish:javax.el/maven-metadata.xml from/to java.net.Releases (https://maven.java.net/content/repositories/releases): transfer failed for https://maven.java.net/content/repositories/releases/org/glassfish/javax.el/maven-metadata.xml
+[[1;33mWARNING[m] org.glassfish:javax.el/maven-metadata.xml failed to transfer from https://maven.java.net/content/repositories/snapshots during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of jvnet-nexus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.glassfish:javax.el/maven-metadata.xml from/to jvnet-nexus-snapshots (https://maven.java.net/content/repositories/snapshots): transfer failed for https://maven.java.net/content/repositories/snapshots/org/glassfish/javax.el/maven-metadata.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mgora-hbase[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 58 tests. Time taken: 0.5789999961853027 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.gora:gora-hbase:1.0-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/gora/gora-hbase/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/gora/gora-hbase/.dtfixingtools/original-order
+[INFO] Getting original results (58 tests).

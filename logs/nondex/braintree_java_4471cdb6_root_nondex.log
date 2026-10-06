@@ -1,0 +1,572 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.2.0
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-6 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-deploy-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-deploy-plugin
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-deploy-plugin:3.2.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcom.braintreepayments.gateway:braintree-java[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Braintree Gateway Java Client Library 3.4.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mbraintree-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.5.0:resources[m [1m(default-resources)[m @ [36mbraintree-java[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] The encoding used to copy filtered properties files has not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36mbraintree-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.5.0:testResources[m [1m(default-testResources)[m @ [36mbraintree-java[0;1m ---[m
+[[1;34mINFO[m] Copying 9 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36mbraintree-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mbraintree-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mbraintree-java[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/braintree_java/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_wS8d8Bp2Xdayn+9uqaNpVXQHNE6cz29Kuabl+JcJbrA=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/braintree_java/.nondex/clean_wS8d8Bp2Xdayn+9uqaNpVXQHNE6cz29Kuabl+JcJbrA=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.braintreegateway.unittest.DisbursementTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 sec
+Running com.braintreegateway.unittest.RiskDataCustomerRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running com.braintreegateway.unittest.PayPalDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.HttpTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec
+Running com.braintreegateway.unittest.SearchRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.TransactionRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.braintreegateway.unittest.PaymentMethodGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.451 sec
+Running com.braintreegateway.unittest.FacilitatedDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.UsBankAccountTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running com.braintreegateway.unittest.ConfigurationTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.braintreegateway.unittest.EnvironmentTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.UsBankAccountVerificationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.TransactionAndroidPayCardRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.braintreegateway.unittest.DisputeGatewayTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.braintreegateway.unittest.RequestBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.AdjustmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.PaginatedCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running com.braintreegateway.unittest.InstallmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.DocumentUploadRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.OAuthAccessRevocationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.DisputeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.braintreegateway.unittest.BraintreeGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.CustomerRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.DocumentUploadTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.braintreegateway.unittest.ThreeDSecureGatewayTest
+Payment method nonce required
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.util.SimpleNodeWrapperTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.braintreegateway.unittest.util.StringUtilsTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.util.CryptoTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.util.GatewayPropertiesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.util.QueryStringTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.braintreegateway.unittest.util.Sha1HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running com.braintreegateway.unittest.util.EnumUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.util.Sha256HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.TransactionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.braintreegateway.unittest.PaymentMethodNonceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.ThreeDSecureInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.TransactionLevelFeeReportTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.braintreegateway.unittest.CredentialsParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.FacilitatorDetailsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.CreditCardTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.CreditCardVerificationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.CreditCardGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.PaymentMethodDeleteRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.GraphQLClientTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.ClientTokenGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 211, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/braintree_java/.nondex
+nondexJarDir=/home/a360/research/projects/braintree_java/.nondex
+nondexExecid=LIVeHe6LVOuwZKr3rWVyXtr7YtbXba7OHZMjF4d7qg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/braintree_java/.nondex/LIVeHe6LVOuwZKr3rWVyXtr7YtbXba7OHZMjF4d7qg=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.braintreegateway.unittest.DisbursementTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+Running com.braintreegateway.unittest.RiskDataCustomerRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.braintreegateway.unittest.PayPalDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.HttpTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec
+Running com.braintreegateway.unittest.SearchRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.TransactionRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.braintreegateway.unittest.PaymentMethodGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.459 sec
+Running com.braintreegateway.unittest.FacilitatedDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.UsBankAccountTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.braintreegateway.unittest.ConfigurationTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.braintreegateway.unittest.EnvironmentTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.UsBankAccountVerificationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.TransactionAndroidPayCardRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.braintreegateway.unittest.DisputeGatewayTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.RequestBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.AdjustmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.braintreegateway.unittest.PaginatedCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.braintreegateway.unittest.InstallmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.DocumentUploadRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.OAuthAccessRevocationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.DisputeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.braintreegateway.unittest.BraintreeGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.CustomerRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.braintreegateway.unittest.DocumentUploadTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.braintreegateway.unittest.ThreeDSecureGatewayTest
+Payment method nonce required
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.util.SimpleNodeWrapperTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.braintreegateway.unittest.util.StringUtilsTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.braintreegateway.unittest.util.CryptoTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.util.GatewayPropertiesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.util.QueryStringTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.braintreegateway.unittest.util.Sha1HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running com.braintreegateway.unittest.util.EnumUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.util.Sha256HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.TransactionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.braintreegateway.unittest.PaymentMethodNonceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.braintreegateway.unittest.ThreeDSecureInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.TransactionLevelFeeReportTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.braintreegateway.unittest.CredentialsParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.FacilitatorDetailsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.CreditCardTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.CreditCardVerificationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.CreditCardGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.PaymentMethodDeleteRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.GraphQLClientTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.ClientTokenGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 211, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/braintree_java/.nondex
+nondexJarDir=/home/a360/research/projects/braintree_java/.nondex
+nondexExecid=BFQVfiVgmmg7Xiv9MuBENLFbtxYV6CfKW7zZ5OO8JZM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/braintree_java/.nondex/BFQVfiVgmmg7Xiv9MuBENLFbtxYV6CfKW7zZ5OO8JZM=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.braintreegateway.unittest.DisbursementTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec
+Running com.braintreegateway.unittest.RiskDataCustomerRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running com.braintreegateway.unittest.PayPalDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.HttpTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running com.braintreegateway.unittest.SearchRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.TransactionRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.braintreegateway.unittest.PaymentMethodGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.499 sec
+Running com.braintreegateway.unittest.FacilitatedDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.UsBankAccountTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running com.braintreegateway.unittest.ConfigurationTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.braintreegateway.unittest.EnvironmentTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.UsBankAccountVerificationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.TransactionAndroidPayCardRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.braintreegateway.unittest.DisputeGatewayTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.braintreegateway.unittest.RequestBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.AdjustmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.PaginatedCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.braintreegateway.unittest.InstallmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.DocumentUploadRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.OAuthAccessRevocationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.DisputeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.braintreegateway.unittest.BraintreeGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.CustomerRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.braintreegateway.unittest.DocumentUploadTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.braintreegateway.unittest.ThreeDSecureGatewayTest
+Payment method nonce required
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.util.SimpleNodeWrapperTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.braintreegateway.unittest.util.StringUtilsTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.braintreegateway.unittest.util.CryptoTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.util.GatewayPropertiesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.util.QueryStringTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.util.Sha1HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running com.braintreegateway.unittest.util.EnumUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.util.Sha256HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.TransactionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.braintreegateway.unittest.PaymentMethodNonceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.ThreeDSecureInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.TransactionLevelFeeReportTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.CredentialsParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.FacilitatorDetailsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.CreditCardTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.CreditCardVerificationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.CreditCardGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.PaymentMethodDeleteRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.GraphQLClientTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.ClientTokenGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 211, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/braintree_java/.nondex
+nondexJarDir=/home/a360/research/projects/braintree_java/.nondex
+nondexExecid=fBFSe3TMOHkj66t+C1QFfeKM+jMumEmLceRiffCkhIg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/braintree_java/.nondex/fBFSe3TMOHkj66t+C1QFfeKM+jMumEmLceRiffCkhIg=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.braintreegateway.unittest.DisbursementTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running com.braintreegateway.unittest.RiskDataCustomerRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.braintreegateway.unittest.PayPalDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.braintreegateway.unittest.HttpTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running com.braintreegateway.unittest.SearchRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.TransactionRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running com.braintreegateway.unittest.PaymentMethodGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.486 sec
+Running com.braintreegateway.unittest.FacilitatedDetailsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.UsBankAccountTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running com.braintreegateway.unittest.ConfigurationTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.braintreegateway.unittest.EnvironmentTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.UsBankAccountVerificationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.TransactionAndroidPayCardRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.braintreegateway.unittest.DisputeGatewayTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.RequestBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.AdjustmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.PaginatedCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.braintreegateway.unittest.InstallmentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.DocumentUploadRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.OAuthAccessRevocationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.DisputeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.braintreegateway.unittest.BraintreeGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.CustomerRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.braintreegateway.unittest.DocumentUploadTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.braintreegateway.unittest.ThreeDSecureGatewayTest
+Payment method nonce required
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.util.SimpleNodeWrapperTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.braintreegateway.unittest.util.StringUtilsTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.braintreegateway.unittest.util.CryptoTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.util.GatewayPropertiesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.util.QueryStringTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.braintreegateway.unittest.util.Sha1HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running com.braintreegateway.unittest.util.EnumUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.util.Sha256HasherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.TransactionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.braintreegateway.unittest.PaymentMethodNonceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.braintreegateway.unittest.ThreeDSecureInfoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.TransactionLevelFeeReportTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.braintreegateway.unittest.CredentialsParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.FacilitatorDetailsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.braintreegateway.unittest.CreditCardTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.braintreegateway.unittest.CreditCardVerificationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.CreditCardGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.PaymentMethodDeleteRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.GraphQLClientTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.braintreegateway.unittest.ThreeDSecureLookupTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.braintreegateway.unittest.ClientTokenGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 211, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/braintree_java/.nondex" -DnondexJarDir="/home/a360/research/projects/braintree_java/.nondex" -DnondexExecid=LIVeHe6LVOuwZKr3rWVyXtr7YtbXba7OHZMjF4d7qg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/braintree_java/.nondex" -DnondexJarDir="/home/a360/research/projects/braintree_java/.nondex" -DnondexExecid=BFQVfiVgmmg7Xiv9MuBENLFbtxYV6CfKW7zZ5OO8JZM= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/braintree_java/.nondex" -DnondexJarDir="/home/a360/research/projects/braintree_java/.nondex" -DnondexExecid=fBFSe3TMOHkj66t+C1QFfeKM+jMumEmLceRiffCkhIg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/braintree_java/.nondex/LIVeHe6LVOuwZKr3rWVyXtr7YtbXba7OHZMjF4d7qg=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: LIVeHe6LVOuwZKr3rWVyXtr7YtbXba7OHZMjF4d7qg=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.900 s
+[[1;34mINFO[m] Finished at: 2026-10-02T07:45:26-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

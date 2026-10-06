@@ -1,0 +1,48 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36msoftware.amazon.pay:amazon-pay-api-sdk-java[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding Amazon Pay Java SDK 2.4.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mamazon-pay-api-sdk-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/amazon-pay-api-sdk-java/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/amazon-pay-api-sdk-java/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mamazon-pay-api-sdk-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 23 tests. Time taken: 0.3970000743865967 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving software.amazon.pay:amazon-pay-api-sdk-java:2.4.0 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/amazon-pay-api-sdk-java/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/amazon-pay-api-sdk-java/.dtfixingtools/original-order
+[INFO] Getting original results (23 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (5.5 total), 0.0 seconds remaining).
+Verified com.amazon.pay.api.SignatureHelperTest.createPreSignedHeaders, status: expected PASS, got PASS
+Verified com.amazon.pay.api.SignatureHelperTest.createPreSignedHeaders, status: expected ERROR, got PASS
+[INFO] Found 0 tests in round 2 of 3 (5.5 seconds elapsed (21.7 total), 2.8 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (21.7 seconds elapsed (27.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/amazon-pay-api-sdk-java/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/amazon-pay-api-sdk-java/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  35.466 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:28:51-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

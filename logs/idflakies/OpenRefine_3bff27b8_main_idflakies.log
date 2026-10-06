@@ -1,0 +1,180 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[90mDownloading from [0mjenkins-repo[90m: https://repo.jenkins-ci.org/releases/[0medu/illinois/cs/idflakies-maven-plugin/2.0.1-SNAPSHOT/maven-metadata.xml
+[90mDownloading from [0mjenkins-repo[90m: https://repo.jenkins-ci.org/releases/[0medu/illinois/cs/idflakies/2.0.1-SNAPSHOT/maven-metadata.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36morg.openrefine:main[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding OpenRefine - main 3.7-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmain[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgit-commit-id:4.9.10:revision[m [1m(get-the-git-infos)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.3.0:add-source[m [1m(default)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/OpenRefine/main/src added.
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/OpenRefine/main/target/generated-sources added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlocalizer:1.31:generate[m [1m(default)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:resources[m [1m(default-resources)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Copying 483 resources
+[[1;34mINFO[m] Copying 133 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:compile[m [1m(default-compile)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:3.3.0:copy-dependencies[m [1m(default)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] org.openrefine.dependencies:butterfly:jar:1.2.3 already exists in destination.
+[[1;34mINFO[m] commons-lang:commons-lang:jar:2.6 already exists in destination.
+[[1;34mINFO[m] org.apache.velocity:velocity:jar:1.6.3 already exists in destination.
+[[1;34mINFO[m] org.mozilla:rhino:jar:1.7.14-RC1 already exists in destination.
+[[1;34mINFO[m] com.metaweb:lessen:jar:1.0 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-databind:jar:2.13.4 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-core:jar:2.13.4 already exists in destination.
+[[1;34mINFO[m] com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-lang3:jar:3.12.0 already exists in destination.
+[[1;34mINFO[m] commons-fileupload:commons-fileupload:jar:1.4 already exists in destination.
+[[1;34mINFO[m] commons-collections:commons-collections:jar:3.2.2 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-text:jar:1.10.0 already exists in destination.
+[[1;34mINFO[m] commons-validator:commons-validator:jar:1.7 already exists in destination.
+[[1;34mINFO[m] commons-beanutils:commons-beanutils:jar:1.9.4 already exists in destination.
+[[1;34mINFO[m] commons-digester:commons-digester:jar:2.1 already exists in destination.
+[[1;34mINFO[m] commons-logging:commons-logging:jar:1.2 already exists in destination.
+[[1;34mINFO[m] velocity:velocity:jar:1.5 already exists in destination.
+[[1;34mINFO[m] oro:oro:jar:2.0.8 already exists in destination.
+[[1;34mINFO[m] org.marc4j:marc4j:jar:2.9.2 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-compress:jar:1.22 already exists in destination.
+[[1;34mINFO[m] org.jsoup:jsoup:jar:1.15.3 already exists in destination.
+[[1;34mINFO[m] org.openrefine.dependencies:opencsv-multichar:jar:2.4 already exists in destination.
+[[1;34mINFO[m] org.apache.poi:poi:jar:5.2.3 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-collections4:jar:4.4 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-math3:jar:3.6.1 already exists in destination.
+[[1;34mINFO[m] com.zaxxer:SparseBitSet:jar:1.2 already exists in destination.
+[[1;34mINFO[m] org.apache.poi:poi-ooxml:jar:5.2.3 already exists in destination.
+[[1;34mINFO[m] org.apache.poi:poi-ooxml-lite:jar:5.2.3 already exists in destination.
+[[1;34mINFO[m] org.apache.xmlbeans:xmlbeans:jar:5.1.1 already exists in destination.
+[[1;34mINFO[m] com.github.virtuald:curvesapi:jar:1.07 already exists in destination.
+[[1;34mINFO[m] org.odftoolkit:odfdom-java:jar:0.9.0 already exists in destination.
+[[1;34mINFO[m] xerces:xercesImpl:jar:2.12.1 already exists in destination.
+[[1;34mINFO[m] net.rootdev:java-rdfa:jar:0.4.2 already exists in destination.
+[[1;34mINFO[m] org.openrefine.dependencies:vicino:jar:1.2 already exists in destination.
+[[1;34mINFO[m] com.wcohen:com.wcohen.secondstring:jar:0.1 already exists in destination.
+[[1;34mINFO[m] org.openrefine.dependencies:arithcode:jar:1.2 already exists in destination.
+[[1;34mINFO[m] commons-compress:commons-compress:jar:20050911 already exists in destination.
+[[1;34mINFO[m] org.clojure:clojure:jar:1.11.1 already exists in destination.
+[[1;34mINFO[m] org.clojure:spec.alpha:jar:0.3.218 already exists in destination.
+[[1;34mINFO[m] org.clojure:core.specs.alpha:jar:0.2.62 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents.client5:httpclient5:jar:5.1.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents.core5:httpcore5:jar:5.1.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents.core5:httpcore5-h2:jar:5.1.3 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpcore:jar:4.4.15 already exists in destination.
+[[1;34mINFO[m] org.sweble.wikitext:swc-parser-lazy:jar:3.1.9 already exists in destination.
+[[1;34mINFO[m] xtc:rats-runtime:jar:1.15.0 already exists in destination.
+[[1;34mINFO[m] de.fau.cs.osr.utils:utils:jar:3.0.8 already exists in destination.
+[[1;34mINFO[m] de.fau.cs.osr.ptk:ptk-common:jar:3.0.8 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-arq:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] com.github.jsonld-java:jsonld-java:jar:0.13.4 already exists in destination.
+[[1;34mINFO[m] com.google.code.gson:gson:jar:2.9.1 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpclient-cache:jar:4.5.13 already exists in destination.
+[[1;34mINFO[m] org.apache.httpcomponents:httpclient:jar:4.5.13 already exists in destination.
+[[1;34mINFO[m] org.slf4j:jcl-over-slf4j:jar:1.7.36 already exists in destination.
+[[1;34mINFO[m] com.apicatalog:titanium-json-ld:jar:1.3.1 already exists in destination.
+[[1;34mINFO[m] org.glassfish:jakarta.json:jar:2.0.1 already exists in destination.
+[[1;34mINFO[m] com.google.protobuf:protobuf-java:jar:3.21.4 already exists in destination.
+[[1;34mINFO[m] org.apache.thrift:libthrift:jar:0.16.0 already exists in destination.
+[[1;34mINFO[m] javax.annotation:javax.annotation-api:jar:1.3.2 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-core:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-base:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-shaded-guava:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] org.apache.commons:commons-csv:jar:1.9.0 already exists in destination.
+[[1;34mINFO[m] com.github.andrewoma.dexx:collection:jar:0.7 already exists in destination.
+[[1;34mINFO[m] org.apache.jena:jena-iri:jar:4.6.1 already exists in destination.
+[[1;34mINFO[m] commons-cli:commons-cli:jar:1.5.0 already exists in destination.
+[[1;34mINFO[m] commons-codec:commons-codec:jar:1.15 already exists in destination.
+[[1;34mINFO[m] commons-io:commons-io:jar:2.11.0 already exists in destination.
+[[1;34mINFO[m] com.google.guava:guava:jar:31.1-jre already exists in destination.
+[[1;34mINFO[m] com.google.guava:failureaccess:jar:1.0.1 already exists in destination.
+[[1;34mINFO[m] com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava already exists in destination.
+[[1;34mINFO[m] com.google.code.findbugs:jsr305:jar:3.0.2 already exists in destination.
+[[1;34mINFO[m] org.checkerframework:checker-qual:jar:3.12.0 already exists in destination.
+[[1;34mINFO[m] com.google.errorprone:error_prone_annotations:jar:2.11.0 already exists in destination.
+[[1;34mINFO[m] com.google.j2objc:j2objc-annotations:jar:1.3 already exists in destination.
+[[1;34mINFO[m] javax.xml.bind:jaxb-api:jar:2.3.1 already exists in destination.
+[[1;34mINFO[m] javax.activation:javax.activation-api:jar:1.2.0 already exists in destination.
+[[1;34mINFO[m] com.github.albfernandez:juniversalchardet:jar:2.4.0 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-servlets:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-continuation:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-http:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-util:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] org.eclipse.jetty:jetty-io:jar:9.4.48.v20220622 already exists in destination.
+[[1;34mINFO[m] com.optimaize.languagedetector:language-detector:jar:0.6 already exists in destination.
+[[1;34mINFO[m] net.arnx:jsonic:jar:1.2.11 already exists in destination.
+[[1;34mINFO[m] com.intellij:annotations:jar:12.0 already exists in destination.
+[[1;34mINFO[m] org.jvnet.localizer:localizer:jar:1.31 already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:testResources[m [1m(default-testResources)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Copying 44 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.8:prepare-agent[m [1m(prepare-agent)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] surefireArgs set to "-javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/home/a360/research/projects/OpenRefine/main/target/report/OpenRefine - main.exec,excludes=org/marc4j/converter/impl/*CodeTableGenerated*"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mmain[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmain[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mmain[0;1m ---[m
+[90mDownloading from [0mjenkins-repo[90m: https://repo.jenkins-ci.org/releases/[0medu/illinois/cs/idflakies-core/2.0.1-SNAPSHOT/maven-metadata.xml
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 5.650000095367432 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.openrefine:main:3.7-SNAPSHOT 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.739 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:09:23-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

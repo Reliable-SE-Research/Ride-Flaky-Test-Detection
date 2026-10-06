@@ -1,0 +1,73 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.alibaba.database:innodb-java-reader[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding innodb-java-reader 1.0.10[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36minnodb-java-reader[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mpmd:3.8:check[m [1m(validate)[0;1m > [0;1m:pmd[m @ [36minnodb-java-reader[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mpmd:3.8:pmd[m [1m(pmd)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'inputEncoding' (user property 'encoding') is read-only, must not be used in configuration
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mpmd:3.8:check[m [1m(validate)[0;1m < [0;1m:pmd[m @ [36minnodb-java-reader[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mpmd:3.8:check[m [1m(validate)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.5:prepare-agent[m [1m(prepare-agent)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/a360/research/projects/innodb-java-reader/innodb-java-reader/target/jacoco.exec,excludes=**/*Demo.class:**/*MainTest.class
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 85 source files to /home/a360/research/projects/innodb-java-reader/innodb-java-reader/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/page/fsphdr/FspHdrXes.java:[19,1] Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/page/inode/Inode.java:[30,1] Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/page/blob/Blob.java:[18,1] Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/page/index/Index.java:[28,1] Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/util/EnumUtil.java:[57,48] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/util/Utils.java: Some input files use unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/a360/research/projects/innodb-java-reader/innodb-java-reader/src/main/java/com/alibaba/innodb/java/reader/util/Utils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] Copying 133 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36minnodb-java-reader[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36minnodb-java-reader[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36minnodb-java-reader[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 379 tests. Time taken: 0.6069998741149902 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.alibaba.database:innodb-java-reader:1.0.10 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/innodb-java-reader/innodb-java-reader/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/innodb-java-reader/innodb-java-reader/.dtfixingtools/original-order
+[INFO] Getting original results (379 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (47.0 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (47.0 seconds elapsed (98.9 total), 23.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (98.9 seconds elapsed (146.5 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/innodb-java-reader/innodb-java-reader/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/innodb-java-reader/innodb-java-reader/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:24 min
+[[1;34mINFO[m] Finished at: 2026-10-01T23:16:41-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

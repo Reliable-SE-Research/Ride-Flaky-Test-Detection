@@ -1,0 +1,512 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.github.jnr:jnr-posix[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding jnr-posix 3.1.5-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjnr-posix[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0:enforce[m [1m(enforce-maven)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jnr-posix/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(java9-compile)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:manifest[m [1m(bundle-manifest)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jnr-posix/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjnr-posix[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mjnr-posix[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_UewhQFt+9Shh0e0m8R3IIhzdYTmY5sZh1O1Nbul2AVE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jnr-posix/.nondex/clean_UewhQFt+9Shh0e0m8R3IIhzdYTmY5sZh1O1Nbul2AVE=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.CryptTest
+Running jnr.posix.DTableSizeTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.417 sec - in jnr.posix.DTableSizeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.432 sec - in jnr.posix.CryptTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SignalTest
+Running jnr.posix.ProcessTest
+Successfully loaded native POSIX impl.
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.467 sec - in jnr.posix.SignalTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.487 sec - in jnr.posix.ProcessTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.HostnameTest
+Running jnr.posix.IOTest
+Successfully loaded native POSIX impl.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.459 sec - in jnr.posix.HostnameTest
+Successfully loaded native POSIX impl.
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.513 sec - in jnr.posix.IOTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.NlLanginfoTest
+Running jnr.posix.PasswdTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.441 sec - in jnr.posix.NlLanginfoTest
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.433 sec - in jnr.posix.PasswdTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaPOSIXTest
+Running jnr.posix.GroupTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec - in jnr.posix.GroupTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.558 sec - in jnr.posix.JavaPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.ConfstrTest
+Running jnr.posix.HANDLETest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in jnr.posix.HANDLETest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.EnvTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.44 sec - in jnr.posix.ConfstrTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.util.PlatformTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in jnr.posix.util.PlatformTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.434 sec - in jnr.posix.EnvTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.util.DefaultPOSIXHandlerTest
+Running jnr.posix.LinuxPOSIXTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.498 sec - in jnr.posix.util.DefaultPOSIXHandlerTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.52 sec - in jnr.posix.LinuxPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileTest
+Running jnr.posix.POSIXFactoryTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.JavaLibCHelper$ReflectiveAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to method sun.nio.ch.SelChImpl.getFD()
+WARNING: Please consider reporting this to the maintainers of jnr.posix.JavaLibCHelper$ReflectiveAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.456 sec - in jnr.posix.POSIXFactoryTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SpawnTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.46 sec - in jnr.posix.SpawnTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.IDTest
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.426 sec - in jnr.posix.IDTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaFileStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in jnr.posix.JavaFileStatTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileStatTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.util.FieldAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to field java.io.FileDescriptor.fd
+WARNING: Please consider reporting this to the maintainers of jnr.posix.util.FieldAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.396 sec - in jnr.posix.FileStatTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.54 sec - in jnr.posix.FileTest
+
+Results :
+
+Tests run: 100, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexJarDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexExecid=Kt6pQ+TL7BpuC0ZbTQ8EFZnGyOBTSH0SjakJzIQR3A=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jnr-posix/.nondex/Kt6pQ+TL7BpuC0ZbTQ8EFZnGyOBTSH0SjakJzIQR3A=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.CryptTest
+Running jnr.posix.DTableSizeTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.487 sec - in jnr.posix.CryptTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec - in jnr.posix.DTableSizeTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.ProcessTest
+Running jnr.posix.SignalTest
+Successfully loaded native POSIX impl.
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.513 sec - in jnr.posix.SignalTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.536 sec - in jnr.posix.ProcessTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.HostnameTest
+Running jnr.posix.IOTest
+Successfully loaded native POSIX impl.
+Successfully loaded native POSIX impl.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.52 sec - in jnr.posix.HostnameTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.57 sec - in jnr.posix.IOTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.NlLanginfoTest
+Running jnr.posix.PasswdTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 sec - in jnr.posix.NlLanginfoTest
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.484 sec - in jnr.posix.PasswdTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaPOSIXTest
+Running jnr.posix.GroupTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.542 sec - in jnr.posix.GroupTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.581 sec - in jnr.posix.JavaPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.ConfstrTest
+Running jnr.posix.HANDLETest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec - in jnr.posix.HANDLETest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.533 sec - in jnr.posix.ConfstrTest
+Running jnr.posix.EnvTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.util.PlatformTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in jnr.posix.util.PlatformTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.493 sec - in jnr.posix.EnvTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.util.DefaultPOSIXHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.546 sec - in jnr.posix.util.DefaultPOSIXHandlerTest
+Running jnr.posix.LinuxPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec - in jnr.posix.LinuxPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileTest
+Running jnr.posix.POSIXFactoryTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.JavaLibCHelper$ReflectiveAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to method sun.nio.ch.SelChImpl.getFD()
+WARNING: Please consider reporting this to the maintainers of jnr.posix.JavaLibCHelper$ReflectiveAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.505 sec - in jnr.posix.POSIXFactoryTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SpawnTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.351 sec - in jnr.posix.SpawnTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.IDTest
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.471 sec - in jnr.posix.IDTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaFileStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in jnr.posix.JavaFileStatTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileStatTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.util.FieldAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to field java.io.FileDescriptor.fd
+WARNING: Please consider reporting this to the maintainers of jnr.posix.util.FieldAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec - in jnr.posix.FileStatTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.604 sec - in jnr.posix.FileTest
+
+Results :
+
+Tests run: 100, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexJarDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexExecid=dG7MhiDeLiuSDciAIPHcdWd6nWoCwjlCW6u8c809o40=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jnr-posix/.nondex/dG7MhiDeLiuSDciAIPHcdWd6nWoCwjlCW6u8c809o40=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.DTableSizeTest
+Running jnr.posix.CryptTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.534 sec - in jnr.posix.DTableSizeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.539 sec - in jnr.posix.CryptTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SignalTest
+Running jnr.posix.ProcessTest
+Successfully loaded native POSIX impl.
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.514 sec - in jnr.posix.SignalTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 sec - in jnr.posix.ProcessTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.HostnameTest
+Running jnr.posix.IOTest
+Successfully loaded native POSIX impl.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.554 sec - in jnr.posix.HostnameTest
+Successfully loaded native POSIX impl.
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.59 sec - in jnr.posix.IOTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.NlLanginfoTest
+Running jnr.posix.PasswdTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.542 sec - in jnr.posix.NlLanginfoTest
+Successfully loaded native POSIX impl.
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.49 sec - in jnr.posix.PasswdTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaPOSIXTest
+Running jnr.posix.GroupTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 sec - in jnr.posix.GroupTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.611 sec - in jnr.posix.JavaPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.ConfstrTest
+Running jnr.posix.HANDLETest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec - in jnr.posix.HANDLETest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.516 sec - in jnr.posix.ConfstrTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.EnvTest
+Running jnr.posix.util.PlatformTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in jnr.posix.util.PlatformTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.484 sec - in jnr.posix.EnvTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.util.DefaultPOSIXHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.578 sec - in jnr.posix.util.DefaultPOSIXHandlerTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.LinuxPOSIXTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec - in jnr.posix.LinuxPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileTest
+Running jnr.posix.POSIXFactoryTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.JavaLibCHelper$ReflectiveAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to method sun.nio.ch.SelChImpl.getFD()
+WARNING: Please consider reporting this to the maintainers of jnr.posix.JavaLibCHelper$ReflectiveAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec - in jnr.posix.POSIXFactoryTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SpawnTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 sec - in jnr.posix.SpawnTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.IDTest
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.479 sec - in jnr.posix.IDTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaFileStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in jnr.posix.JavaFileStatTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileStatTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.util.FieldAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to field java.io.FileDescriptor.fd
+WARNING: Please consider reporting this to the maintainers of jnr.posix.util.FieldAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.462 sec - in jnr.posix.FileStatTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.625 sec - in jnr.posix.FileTest
+
+Results :
+
+Tests run: 100, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexJarDir=/home/a360/research/projects/jnr-posix/.nondex
+nondexExecid=YLZfhY8dl3Bx8XywXfQKq4UCKoK0RbHIFfdw3OPKQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jnr-posix/.nondex/YLZfhY8dl3Bx8XywXfQKq4UCKoK0RbHIFfdw3OPKQ=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.CryptTest
+Running jnr.posix.DTableSizeTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 sec - in jnr.posix.DTableSizeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.51 sec - in jnr.posix.CryptTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SignalTest
+Running jnr.posix.ProcessTest
+Successfully loaded native POSIX impl.
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.584 sec - in jnr.posix.SignalTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.57 sec - in jnr.posix.ProcessTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.IOTest
+Running jnr.posix.HostnameTest
+Successfully loaded native POSIX impl.
+Successfully loaded native POSIX impl.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.517 sec - in jnr.posix.HostnameTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.585 sec - in jnr.posix.IOTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.NlLanginfoTest
+Running jnr.posix.PasswdTest
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.536 sec - in jnr.posix.NlLanginfoTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.506 sec - in jnr.posix.PasswdTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaPOSIXTest
+Running jnr.posix.GroupTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 sec - in jnr.posix.GroupTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.602 sec - in jnr.posix.JavaPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.ConfstrTest
+Running jnr.posix.HANDLETest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec - in jnr.posix.HANDLETest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 sec - in jnr.posix.ConfstrTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.EnvTest
+Running jnr.posix.util.PlatformTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in jnr.posix.util.PlatformTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Successfully loaded native POSIX impl.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 sec - in jnr.posix.EnvTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.util.DefaultPOSIXHandlerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.578 sec - in jnr.posix.util.DefaultPOSIXHandlerTest
+Running jnr.posix.LinuxPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec - in jnr.posix.LinuxPOSIXTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileTest
+Running jnr.posix.POSIXFactoryTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.JavaLibCHelper$ReflectiveAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to method sun.nio.ch.SelChImpl.getFD()
+WARNING: Please consider reporting this to the maintainers of jnr.posix.JavaLibCHelper$ReflectiveAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 sec - in jnr.posix.POSIXFactoryTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.SpawnTest
+Successfully loaded native POSIX impl.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.335 sec - in jnr.posix.SpawnTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.IDTest
+Successfully loaded native POSIX impl.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.47 sec - in jnr.posix.IDTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.JavaFileStatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in jnr.posix.JavaFileStatTest
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running jnr.posix.FileStatTest
+Successfully loaded native POSIX impl.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by jnr.posix.util.FieldAccess (file:/home/a360/research/projects/jnr-posix/target/classes/) to field java.io.FileDescriptor.fd
+WARNING: Please consider reporting this to the maintainers of jnr.posix.util.FieldAccess
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.456 sec - in jnr.posix.FileStatTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.601 sec - in jnr.posix.FileTest
+
+Results :
+
+Tests run: 100, Failures: 0, Errors: 0, Skipped: 1
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jnr-posix/.nondex" -DnondexJarDir="/home/a360/research/projects/jnr-posix/.nondex" -DnondexExecid=Kt6pQ+TL7BpuC0ZbTQ8EFZnGyOBTSH0SjakJzIQR3A= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jnr-posix/.nondex" -DnondexJarDir="/home/a360/research/projects/jnr-posix/.nondex" -DnondexExecid=dG7MhiDeLiuSDciAIPHcdWd6nWoCwjlCW6u8c809o40= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jnr-posix/.nondex" -DnondexJarDir="/home/a360/research/projects/jnr-posix/.nondex" -DnondexExecid=YLZfhY8dl3Bx8XywXfQKq4UCKoK0RbHIFfdw3OPKQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/jnr-posix/.nondex/Kt6pQ+TL7BpuC0ZbTQ8EFZnGyOBTSH0SjakJzIQR3A=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: Kt6pQ+TL7BpuC0ZbTQ8EFZnGyOBTSH0SjakJzIQR3A=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  51.785 s
+[[1;34mINFO[m] Finished at: 2026-10-02T12:38:04-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

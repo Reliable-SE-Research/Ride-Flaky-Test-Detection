@@ -1,0 +1,123 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------< [0;36morg.apache.maven.plugins:maven-dependency-plugin[0;1m >----------[m
+[[1;34mINFO[m] [1mBuilding Apache Maven Dependency Plugin 3.8.2-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m----------------------------[ maven-plugin ]----------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmaven-dependency-plugin[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.5.0:enforce[m [1m(enforce-bytecode-version)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.5.0:enforce[m [1m(enforce-maven-version)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.5.0:enforce[m [1m(enforce-java-version)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.5.0:enforce[m [1m(ensure-no-container-api)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.13.1:helpmojo[m [1m(generate-helpmojo)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.4.0:check[m [1m(checkstyle-check)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotless:2.43.0:check[m [1m(default)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Spotless.Java is keeping 107 files clean - 0 needs changes to be clean, 0 were already clean, 107 were skipped because caching determined they were already clean
+[[1;34mINFO[m] Spotless.Pom is keeping 1 files clean - 0 needs changes to be clean, 0 were already clean, 1 were skipped because caching determined they were already clean
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:3.2.0:process[m [1m(process-resource-bundles)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Copying 5 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat:0.16.1:check[m [1m(rat-check)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 0, approved: 510 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.13.1:descriptor[m [1m(default-descriptor)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to read mojo source files.
+[[1;33mWARNING[m] Could not get javadoc URL for reference SiteTool#DEFAULT_LOCALE at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference SiteTool#getSiteLocales(String) at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Unresolvable link in javadoc tag with value #getOutputName() found in target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:92: Could not resolve javadoc reference JavadocReference [moduleName=Optional.empty, packageNameClassName=Optional.empty, member=Optional[getOutputName()], label=Optional.empty]
+[[1;33mWARNING[m] Could not get javadoc URL for reference StrictPatternExcludesArtifactFilter at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternExcludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/tree/TreeMojo.java:186): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternExcludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference StrictPatternIncludesArtifactFilter at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternIncludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/tree/TreeMojo.java:165): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternIncludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference SiteTool#DEFAULT_LOCALE at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference SiteTool#getSiteLocales(String) at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Unresolvable link in javadoc tag with value #getOutputName() found in target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:92: Could not resolve javadoc reference JavadocReference [moduleName=Optional.empty, packageNameClassName=Optional.empty, member=Optional[getOutputName()], label=Optional.empty]
+[[1;33mWARNING[m] Could not get javadoc URL for reference ProjectDependencyAnalyzer at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.dependency.analyzer], className=Optional[ProjectDependencyAnalyzer], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/analyze/AbstractAnalyzeMojo.java:56): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.dependency.analyzer], className=Optional[ProjectDependencyAnalyzer], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference FileMapper at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/fromConfiguration/UnpackMojo.java:90): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference FileMapper at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/fromDependencies/UnpackDependenciesMojo.java:98): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[[1;33mWARNING[m] Could not get javadoc URL for reference FileMapper at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/fromConfiguration/ArtifactItem.java:119): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[[1;34mINFO[m] java-annotations mojo extractor found 26 mojo descriptors.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msisu:0.9.0.M3:main-index[m [1m(index-project)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Copying 26 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmaven-dependency-plugin[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mmaven-dependency-plugin[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 246 tests. Time taken: 1.186000108718872 seconds
+INFO: Locating tests...
+INFO: Located 39 tests. Time taken: 1.1619999408721924 seconds
+INFO: This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+---------------------------------------------------
+Message was:
+This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.maven.plugins:maven-dependency-plugin:3.8.2-SNAPSHOT 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.385 s
+[[1;34mINFO[m] Finished at: 2026-10-02T05:30:18-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

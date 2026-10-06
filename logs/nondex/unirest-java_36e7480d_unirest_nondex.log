@@ -1,0 +1,944 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.konghq:unirest-java[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding unirest-java 3.11.06-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36munirest-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense:1.8.0:format[m [1m(default)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Updating license headers...
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/original-order
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909239970-e16452aa-c6c0-4b60-95e2-037d0f5eec9f
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909208027-e1f63800-5334-4301-8783-5b96f36faf8f
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909179646-e24cdfe4-98cd-48c2-b6ab-2db4331ec994
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909193067-8f2f95db-7db3-4ba9-868f-021dc1add6f1
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/detection-results/original-results-ids
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909222815-80fa2858-3b94-4608-89b1-620689b6b8c2
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909259395-26adf67c-fe3c-4db0-8a38-9139873441ad
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909193067-8f2f95db-7db3-4ba9-868f-021dc1add6f1
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909271681-f14befe1-d385-4a21-8a11-b0e44a3f02cf
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909265160-e6274965-81ab-4154-a398-8d70bbdedc12
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909239970-e16452aa-c6c0-4b60-95e2-037d0f5eec9f
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909208027-e1f63800-5334-4301-8783-5b96f36faf8f
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909179646-e24cdfe4-98cd-48c2-b6ab-2db4331ec994
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909259395-26adf67c-fe3c-4db0-8a38-9139873441ad
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/output/1790909222815-80fa2858-3b94-4608-89b1-620689b6b8c2
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/selected-tests
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/time
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909271681-f14befe1-d385-4a21-8a11-b0e44a3f02cf
+[[1;33mWARNING[m] Unknown file extension: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/test-runs/results/1790909265160-e6274965-81ab-4154-a398-8d70bbdedc12
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(vulnerability-checks)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Checking for vulnerabilities; 54 artifacts
+[[1;34mINFO[m] Exclude coordinates: []
+[[1;34mINFO[m] Exclude vulnerability identifiers: [2f9b8690-2b13-48ad-adc9-af1489d0a2f3]
+[[1;34mINFO[m] CVSS-score threshold: 0.0
+[[1;33mWARNING[m] Failed to fetch component-reports
+[1;31morg.sonatype.ossindex.service.client.transport.Transport$TransportException[m: [1;31mUnexpected response; status: HTTP/1.1 401 Unauthorized[m
+    [1mat[m org.sonatype.ossindex.service.client.transport.HttpClientTransport.post ([1mHttpClientTransport.java:101[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.doRequestComponentReports ([1mOssindexClientImpl.java:204[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.requestComponentReports ([1mOssindexClientImpl.java:170[m)
+    [1mat[m org.sonatype.ossindex.maven.common.ComponentReportAssistant.request ([1mComponentReportAssistant.java:86[m)
+    [1mat[m org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies$Task.run ([1mBanVulnerableDependencies.java:220[m)
+    [1mat[m org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies.execute ([1mBanVulnerableDependencies.java:142[m)
+    [1mat[m org.apache.maven.plugins.enforcer.EnforceMojo.execute ([1mEnforceMojo.java:193[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:126[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:328[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:316[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions ([1mMojoExecutor.java:448[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:311[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:105[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:73[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:53[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:118[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:261[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:173[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:101[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:919[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:285[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:207[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-versions)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(default-prepare-agent)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/unirest-java/unirest/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/unirest-java/unirest/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:checkstyle[m [1m(auto-checkstyle)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:check[m [1m(auto-checkstyle)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Copying 10 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36munirest-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36munirest-java[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_txlDRNQbE3hnDfaivNf7zEQQbZaa2HDvEQ22bWJuNBM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running BehaviorTests.[1mAsObjectTest[m
+[main] INFO spark.staticfiles.StaticFilesConfiguration - StaticResourceHandler configured with folder = public/
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @1479ms to org.eclipse.jetty.util.log.Slf4jLog
+[Thread-0] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+[Thread-0] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[Thread-0] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[Thread-0] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[Thread-0] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[Thread-0] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@38f645be{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @1617ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.255 s - in BehaviorTests.[1mAsObjectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGZipTest[m
+[qtp2114090959-20] INFO spark.http.matching.MatcherFilter - The requested route [/empty-gzip] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in BehaviorTests.[1mGZipTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHostsHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.01 s - in BehaviorTests.[1mHostsHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsFileTest[m
+[qtp2114090959-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-19] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-29] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-25] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in BehaviorTests.[1mAsFileTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.062 s - in BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.005 s - in BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m20[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.139 s - in BehaviorTests.[1mHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDownloadProgressTest[m
+[qtp2114090959-22] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp2114090959-19] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in BehaviorTests.[1mDownloadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mProxyTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mProxyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mTimeoutTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mTimeoutTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mConsumerTest[m
+[qtp2114090959-21] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................[qtp2114090959-29] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.369 s - in BehaviorTests.[1mConsumerTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 s - in BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCertificateTests[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mCertificateTests[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPathParamTest[m
+[qtp2114090959-30] INFO spark.http.matching.MatcherFilter - The requested route [/get//passed] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in BehaviorTests.[1mPathParamTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mVerbTest[m
+[qtp2114090959-29] INFO spark.http.matching.MatcherFilter - The requested route [/cheese] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in BehaviorTests.[1mVerbTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMetricsTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m11[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.093 s - in BehaviorTests.[1mMetricsTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCallbackFutureTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m3[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.037 s - in BehaviorTests.[1mCallbackFutureTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDefectTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m4[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.52 s - in BehaviorTests.[1mDefectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.658 s - in BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.161 s - in kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m54[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m38[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJacksonObjectMapperTest[m
+actualStr = {"requestId":"91c5452e-644b-44a5-ad13-39b2ab8dd41b","headers":{},"files":[],"params":{},"body":null,"url":null,"queryString":null,"method":null,"routeParams":{},"contentType":null,"jsonPatches":[{"op":"add","path":"/foo","value":"bar"},{"op":"add","path":"/baz","value":"qux"}],"status":null,"cookies":{}}
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.[1mJacksonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBaseRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mBaseRequestTest[m
+[Thread-163] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >>> Spark shutting down ...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 562, Failures: 0, Errors: 0, Skipped: 9[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexJarDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexExecid=38HswINM3Qhzc5nnsX3FIhGz9JcIHhN6q7IddmjbeQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running BehaviorTests.[1mAsObjectTest[m
+[main] INFO spark.staticfiles.StaticFilesConfiguration - StaticResourceHandler configured with folder = public/
+[Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @2883ms to org.eclipse.jetty.util.log.Slf4jLog
+[Thread-1] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+[Thread-1] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:4567
+[Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[Thread-1] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[Thread-1] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[Thread-1] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[Thread-1] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5191d4e0{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[Thread-1] INFO org.eclipse.jetty.server.Server - Started @3036ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.168 s - in BehaviorTests.[1mAsObjectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGZipTest[m
+[qtp1495171277-31] INFO spark.http.matching.MatcherFilter - The requested route [/empty-gzip] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in BehaviorTests.[1mGZipTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHostsHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.014 s - in BehaviorTests.[1mHostsHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s - in BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsFileTest[m
+[qtp1495171277-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-21] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-26] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s - in BehaviorTests.[1mAsFileTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.669 s - in BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.013 s - in BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m20[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.165 s - in BehaviorTests.[1mHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDownloadProgressTest[m
+[qtp1495171277-21] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp1495171277-26] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in BehaviorTests.[1mDownloadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mProxyTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mProxyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mTimeoutTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mTimeoutTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mConsumerTest[m
+[qtp1495171277-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+...................................................................................................................................................................................................................................................................................................................................................................................[qtp1495171277-22] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 s - in BehaviorTests.[1mConsumerTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.313 s - in BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCertificateTests[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s - in BehaviorTests.[1mCertificateTests[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPathParamTest[m
+[qtp1495171277-31] INFO spark.http.matching.MatcherFilter - The requested route [/get//passed] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in BehaviorTests.[1mPathParamTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mVerbTest[m
+[qtp1495171277-22] INFO spark.http.matching.MatcherFilter - The requested route [/cheese] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in BehaviorTests.[1mVerbTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMetricsTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m11[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.115 s - in BehaviorTests.[1mMetricsTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCallbackFutureTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m3[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.03 s - in BehaviorTests.[1mCallbackFutureTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDefectTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.028 s[1;31m <<< FAILURE![m - in BehaviorTests.[1mDefectTest[m
+[[1;31mERROR[m] nullAndObjectValuesInMap  Time elapsed: 0.013 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <foo&baz=qux> but was: <baz=qux&foo>
+	at BehaviorTests.DefectTest.nullAndObjectValuesInMap(DefectTest.java:65)
+
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.26 s - in BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 s - in kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s - in kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m54[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m38[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJacksonObjectMapperTest[m
+actualStr = {"params":{},"body":null,"jsonPatches":[{"op":"add","path":"/foo","value":"bar"},{"op":"add","path":"/baz","value":"qux"}],"method":null,"contentType":null,"cookies":{},"requestId":"54d2a5c1-5609-4d03-8de0-da289fec3af2","url":null,"files":[],"status":null,"headers":{},"queryString":null,"routeParams":{}}
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.[1mJacksonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBaseRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in kong.unirest.[1mBaseRequestTest[m
+[Thread-164] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >>> Spark shutting down ...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefectTest.nullAndObjectValuesInMap:65 expected: <foo&baz=qux> but was: <baz=qux&foo>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 562, Failures: 1, Errors: 0, Skipped: 9[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 38HswINM3Qhzc5nnsX3FIhGz9JcIHhN6q7IddmjbeQ=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexJarDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexExecid=Pel+g9B4oTv+Av3UCHTNxTzYy6RDFCkW047CYKnauqc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running BehaviorTests.[1mAsObjectTest[m
+[main] INFO spark.staticfiles.StaticFilesConfiguration - StaticResourceHandler configured with folder = public/
+[Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @2993ms to org.eclipse.jetty.util.log.Slf4jLog
+[Thread-1] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+[Thread-1] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:4567
+[Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[Thread-1] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[Thread-1] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[Thread-1] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[Thread-1] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3357b521{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[Thread-1] INFO org.eclipse.jetty.server.Server - Started @3138ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.17 s - in BehaviorTests.[1mAsObjectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGZipTest[m
+[qtp38760372-31] INFO spark.http.matching.MatcherFilter - The requested route [/empty-gzip] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in BehaviorTests.[1mGZipTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHostsHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.013 s - in BehaviorTests.[1mHostsHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsFileTest[m
+[qtp38760372-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-21] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-26] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in BehaviorTests.[1mAsFileTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.611 s - in BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.012 s - in BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m20[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.162 s - in BehaviorTests.[1mHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDownloadProgressTest[m
+[qtp38760372-23] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in BehaviorTests.[1mDownloadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mProxyTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mProxyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mTimeoutTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mTimeoutTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mConsumerTest[m
+[qtp38760372-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+.......................................................................................................................................................................................................................................................................................................................[qtp38760372-22] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 s - in BehaviorTests.[1mConsumerTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 s - in BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCertificateTests[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mCertificateTests[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPathParamTest[m
+[qtp38760372-26] INFO spark.http.matching.MatcherFilter - The requested route [/get//passed] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in BehaviorTests.[1mPathParamTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mVerbTest[m
+[qtp38760372-22] INFO spark.http.matching.MatcherFilter - The requested route [/cheese] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in BehaviorTests.[1mVerbTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMetricsTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m11[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.119 s - in BehaviorTests.[1mMetricsTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCallbackFutureTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m3[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.031 s - in BehaviorTests.[1mCallbackFutureTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDefectTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m4[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.022 s - in BehaviorTests.[1mDefectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.29 s - in BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m54[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m38[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJacksonObjectMapperTest[m
+actualStr = {"jsonPatches":[{"op":"add","path":"/foo","value":"bar"},{"op":"add","path":"/baz","value":"qux"}],"url":null,"routeParams":{},"method":null,"files":[],"contentType":null,"status":null,"cookies":{},"queryString":null,"requestId":"96191559-d7bf-4d3a-bce1-b1e03f3b2c07","params":{},"headers":{},"body":null}
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in kong.unirest.[1mJacksonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBaseRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in kong.unirest.[1mBaseRequestTest[m
+[Thread-164] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >>> Spark shutting down ...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 562, Failures: 0, Errors: 0, Skipped: 9[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexJarDir=/home/a360/research/projects/unirest-java/unirest/.nondex
+nondexExecid=EJDta5bY7v3WaZvfMPqsUIxGLC8lLefKDny918RfrzU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running BehaviorTests.[1mAsObjectTest[m
+[main] INFO spark.staticfiles.StaticFilesConfiguration - StaticResourceHandler configured with folder = public/
+[Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @3061ms to org.eclipse.jetty.util.log.Slf4jLog
+[Thread-1] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+[Thread-1] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:4567
+[Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[Thread-1] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[Thread-1] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[Thread-1] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[Thread-1] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3357b521{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[Thread-1] INFO org.eclipse.jetty.server.Server - Started @3224ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.167 s - in BehaviorTests.[1mAsObjectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGZipTest[m
+[qtp38760372-20] INFO spark.http.matching.MatcherFilter - The requested route [/empty-gzip] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in BehaviorTests.[1mGZipTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHostsHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.015 s - in BehaviorTests.[1mHostsHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in BehaviorTests.[1mRawUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in BehaviorTests.[1mObjectFunctionalTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s - in BehaviorTests.[1mUniBodyPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsFileTest[m
+[qtp38760372-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-20] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-21] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-26] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-31] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in BehaviorTests.[1mAsFileTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in BehaviorTests.[1mBaseUrlTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in BehaviorTests.[1mCustomClientTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.686 s - in BehaviorTests.[1mInterceptorTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in BehaviorTests.[1mAsStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in BehaviorTests.[1mAsJsonTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in BehaviorTests.[1mGenericMappingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.017 s - in BehaviorTests.[1mBodyLogSummaryTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in BehaviorTests.[1mPagingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in BehaviorTests.[1mFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in BehaviorTests.[1mQueryStringTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mHeaderTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m20[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.177 s - in BehaviorTests.[1mHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in BehaviorTests.[1mResponseHeaderTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in BehaviorTests.[1mAsBytesTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in BehaviorTests.[1mCookieTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in BehaviorTests.[1mCachingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in BehaviorTests.[1mErrorParsingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in BehaviorTests.[1mAsGenericTypeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in BehaviorTests.[1mAsEmptyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDownloadProgressTest[m
+[qtp38760372-23] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[qtp38760372-30] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in BehaviorTests.[1mDownloadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mProxyTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mProxyTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mTimeoutTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s - in BehaviorTests.[1mTimeoutTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in BehaviorTests.[1mCustomObjectMapperTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in BehaviorTests.[1mUploadProgressTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mConsumerTest[m
+[qtp38760372-26] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+........................................................................................................................................................................................................................................................................................[qtp38760372-21] INFO spark.http.matching.MatcherFilter - The requested route [/binary] has not been mapped in Spark for Accept: [null]
+.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s - in BehaviorTests.[1mConsumerTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in BehaviorTests.[1mPostRequestHandlersTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.308 s - in BehaviorTests.[1mMultiPartFormPostingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCertificateTests[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s - in BehaviorTests.[1mCertificateTests[m
+[[1;34mINFO[m] Running BehaviorTests.[1mPathParamTest[m
+[qtp38760372-20] INFO spark.http.matching.MatcherFilter - The requested route [/get//passed] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in BehaviorTests.[1mPathParamTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in BehaviorTests.[1mJsonPatchTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mVerbTest[m
+[qtp38760372-21] INFO spark.http.matching.MatcherFilter - The requested route [/cheese] has not been mapped in Spark for Accept: [null]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in BehaviorTests.[1mVerbTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mMetricsTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m11[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.115 s - in BehaviorTests.[1mMetricsTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCallbackFutureTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m3[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.029 s - in BehaviorTests.[1mCallbackFutureTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mDefectTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m4[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.024 s - in BehaviorTests.[1mDefectTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in BehaviorTests.[1mCachingAlternativeTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in BehaviorTests.[1mRedirectHandlingTest[m
+[[1;34mINFO[m] Running BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.761 s - in BehaviorTests.[1mLifeCycleTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in kong.unirest.[1mClientFactoryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in kong.unirest.[1mConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mByteArrayPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mParamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.[1mCacheManagerTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.[1mPathTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.[1mUriFormatterTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in kong.unirest.[1mCompoundInterceptorTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mContentTypeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in kong.unirest.[1mJsonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in kong.unirest.json.[1mJSONPointerTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m54[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in kong.unirest.json.[1mJSONObjectTest[m
+[[1;34mINFO[m] Running kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m38[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in kong.unirest.json.[1mJSONArrayTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.[1mInputStreamPartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in kong.unirest.[1mPagedListTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in kong.unirest.apache.[1mBaseApacheClientTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.apache.[1mSecurityConfigTest[m
+[[1;34mINFO[m] Running kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.apache.[1mUtilTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mHeaderEntryTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in kong.unirest.[1mCookieParsingTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJacksonObjectMapperTest[m
+actualStr = {"requestId":"c8ee496f-d3fb-4ba7-9e89-81e8e7b544a9","body":null,"contentType":null,"files":[],"headers":{},"queryString":null,"cookies":{},"url":null,"jsonPatches":[{"op":"add","path":"/foo","value":"bar"},{"op":"add","path":"/baz","value":"qux"}],"routeParams":{},"method":null,"params":{},"status":null}
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in kong.unirest.[1mJacksonObjectMapperTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.[1mUniByteArrayBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mUnibodyStringTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in kong.unirest.[1mJsonNodeTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mFilePartTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in kong.unirest.[1mHttpMethodTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in kong.unirest.[1mHeadersTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in kong.unirest.[1mResponseUtilsTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in kong.unirest.[1mBodyTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in kong.unirest.[1mJsonPatchItemTest[m
+[[1;34mINFO[m] Running kong.unirest.[1mBaseRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in kong.unirest.[1mBaseRequestTest[m
+[Thread-164] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >>> Spark shutting down ...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 562, Failures: 0, Errors: 0, Skipped: 9[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/unirest-java/unirest/.nondex" -DnondexJarDir="/home/a360/research/projects/unirest-java/unirest/.nondex" -DnondexExecid=38HswINM3Qhzc5nnsX3FIhGz9JcIHhN6q7IddmjbeQ= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] BehaviorTests.DefectTest#nullAndObjectValuesInMap
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/unirest-java/unirest/.nondex" -DnondexJarDir="/home/a360/research/projects/unirest-java/unirest/.nondex" -DnondexExecid=Pel+g9B4oTv+Av3UCHTNxTzYy6RDFCkW047CYKnauqc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/unirest-java/unirest/.nondex" -DnondexJarDir="/home/a360/research/projects/unirest-java/unirest/.nondex" -DnondexExecid=EJDta5bY7v3WaZvfMPqsUIxGLC8lLefKDny918RfrzU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] BehaviorTests.DefectTest#nullAndObjectValuesInMap
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/unirest-java/unirest/.nondex/38HswINM3Qhzc5nnsX3FIhGz9JcIHhN6q7IddmjbeQ=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 38HswINM3Qhzc5nnsX3FIhGz9JcIHhN6q7IddmjbeQ=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:05 min
+[[1;34mINFO[m] Finished at: 2026-10-01T21:49:16-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36munirest-java[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/unirest-java/unirest/.nondex/38HswINM3Qhzc5nnsX3FIhGz9JcIHhN6q7IddmjbeQ= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

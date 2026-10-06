@@ -1,0 +1,1992 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mio.fabric8:mockwebserver[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Fabric8 :: Mock Web Server 6.10-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmockwebserver[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.5.0:parse-version[m [1m(parse-version)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msundr:0.103.1:generate-bom[m [1m(default)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.11:prepare-agent[m [1m(default-prepare-agent)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgplus:3.0.2:addSources[m [1m(default)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgplus:3.0.2:addTestSources[m [1m(default)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from target/classes to target/classes
+[[1;34mINFO[m] Copying 4 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjandex:1.2.3:jandex[m [1m(make-index)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] Saving Jandex index: /home/a360/research/projects/kubernetes-client/junit/mockwebserver/target/classes/META-INF/jandex.idx
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/kubernetes-client/junit/mockwebserver/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgplus:3.0.2:compileTests[m [1m(default)[m @ [36mmockwebserver[0;1m ---[m
+[[1;34mINFO[m] Using isolated classloader, without GMavenPlus classpath.
+[[1;34mINFO[m] Using Groovy 4.0.4 to perform compileTests.
+[[1;34mINFO[m] invokedynamic enabled.
+[[1;34mINFO[m] Parallel parsing enabled.
+[[1;34mINFO[m] Compiled 28 files.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmockwebserver[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mmockwebserver[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_I+bpt00iODg97B6D5OhC7RwoQ4lhEf58Pf1Z9a6s5y4=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[35027] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[35027] done accepting connections: Socket is closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37093] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37093] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[43023] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[43023] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60799] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60799] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45511] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45511] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45511] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45511] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45511] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[44323] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[44323] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[55597] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55597] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[55597] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[57719] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57719] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[57719] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45279] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45279] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45279] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45279] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45279] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47753] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47753] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47753] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47753] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[47753] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[36089] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[36089] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[59175] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59175] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59175] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[59175] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[42991] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42991] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42991] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42991] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42991] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[42991] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[44183] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44183] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44183] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44183] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44183] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[44183] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45457] starting to accept connections
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45457] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45457] done accepting connections: Socket closed
+Oct 02, 2026 8:32:51 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[46595] starting to accept connections
+Oct 02, 2026 8:32:52 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46595] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:52 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[46595] done accepting connections: Socket closed
+Oct 02, 2026 8:32:52 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39613] starting to accept connections
+Oct 02, 2026 8:32:52 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39613] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:52 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39613] done accepting connections: Socket closed
+Oct 02, 2026 8:32:52 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[32923] starting to accept connections
+Closing: 1002 : Unexpected message:unexpected message
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[32923] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[32923] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[44625] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44625] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[44625] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[52583] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[52583] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[52583] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[52583] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50999] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50999] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50999] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50999] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54571] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54571] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54571] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[36525] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[36525] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[36525] received request: GET /api/v1/delete HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[36525] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[36525] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[57911] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57911] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57911] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[57911] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.415 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[51979] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[51979] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[32795] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[32795] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[32795] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53033] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53033] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53033] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53785] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53785] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53785] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[38993] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38993] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[38993] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54065] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54065] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54065] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[59247] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59247] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[59247] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.223 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47249] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47249] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47249] received request: PATCH /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47249] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[48025] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48025] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48025] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[49221] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49221] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49221] received request: DELETE /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49221] received request: DELETE /namespace/test/name/two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s -- in io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s -- in io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45455] starting to accept connections
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45455] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45455] done accepting connections: Socket closed
+Oct 02, 2026 8:32:53 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[49895] starting to accept connections
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49895] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49895] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[49895] done accepting connections: Socket closed
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[46971] starting to accept connections
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46971] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46971] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46971] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[46971] done accepting connections: Socket closed
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[40675] starting to accept connections
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[40675] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[40675] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[40675] received request: GET /1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[40675] done accepting connections: Socket closed
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[38439] starting to accept connections
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[38439] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[38439] done accepting connections: Socket closed
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[46191] starting to accept connections
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46191] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46191] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46191] received request: GET /1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:54 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[46191] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 58, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexJarDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexExecid=mZMkFweAif71jgQpmij9EOZCKoTnlEWC4zIPc4ATQaQ=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[49923] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[49923] done accepting connections: Socket is closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[41459] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[41459] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53475] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53475] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37803] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37803] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53983] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53983] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53983] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53983] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53983] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[51245] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[51245] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50175] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50175] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50175] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47639] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47639] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[47639] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37887] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37887] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37887] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37887] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37887] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[51515] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51515] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51515] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51515] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[51515] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60035] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60035] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[49897] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49897] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49897] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[49897] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54601] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54601] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54601] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54601] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54601] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54601] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34191] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34191] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34191] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34191] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34191] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34191] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[58717] starting to accept connections
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[58717] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[58717] done accepting connections: Socket closed
+Oct 02, 2026 8:32:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47971] starting to accept connections
+Oct 02, 2026 8:32:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47971] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[47971] done accepting connections: Socket closed
+Oct 02, 2026 8:32:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[46793] starting to accept connections
+Oct 02, 2026 8:32:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[46793] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[46793] done accepting connections: Socket closed
+Oct 02, 2026 8:32:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45145] starting to accept connections
+Closing: 1002 : Unexpected message:unexpected message
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45145] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45145] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[44375] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44375] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[44375] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39189] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39189] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39189] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39189] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[56083] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[56083] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[56083] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[56083] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[44287] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[44287] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[44287] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50701] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50701] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50701] received request: GET /api/v1/delete HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50701] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50701] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[42047] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42047] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42047] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[42047] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.406 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47123] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[47123] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45847] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45847] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45847] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34835] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34835] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34835] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[59149] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[59149] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59149] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34385] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34385] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34385] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37423] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37423] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37423] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[48601] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[48601] done accepting connections: Socket closed
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48601] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60915] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60915] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60915] received request: PATCH /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60915] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45367] starting to accept connections
+Oct 02, 2026 8:32:58 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45367] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45367] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[57061] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57061] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57061] received request: DELETE /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57061] received request: DELETE /namespace/test/name/two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 s -- in io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60613] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60613] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60613] done accepting connections: Socket closed
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[35287] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[35287] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[35287] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[35287] done accepting connections: Socket closed
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[48829] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48829] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48829] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48829] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[48829] done accepting connections: Socket closed
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[57567] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57567] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57567] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57567] received request: GET /1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[57567] done accepting connections: Socket closed
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47407] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47407] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[47407] done accepting connections: Socket closed
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[33251] starting to accept connections
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[33251] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[33251] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:32:59 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[33251] done accepting connections: Socket closed
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m5[m, Errors: 0, Skipped: 0, Time elapsed: 0.396 s[1;31m <<< FAILURE![m -- in io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with one item, should return item -- Time elapsed: 0.298 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        29 differences (29% similarity)
+|      |      |        {"(enable)d":(tr-)u(-)e(,"id-)":(1,)"user(----)na(m-)e(-)":("-)u(s)e(r")}
+|      |      |        {"(i-----)d":(1,")u(s)e(rname)":(--)"user(","e)na(bl)e(d)":(tr)u(-)e(--)}
+|      |      {"enabled":true,"id":1,"username":"user"}
+|      <okhttp3.internal.http.RealResponseBody@277bf091 contentLength=41 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@65bdd558) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:35287/}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with one item, should return item(DefaultMockServerCrudTest.groovy:69)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with multiple items, should return array -- Time elapsed: 0.027 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "[{\"id\":1,\"username\":\"user\",\"enabled\":true},{\"id\":2,\"username\":\"user-2\",\"enabled\":true}]"
+|      |      |        |
+|      |      |        false
+|      |      |        34 differences (60% similarity)
+|      |      |        [{"(enabled":true,")id":1,"username":"user"(}),({)"enabled":true(-),(-)"id":2,"username":"user-2"(---------------)}]
+|      |      |        [{"(---------------)id":1,"username":"user"(-),(-)"enabled":true(}),({)"id":2,"username":"user-2"(,"enabled":true)}]
+|      |      [{"enabled":true,"id":1,"username":"user"},{"enabled":true,"id":2,"username":"user-2"}]
+|      <okhttp3.internal.http.RealResponseBody@51c959a4 contentLength=87 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@4fc3c165) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:48829/}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with multiple items, should return array(DefaultMockServerCrudTest.groovy:88)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /1, with existent item, should return item -- Time elapsed: 0.016 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        29 differences (29% similarity)
+|      |      |        {"(enable)d":(tr-)u(-)e(,"id-)":(1,)"user(----)na(m-)e(-)":("-)u(s)e(r")}
+|      |      |        {"(i-----)d":(1,")u(s)e(rname)":(--)"user(","e)na(bl)e(d)":(tr)u(-)e(--)}
+|      |      {"enabled":true,"id":1,"username":"user"}
+|      <okhttp3.internal.http.RealResponseBody@262816a8 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@1effd53c) contentTypeString=null contentLength=41 reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:57567/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /1, with existent item, should return item(DefaultMockServerCrudTest.groovy:108)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with missing item, should create item -- Time elapsed: 0.010 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        30 differences (40% similarity)
+|      |      |        {"(enabled":true,")id":1,"username":"user-replaced"(---------------)}
+|      |      |        {"(---------------)id":1,"username":"user-replaced"(,"enabled":true)}
+|      |      {"enabled":true,"id":1,"username":"user-replaced"}
+|      <okhttp3.internal.http.RealResponseBody@433348bc source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@6d1dcdff) contentLength=50 contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=201, message=OK, url=http://localhost:47407/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with missing item, should create item(DefaultMockServerCrudTest.groovy:120)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with existent item, should replace item -- Time elapsed: 0.014 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        30 differences (40% similarity)
+|      |      |        {"(enabled":true,")id":1,"username":"user-replaced"(---------------)}
+|      |      |        {"(---------------)id":1,"username":"user-replaced"(,"enabled":true)}
+|      |      {"enabled":true,"id":1,"username":"user-replaced"}
+|      <okhttp3.internal.http.RealResponseBody@43045f9f contentLength=50 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@2643d762) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=202, message=OK, url=http://localhost:33251/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with existent item, should replace item(DefaultMockServerCrudTest.groovy:138)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /, with multiple items, should return array:88 Condition not satisfied:
+
+result.body().string() == "[{\"id\":1,\"username\":\"user\",\"enabled\":true},{\"id\":2,\"username\":\"user-2\",\"enabled\":true}]"
+|      |      |        |
+|      |      |        false
+|      |      |        34 differences (60% similarity)
+|      |      |        [{"(enabled":true,")id":1,"username":"user"(}),({)"enabled":true(-),(-)"id":2,"username":"user-2"(---------------)}]
+|      |      |        [{"(---------------)id":1,"username":"user"(-),(-)"enabled":true(}),({)"id":2,"username":"user-2"(,"enabled":true)}]
+|      |      [{"enabled":true,"id":1,"username":"user"},{"enabled":true,"id":2,"username":"user-2"}]
+|      <okhttp3.internal.http.RealResponseBody@51c959a4 contentLength=87 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@4fc3c165) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:48829/}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /, with one item, should return item:69 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        29 differences (29% similarity)
+|      |      |        {"(enable)d":(tr-)u(-)e(,"id-)":(1,)"user(----)na(m-)e(-)":("-)u(s)e(r")}
+|      |      |        {"(i-----)d":(1,")u(s)e(rname)":(--)"user(","e)na(bl)e(d)":(tr)u(-)e(--)}
+|      |      {"enabled":true,"id":1,"username":"user"}
+|      <okhttp3.internal.http.RealResponseBody@277bf091 contentLength=41 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@65bdd558) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:35287/}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /1, with existent item, should return item:108 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        29 differences (29% similarity)
+|      |      |        {"(enable)d":(tr-)u(-)e(,"id-)":(1,)"user(----)na(m-)e(-)":("-)u(s)e(r")}
+|      |      |        {"(i-----)d":(1,")u(s)e(rname)":(--)"user(","e)na(bl)e(d)":(tr)u(-)e(--)}
+|      |      {"enabled":true,"id":1,"username":"user"}
+|      <okhttp3.internal.http.RealResponseBody@262816a8 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@1effd53c) contentTypeString=null contentLength=41 reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:57567/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.put /1, with existent item, should replace item:138 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        30 differences (40% similarity)
+|      |      |        {"(enabled":true,")id":1,"username":"user-replaced"(---------------)}
+|      |      |        {"(---------------)id":1,"username":"user-replaced"(,"enabled":true)}
+|      |      {"enabled":true,"id":1,"username":"user-replaced"}
+|      <okhttp3.internal.http.RealResponseBody@43045f9f contentLength=50 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@2643d762) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=202, message=OK, url=http://localhost:33251/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.put /1, with missing item, should create item:120 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        30 differences (40% similarity)
+|      |      |        {"(enabled":true,")id":1,"username":"user-replaced"(---------------)}
+|      |      |        {"(---------------)id":1,"username":"user-replaced"(,"enabled":true)}
+|      |      {"enabled":true,"id":1,"username":"user-replaced"}
+|      <okhttp3.internal.http.RealResponseBody@433348bc source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@6d1dcdff) contentLength=50 contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=201, message=OK, url=http://localhost:47407/1}
+[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 58, Failures: 5, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for mZMkFweAif71jgQpmij9EOZCKoTnlEWC4zIPc4ATQaQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexJarDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexExecid=o0hPjwl+qV4ghbO9t7bBvAmBrjo1a62iPNib1BM7ihs=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54453] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54453] done accepting connections: Socket is closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[52817] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[52817] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54819] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54819] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[56795] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[56795] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45957] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45957] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45957] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45957] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45957] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[51155] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[51155] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39393] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39393] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39393] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45655] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45655] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45655] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50523] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50523] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50523] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50523] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50523] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[40747] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[40747] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[40747] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[40747] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[40747] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54569] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54569] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39799] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39799] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39799] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39799] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53421] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53421] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53421] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53421] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53421] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53421] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[48395] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48395] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48395] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48395] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48395] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[48395] done accepting connections: Socket closed
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37387] starting to accept connections
+Oct 02, 2026 8:33:01 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37387] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:02 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37387] done accepting connections: Socket closed
+Oct 02, 2026 8:33:02 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50515] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50515] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50515] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37675] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37675] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37675] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[32971] starting to accept connections
+Closing: 1002 : Unexpected message:unexpected message
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[32971] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[32971] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[41077] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[41077] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[41077] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[58141] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[58141] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[58141] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[58141] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[54217] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54217] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[54217] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[54217] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60305] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60305] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60305] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45513] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45513] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45513] received request: GET /api/v1/delete HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45513] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45513] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[48033] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48033] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48033] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[48033] done accepting connections: Socket closed
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m24[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 2.639 s[1;31m <<< FAILURE![m -- in io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerTest.when setting an expectation as an object it should be serialized to json -- Time elapsed: 0.609 s <<< FAILURE!
+Condition not satisfied:
+
+response1.body().string() == "{\"id\":0,\"username\":\"root\",\"enabled\":true}"
+|         |      |        |
+|         |      |        false
+|         |      |        21 differences (48% similarity)
+|         |      |        {"id":0,"(--)e(-)na(bl)e(d)":(t)r(ue,)"(us)e(r)na(m-)e(-)":(")r(oot")}
+|         |      |        {"id":0,"(us)e(r)na(m-)e(-)":(")r(oot)"(,")e(-)na(bl)e(d)":(t)r(ue--)}
+|         |      {"id":0,"enabled":true,"username":"root"}
+|         <okhttp3.internal.http.RealResponseBody@67110f71 contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@de77232) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:37387/api/v1/users}
+
+	at io.fabric8.mockwebserver.DefaultMockServerTest.when setting an expectation as an object it should be serialized to json(DefaultMockServerTest.groovy:247)
+
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[35715] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[35715] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53181] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53181] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53181] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[55103] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[55103] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55103] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[58583] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[58583] done accepting connections: Socket closed
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[58583] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[48541] starting to accept connections
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:03 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[48541] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[48541] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[59879] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[59879] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59879] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[55183] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55183] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[55183] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.272 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53529] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53529] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53529] received request: PATCH /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53529] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:04 AM okhttp3.internal.platform.Platform log
+WARNING: A connection to http://localhost:53529/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47883] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47883] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47883] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50279] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50279] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50279] received request: DELETE /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50279] received request: DELETE /namespace/test/name/two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.250 s -- in io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m10[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.085 s[1;31m <<< FAILURE![m -- in io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;31mERROR[m] io.fabric8.mockwebserver.crud.AttributeSetTest.when multiple attributes are specified it should examine all -- Time elapsed: 0.036 s <<< FAILURE!
+Condition not satisfied:
+
+new ArrayList<>(selectorWithTwo.attributes.values()).indexOf(a3) == 1
+|               |               |          |         |       |   |
+|               |               |          |         0       |   false
+|               |               |          |                 {key:key3, values:[]}
+|               |               |          [{key:key3, values:[]}, {key:key2, values:[value2]}]
+|               |               [key3:{key:key3, values:[]}, key2:{key:key2, values:[value2]}]
+|               {attributes: {key3={key:key3, values:[]}, key2={key:key2, values:[value2]}}}
+[{key:key3, values:[]}, {key:key2, values:[value2]}]
+
+	at io.fabric8.mockwebserver.crud.AttributeSetTest.when multiple attributes are specified it should examine all(AttributeSetTest.groovy:114)
+
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50765] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50765] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50765] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60253] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60253] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60253] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60253] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[43809] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[43809] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[43809] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[43809] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[43809] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[52891] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[52891] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[52891] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[52891] received request: GET /1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[52891] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[55587] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55587] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[55587] done accepting connections: Socket closed
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60617] starting to accept connections
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60617] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60617] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:04 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60617] done accepting connections: Socket closed
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m5[m, Errors: 0, Skipped: 0, Time elapsed: 0.160 s[1;31m <<< FAILURE![m -- in io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with one item, should return item -- Time elapsed: 0.059 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@76ad6715 contentLength=41 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@56637cff) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:60253/}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with one item, should return item(DefaultMockServerCrudTest.groovy:69)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with multiple items, should return array -- Time elapsed: 0.027 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "[{\"id\":1,\"username\":\"user\",\"enabled\":true},{\"id\":2,\"username\":\"user-2\",\"enabled\":true}]"
+|      |      |        |
+|      |      |        false
+|      |      |        38 differences (56% similarity)
+|      |      |        [{"(enable)d":(true),"username":"user","(id":1},{")enabled":true(-),(-)"(-------)username":"user-2","(i-----)d":(2---)}]
+|      |      |        [{"(i-----)d":(1---),"username":"user","(---------)enabled":true(}),({)"(id":2,")username":"user-2","(enable)d":(true)}]
+|      |      [{"enabled":true,"username":"user","id":1},{"enabled":true,"username":"user-2","id":2}]
+|      <okhttp3.internal.http.RealResponseBody@6ad16c5d source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@74ea46e2) contentTypeString=null contentLength=87 reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:43809/}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with multiple items, should return array(DefaultMockServerCrudTest.groovy:88)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /1, with existent item, should return item -- Time elapsed: 0.017 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@2f5b8250 contentTypeString=null contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@4821aa9f) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:52891/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /1, with existent item, should return item(DefaultMockServerCrudTest.groovy:108)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with missing item, should create item -- Time elapsed: 0.009 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@315f09ef contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@3a66e67e) contentLength=50 reader=null>
+Response{protocol=http/1.1, code=201, message=OK, url=http://localhost:55587/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with missing item, should create item(DefaultMockServerCrudTest.groovy:120)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with existent item, should replace item -- Time elapsed: 0.016 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@51d387d3 contentLength=50 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@2370ac7a) reader=null>
+Response{protocol=http/1.1, code=202, message=OK, url=http://localhost:60617/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with existent item, should replace item(DefaultMockServerCrudTest.groovy:138)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /, with multiple items, should return array:88 Condition not satisfied:
+
+result.body().string() == "[{\"id\":1,\"username\":\"user\",\"enabled\":true},{\"id\":2,\"username\":\"user-2\",\"enabled\":true}]"
+|      |      |        |
+|      |      |        false
+|      |      |        38 differences (56% similarity)
+|      |      |        [{"(enable)d":(true),"username":"user","(id":1},{")enabled":true(-),(-)"(-------)username":"user-2","(i-----)d":(2---)}]
+|      |      |        [{"(i-----)d":(1---),"username":"user","(---------)enabled":true(}),({)"(id":2,")username":"user-2","(enable)d":(true)}]
+|      |      [{"enabled":true,"username":"user","id":1},{"enabled":true,"username":"user-2","id":2}]
+|      <okhttp3.internal.http.RealResponseBody@6ad16c5d source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@74ea46e2) contentTypeString=null contentLength=87 reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:43809/}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /, with one item, should return item:69 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@76ad6715 contentLength=41 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@56637cff) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:60253/}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /1, with existent item, should return item:108 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@2f5b8250 contentTypeString=null contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@4821aa9f) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:52891/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.put /1, with existent item, should replace item:138 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@51d387d3 contentLength=50 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@2370ac7a) reader=null>
+Response{protocol=http/1.1, code=202, message=OK, url=http://localhost:60617/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.put /1, with missing item, should create item:120 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@315f09ef contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@3a66e67e) contentLength=50 reader=null>
+Response{protocol=http/1.1, code=201, message=OK, url=http://localhost:55587/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerTest.when setting an expectation as an object it should be serialized to json:247 Condition not satisfied:
+
+response1.body().string() == "{\"id\":0,\"username\":\"root\",\"enabled\":true}"
+|         |      |        |
+|         |      |        false
+|         |      |        21 differences (48% similarity)
+|         |      |        {"id":0,"(--)e(-)na(bl)e(d)":(t)r(ue,)"(us)e(r)na(m-)e(-)":(")r(oot")}
+|         |      |        {"id":0,"(us)e(r)na(m-)e(-)":(")r(oot)"(,")e(-)na(bl)e(d)":(t)r(ue--)}
+|         |      {"id":0,"enabled":true,"username":"root"}
+|         <okhttp3.internal.http.RealResponseBody@67110f71 contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@de77232) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:37387/api/v1/users}
+[m
+[[1;31mERROR[m] [1;31m  AttributeSetTest.when multiple attributes are specified it should examine all:114 Condition not satisfied:
+
+new ArrayList<>(selectorWithTwo.attributes.values()).indexOf(a3) == 1
+|               |               |          |         |       |   |
+|               |               |          |         0       |   false
+|               |               |          |                 {key:key3, values:[]}
+|               |               |          [{key:key3, values:[]}, {key:key2, values:[value2]}]
+|               |               [key3:{key:key3, values:[]}, key2:{key:key2, values:[value2]}]
+|               {attributes: {key3={key:key3, values:[]}, key2={key:key2, values:[value2]}}}
+[{key:key3, values:[]}, {key:key2, values:[value2]}]
+[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 58, Failures: 7, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for o0hPjwl+qV4ghbO9t7bBvAmBrjo1a62iPNib1BM7ihs=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexJarDir=/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex
+nondexExecid=xt4M9wGjVuTqJpY0yufkL+Rgk1W47zFwWilL3v2HpXs=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34669] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34669] done accepting connections: Socket is closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[42037] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[42037] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34815] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34815] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60579] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60579] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[51517] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51517] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51517] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51517] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[51517] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[57161] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[57161] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[41841] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[41841] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[41841] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[42675] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42675] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[42675] done accepting connections: Socket closed
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37975] starting to accept connections
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37975] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:06 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37975] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37975] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37975] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[55325] starting to accept connections
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55325] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55325] received request: GET /one HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[55325] received request: GET /two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[55325] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60189] starting to accept connections
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60189] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[42899] starting to accept connections
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42899] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[42899] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[42899] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60597] starting to accept connections
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60597] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60597] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60597] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60597] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60597] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45235] starting to accept connections
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45235] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45235] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45235] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45235] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45235] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37083] starting to accept connections
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37083] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37083] done accepting connections: Socket closed
+Oct 02, 2026 8:33:07 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[49775] starting to accept connections
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[49775] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[49775] done accepting connections: Socket closed
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37371] starting to accept connections
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37371] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37371] done accepting connections: Socket closed
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39615] starting to accept connections
+Closing: 1002 : Unexpected message:unexpected message
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39615] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39615] done accepting connections: Socket closed
+Oct 02, 2026 8:33:08 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[50513] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[50513] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[50513] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39529] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39529] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39529] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39529] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37773] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37773] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37773] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[37773] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[33465] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[33465] received request: GET /api/v1/users HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[33465] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[33363] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[33363] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[33363] received request: GET /api/v1/delete HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[33363] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[33363] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[35987] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[35987] received request: GET /api/v1/create HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[35987] received request: GET /api/v1/users/watch HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[35987] done accepting connections: Socket closed
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m24[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 2.702 s[1;31m <<< FAILURE![m -- in io.fabric8.mockwebserver.[1mDefaultMockServerTest[m
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerTest.when setting an expectation as an object it should be serialized to json -- Time elapsed: 0.582 s <<< FAILURE!
+Condition not satisfied:
+
+response1.body().string() == "{\"id\":0,\"username\":\"root\",\"enabled\":true}"
+|         |      |        |
+|         |      |        false
+|         |      |        21 differences (48% similarity)
+|         |      |        {"id":0,"(--)e(-)na(bl)e(d)":(t)r(ue,)"(us)e(r)na(m-)e(-)":(")r(oot")}
+|         |      |        {"id":0,"(us)e(r)na(m-)e(-)":(")r(oot)"(,")e(-)na(bl)e(d)":(t)r(ue--)}
+|         |      {"id":0,"enabled":true,"username":"root"}
+|         <okhttp3.internal.http.RealResponseBody@3f93e4a8 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@5445f5ba) contentTypeString=null contentLength=41 reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:37083/api/v1/users}
+
+	at io.fabric8.mockwebserver.DefaultMockServerTest.when setting an expectation as an object it should be serialized to json(DefaultMockServerTest.groovy:247)
+
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45467] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45467] done accepting connections: Socket closed
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerHttpsTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[36927] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[36927] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[36927] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34571] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34571] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34571] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[39961] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[39961] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[39961] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[53987] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[53987] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[53987] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[52305] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[52305] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[52305] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[45533] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[45533] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[45533] received request: GET /websocket HTTP/1.1 and responded: HTTP/1.1 101 Switching Protocols
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 s -- in io.fabric8.mockwebserver.[1mDefaultMockServerWebSocketTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[37719] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37719] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37719] received request: PATCH /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[37719] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.internal.platform.Platform log
+WARNING: A connection to http://localhost:37719/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[51065] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51065] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[51065] received request: GET /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[47273] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47273] received request: POST /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47273] received request: DELETE /namespace/test/name/one HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[47273] received request: DELETE /namespace/test/name/two HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 s -- in io.fabric8.mockwebserver.crud.[1mCrudDispatcherTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in io.fabric8.mockwebserver.crud.[1mAttributeTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in io.fabric8.mockwebserver.crud.[1mAttributeSetTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in io.fabric8.mockwebserver.[1mMockServerExceptionTest[m
+[[1;34mINFO[m] Running io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[35475] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[35475] received request: GET / HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[35475] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[34413] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34413] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[34413] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[34413] done accepting connections: Socket closed
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[59239] starting to accept connections
+Oct 02, 2026 8:33:09 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59239] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59239] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[59239] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[59239] done accepting connections: Socket closed
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[43409] starting to accept connections
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[43409] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[43409] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[43409] received request: GET /1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[43409] done accepting connections: Socket closed
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[60911] starting to accept connections
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[60911] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 201 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[60911] done accepting connections: Socket closed
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFO: MockWebServer[57765] starting to accept connections
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57765] received request: POST / HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFO: MockWebServer[57765] received request: PUT /1 HTTP/1.1 and responded: HTTP/1.1 202 OK
+Oct 02, 2026 8:33:10 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFO: MockWebServer[57765] done accepting connections: Socket closed
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m5[m, Errors: 0, Skipped: 0, Time elapsed: 0.172 s[1;31m <<< FAILURE![m -- in io.fabric8.mockwebserver.[1mDefaultMockServerCrudTest[m
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with one item, should return item -- Time elapsed: 0.066 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@102c577f contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@7d44a19) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:34413/}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with one item, should return item(DefaultMockServerCrudTest.groovy:69)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with multiple items, should return array -- Time elapsed: 0.031 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "[{\"id\":1,\"username\":\"user\",\"enabled\":true},{\"id\":2,\"username\":\"user-2\",\"enabled\":true}]"
+|      |      |        |
+|      |      |        false
+|      |      |        38 differences (56% similarity)
+|      |      |        [{"(enable)d":(true),"username":"user","(id":1},{")enabled":true(-),(-)"(-------)username":"user-2","(i-----)d":(2---)}]
+|      |      |        [{"(i-----)d":(1---),"username":"user","(---------)enabled":true(}),({)"(id":2,")username":"user-2","(enable)d":(true)}]
+|      |      [{"enabled":true,"username":"user","id":1},{"enabled":true,"username":"user-2","id":2}]
+|      <okhttp3.internal.http.RealResponseBody@38eb0f4d source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@437486cd) contentLength=87 contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:59239/}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /, with multiple items, should return array(DefaultMockServerCrudTest.groovy:88)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /1, with existent item, should return item -- Time elapsed: 0.018 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@715b886f contentTypeString=null contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@7fb29ca9) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:43409/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.get /1, with existent item, should return item(DefaultMockServerCrudTest.groovy:108)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with missing item, should create item -- Time elapsed: 0.011 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@1859e2a4 contentLength=50 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@46349b95) reader=null>
+Response{protocol=http/1.1, code=201, message=OK, url=http://localhost:60911/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with missing item, should create item(DefaultMockServerCrudTest.groovy:120)
+
+[[1;31mERROR[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with existent item, should replace item -- Time elapsed: 0.019 s <<< FAILURE!
+Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@2f897dab contentTypeString=null contentLength=50 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@d5d5353) reader=null>
+Response{protocol=http/1.1, code=202, message=OK, url=http://localhost:57765/1}
+
+	at io.fabric8.mockwebserver.DefaultMockServerCrudTest.put /1, with existent item, should replace item(DefaultMockServerCrudTest.groovy:138)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /, with multiple items, should return array:88 Condition not satisfied:
+
+result.body().string() == "[{\"id\":1,\"username\":\"user\",\"enabled\":true},{\"id\":2,\"username\":\"user-2\",\"enabled\":true}]"
+|      |      |        |
+|      |      |        false
+|      |      |        38 differences (56% similarity)
+|      |      |        [{"(enable)d":(true),"username":"user","(id":1},{")enabled":true(-),(-)"(-------)username":"user-2","(i-----)d":(2---)}]
+|      |      |        [{"(i-----)d":(1---),"username":"user","(---------)enabled":true(}),({)"(id":2,")username":"user-2","(enable)d":(true)}]
+|      |      [{"enabled":true,"username":"user","id":1},{"enabled":true,"username":"user-2","id":2}]
+|      <okhttp3.internal.http.RealResponseBody@38eb0f4d source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@437486cd) contentLength=87 contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:59239/}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /, with one item, should return item:69 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@102c577f contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@7d44a19) contentTypeString=null reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:34413/}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.get /1, with existent item, should return item:108 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (51% similarity)
+|      |      |        {"(enable)d":(true),"username":"user","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user","id":1}
+|      <okhttp3.internal.http.RealResponseBody@715b886f contentTypeString=null contentLength=41 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@7fb29ca9) reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:43409/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.put /1, with existent item, should replace item:138 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@2f897dab contentTypeString=null contentLength=50 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@d5d5353) reader=null>
+Response{protocol=http/1.1, code=202, message=OK, url=http://localhost:57765/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerCrudTest.put /1, with missing item, should create item:120 Condition not satisfied:
+
+result.body().string() == "{\"id\":1,\"username\":\"user-replaced\",\"enabled\":true}"
+|      |      |        |
+|      |      |        false
+|      |      |        20 differences (60% similarity)
+|      |      |        {"(enable)d":(true),"username":"user-replaced","(i-----)d":(1---)}
+|      |      |        {"(i-----)d":(1---),"username":"user-replaced","(enable)d":(true)}
+|      |      {"enabled":true,"username":"user-replaced","id":1}
+|      <okhttp3.internal.http.RealResponseBody@1859e2a4 contentLength=50 contentTypeString=null source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@46349b95) reader=null>
+Response{protocol=http/1.1, code=201, message=OK, url=http://localhost:60911/1}
+[m
+[[1;31mERROR[m] [1;31m  DefaultMockServerTest.when setting an expectation as an object it should be serialized to json:247 Condition not satisfied:
+
+response1.body().string() == "{\"id\":0,\"username\":\"root\",\"enabled\":true}"
+|         |      |        |
+|         |      |        false
+|         |      |        21 differences (48% similarity)
+|         |      |        {"id":0,"(--)e(-)na(bl)e(d)":(t)r(ue,)"(us)e(r)na(m-)e(-)":(")r(oot")}
+|         |      |        {"id":0,"(us)e(r)na(m-)e(-)":(")r(oot)"(,")e(-)na(bl)e(d)":(t)r(ue--)}
+|         |      {"id":0,"enabled":true,"username":"root"}
+|         <okhttp3.internal.http.RealResponseBody@3f93e4a8 source=buffer(okhttp3.internal.http1.Http1Codec$FixedLengthSource@5445f5ba) contentTypeString=null contentLength=41 reader=null>
+Response{protocol=http/1.1, code=200, message=OK, url=http://localhost:37083/api/v1/users}
+[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 58, Failures: 6, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for xt4M9wGjVuTqJpY0yufkL+Rgk1W47zFwWilL3v2HpXs=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex" -DnondexJarDir="/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex" -DnondexExecid=mZMkFweAif71jgQpmij9EOZCKoTnlEWC4zIPc4ATQaQ= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with one item, should return item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with multiple items, should return array
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /1, with existent item, should return item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with missing item, should create item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with existent item, should replace item
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex" -DnondexJarDir="/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex" -DnondexExecid=o0hPjwl+qV4ghbO9t7bBvAmBrjo1a62iPNib1BM7ihs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerTest#when setting an expectation as an object it should be serialized to json
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with one item, should return item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with multiple items, should return array
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /1, with existent item, should return item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with missing item, should create item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with existent item, should replace item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.crud.AttributeSetTest#when multiple attributes are specified it should examine all
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex" -DnondexJarDir="/home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex" -DnondexExecid=xt4M9wGjVuTqJpY0yufkL+Rgk1W47zFwWilL3v2HpXs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerTest#when setting an expectation as an object it should be serialized to json
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with one item, should return item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with multiple items, should return array
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /1, with existent item, should return item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with missing item, should create item
+[[1;33mWARNING[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with existent item, should replace item
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with one item, should return item
+[[1;34mINFO[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /, with multiple items, should return array
+[[1;34mINFO[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#get /1, with existent item, should return item
+[[1;34mINFO[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with missing item, should create item
+[[1;34mINFO[m] io.fabric8.mockwebserver.DefaultMockServerCrudTest#put /1, with existent item, should replace item
+[[1;34mINFO[m] io.fabric8.mockwebserver.DefaultMockServerTest#when setting an expectation as an object it should be serialized to json
+[[1;34mINFO[m] io.fabric8.mockwebserver.crud.AttributeSetTest#when multiple attributes are specified it should examine all
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex/mZMkFweAif71jgQpmij9EOZCKoTnlEWC4zIPc4ATQaQ=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: mZMkFweAif71jgQpmij9EOZCKoTnlEWC4zIPc4ATQaQ=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  26.188 s
+[[1;34mINFO[m] Finished at: 2026-10-02T08:33:10-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mmockwebserver[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/kubernetes-client/junit/mockwebserver/.nondex/mZMkFweAif71jgQpmij9EOZCKoTnlEWC4zIPc4ATQaQ= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

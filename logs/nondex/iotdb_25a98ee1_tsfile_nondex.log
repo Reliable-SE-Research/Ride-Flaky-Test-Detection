@@ -1,0 +1,1131 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.iotdb:tsfile:jar:0.13.0-SNAPSHOT
+[[1;33mWARNING[m] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.eclipse.jetty:jetty-server:jar -> version ${jetty.version} vs 11.0.6 @ org.apache.iotdb:iotdb-parent:0.13.0-SNAPSHOT, /home/a360/research/projects/iotdb/pom.xml, line 539, column 25
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.apache.iotdb:tsfile[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding TsFile 0.13.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mtsfile[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-version-convergence)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(vulnerability-checks)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotless:2.4.2:check[m [1m(spotless-check)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/iotdb/tsfile/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mxml-format:3.0.7:xml-format[m [1m(xml-format)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:5.1.1:manifest[m [1m(bundle-manifest)[m @ [36mtsfile[0;1m ---[m
+[[1;33mWARNING[m] Manifest org.apache.iotdb:tsfile:jar:0.13.0-SNAPSHOT : Export org.apache.iotdb.tsfile.read.query.timegenerator,  has 1,  private references [org.apache.iotdb.tsfile.read.expression.impl]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mtsfile[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mtsfile[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mtsfile[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_dwhUTHCt6xFuyMmvTV53wveT+rsEwFaL7jp2kg0+IU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.814 s - in org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.071 s - in org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.143 s - in org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+EfficiencyTest for Filter: 
+	Filter Expression = ((time > 100 && value < 50.9) || time == 1000)
+	COUNT = 10000000
+	Total Time = 224ms.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 s - in org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[time < 100]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.698 s - in org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.66 s - in org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.239 s - in org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+SeriesReadWithFilterTest. [Time used]: 79 ms. [Read Count]: 1000000
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.991 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 s - in org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.661 s - in org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.183 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.417 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.508 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.325 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.776 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.947 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+compression time cost:0
+ratio: 1.000054
+decompression time cost:0
+compression time cost:0
+decompression time cost:0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+compression time cost:1
+ratio: 1.0039225
+decompression time cost:1
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+false
+false
+false
+false
+false
+false
+false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.869 s - in org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.924 s - in org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+/home/a360/research/projects/iotdb/tsfile/target/testTsFile/root.sg1/0/0/1790935048753-1-0-0.tsfile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 402, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexJarDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexExecid=aMjTfwbreZOIyKcgHvg0ube7Ut8k9UiEKaFoN68Egac=
+nondexLogging=CONFIG
+test=
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.pom
+Progress (1): 4.1 kBProgress (1): 6.3 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.pom[90m (6.3 kB at 14 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.pom
+Progress (1): 3.2 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.pom[90m (3.2 kB at 21 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.pom
+Progress (1): 2.1 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.pom[90m (2.1 kB at 25 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.pom
+Progress (1): 1.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.pom[90m (1.6 kB at 17 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.pom
+Progress (1): 2.7 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.pom[90m (2.7 kB at 32 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.pom
+Progress (1): 2.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.pom[90m (2.6 kB at 28 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.jar
+Progress (1): 2.7/160 kBProgress (1): 5.5/160 kBProgress (1): 8.2/160 kBProgress (1): 11/160 kB Progress (1): 14/160 kBProgress (1): 16/160 kBProgress (1): 19/160 kBProgress (1): 22/160 kBProgress (1): 25/160 kBProgress (1): 29/160 kBProgress (1): 33/160 kBProgress (1): 37/160 kBProgress (1): 41/160 kBProgress (1): 45/160 kBProgress (1): 49/160 kBProgress (1): 53/160 kBProgress (1): 57/160 kBProgress (1): 61/160 kBProgress (1): 66/160 kBProgress (1): 70/160 kBProgress (1): 74/160 kBProgress (1): 78/160 kBProgress (1): 82/160 kBProgress (1): 86/160 kBProgress (1): 90/160 kBProgress (1): 94/160 kBProgress (2): 94/160 kB | 2.3/51 kBProgress (2): 94/160 kB | 5.0/51 kBProgress (2): 94/160 kB | 7.7/51 kBProgress (2): 94/160 kB | 10/51 kB Progress (2): 94/160 kB | 13/51 kBProgress (2): 94/160 kB | 15/51 kBProgress (2): 94/160 kB | 18/51 kBProgress (2): 94/160 kB | 21/51 kBProgress (2): 94/160 kB | 24/51 kBProgress (3): 94/160 kB | 24/51 kB | 2.3/22 kBProgress (3): 94/160 kB | 26/51 kB | 2.3/22 kBProgress (3): 94/160 kB | 26/51 kB | 5.0/22 kBProgress (3): 94/160 kB | 26/51 kB | 7.7/22 kBProgress (3): 94/160 kB | 29/51 kB | 7.7/22 kBProgress (3): 94/160 kB | 29/51 kB | 10/22 kB Progress (4): 94/160 kB | 29/51 kB | 10/22 kB | 2.3/12 kBProgress (4): 94/160 kB | 32/51 kB | 10/22 kB | 2.3/12 kBProgress (4): 94/160 kB | 32/51 kB | 13/22 kB | 2.3/12 kBProgress (4): 94/160 kB | 35/51 kB | 13/22 kB | 2.3/12 kBProgress (4): 94/160 kB | 35/51 kB | 13/22 kB | 5.5/12 kBProgress (4): 94/160 kB | 35/51 kB | 16/22 kB | 5.5/12 kBProgress (4): 94/160 kB | 35/51 kB | 19/22 kB | 5.5/12 kBProgress (4): 94/160 kB | 37/51 kB | 19/22 kB | 5.5/12 kBProgress (4): 94/160 kB | 37/51 kB | 19/22 kB | 8.2/12 kBProgress (4): 94/160 kB | 37/51 kB | 21/22 kB | 8.2/12 kBProgress (4): 94/160 kB | 40/51 kB | 21/22 kB | 8.2/12 kBProgress (4): 94/160 kB | 40/51 kB | 21/22 kB | 11/12 kB Progress (4): 94/160 kB | 40/51 kB | 22 kB | 11/12 kB   Progress (4): 94/160 kB | 40/51 kB | 22 kB | 12 kB   Progress (4): 94/160 kB | 43/51 kB | 22 kB | 12 kBProgress (4): 94/160 kB | 46/51 kB | 22 kB | 12 kBProgress (4): 94/160 kB | 48/51 kB | 22 kB | 12 kBProgress (4): 94/160 kB | 51/51 kB | 22 kB | 12 kBProgress (4): 98/160 kB | 51/51 kB | 22 kB | 12 kBProgress (4): 98/160 kB | 51 kB | 22 kB | 12 kB   Progress (4): 102/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 106/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 111/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 115/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 119/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 123/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 127/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 131/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 135/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 139/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 143/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 147/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 152/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 156/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 160/160 kB | 51 kB | 22 kB | 12 kBProgress (4): 160 kB | 51 kB | 22 kB | 12 kB                                                Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.jar[90m (51 kB at 260 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.jar[90m (22 kB at 107 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.jar[90m (12 kB at 57 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.jar[90m (160 kB at 749 kB/s)[0m
+Progress (1): 2.3/40 kBProgress (1): 5.0/40 kBProgress (1): 7.7/40 kBProgress (1): 10/40 kB Progress (1): 13/40 kBProgress (1): 16/40 kBProgress (1): 19/40 kBProgress (1): 21/40 kBProgress (1): 24/40 kBProgress (1): 27/40 kBProgress (1): 29/40 kBProgress (1): 33/40 kBProgress (1): 37/40 kBProgress (1): 40 kB                      Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar[90m (40 kB at 439 kB/s)[0m
+Progress (1): 2.7/28 kBProgress (1): 5.5/28 kBProgress (1): 8.2/28 kBProgress (1): 11/28 kB Progress (1): 14/28 kBProgress (1): 17/28 kBProgress (1): 20/28 kBProgress (1): 23/28 kBProgress (1): 25/28 kBProgress (1): 28/28 kBProgress (1): 28 kB                      Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.jar[90m (28 kB at 51 kB/s)[0m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.603 s - in org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.01 s - in org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, [1;31mErrors: [0;1;31m1[m, Skipped: 0, Time elapsed: 3.741 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;31mERROR[m] test1(org.apache.iotdb.tsfile.read.ReadInPartitionTest)  Time elapsed: 0.901 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.apache.iotdb.tsfile.read.ReadInPartitionTest.test1(ReadInPartitionTest.java:137)
+
+[[1;31mERROR[m] test3(org.apache.iotdb.tsfile.read.ReadInPartitionTest)  Time elapsed: 0.845 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.apache.iotdb.tsfile.read.ReadInPartitionTest.test3(ReadInPartitionTest.java:228)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+EfficiencyTest for Filter: 
+	Filter Expression = ((time > 100 && value < 50.9) || time == 1000)
+	COUNT = 10000000
+	Total Time = 212ms.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s - in org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[time < 100]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.998 s - in org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 2.634 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;31mERROR[m] testConvert1(org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest)  Time elapsed: 0.909 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[ 14805626180[00 : 1480562618045 ], [ 14805626180]50 : 1480562618060 ]...> but was:<[[ 14805626180[]50 : 1480562618060 ]...>
+	at org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest.testConvert1(IMetadataQuerierByFileImplTest.java:122)
+
+[[1;31mERROR[m] testConvert2(org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest)  Time elapsed: 0.835 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[( 148056261804]0 : 1480562618045 ]]> but was:<[[[ 148056261800]0 : 1480562618045 ]]>
+	at org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest.testConvert2(IMetadataQuerierByFileImplTest.java:148)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.377 s - in org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+SeriesReadWithFilterTest. [Time used]: 68 ms. [Read Count]: 1000000
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.231 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.97 s - in org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.134 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.445 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 97.628 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.294 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.713 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.022 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+compression time cost:0
+ratio: 1.000054
+decompression time cost:0
+compression time cost:0
+decompression time cost:0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+compression time cost:71
+ratio: 1.0039225
+decompression time cost:0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+false
+false
+false
+false
+false
+false
+false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 98.681 s - in org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.101 s - in org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.001 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;31mERROR[m] testJsonConverter2(org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[s[4,DOUBLE,RLE,{max_point_number=3},SNAPPY]]> but was:<[s[5,INT32,TS_2DIFF,,UNCOMPRESSED]]>
+	at org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest.testJsonConverter2(SchemaBuilderTest.java:89)
+
+[[1;31mERROR[m] testJsonConverter3(org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[s[4,DOUBLE],RLE,{max_point_numb...> but was:<[s[6,INT64],RLE,{max_point_numb...>
+	at org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest.testJsonConverter3(SchemaBuilderTest.java:125)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+/home/a360/research/projects/iotdb/tsfile/target/testTsFile/root.sg1/0/0/1790935337453-1-0-0.tsfile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ReadInPartitionTest.test3:228 expected:<true> but was:<false>[m
+[[1;31mERROR[m] [1;31m  IMetadataQuerierByFileImplTest.testConvert1:122 expected:<[[ 14805626180[00 : 1480562618045 ], [ 14805626180]50 : 1480562618060 ]...> but was:<[[ 14805626180[]50 : 1480562618060 ]...>[m
+[[1;31mERROR[m] [1;31m  IMetadataQuerierByFileImplTest.testConvert2:148 expected:<[[( 148056261804]0 : 1480562618045 ]]> but was:<[[[ 148056261800]0 : 1480562618045 ]]>[m
+[[1;31mERROR[m] [1;31m  SchemaBuilderTest.testJsonConverter2:89 expected:<[s[4,DOUBLE,RLE,{max_point_number=3},SNAPPY]]> but was:<[s[5,INT32,TS_2DIFF,,UNCOMPRESSED]]>[m
+[[1;31mERROR[m] [1;31m  SchemaBuilderTest.testJsonConverter3:125 expected:<[s[4,DOUBLE],RLE,{max_point_numb...> but was:<[s[6,INT64],RLE,{max_point_numb...>[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  ReadInPartitionTest.test1:137 NullPointer[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 402, Failures: 5, Errors: 1, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for aMjTfwbreZOIyKcgHvg0ube7Ut8k9UiEKaFoN68Egac=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexJarDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexExecid=fWxjGrJJTnIv6Heyg27woeUkNokhAIFqi0DiTIeP8g=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.245 s - in org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.016 s - in org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s - in org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, [1;31mErrors: [0;1;31m1[m, Skipped: 0, Time elapsed: 3.814 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;31mERROR[m] test1(org.apache.iotdb.tsfile.read.ReadInPartitionTest)  Time elapsed: 0.903 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.apache.iotdb.tsfile.read.ReadInPartitionTest.test1(ReadInPartitionTest.java:137)
+
+[[1;31mERROR[m] test3(org.apache.iotdb.tsfile.read.ReadInPartitionTest)  Time elapsed: 0.891 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.apache.iotdb.tsfile.read.ReadInPartitionTest.test3(ReadInPartitionTest.java:228)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+EfficiencyTest for Filter: 
+	Filter Expression = ((time > 100 && value < 50.9) || time == 1000)
+	COUNT = 10000000
+	Total Time = 214ms.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[time < 100]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.012 s - in org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 2.718 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;31mERROR[m] testConvert1(org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest)  Time elapsed: 0.94 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[ 14805626180[00 : 1480562618045 ], [ 14805626180]50 : 1480562618060 ]...> but was:<[[ 14805626180[]50 : 1480562618060 ]...>
+	at org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest.testConvert1(IMetadataQuerierByFileImplTest.java:122)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.242 s - in org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+SeriesReadWithFilterTest. [Time used]: 62 ms. [Read Count]: 1000000
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.295 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 s - in org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.282 s - in org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.828 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.472 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 98.321 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.169 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.041 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+compression time cost:0
+ratio: 1.000054
+decompression time cost:0
+compression time cost:0
+decompression time cost:0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+compression time cost:1
+ratio: 1.0039225
+decompression time cost:55
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+false
+false
+false
+false
+false
+false
+false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 99.961 s - in org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.893 s - in org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;31mERROR[m] testJsonConverter3(org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[s[4,DOUBLE,RLE,{max_point_number=3},SNAPPY]]> but was:<[s[5,INT32,TS_2DIFF,,UNCOMPRESSED]]>
+	at org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest.testJsonConverter3(SchemaBuilderTest.java:125)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+/home/a360/research/projects/iotdb/tsfile/target/testTsFile/root.sg1/0/0/1790935629578-1-0-0.tsfile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ReadInPartitionTest.test3:228 expected:<true> but was:<false>[m
+[[1;31mERROR[m] [1;31m  IMetadataQuerierByFileImplTest.testConvert1:122 expected:<[[ 14805626180[00 : 1480562618045 ], [ 14805626180]50 : 1480562618060 ]...> but was:<[[ 14805626180[]50 : 1480562618060 ]...>[m
+[[1;31mERROR[m] [1;31m  SchemaBuilderTest.testJsonConverter3:125 expected:<[s[4,DOUBLE,RLE,{max_point_number=3},SNAPPY]]> but was:<[s[5,INT32,TS_2DIFF,,UNCOMPRESSED]]>[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  ReadInPartitionTest.test1:137 NullPointer[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 402, Failures: 3, Errors: 1, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for fWxjGrJJTnIv6Heyg27woeUkNokhAIFqi0DiTIeP8g=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexJarDir=/home/a360/research/projects/iotdb/tsfile/.nondex
+nondexExecid=1D4opQsLdIsFtwHQHXaybccBhB6JYnfCRceAroqBQMU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.537 s - in org.apache.iotdb.tsfile.read.reader.[1mReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.889 s - in org.apache.iotdb.tsfile.read.reader.[1mPageReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s - in org.apache.iotdb.tsfile.read.[1mGetAllDevicesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m4[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 3.89 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.read.[1mReadInPartitionTest[m
+[[1;31mERROR[m] test3(org.apache.iotdb.tsfile.read.ReadInPartitionTest)  Time elapsed: 0.921 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.apache.iotdb.tsfile.read.ReadInPartitionTest.test3(ReadInPartitionTest.java:228)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mPathTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mFieldTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.common.[1mBatchDataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.iotdb.tsfile.read.common.[1mTimeRangeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.iotdb.tsfile.read.[1mTimeSeriesMetadataReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+EfficiencyTest for Filter: 
+	Filter Expression = ((time > 100 && value < 50.9) || time == 1000)
+	COUNT = 10000000
+	Total Time = 219ms.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.223 s - in org.apache.iotdb.tsfile.read.filter.[1mOperatorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mMinTimeMaxTimeFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByMonthFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[time < 100]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mIExpressionOptimizerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.filter.[1mFilterSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mGroupByFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.filter.[1mStatisticsFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.213 s - in org.apache.iotdb.tsfile.read.controller.[1mChunkLoaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 2.709 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.read.controller.[1mIMetadataQuerierByFileImplTest[m
+[[1;31mERROR[m] testConvert1(org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest)  Time elapsed: 0.889 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[ 14805626180[00 : 1480562618045 ], [ 14805626180]50 : 1480562618060 ]...> but was:<[[ 14805626180[]50 : 1480562618060 ]...>
+	at org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest.testConvert1(IMetadataQuerierByFileImplTest.java:122)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.332 s - in org.apache.iotdb.tsfile.read.[1mReadOnlyTsFileTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadEmptyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+SeriesReadWithFilterTest. [Time used]: 100 ms. [Read Count]: 1000000
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.163 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mReaderByTimestampTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.read.query.timegenerator.[1mTimeGeneratorReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 s - in org.apache.iotdb.tsfile.read.query.executor.[1mQueryExecutorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.227 s - in org.apache.iotdb.tsfile.read.[1mMeasurementChunkMetadataListMapIteratorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.iotdb.tsfile.read.[1mTsFileSequenceReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.[1mTsFileRestorableReaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.read.[1mExpressionTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s - in org.apache.iotdb.tsfile.read.[1mReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.apache.iotdb.tsfile.read.[1mTimePlainEncodeReadTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.encoding.[1mSDTEncoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mDictionaryDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in org.apache.iotdb.tsfile.encoding.decoder.delta.[1mDeltaBinaryEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mFloatDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.391 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderLongTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.408 s - in org.apache.iotdb.tsfile.encoding.decoder.regular.[1mRegularDataEncoderIntegerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV1Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 98.404 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mBitmapDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mGorillaDecoderV2Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.881 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mIntRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.844 s - in org.apache.iotdb.tsfile.encoding.decoder.[1mLongRleDecoderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mIntPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.encoding.bitpacking.[1mLongPackerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 s - in org.apache.iotdb.tsfile.compress.[1mGZIPTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+compression time cost:0
+ratio: 1.000054
+decompression time cost:0
+compression time cost:0
+decompression time cost:0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.iotdb.tsfile.compress.[1mSnappyTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.compress.[1mCompressTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+compression time cost:1
+ratio: 1.0039225
+decompression time cost:0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.iotdb.tsfile.compress.[1mLZ4Test[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.common.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteStreamUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mBitMapTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteIOUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.utils.[1mStringContainerTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.iotdb.tsfile.utils.[1mFilePathUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mTsPrimitiveTypeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteForEncodingUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mFileUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mReadWriteToBytesUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mPairTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.utils.[1mRecordUtilsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+false
+false
+false
+false
+false
+false
+false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.utils.[1mBloomFilterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mBooleanStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mIntegerStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mLongStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mStringStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mDoubleStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.statistics.[1mFloatStatisticsTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mTimeSeriesMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mMetadataIndexNodeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.metadata.[1mTsFileMetadataTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.file.header.[1mPageHeaderTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 103.251 s - in org.apache.iotdb.tsfile.write.[1mTsFileReadWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.iotdb.tsfile.write.[1mReadPageInMemTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.092 s - in org.apache.iotdb.tsfile.write.[1mWriteTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.iotdb.tsfile.write.[1mTsFileWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.[1mSameMeasurementsWithDifferentDataTypesTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.iotdb.tsfile.write.[1mPerfTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.[1mDefaultSchemaTemplateTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.001 s[1;31m <<< FAILURE![m - in org.apache.iotdb.tsfile.write.schema.converter.[1mSchemaBuilderTest[m
+[[1;31mERROR[m] testJsonConverter3(org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[s[4,DOUBLE,RLE,{max_point_number=3},SNAPPY]]> but was:<[s[5,INT32,TS_2DIFF,,UNCOMPRESSED]]>
+	at org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest.testJsonConverter3(SchemaBuilderTest.java:125)
+
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.iotdb.tsfile.write.[1mMetadataIndexConstructorTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.[1mTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mValuePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mTimePageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mPageWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mValueChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mMeasurementSchemaSerializeTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.iotdb.tsfile.write.writer.[1mRestorableTsFileIOWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.iotdb.tsfile.write.writer.[1mVectorChunkWriterImplTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.iotdb.tsfile.write.writer.[1mTimeChunkWriterTest[m
+[[1;34mINFO[m] Running org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+/home/a360/research/projects/iotdb/tsfile/target/testTsFile/root.sg1/0/0/1790935923484-1-0-0.tsfile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.iotdb.tsfile.write.writer.[1mForceAppendTsFileWriterTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ReadInPartitionTest.test3:228 expected:<true> but was:<false>[m
+[[1;31mERROR[m] [1;31m  IMetadataQuerierByFileImplTest.testConvert1:122 expected:<[[ 14805626180[00 : 1480562618045 ], [ 14805626180]50 : 1480562618060 ]...> but was:<[[ 14805626180[]50 : 1480562618060 ]...>[m
+[[1;31mERROR[m] [1;31m  SchemaBuilderTest.testJsonConverter3:125 expected:<[s[4,DOUBLE,RLE,{max_point_number=3},SNAPPY]]> but was:<[s[5,INT32,TS_2DIFF,,UNCOMPRESSED]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 402, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 1D4opQsLdIsFtwHQHXaybccBhB6JYnfCRceAroqBQMU=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/iotdb/tsfile/.nondex" -DnondexJarDir="/home/a360/research/projects/iotdb/tsfile/.nondex" -DnondexExecid=aMjTfwbreZOIyKcgHvg0ube7Ut8k9UiEKaFoN68Egac= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest#testConvert1
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest#testConvert2
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test1
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test3
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest#testJsonConverter2
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest#testJsonConverter3
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/iotdb/tsfile/.nondex" -DnondexJarDir="/home/a360/research/projects/iotdb/tsfile/.nondex" -DnondexExecid=fWxjGrJJTnIv6Heyg27woeUkNokhAIFqi0DiTIeP8g= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest#testConvert1
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test1
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test3
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest#testJsonConverter3
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/iotdb/tsfile/.nondex" -DnondexJarDir="/home/a360/research/projects/iotdb/tsfile/.nondex" -DnondexExecid=1D4opQsLdIsFtwHQHXaybccBhB6JYnfCRceAroqBQMU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest#testConvert1
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test3
+[[1;33mWARNING[m] org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest#testJsonConverter3
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest#testConvert1
+[[1;34mINFO[m] org.apache.iotdb.tsfile.read.controller.IMetadataQuerierByFileImplTest#testConvert2
+[[1;34mINFO[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test1
+[[1;34mINFO[m] org.apache.iotdb.tsfile.read.ReadInPartitionTest#test3
+[[1;34mINFO[m] org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest#testJsonConverter2
+[[1;34mINFO[m] org.apache.iotdb.tsfile.write.schema.converter.SchemaBuilderTest#testJsonConverter3
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/iotdb/tsfile/.nondex/aMjTfwbreZOIyKcgHvg0ube7Ut8k9UiEKaFoN68Egac=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: aMjTfwbreZOIyKcgHvg0ube7Ut8k9UiEKaFoN68Egac=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  17:58 min
+[[1;34mINFO[m] Finished at: 2026-10-02T05:12:04-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mtsfile[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/iotdb/tsfile/.nondex/aMjTfwbreZOIyKcgHvg0ube7Ut8k9UiEKaFoN68Egac= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

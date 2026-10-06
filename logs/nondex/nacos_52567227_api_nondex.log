@@ -1,0 +1,222 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.alibaba.nacos:nacos-api[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding nacos-api 1.4.0-SNAPSHOT 1.4.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mnacos-api[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:check[m [1m(validate)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.7.8:prepare-agent[m [1m(default-prepare-agent)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/home/a360/research/projects/nacos/api/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:resources[m [1m(default-resources)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:compile[m [1m(default-compile)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:testResources[m [1m(default-testResources)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/nacos/api/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mnacos-api[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mnacos-api[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mnacos-api[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nacos/api/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_knxpoKQBFncUBvH2wI3A3nhqmWVcgl5B+Kxt6fnmaRg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.313 s - in com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 17, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nacos/api/.nondex
+nondexJarDir=/home/a360/research/projects/nacos/api/.nondex
+nondexExecid=4fodYZyzjxGCHAt9aXRxHa9PplH+A2TT1uHuDlOSCQk=
+nondexLogging=CONFIG
+test=
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom
+Progress (1): 4.1 kBProgress (1): 6.2 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom[90m (6.2 kB at 11 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom
+Progress (1): 3.2 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom[90m (3.2 kB at 21 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom
+Progress (1): 2.1 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom[90m (2.1 kB at 6.3 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom
+Progress (1): 1.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom[90m (1.6 kB at 9.5 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom
+Progress (1): 2.7 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom[90m (2.7 kB at 23 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom
+Progress (1): 2.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom[90m (2.6 kB at 19 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar
+Progress (1): 2.3/12 kBProgress (1): 5.0/12 kBProgress (1): 7.7/12 kBProgress (1): 10/12 kB Progress (1): 12 kB   Progress (2): 12 kB | 2.3/50 kBProgress (2): 12 kB | 5.0/50 kBProgress (2): 12 kB | 7.7/50 kBProgress (2): 12 kB | 10/50 kB Progress (2): 12 kB | 13/50 kBProgress (2): 12 kB | 16/50 kBProgress (2): 12 kB | 19/50 kBProgress (3): 12 kB | 19/50 kB | 2.3/23 kBProgress (3): 12 kB | 21/50 kB | 2.3/23 kBProgress (3): 12 kB | 21/50 kB | 4.5/23 kBProgress (3): 12 kB | 24/50 kB | 4.5/23 kBProgress (3): 12 kB | 27/50 kB | 4.5/23 kBProgress (3): 12 kB | 27/50 kB | 7.3/23 kBProgress (3): 12 kB | 27/50 kB | 10/23 kB Progress (3): 12 kB | 30/50 kB | 10/23 kBProgress (3): 12 kB | 30/50 kB | 13/23 kBProgress (3): 12 kB | 32/50 kB | 13/23 kBProgress (3): 12 kB | 32/50 kB | 15/23 kBProgress (3): 12 kB | 32/50 kB | 18/23 kBProgress (3): 12 kB | 35/50 kB | 18/23 kBProgress (3): 12 kB | 35/50 kB | 21/23 kBProgress (3): 12 kB | 38/50 kB | 21/23 kBProgress (3): 12 kB | 38/50 kB | 23 kB   Progress (3): 12 kB | 41/50 kB | 23 kBProgress (3): 12 kB | 43/50 kB | 23 kBProgress (3): 12 kB | 46/50 kB | 23 kBProgress (3): 12 kB | 49/50 kB | 23 kBProgress (4): 12 kB | 49/50 kB | 23 kB | 2.3/163 kBProgress (5): 12 kB | 49/50 kB | 23 kB | 2.3/163 kB | 2.3/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 2.3/163 kB | 2.3/26 kB   Progress (5): 12 kB | 50 kB | 23 kB | 5.0/163 kB | 2.3/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 5.0/163 kB | 5.0/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 7.7/163 kB | 5.0/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 7.7/163 kB | 7.7/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 10/163 kB | 7.7/26 kB Progress (5): 12 kB | 50 kB | 23 kB | 10/163 kB | 10/26 kB Progress (5): 12 kB | 50 kB | 23 kB | 13/163 kB | 10/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 13/163 kB | 13/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 16/163 kB | 13/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 16/163 kB | 15/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 19/163 kB | 15/26 kBProgress (5): 12 kB | 50 kB | 23 kB | 19/163 kB | 18/26 kB                                                          Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar[90m (12 kB at 67 kB/s)[0m
+Progress (4): 50 kB | 23 kB | 19/163 kB | 21/26 kBProgress (4): 50 kB | 23 kB | 21/163 kB | 21/26 kBProgress (4): 50 kB | 23 kB | 21/163 kB | 24/26 kBProgress (4): 50 kB | 23 kB | 24/163 kB | 24/26 kBProgress (4): 50 kB | 23 kB | 24/163 kB | 26/26 kBProgress (4): 50 kB | 23 kB | 24/163 kB | 26 kB   Progress (4): 50 kB | 23 kB | 27/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 30/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 33/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 36/163 kB | 26 kB                                               [90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar
+Progress (4): 50 kB | 23 kB | 38/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 41/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 44/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 46/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 49/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 52/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 55/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 59/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 63/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 67/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 71/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 75/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 79/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 83/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 87/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 92/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 96/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 100/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 104/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 108/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 112/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 116/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 120/163 kB | 26 kBProgress (4): 50 kB | 23 kB | 122/163 kB | 26 kB                                                Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar[90m (50 kB at 236 kB/s)[0m
+Progress (3): 23 kB | 126/163 kB | 26 kBProgress (4): 23 kB | 126/163 kB | 26 kB | 2.3/40 kBProgress (4): 23 kB | 131/163 kB | 26 kB | 2.3/40 kBProgress (4): 23 kB | 135/163 kB | 26 kB | 2.3/40 kBProgress (4): 23 kB | 135/163 kB | 26 kB | 5.0/40 kBProgress (4): 23 kB | 139/163 kB | 26 kB | 5.0/40 kBProgress (4): 23 kB | 139/163 kB | 26 kB | 7.7/40 kBProgress (4): 23 kB | 143/163 kB | 26 kB | 7.7/40 kBProgress (4): 23 kB | 143/163 kB | 26 kB | 10/40 kB Progress (4): 23 kB | 147/163 kB | 26 kB | 10/40 kBProgress (4): 23 kB | 147/163 kB | 26 kB | 13/40 kBProgress (4): 23 kB | 151/163 kB | 26 kB | 13/40 kBProgress (4): 23 kB | 151/163 kB | 26 kB | 17/40 kBProgress (4): 23 kB | 155/163 kB | 26 kB | 17/40 kBProgress (4): 23 kB | 155/163 kB | 26 kB | 21/40 kBProgress (4): 23 kB | 159/163 kB | 26 kB | 21/40 kBProgress (4): 23 kB | 159/163 kB | 26 kB | 25/40 kBProgress (4): 23 kB | 163 kB | 26 kB | 25/40 kB    Progress (4): 23 kB | 163 kB | 26 kB | 29/40 kBProgress (4): 23 kB | 163 kB | 26 kB | 33/40 kBProgress (4): 23 kB | 163 kB | 26 kB | 37/40 kBProgress (4): 23 kB | 163 kB | 26 kB | 40 kB                                               Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar[90m (23 kB at 79 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar[90m (26 kB at 90 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar[90m (40 kB at 126 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar[90m (163 kB at 300 kB/s)[0m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.299 s - in com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 17, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nacos/api/.nondex
+nondexJarDir=/home/a360/research/projects/nacos/api/.nondex
+nondexExecid=CRvV3WZGPs0A7CzitCsKUngDpZ9L0Z9OzqElCIuSKFE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.29 s - in com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 17, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nacos/api/.nondex
+nondexJarDir=/home/a360/research/projects/nacos/api/.nondex
+nondexExecid=KBHde0nnCSfWDP5ciG9mJGMI2Bycgjmz1u6JgHpLSc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.291 s - in com.alibaba.nacos.api.naming.pojo.[1mServiceInfoTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mAbstractHealthCheckerTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.[1mHealthCheckerFactoryTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mHttpTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.alibaba.nacos.api.naming.pojo.healthcheck.impl.[1mMysqlTest[m
+[[1;34mINFO[m] Running com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in com.alibaba.nacos.api.annotation.[1mNacosPropertiesTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 17, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/nacos/api/.nondex" -DnondexJarDir="/home/a360/research/projects/nacos/api/.nondex" -DnondexExecid=4fodYZyzjxGCHAt9aXRxHa9PplH+A2TT1uHuDlOSCQk= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/nacos/api/.nondex" -DnondexJarDir="/home/a360/research/projects/nacos/api/.nondex" -DnondexExecid=CRvV3WZGPs0A7CzitCsKUngDpZ9L0Z9OzqElCIuSKFE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/nacos/api/.nondex" -DnondexJarDir="/home/a360/research/projects/nacos/api/.nondex" -DnondexExecid=KBHde0nnCSfWDP5ciG9mJGMI2Bycgjmz1u6JgHpLSc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/nacos/api/.nondex/4fodYZyzjxGCHAt9aXRxHa9PplH+A2TT1uHuDlOSCQk=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 4fodYZyzjxGCHAt9aXRxHa9PplH+A2TT1uHuDlOSCQk=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.785 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:24:32-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

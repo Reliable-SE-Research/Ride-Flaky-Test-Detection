@@ -1,0 +1,508 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;33mWARNING[m] The project com.fasterxml:classmate:bundle:1.5.2-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.fasterxml:classmate[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding ClassMate 1.5.2-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mclassmate[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-java)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.7:add-source[m [1m(add-generated-sources)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/java-classmate/target/generated-sources added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mclassmate[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 38 source files to /home/a360/research/projects/java-classmate/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 6
+[[1;33mWARNING[m] source value 6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] target value 1.6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mclassmate[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/java-classmate/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mclassmate[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 36 source files to /home/a360/research/projects/java-classmate/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 6
+[[1;33mWARNING[m] source value 6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] target value 1.6 is obsolete and will be removed in a future release
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/ResolvedPrimitiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/TypeBindingsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/ResolvedArrayTypeTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/ResolvedRecursiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/AnnotationsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[11,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/types/TypePlaceHolderTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[6,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/ResolvedTypeWithMembersTest.java:[14,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/HierarchicTypeTest.java:[7,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedMemberTest.java:[15,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/java-classmate/src/test/java/com/fasterxml/classmate/members/ResolvedMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mclassmate[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mclassmate[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-classmate/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Iov06w2xdIkd8VHPkYGSLptnrAGSlVxxzyOrUcOHWy8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 226, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-classmate/.nondex
+nondexJarDir=/home/a360/research/projects/java-classmate/.nondex
+nondexExecid=AClhiIYRpHs8M01PZVYaVAYMigIS916OHDREFkWp8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.009 s[1;31m <<< FAILURE![m - in com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;31mERROR[m] testGhostTypeParameterWithClass(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.008 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[t]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass(GhostTypeParameterInFieldTest.java:47)
+
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass:47 expected:<[t]> but was:<[i]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 226, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for AClhiIYRpHs8M01PZVYaVAYMigIS916OHDREFkWp8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-classmate/.nondex
+nondexJarDir=/home/a360/research/projects/java-classmate/.nondex
+nondexExecid=K81R94ipAW59nxx0LRTFm7PDUKEBL468ztaVpzSKpQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.008 s[1;31m <<< FAILURE![m - in com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;31mERROR[m] testGhostTypeParameterWithInterface(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.005 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[listOfT]> but was:<[t]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface(GhostTypeParameterInFieldTest.java:75)
+
+[[1;31mERROR[m] testGhostTypeParameterWithClass(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[t]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass(GhostTypeParameterInFieldTest.java:47)
+
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass:47 expected:<[t]> but was:<[i]>[m
+[[1;31mERROR[m] [1;31m  GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface:75 expected:<[listOfT]> but was:<[t]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 226, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for K81R94ipAW59nxx0LRTFm7PDUKEBL468ztaVpzSKpQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-classmate/.nondex
+nondexJarDir=/home/a360/research/projects/java-classmate/.nondex
+nondexExecid=ntywxlir29fVx8Ijm71enaELl4dR71KzWqcshJppkQM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestTypeDescriptions[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.[1mStdConfigurationTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mResolvedConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.[1mIssue28Test[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.[1mResolvedMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.008 s[1;31m <<< FAILURE![m - in com.fasterxml.classmate.members.[1mGhostTypeParameterInFieldTest[m
+[[1;31mERROR[m] testGhostTypeParameterWithInterface(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.006 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[listOfT]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface(GhostTypeParameterInFieldTest.java:75)
+
+[[1;31mERROR[m] testGhostTypeParameterWithClass(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[listOfT]> but was:<[t]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass(GhostTypeParameterInFieldTest.java:38)
+
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mHierarchicTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mResolvedFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.members.[1mResolvedMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.[1mRawConstructorTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.[1mRawMemberTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mRawFieldTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.[1mRawMethodTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestReadme[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.fasterxml.classmate.[1mTestTypeResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.[1mAnnotationsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.fasterxml.classmate.[1mResolvedTypeWithMembersTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.classmate.[1mTestSubtypeResolution[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mTypeBindingsTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.[1mAnnotationInclusionTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.[1mTestMemberResolver[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.[1mOddJDKTypesTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mResolvedTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.[1mTestMemberGenericTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.[1mTestParameterAnnotations[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.[1mTestResolvedTypeCache[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.util.[1mMethodKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.util.[1mClassKeyTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.[1mTestSelfRefMemberTypes[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedObjectTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mTypePlaceHolderTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.types.[1mResolvedRecursiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.[1mResolvedArrayTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedPrimitiveTypeTest[m
+[[1;34mINFO[m] Running com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.[1mResolvedInterfaceTypeTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass:38 expected:<[listOfT]> but was:<[t]>[m
+[[1;31mERROR[m] [1;31m  GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface:75 expected:<[listOfT]> but was:<[i]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 226, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for ntywxlir29fVx8Ijm71enaELl4dR71KzWqcshJppkQM=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-classmate/.nondex" -DnondexJarDir="/home/a360/research/projects/java-classmate/.nondex" -DnondexExecid=AClhiIYRpHs8M01PZVYaVAYMigIS916OHDREFkWp8= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-classmate/.nondex" -DnondexJarDir="/home/a360/research/projects/java-classmate/.nondex" -DnondexExecid=K81R94ipAW59nxx0LRTFm7PDUKEBL468ztaVpzSKpQ= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[[1;33mWARNING[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-classmate/.nondex" -DnondexJarDir="/home/a360/research/projects/java-classmate/.nondex" -DnondexExecid=ntywxlir29fVx8Ijm71enaELl4dR71KzWqcshJppkQM= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[[1;33mWARNING[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[[1;34mINFO[m] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/java-classmate/.nondex/AClhiIYRpHs8M01PZVYaVAYMigIS916OHDREFkWp8=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: AClhiIYRpHs8M01PZVYaVAYMigIS916OHDREFkWp8=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.185 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:23:30-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mclassmate[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/java-classmate/.nondex/AClhiIYRpHs8M01PZVYaVAYMigIS916OHDREFkWp8= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

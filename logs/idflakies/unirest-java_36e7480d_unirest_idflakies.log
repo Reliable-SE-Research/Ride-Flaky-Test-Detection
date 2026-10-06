@@ -1,0 +1,119 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.konghq:unirest-java[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding unirest-java 3.11.06-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36munirest-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense:1.8.0:format[m [1m(default)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Updating license headers...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(vulnerability-checks)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Checking for vulnerabilities; 54 artifacts
+[[1;34mINFO[m] Exclude coordinates: []
+[[1;34mINFO[m] Exclude vulnerability identifiers: [2f9b8690-2b13-48ad-adc9-af1489d0a2f3]
+[[1;34mINFO[m] CVSS-score threshold: 0.0
+[[1;33mWARNING[m] Failed to fetch component-reports
+[1;31morg.sonatype.ossindex.service.client.transport.Transport$TransportException[m: [1;31mUnexpected response; status: HTTP/1.1 401 Unauthorized[m
+    [1mat[m org.sonatype.ossindex.service.client.transport.HttpClientTransport.post ([1mHttpClientTransport.java:101[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.doRequestComponentReports ([1mOssindexClientImpl.java:204[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.requestComponentReports ([1mOssindexClientImpl.java:170[m)
+    [1mat[m org.sonatype.ossindex.maven.common.ComponentReportAssistant.request ([1mComponentReportAssistant.java:86[m)
+    [1mat[m org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies$Task.run ([1mBanVulnerableDependencies.java:220[m)
+    [1mat[m org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies.execute ([1mBanVulnerableDependencies.java:142[m)
+    [1mat[m org.apache.maven.plugins.enforcer.EnforceMojo.execute ([1mEnforceMojo.java:193[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:126[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:328[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:316[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions ([1mMojoExecutor.java:448[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:311[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:105[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:73[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:53[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:118[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:261[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:173[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:101[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:919[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:285[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:207[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-versions)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.6:prepare-agent[m [1m(default-prepare-agent)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/a360/research/projects/unirest-java/unirest/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/unirest-java/unirest/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:checkstyle[m [1m(auto-checkstyle)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:check[m [1m(auto-checkstyle)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Copying 10 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36munirest-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36munirest-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36munirest-java[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 559 tests. Time taken: 1.4570000171661377 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.konghq:unirest-java:3.11.06-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/original-order
+[INFO] Getting original results (559 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (17.2 total), 0.0 seconds remaining).
+Verified BehaviorTests.CookieTest#willManageCookiesByDefault(), status: expected ERROR, got ERROR
+Verified BehaviorTests.CookieTest#willManageCookiesByDefault(), status: expected PASS, got PASS
+[INFO] Found 1 tests in round 2 of 3 (17.2 seconds elapsed (48.9 total), 8.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (0.0 seconds elapsed (66.4 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/unirest-java/unirest/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:56 min
+[[1;34mINFO[m] Finished at: 2026-10-01T21:48:09-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

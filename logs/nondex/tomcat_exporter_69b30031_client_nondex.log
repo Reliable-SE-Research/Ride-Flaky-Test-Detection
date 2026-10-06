@@ -1,0 +1,1722 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mnl.nlighten:tomcat_exporter_client[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Prometheus client for Apache Tomcat 0.0.15-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mtomcat_exporter_client[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtomcat_exporter_client[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/tomcat_exporter/client/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mtomcat_exporter_client[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtomcat_exporter_client[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/tomcat_exporter/client/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mtomcat_exporter_client[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mtomcat_exporter_client[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mtomcat_exporter_client[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_wXAwT6iQ7e2Kp6O1aurM7fIbz0lBhynTuzDO0j6lU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-46483"]
+Oct 02, 2026 5:40:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-46483"]
+Oct 02, 2026 5:40:10 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:10 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptorTest.tearDown(TomcatJdbcInterceptorTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-46483"]
+Oct 02, 2026 5:40:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-46483"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.435 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:12 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:12 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:12 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptor(logFailed=true,logSlow=true,threshold=0,buckets=.01|.05|.1|1|10,slowQueryBuckets=1|10|30)" for "jdbcInterceptors" property
+Oct 02, 2026 5:40:12 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "foo" for "name" property
+Oct 02, 2026 5:40:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-35957"]
+Oct 02, 2026 5:40:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-35957"]
+Oct 02, 2026 5:40:12 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:12 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.tearDown(TomcatJDbcp2PoolExportsTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-35957"]
+Oct 02, 2026 5:40:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-35957"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.451 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-36911"]
+Oct 02, 2026 5:40:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-36911"]
+Oct 02, 2026 5:40:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:15 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatGenericExportsTest.tearDown(TomcatGenericExportsTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-36911"]
+Oct 02, 2026 5:40:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-36911"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.457 s - in nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-37895"]
+Oct 02, 2026 5:40:17 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-37895"]
+Oct 02, 2026 5:40:17 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:17 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatServletMetricsFilterTest.tearDown(TomcatServletMetricsFilterTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-37895"]
+Oct 02, 2026 5:40:17 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-37895"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.397 s - in nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+Oct 02, 2026 5:40:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-46121"]
+Oct 02, 2026 5:40:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-46121"]
+Oct 02, 2026 5:40:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:19 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcPoolExportsTest.tearDown(TomcatJdbcPoolExportsTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-46121"]
+Oct 02, 2026 5:40:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-46121"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.411 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexJarDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexExecid=mwt6xViQEVRDYCrNtHQDBdRswwj8R4asl7VOlHkykk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+Oct 02, 2026 5:40:20 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:20 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-46113"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-46113"]
+Oct 02, 2026 5:40:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:21 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptorTest.tearDown(TomcatJdbcInterceptorTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-46113"]
+Oct 02, 2026 5:40:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-46113"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:23 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptor(logFailed=true,logSlow=true,threshold=0,buckets=.01|.05|.1|1|10,slowQueryBuckets=1|10|30)" for "jdbcInterceptors" property
+Oct 02, 2026 5:40:23 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "foo" for "name" property
+Oct 02, 2026 5:40:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-34693"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-34693"]
+Oct 02, 2026 5:40:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:23 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.tearDown(TomcatJDbcp2PoolExportsTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-34693"]
+Oct 02, 2026 5:40:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-34693"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-46879"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-46879"]
+Oct 02, 2026 5:40:26 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:26 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatGenericExportsTest.tearDown(TomcatGenericExportsTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:26 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-46879"]
+Oct 02, 2026 5:40:26 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-46879"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 s - in nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-46025"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-46025"]
+Oct 02, 2026 5:40:28 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:28 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatServletMetricsFilterTest.tearDown(TomcatServletMetricsFilterTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-46025"]
+Oct 02, 2026 5:40:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-46025"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:30 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:30 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:30 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-44565"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+Oct 02, 2026 5:40:30 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-44565"]
+Oct 02, 2026 5:40:30 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:30 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcPoolExportsTest.tearDown(TomcatJdbcPoolExportsTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:30 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-44565"]
+Oct 02, 2026 5:40:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-44565"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexJarDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexExecid=24hMFBrvB3d29ZzweiuvSZs4Bbx72Q+156yVPSaizzs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+Oct 02, 2026 5:40:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-33281"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-33281"]
+Oct 02, 2026 5:40:33 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:33 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptorTest.tearDown(TomcatJdbcInterceptorTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:33 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-33281"]
+Oct 02, 2026 5:40:33 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-33281"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:34 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "foo" for "name" property
+Oct 02, 2026 5:40:34 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptor(logFailed=true,logSlow=true,threshold=0,buckets=.01|.05|.1|1|10,slowQueryBuckets=1|10|30)" for "jdbcInterceptors" property
+Oct 02, 2026 5:40:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-35987"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-35987"]
+Oct 02, 2026 5:40:35 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:35 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.tearDown(TomcatJDbcp2PoolExportsTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:35 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-35987"]
+Oct 02, 2026 5:40:35 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-35987"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:37 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-41593"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-41593"]
+Oct 02, 2026 5:40:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:37 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatGenericExportsTest.tearDown(TomcatGenericExportsTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-41593"]
+Oct 02, 2026 5:40:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-41593"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.183 s - in nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-40893"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-40893"]
+Oct 02, 2026 5:40:40 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:40 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatServletMetricsFilterTest.tearDown(TomcatServletMetricsFilterTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-40893"]
+Oct 02, 2026 5:40:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-40893"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-35297"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+Oct 02, 2026 5:40:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-35297"]
+Oct 02, 2026 5:40:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:42 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcPoolExportsTest.tearDown(TomcatJdbcPoolExportsTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-35297"]
+Oct 02, 2026 5:40:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-35297"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexJarDir=/home/a360/research/projects/tomcat_exporter/client/.nondex
+nondexExecid=1rxh99w+hDLOMP6iDLenoGB+pUFczmO361UPALbFCs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+Oct 02, 2026 5:40:44 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-39003"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-39003"]
+Oct 02, 2026 5:40:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:44 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptorTest.tearDown(TomcatJdbcInterceptorTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-39003"]
+Oct 02, 2026 5:40:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-39003"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcInterceptorTest[m
+Oct 02, 2026 5:40:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:46 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "nl.nlighten.prometheus.tomcat.TomcatJdbcInterceptor(logFailed=true,logSlow=true,threshold=0,buckets=.01|.05|.1|1|10,slowQueryBuckets=1|10|30)" for "jdbcInterceptors" property
+Oct 02, 2026 5:40:46 PM org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory getObjectInstance
+INFO: Name = db Ignoring unknown property: value of "foo" for "name" property
+Oct 02, 2026 5:40:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-35645"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-35645"]
+Oct 02, 2026 5:40:46 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:47 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.tearDown(TomcatJDbcp2PoolExportsTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-35645"]
+Oct 02, 2026 5:40:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-35645"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJDbcp2PoolExportsTest[m
+Oct 02, 2026 5:40:48 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-44529"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-44529"]
+Oct 02, 2026 5:40:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatGenericExportsTest.tearDown(TomcatGenericExportsTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-44529"]
+Oct 02, 2026 5:40:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-44529"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 s - in nl.nlighten.prometheus.tomcat.[1mTomcatGenericExportsTest[m
+Oct 02, 2026 5:40:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-42857"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-42857"]
+Oct 02, 2026 5:40:51 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:51 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatServletMetricsFilterTest.tearDown(TomcatServletMetricsFilterTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-42857"]
+Oct 02, 2026 5:40:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-42857"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in nl.nlighten.prometheus.tomcat.[1mTomcatServletMetricsFilterTest[m
+Oct 02, 2026 5:40:53 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 02, 2026 5:40:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 02, 2026 5:40:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 02, 2026 5:40:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-37859"]
+[[1;34mINFO[m] Running nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+Oct 02, 2026 5:40:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-37859"]
+Oct 02, 2026 5:40:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 02, 2026 5:40:53 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [foo]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2257)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1627)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5469)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at nl.nlighten.prometheus.tomcat.AbstractTomcatMetricsTest.shutDownTomcat(AbstractTomcatMetricsTest.java:72)
+	at nl.nlighten.prometheus.tomcat.TomcatJdbcPoolExportsTest.tearDown(TomcatJdbcPoolExportsTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Oct 02, 2026 5:40:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-37859"]
+Oct 02, 2026 5:40:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-37859"]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in nl.nlighten.prometheus.tomcat.[1mTomcatJdbcPoolExportsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 9, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/tomcat_exporter/client/.nondex" -DnondexJarDir="/home/a360/research/projects/tomcat_exporter/client/.nondex" -DnondexExecid=mwt6xViQEVRDYCrNtHQDBdRswwj8R4asl7VOlHkykk= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/tomcat_exporter/client/.nondex" -DnondexJarDir="/home/a360/research/projects/tomcat_exporter/client/.nondex" -DnondexExecid=24hMFBrvB3d29ZzweiuvSZs4Bbx72Q+156yVPSaizzs= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/tomcat_exporter/client/.nondex" -DnondexJarDir="/home/a360/research/projects/tomcat_exporter/client/.nondex" -DnondexExecid=1rxh99w+hDLOMP6iDLenoGB+pUFczmO361UPALbFCs= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/tomcat_exporter/client/.nondex/mwt6xViQEVRDYCrNtHQDBdRswwj8R4asl7VOlHkykk=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: mwt6xViQEVRDYCrNtHQDBdRswwj8R4asl7VOlHkykk=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  48.062 s
+[[1;34mINFO[m] Finished at: 2026-10-02T17:40:54-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

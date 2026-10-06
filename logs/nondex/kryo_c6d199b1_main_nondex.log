@@ -1,0 +1,1124 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.esotericsoftware:kryo[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Kryo 5.6.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mkryo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.12.1:compile[m [1m(default-compile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mclirr:2.8:check[m [1m(check-on-compile)[0;1m > [0;1mcompile[m @ [36mkryo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.12.1:compile[m [1m(default-compile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mclirr:2.8:check[m [1m(check-on-compile)[0;1m < [0;1mcompile[m @ [36mkryo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclirr:2.8:check[m [1m(check-on-compile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Skipping execution
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.5.0:add-test-source[m [1m(add-test-source)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/kryo/test-kotlin added.
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/kryo/test-jdk11 added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.12.1:testCompile[m [1m(default-testCompile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mkotlin:1.9.22:test-compile[m [1m(test-compile)[m @ [36mkryo[0;1m ---[m
+[[1;33mWARNING[m] Using experimental Kotlin incremental compilation
+[[1;34mINFO[m] Compiled 0 Kotlin files using incremental compiler
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mkryo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mkryo[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kryo/main/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_V9CJrlwSjSTyyMWADHZO4RIcGdy3dWlmZI90lQGHt40=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.reflectasm.AccessClassLoader (file:/home/a360/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.reflectasm.AccessClassLoader
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ByteBufferOutput (run 1): 21 ms
+ByteBufferOutput (average): 21 ms
+ByteBufferOutput (best time): 21 ms
+
+ByteBufferOutputFixed (run 1): 15 ms
+ByteBufferOutputFixed (average): 15 ms
+ByteBufferOutputFixed (best time): 15 ms
+
+Output (run 1): 9 ms
+Output (average): 9 ms
+Output (best time): 9 ms
+
+OutputFixed (run 1): 5 ms
+OutputFixed (average): 5 ms
+OutputFixed (best time): 5 ms
+
+UnsafeByteBufferOutput (run 1): 5 ms
+UnsafeByteBufferOutput (average): 5 ms
+UnsafeByteBufferOutput (best time): 5 ms
+
+UnsafeByteBufferOutputFixed (run 1): 1 ms
+UnsafeByteBufferOutputFixed (average): 1 ms
+UnsafeByteBufferOutputFixed (best time): 1 ms
+
+UnsafeOutput (run 1): 7 ms
+UnsafeOutput (average): 7 ms
+UnsafeOutput (best time): 7 ms
+
+UnsafeOutputFixed (run 1): 1 ms
+UnsafeOutputFixed (average): 1 ms
+UnsafeOutputFixed (best time): 1 ms
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.267 s -- in com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.734 s -- in com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.905 s -- in com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+size: 12
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.898 s -- in com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.934 s -- in com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s -- in com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.466 s -- in com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s -- in com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+ArrayList<String> fromField1
+ArrayList<String> fromField1
+
+ArrayList<FLOAT> fromSubClass
+ArrayList<Float> fromSubClass
+
+ArrayList<STRING> fromSubSubClass
+ArrayList<String> fromSubSubClass
+
+HashMap<FLOAT, STRING> multipleFromSubClasses
+HashMap<Float, String> multipleFromSubClasses
+
+HashMap<FLOAT, NULL> multipleWithUnknown
+HashMap<Float, NULL> multipleWithUnknown
+
+FLOAT[] arrayFromSubClass
+Float[] arrayFromSubClass
+
+STRING[] arrayFromSubSubClass
+String[] arrayFromSubSubClass
+
+STRING known
+String known
+
+STRING[] array1
+String[] array1
+
+STRING[][] array2
+String[][] array2
+
+ArrayList<NULL> unknown1
+ArrayList<NULL> unknown1
+
+NULL arrayUnknown1
+NULL arrayUnknown1
+
+ArrayList<String> fromField2
+ArrayList<String> fromField2
+
+ArrayList<STRING>[] arrayWithTypeVar
+ArrayList<String>[] arrayWithTypeVar
+
+ArrayList<ArrayList> fromFieldNested
+ArrayList<ArrayList> fromFieldNested
+
+ARRAYLIST parameterizedTypeFromSubClass
+ArrayList parameterizedTypeFromSubClass
+
+ArrayList<ARRAYLIST>[] parameterizedArrayFromSubClass
+ArrayList<ArrayList>[] parameterizedArrayFromSubClass
+
+ArrayList<String> fromField3
+ArrayList<String> fromField3
+
+ArrayList raw
+ArrayList raw
+
+NULL unknown2
+NULL unknown2
+
+NULL arrayUnknown2
+NULL arrayUnknown2
+
+ArrayList<Object> unboundWildcard
+ArrayList<Object> unboundWildcard
+
+ArrayList<NUMBER> upperBound
+ArrayList<Number> upperBound
+
+ArrayList<INTEGER> lowerBound
+ArrayList<Integer> lowerBound
+
+ArrayList<DOUBLE> multipleUpperBounds
+ArrayList<Double> multipleUpperBounds
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m42[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.279 s -- in com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 289, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kryo/main/.nondex
+nondexJarDir=/home/a360/research/projects/kryo/main/.nondex
+nondexExecid=rsWke66fkyxaGhNya0QkMtx0doOs6hVaeu7RHO7FGy8=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.reflectasm.AccessClassLoader (file:/home/a360/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.reflectasm.AccessClassLoader
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ByteBufferOutput (run 1): 19 ms
+ByteBufferOutput (average): 19 ms
+ByteBufferOutput (best time): 19 ms
+
+ByteBufferOutputFixed (run 1): 14 ms
+ByteBufferOutputFixed (average): 14 ms
+ByteBufferOutputFixed (best time): 14 ms
+
+Output (run 1): 7 ms
+Output (average): 7 ms
+Output (best time): 7 ms
+
+OutputFixed (run 1): 5 ms
+OutputFixed (average): 5 ms
+OutputFixed (best time): 5 ms
+
+UnsafeByteBufferOutput (run 1): 8 ms
+UnsafeByteBufferOutput (average): 8 ms
+UnsafeByteBufferOutput (best time): 8 ms
+
+UnsafeByteBufferOutputFixed (run 1): 1 ms
+UnsafeByteBufferOutputFixed (average): 1 ms
+UnsafeByteBufferOutputFixed (best time): 1 ms
+
+UnsafeOutput (run 1): 7 ms
+UnsafeOutput (average): 7 ms
+UnsafeOutput (best time): 7 ms
+
+UnsafeOutputFixed (run 1): 2 ms
+UnsafeOutputFixed (average): 2 ms
+UnsafeOutputFixed (best time): 2 ms
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.520 s -- in com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.814 s -- in com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.781 s -- in com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+size: 12
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.737 s -- in com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.807 s -- in com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.497 s -- in com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.274 s -- in com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+ArrayList<String> fromField1
+ArrayList<String> fromField1
+
+ArrayList<FLOAT> fromSubClass
+ArrayList<Float> fromSubClass
+
+ArrayList<STRING> fromSubSubClass
+ArrayList<String> fromSubSubClass
+
+HashMap<FLOAT, STRING> multipleFromSubClasses
+HashMap<Float, String> multipleFromSubClasses
+
+HashMap<FLOAT, NULL> multipleWithUnknown
+HashMap<Float, NULL> multipleWithUnknown
+
+FLOAT[] arrayFromSubClass
+Float[] arrayFromSubClass
+
+STRING[] arrayFromSubSubClass
+String[] arrayFromSubSubClass
+
+STRING known
+String known
+
+STRING[] array1
+String[] array1
+
+STRING[][] array2
+String[][] array2
+
+ArrayList<NULL> unknown1
+ArrayList<NULL> unknown1
+
+NULL arrayUnknown1
+NULL arrayUnknown1
+
+ArrayList<String> fromField2
+ArrayList<String> fromField2
+
+ArrayList<STRING>[] arrayWithTypeVar
+ArrayList<String>[] arrayWithTypeVar
+
+ArrayList<ArrayList> fromFieldNested
+ArrayList<ArrayList> fromFieldNested
+
+ARRAYLIST parameterizedTypeFromSubClass
+ArrayList parameterizedTypeFromSubClass
+
+ArrayList<ARRAYLIST>[] parameterizedArrayFromSubClass
+ArrayList<ArrayList>[] parameterizedArrayFromSubClass
+
+ArrayList<String> fromField3
+ArrayList<String> fromField3
+
+ArrayList raw
+ArrayList raw
+
+NULL unknown2
+NULL unknown2
+
+NULL arrayUnknown2
+NULL arrayUnknown2
+
+ArrayList<Object> unboundWildcard
+ArrayList<Object> unboundWildcard
+
+ArrayList<NUMBER> upperBound
+ArrayList<Number> upperBound
+
+ArrayList<INTEGER> lowerBound
+ArrayList<Integer> lowerBound
+
+ArrayList<DOUBLE> multipleUpperBounds
+ArrayList<Double> multipleUpperBounds
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m15[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.082 s[1;31m <<< FAILURE![m -- in com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@aa004a0> but was: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@4c98a6d5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams(GenericsTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s -- in com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m42[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.315 s[1;31m <<< FAILURE![m -- in com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[432, 7, 123, 5, 0]> but was: <[5, 0, 7, 123, 432]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.doAssertEquals(DefaultSerializersTest.java:645)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass(DefaultSerializersTest.java:438)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[7, 432, 123, 0, 5]> but was: <[123, 0, 5, 432, 7]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.doAssertEquals(DefaultSerializersTest.java:645)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue(DefaultSerializersTest.java:427)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s -- in com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefaultSerializersTest.testPriorityQueue:427->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->doAssertEquals:645->KryoTestCase.doAssertEquals:285 expected: <[7, 432, 123, 0, 5]> but was: <[123, 0, 5, 432, 7]>[m
+[[1;31mERROR[m] [1;31m  DefaultSerializersTest.testPriorityQueueSubclass:438->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->doAssertEquals:645->KryoTestCase.doAssertEquals:285 expected: <[432, 7, 123, 5, 0]> but was: <[5, 0, 7, 123, 432]>[m
+[[1;31mERROR[m] [1;31m  GenericsTest.testMapTypeParams:118->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->KryoTestCase.doAssertEquals:285 expected: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@aa004a0> but was: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@4c98a6d5>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 289, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for rsWke66fkyxaGhNya0QkMtx0doOs6hVaeu7RHO7FGy8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kryo/main/.nondex
+nondexJarDir=/home/a360/research/projects/kryo/main/.nondex
+nondexExecid=0GqPTYIxNhRaJxWX9q6LI11UB74bYZZdEArAVrwW4yM=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.reflectasm.AccessClassLoader (file:/home/a360/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.reflectasm.AccessClassLoader
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ByteBufferOutput (run 1): 16 ms
+ByteBufferOutput (average): 16 ms
+ByteBufferOutput (best time): 16 ms
+
+ByteBufferOutputFixed (run 1): 15 ms
+ByteBufferOutputFixed (average): 15 ms
+ByteBufferOutputFixed (best time): 15 ms
+
+Output (run 1): 8 ms
+Output (average): 8 ms
+Output (best time): 8 ms
+
+OutputFixed (run 1): 5 ms
+OutputFixed (average): 5 ms
+OutputFixed (best time): 5 ms
+
+UnsafeByteBufferOutput (run 1): 5 ms
+UnsafeByteBufferOutput (average): 5 ms
+UnsafeByteBufferOutput (best time): 5 ms
+
+UnsafeByteBufferOutputFixed (run 1): 1 ms
+UnsafeByteBufferOutputFixed (average): 1 ms
+UnsafeByteBufferOutputFixed (best time): 1 ms
+
+UnsafeOutput (run 1): 7 ms
+UnsafeOutput (average): 7 ms
+UnsafeOutput (best time): 7 ms
+
+UnsafeOutputFixed (run 1): 1 ms
+UnsafeOutputFixed (average): 1 ms
+UnsafeOutputFixed (best time): 1 ms
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.496 s -- in com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.792 s -- in com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.775 s -- in com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+size: 12
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.785 s -- in com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.865 s -- in com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.559 s -- in com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.246 s -- in com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+ArrayList<String> fromField1
+ArrayList<String> fromField1
+
+ArrayList<FLOAT> fromSubClass
+ArrayList<Float> fromSubClass
+
+ArrayList<STRING> fromSubSubClass
+ArrayList<String> fromSubSubClass
+
+HashMap<FLOAT, STRING> multipleFromSubClasses
+HashMap<Float, String> multipleFromSubClasses
+
+HashMap<FLOAT, NULL> multipleWithUnknown
+HashMap<Float, NULL> multipleWithUnknown
+
+FLOAT[] arrayFromSubClass
+Float[] arrayFromSubClass
+
+STRING[] arrayFromSubSubClass
+String[] arrayFromSubSubClass
+
+STRING known
+String known
+
+STRING[] array1
+String[] array1
+
+STRING[][] array2
+String[][] array2
+
+ArrayList<NULL> unknown1
+ArrayList<NULL> unknown1
+
+NULL arrayUnknown1
+NULL arrayUnknown1
+
+ArrayList<String> fromField2
+ArrayList<String> fromField2
+
+ArrayList<STRING>[] arrayWithTypeVar
+ArrayList<String>[] arrayWithTypeVar
+
+ArrayList<ArrayList> fromFieldNested
+ArrayList<ArrayList> fromFieldNested
+
+ARRAYLIST parameterizedTypeFromSubClass
+ArrayList parameterizedTypeFromSubClass
+
+ArrayList<ARRAYLIST>[] parameterizedArrayFromSubClass
+ArrayList<ArrayList>[] parameterizedArrayFromSubClass
+
+ArrayList<String> fromField3
+ArrayList<String> fromField3
+
+ArrayList raw
+ArrayList raw
+
+NULL unknown2
+NULL unknown2
+
+NULL arrayUnknown2
+NULL arrayUnknown2
+
+ArrayList<Object> unboundWildcard
+ArrayList<Object> unboundWildcard
+
+ArrayList<NUMBER> upperBound
+ArrayList<Number> upperBound
+
+ArrayList<INTEGER> lowerBound
+ArrayList<Integer> lowerBound
+
+ArrayList<DOUBLE> multipleUpperBounds
+ArrayList<Double> multipleUpperBounds
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s -- in com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m15[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.096 s[1;31m <<< FAILURE![m -- in com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams -- Time elapsed: 0.013 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@aa004a0> but was: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@4c98a6d5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams(GenericsTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s -- in com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m42[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.381 s[1;31m <<< FAILURE![m -- in com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[123, 432, 0, 7, 5]> but was: <[123, 7, 5, 0, 432]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.doAssertEquals(DefaultSerializersTest.java:645)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass(DefaultSerializersTest.java:438)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[123, 0, 432, 7, 5]> but was: <[7, 5, 0, 432, 123]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.doAssertEquals(DefaultSerializersTest.java:645)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue(DefaultSerializersTest.java:427)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s -- in com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefaultSerializersTest.testPriorityQueue:427->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->doAssertEquals:645->KryoTestCase.doAssertEquals:285 expected: <[123, 0, 432, 7, 5]> but was: <[7, 5, 0, 432, 123]>[m
+[[1;31mERROR[m] [1;31m  DefaultSerializersTest.testPriorityQueueSubclass:438->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->doAssertEquals:645->KryoTestCase.doAssertEquals:285 expected: <[123, 432, 0, 7, 5]> but was: <[123, 7, 5, 0, 432]>[m
+[[1;31mERROR[m] [1;31m  GenericsTest.testMapTypeParams:118->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->KryoTestCase.doAssertEquals:285 expected: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@aa004a0> but was: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@4c98a6d5>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 289, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 0GqPTYIxNhRaJxWX9q6LI11UB74bYZZdEArAVrwW4yM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/kryo/main/.nondex
+nondexJarDir=/home/a360/research/projects/kryo/main/.nondex
+nondexExecid=xZbki7VK783HnD13nWUe99bOVwCqvKmlyjVCgWUHihc=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.reflectasm.AccessClassLoader (file:/home/a360/.m2/repository/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.reflectasm.AccessClassLoader
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ByteBufferOutput (run 1): 15 ms
+ByteBufferOutput (average): 15 ms
+ByteBufferOutput (best time): 15 ms
+
+ByteBufferOutputFixed (run 1): 14 ms
+ByteBufferOutputFixed (average): 14 ms
+ByteBufferOutputFixed (best time): 14 ms
+
+Output (run 1): 8 ms
+Output (average): 8 ms
+Output (best time): 8 ms
+
+OutputFixed (run 1): 6 ms
+OutputFixed (average): 6 ms
+OutputFixed (best time): 6 ms
+
+UnsafeByteBufferOutput (run 1): 13 ms
+UnsafeByteBufferOutput (average): 13 ms
+UnsafeByteBufferOutput (best time): 13 ms
+
+UnsafeByteBufferOutputFixed (run 1): 1 ms
+UnsafeByteBufferOutputFixed (average): 1 ms
+UnsafeByteBufferOutputFixed (best time): 1 ms
+
+UnsafeOutput (run 1): 8 ms
+UnsafeOutput (average): 8 ms
+UnsafeOutput (best time): 8 ms
+
+UnsafeOutputFixed (run 1): 2 ms
+UnsafeOutputFixed (average): 2 ms
+UnsafeOutputFixed (best time): 2 ms
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.633 s -- in com.esotericsoftware.kryo.[1mSerializationBenchmarkTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in com.esotericsoftware.kryo.[1mSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.768 s -- in com.esotericsoftware.kryo.io.[1mUnsafeInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.809 s -- in com.esotericsoftware.kryo.io.[1mByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+size: 12
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.776 s -- in com.esotericsoftware.kryo.io.[1mInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.868 s -- in com.esotericsoftware.kryo.io.[1mUnsafeByteBufferInputOutputTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.esotericsoftware.kryo.io.[1mChunkedTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.esotericsoftware.kryo.[1mDepthTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in com.esotericsoftware.kryo.[1mGarbageCollectionTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.[1mRegistrationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 s -- in com.esotericsoftware.kryo.[1mSerializationCompatTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.240 s -- in com.esotericsoftware.kryo.util.[1mPoolTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+ArrayList<String> fromField1
+ArrayList<String> fromField1
+
+ArrayList<FLOAT> fromSubClass
+ArrayList<Float> fromSubClass
+
+ArrayList<STRING> fromSubSubClass
+ArrayList<String> fromSubSubClass
+
+HashMap<FLOAT, STRING> multipleFromSubClasses
+HashMap<Float, String> multipleFromSubClasses
+
+HashMap<FLOAT, NULL> multipleWithUnknown
+HashMap<Float, NULL> multipleWithUnknown
+
+FLOAT[] arrayFromSubClass
+Float[] arrayFromSubClass
+
+STRING[] arrayFromSubSubClass
+String[] arrayFromSubSubClass
+
+STRING known
+String known
+
+STRING[] array1
+String[] array1
+
+STRING[][] array2
+String[][] array2
+
+ArrayList<NULL> unknown1
+ArrayList<NULL> unknown1
+
+NULL arrayUnknown1
+NULL arrayUnknown1
+
+ArrayList<String> fromField2
+ArrayList<String> fromField2
+
+ArrayList<STRING>[] arrayWithTypeVar
+ArrayList<String>[] arrayWithTypeVar
+
+ArrayList<ArrayList> fromFieldNested
+ArrayList<ArrayList> fromFieldNested
+
+ARRAYLIST parameterizedTypeFromSubClass
+ArrayList parameterizedTypeFromSubClass
+
+ArrayList<ARRAYLIST>[] parameterizedArrayFromSubClass
+ArrayList<ArrayList>[] parameterizedArrayFromSubClass
+
+ArrayList<String> fromField3
+ArrayList<String> fromField3
+
+ArrayList raw
+ArrayList raw
+
+NULL unknown2
+NULL unknown2
+
+NULL arrayUnknown2
+NULL arrayUnknown2
+
+ArrayList<Object> unboundWildcard
+ArrayList<Object> unboundWildcard
+
+ArrayList<NUMBER> upperBound
+ArrayList<Number> upperBound
+
+ArrayList<INTEGER> lowerBound
+ArrayList<Integer> lowerBound
+
+ArrayList<DOUBLE> multipleUpperBounds
+ArrayList<Double> multipleUpperBounds
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.esotericsoftware.kryo.util.[1mGenericsUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.esotericsoftware.kryo.util.[1mUtilTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.esotericsoftware.kryo.[1mReferenceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.esotericsoftware.kryo.[1mWarnUnregisteredClassesTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.esotericsoftware.kryo.[1mCopyTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in com.esotericsoftware.kryo.serializers.[1mExternalizableSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in com.esotericsoftware.kryo.serializers.[1mBlowfishSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m15[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.073 s[1;31m <<< FAILURE![m -- in com.esotericsoftware.kryo.serializers.[1mGenericsTest[m
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@aa004a0> but was: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@4c98a6d5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.GenericsTest.testMapTypeParams(GenericsTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.esotericsoftware.kryo.serializers.[1mDeflateSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.esotericsoftware.kryo.serializers.[1mImmutableCollectionsSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.esotericsoftware.kryo.serializers.[1mParallelSerializationTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerGenericsTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.esotericsoftware.kryo.serializers.[1mFieldSerializerInheritanceTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.esotericsoftware.kryo.serializers.[1mEnumNameSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in com.esotericsoftware.kryo.serializers.[1mBeanSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in com.esotericsoftware.kryo.serializers.[1mJavaSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.070 s -- in com.esotericsoftware.kryo.serializers.[1mMapSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s -- in com.esotericsoftware.kryo.serializers.[1mCompatibleFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m42[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.381 s[1;31m <<< FAILURE![m -- in com.esotericsoftware.kryo.serializers.[1mDefaultSerializersTest[m
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[0, 5, 432, 123, 7]> but was: <[7, 432, 0, 5, 123]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.doAssertEquals(DefaultSerializersTest.java:645)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueueSubclass(DefaultSerializersTest.java:438)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;31mERROR[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[0, 432, 7, 5, 123]> but was: <[123, 5, 7, 0, 432]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.esotericsoftware.kryo.KryoTestCase.doAssertEquals(KryoTestCase.java:285)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.doAssertEquals(DefaultSerializersTest.java:645)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTripWithBufferFactory(KryoTestCase.java:219)
+	at com.esotericsoftware.kryo.KryoTestCase.roundTrip(KryoTestCase.java:96)
+	at com.esotericsoftware.kryo.serializers.DefaultSerializersTest.testPriorityQueue(DefaultSerializersTest.java:427)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in com.esotericsoftware.kryo.serializers.[1mTaggedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.esotericsoftware.kryo.serializers.[1mVersionedFieldSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.esotericsoftware.kryo.serializers.[1mOptionalSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.serializers.[1mCollectionSerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.esotericsoftware.kryo.serializers.[1mArraySerializerTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in com.esotericsoftware.kryo.serializers.[1mTimeSerializersTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in com.esotericsoftware.kryo.serializers.[1mSerializerPriorityTest[m
+[[1;34mINFO[m] Running com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in com.esotericsoftware.kryo.serializers.[1mClosureSerializerTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  DefaultSerializersTest.testPriorityQueue:427->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->doAssertEquals:645->KryoTestCase.doAssertEquals:285 expected: <[0, 432, 7, 5, 123]> but was: <[123, 5, 7, 0, 432]>[m
+[[1;31mERROR[m] [1;31m  DefaultSerializersTest.testPriorityQueueSubclass:438->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->doAssertEquals:645->KryoTestCase.doAssertEquals:285 expected: <[0, 5, 432, 123, 7]> but was: <[7, 432, 0, 5, 123]>[m
+[[1;31mERROR[m] [1;31m  GenericsTest.testMapTypeParams:118->KryoTestCase.roundTrip:96->KryoTestCase.roundTripWithBufferFactory:219->KryoTestCase.doAssertEquals:285 expected: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@aa004a0> but was: <com.esotericsoftware.kryo.serializers.GenericsTest$ClassWithMap@4c98a6d5>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 289, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for xZbki7VK783HnD13nWUe99bOVwCqvKmlyjVCgWUHihc=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/kryo/main/.nondex" -DnondexJarDir="/home/a360/research/projects/kryo/main/.nondex" -DnondexExecid=rsWke66fkyxaGhNya0QkMtx0doOs6hVaeu7RHO7FGy8= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueueSubclass
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueue
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.GenericsTest#testMapTypeParams
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/kryo/main/.nondex" -DnondexJarDir="/home/a360/research/projects/kryo/main/.nondex" -DnondexExecid=0GqPTYIxNhRaJxWX9q6LI11UB74bYZZdEArAVrwW4yM= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueueSubclass
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueue
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.GenericsTest#testMapTypeParams
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/kryo/main/.nondex" -DnondexJarDir="/home/a360/research/projects/kryo/main/.nondex" -DnondexExecid=xZbki7VK783HnD13nWUe99bOVwCqvKmlyjVCgWUHihc= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueueSubclass
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueue
+[[1;33mWARNING[m] com.esotericsoftware.kryo.serializers.GenericsTest#testMapTypeParams
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueueSubclass
+[[1;34mINFO[m] com.esotericsoftware.kryo.serializers.DefaultSerializersTest#testPriorityQueue
+[[1;34mINFO[m] com.esotericsoftware.kryo.serializers.GenericsTest#testMapTypeParams
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/kryo/main/.nondex/rsWke66fkyxaGhNya0QkMtx0doOs6hVaeu7RHO7FGy8=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: rsWke66fkyxaGhNya0QkMtx0doOs6hVaeu7RHO7FGy8=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  50.446 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:06:29-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mkryo[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/kryo/main/.nondex/rsWke66fkyxaGhNya0QkMtx0doOs6hVaeu7RHO7FGy8= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

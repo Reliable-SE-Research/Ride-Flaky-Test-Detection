@@ -1,0 +1,738 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.sedona:sedona-common[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding org.apache.sedona:sedona-common 1.5.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36msedona-common[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-maven-version)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/sedona/common/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:compile[m [1m(default-compile)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:compile[m [1m(default)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36msedona-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36msedona-common[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36msedona-common[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/sedona/common/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_xxXG+oq1CcBLzbpLdZvxkoA2tRwzupVK4uMW70u0i2s=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/sedona/common/.nondex/clean_xxXG+oq1CcBLzbpLdZvxkoA2tRwzupVK4uMW70u0i2s=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.sedona.common.raster.CRSSerializerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.049 sec - in org.apache.sedona.common.raster.CRSSerializerTest
+Running org.apache.sedona.common.raster.RasterAccessorsTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.439 sec - in org.apache.sedona.common.raster.RasterAccessorsTest
+Running org.apache.sedona.common.raster.RasterOutputTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.19 sec - in org.apache.sedona.common.raster.RasterOutputTest
+Running org.apache.sedona.common.raster.RasterConstructorsTest
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.223 sec - in org.apache.sedona.common.raster.RasterConstructorsTest
+Running org.apache.sedona.common.raster.SerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.382 sec - in org.apache.sedona.common.raster.SerdeTest
+Running org.apache.sedona.common.raster.FunctionEditorsTest
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:10 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in org.apache.sedona.common.raster.FunctionEditorsTest
+Running org.apache.sedona.common.raster.RasterEditorsTest
+Oct 02, 2026 6:27:10 AM org.geotools.image.ImageWorker <clinit>
+INFO: Warp/affine reduction enabled: true
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 sec - in org.apache.sedona.common.raster.RasterEditorsTest
+Running org.apache.sedona.common.raster.GeometryFunctionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in org.apache.sedona.common.raster.GeometryFunctionsTest
+Running org.apache.sedona.common.raster.MapAlgebraTest
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.594 sec - in org.apache.sedona.common.raster.MapAlgebraTest
+Running org.apache.sedona.common.raster.RasterBandEditorsTest
+Oct 02, 2026 6:27:11 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.473 sec - in org.apache.sedona.common.raster.RasterBandEditorsTest
+Running org.apache.sedona.common.raster.RasterPredicatesTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.589 sec - in org.apache.sedona.common.raster.RasterPredicatesTest
+Running org.apache.sedona.common.raster.FunctionsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.apache.sedona.common.raster.FunctionsTest
+Running org.apache.sedona.common.raster.RasterBandAccessorsTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.468 sec - in org.apache.sedona.common.raster.RasterBandAccessorsTest
+Running org.apache.sedona.common.S2UtilTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec - in org.apache.sedona.common.S2UtilTest
+Running org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Running org.apache.sedona.common.GeometryUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.GeometryUtilTest
+Running org.apache.sedona.common.CircleTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.apache.sedona.common.CircleTest
+Running org.apache.sedona.common.utils.RasterUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.sedona.common.utils.RasterUtilsTest
+Running org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+
+==== test correctness of class org.locationtech.jts.index.quadtree.Quadtree====
+
+==== test correctness of class org.locationtech.jts.index.strtree.STRtree====
+
+==== test size of class org.locationtech.jts.index.quadtree.Quadtree====
+original size : 1848021
+with serde kryo size : 610602
+percent : 0.33040858301934883
+
+==== test size of class org.locationtech.jts.index.strtree.STRtree====
+original size : 1521564
+with serde kryo size : 630013
+percent : 0.414056194810077
+
+==== test Serialize time of class org.locationtech.jts.index.quadtree.Quadtree====
+originalserialize time : 4.29
+original deserialize time : 1.661
+with serde kryo serialize time : 0.146
+with serde kryo deserialize time : 0.269
+
+==== test Serialize time of class org.locationtech.jts.index.strtree.STRtree====
+originalserialize time : 5.075
+original deserialize time : 2.211
+with serde kryo serialize time : 0.201
+with serde kryo deserialize time : 0.183
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.482 sec - in org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Running org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.PointSerdeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.PointSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Running org.apache.sedona.common.ConstructorsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.apache.sedona.common.ConstructorsTest
+Running org.apache.sedona.common.H3UtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in org.apache.sedona.common.H3UtilTest
+Running org.apache.sedona.common.FunctionsTest
+Oct 02, 2026 6:27:30 AM org.geotools.referencing.operation.projection.MercatorPseudoProvider$Spherical transform
+WARNING: Possible use of "Popular Visualisation Pseudo Mercator" projection outside its valid area.
+Latitude 120°00.0'N is out of range (±90°).
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.122 sec - in org.apache.sedona.common.FunctionsTest
+
+Results :
+
+Tests run: 378, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/sedona/common/.nondex
+nondexJarDir=/home/a360/research/projects/sedona/common/.nondex
+nondexExecid=PghsO3PJgluEZV+XjK38EsYy7nyEXKrG9bOw3ynw4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/sedona/common/.nondex/PghsO3PJgluEZV+XjK38EsYy7nyEXKrG9bOw3ynw4=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.18.1/surefire-junit47-2.18.1.pom
+Progress (1): 4.1 kBProgress (1): 4.4 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.18.1/surefire-junit47-2.18.1.pom[90m (4.4 kB at 9.4 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.18.1/common-junit48-2.18.1.pom
+Progress (1): 3.4 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.18.1/common-junit48-2.18.1.pom[90m (3.4 kB at 34 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.18.1/common-junit4-2.18.1.pom
+Progress (1): 2.0 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.18.1/common-junit4-2.18.1.pom[90m (2.0 kB at 21 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.18.1/common-junit3-2.18.1.pom
+Progress (1): 1.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.18.1/common-junit3-2.18.1.pom[90m (1.6 kB at 15 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.18.1/common-java5-2.18.1.pom
+Progress (1): 1.7 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.18.1/common-java5-2.18.1.pom[90m (1.7 kB at 18 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.pom
+Progress (1): 2.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.pom[90m (2.6 kB at 27 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.18.1/common-junit3-2.18.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.18.1/common-junit4-2.18.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.18.1/common-junit48-2.18.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.18.1/common-java5-2.18.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.18.1/surefire-junit47-2.18.1.jar
+Progress (1): 2.3/37 kBProgress (1): 5.0/37 kBProgress (1): 7.7/37 kBProgress (1): 10/37 kB Progress (1): 13/37 kBProgress (1): 16/37 kBProgress (1): 19/37 kBProgress (1): 21/37 kBProgress (1): 24/37 kBProgress (1): 27/37 kBProgress (1): 31/37 kBProgress (1): 35/37 kBProgress (1): 37 kB                      Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-java5/2.18.1/common-java5-2.18.1.jar[90m (37 kB at 349 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.jar
+Progress (1): 2.3/19 kBProgress (1): 5.5/19 kBProgress (1): 8.2/19 kBProgress (1): 11/19 kB Progress (1): 14/19 kBProgress (2): 14/19 kB | 2.3/133 kBProgress (2): 16/19 kB | 2.3/133 kBProgress (2): 19/19 kB | 2.3/133 kBProgress (2): 19/19 kB | 5.0/133 kBProgress (2): 19 kB | 5.0/133 kB   Progress (2): 19 kB | 7.7/133 kBProgress (2): 19 kB | 10/133 kB Progress (2): 19 kB | 13/133 kBProgress (2): 19 kB | 16/133 kBProgress (2): 19 kB | 19/133 kBProgress (2): 19 kB | 21/133 kBProgress (2): 19 kB | 24/133 kBProgress (2): 19 kB | 27/133 kBProgress (2): 19 kB | 30/133 kBProgress (2): 19 kB | 32/133 kBProgress (3): 19 kB | 32/133 kB | 2.3/19 kBProgress (3): 19 kB | 35/133 kB | 2.3/19 kBProgress (4): 19 kB | 35/133 kB | 2.3/19 kB | 3.8/38 kBProgress (4): 19 kB | 38/133 kB | 2.3/19 kB | 3.8/38 kBProgress (4): 19 kB | 38/133 kB | 5.0/19 kB | 3.8/38 kBProgress (4): 19 kB | 41/133 kB | 5.0/19 kB | 3.8/38 kBProgress (4): 19 kB | 41/133 kB | 7.7/19 kB | 3.8/38 kBProgress (4): 19 kB | 43/133 kB | 7.7/19 kB | 3.8/38 kBProgress (4): 19 kB | 43/133 kB | 7.7/19 kB | 7.8/38 kBProgress (4): 19 kB | 46/133 kB | 7.7/19 kB | 7.8/38 kBProgress (4): 19 kB | 46/133 kB | 10/19 kB | 7.8/38 kB Progress (4): 19 kB | 46/133 kB | 10/19 kB | 12/38 kB Progress (4): 19 kB | 49/133 kB | 10/19 kB | 12/38 kBProgress (4): 19 kB | 49/133 kB | 13/19 kB | 12/38 kBProgress (4): 19 kB | 51/133 kB | 13/19 kB | 12/38 kBProgress (4): 19 kB | 51/133 kB | 16/19 kB | 12/38 kBProgress (4): 19 kB | 51/133 kB | 16/19 kB | 16/38 kBProgress (4): 19 kB | 54/133 kB | 16/19 kB | 16/38 kBProgress (4): 19 kB | 54/133 kB | 19/19 kB | 16/38 kBProgress (4): 19 kB | 54/133 kB | 19/19 kB | 20/38 kBProgress (4): 19 kB | 54/133 kB | 19 kB | 20/38 kB   Progress (4): 19 kB | 54/133 kB | 19 kB | 24/38 kBProgress (4): 19 kB | 58/133 kB | 19 kB | 24/38 kBProgress (4): 19 kB | 58/133 kB | 19 kB | 28/38 kBProgress (4): 19 kB | 62/133 kB | 19 kB | 28/38 kBProgress (4): 19 kB | 62/133 kB | 19 kB | 32/38 kBProgress (4): 19 kB | 67/133 kB | 19 kB | 32/38 kBProgress (4): 19 kB | 67/133 kB | 19 kB | 37/38 kBProgress (4): 19 kB | 67/133 kB | 19 kB | 38 kB   Progress (4): 19 kB | 71/133 kB | 19 kB | 38 kBProgress (5): 19 kB | 71/133 kB | 19 kB | 38 kB | 2.3/11 kBProgress (5): 19 kB | 75/133 kB | 19 kB | 38 kB | 2.3/11 kBProgress (5): 19 kB | 79/133 kB | 19 kB | 38 kB | 2.3/11 kBProgress (5): 19 kB | 81/133 kB | 19 kB | 38 kB | 2.3/11 kBProgress (5): 19 kB | 81/133 kB | 19 kB | 38 kB | 5.0/11 kBProgress (5): 19 kB | 85/133 kB | 19 kB | 38 kB | 5.0/11 kBProgress (5): 19 kB | 85/133 kB | 19 kB | 38 kB | 7.7/11 kBProgress (5): 19 kB | 85/133 kB | 19 kB | 38 kB | 10/11 kB Progress (5): 19 kB | 85/133 kB | 19 kB | 38 kB | 11 kB   Progress (5): 19 kB | 89/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 93/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 97/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 101/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 106/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 110/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 114/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 118/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 122/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 126/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 130/133 kB | 19 kB | 38 kB | 11 kBProgress (5): 19 kB | 133 kB | 19 kB | 38 kB | 11 kB                                                        Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.18.1/common-junit4-2.18.1.jar[90m (19 kB at 101 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.18.1/common-junit48-2.18.1.jar[90m (19 kB at 93 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.jar[90m (38 kB at 359 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.18.1/common-junit3-2.18.1.jar[90m (11 kB at 51 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.18.1/surefire-junit47-2.18.1.jar[90m (133 kB at 572 kB/s)[0m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.sedona.common.raster.CRSSerializerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.301 sec - in org.apache.sedona.common.raster.CRSSerializerTest
+Running org.apache.sedona.common.raster.RasterAccessorsTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.584 sec - in org.apache.sedona.common.raster.RasterAccessorsTest
+Running org.apache.sedona.common.raster.RasterOutputTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.329 sec - in org.apache.sedona.common.raster.RasterOutputTest
+Running org.apache.sedona.common.raster.RasterConstructorsTest
+Oct 02, 2026 6:27:55 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.253 sec - in org.apache.sedona.common.raster.RasterConstructorsTest
+Running org.apache.sedona.common.raster.SerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.495 sec - in org.apache.sedona.common.raster.SerdeTest
+Running org.apache.sedona.common.raster.FunctionEditorsTest
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:27:56 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in org.apache.sedona.common.raster.FunctionEditorsTest
+Running org.apache.sedona.common.raster.RasterEditorsTest
+Oct 02, 2026 6:27:56 AM org.geotools.image.ImageWorker <clinit>
+INFO: Warp/affine reduction enabled: true
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.344 sec - in org.apache.sedona.common.raster.RasterEditorsTest
+Running org.apache.sedona.common.raster.GeometryFunctionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in org.apache.sedona.common.raster.GeometryFunctionsTest
+Running org.apache.sedona.common.raster.MapAlgebraTest
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.635 sec - in org.apache.sedona.common.raster.MapAlgebraTest
+Running org.apache.sedona.common.raster.RasterBandEditorsTest
+Oct 02, 2026 6:27:57 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.499 sec - in org.apache.sedona.common.raster.RasterBandEditorsTest
+Running org.apache.sedona.common.raster.RasterPredicatesTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.61 sec - in org.apache.sedona.common.raster.RasterPredicatesTest
+Running org.apache.sedona.common.raster.FunctionsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.apache.sedona.common.raster.FunctionsTest
+Running org.apache.sedona.common.raster.RasterBandAccessorsTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.57 sec - in org.apache.sedona.common.raster.RasterBandAccessorsTest
+Running org.apache.sedona.common.S2UtilTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in org.apache.sedona.common.S2UtilTest
+Running org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Running org.apache.sedona.common.GeometryUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.GeometryUtilTest
+Running org.apache.sedona.common.CircleTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.sedona.common.CircleTest
+Running org.apache.sedona.common.utils.RasterUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.utils.RasterUtilsTest
+Running org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+
+==== test correctness of class org.locationtech.jts.index.quadtree.Quadtree====
+
+==== test correctness of class org.locationtech.jts.index.strtree.STRtree====
+
+==== test size of class org.locationtech.jts.index.quadtree.Quadtree====
+original size : 1837254
+with serde kryo size : 606237
+percent : 0.32996907341064435
+
+==== test size of class org.locationtech.jts.index.strtree.STRtree====
+original size : 1521564
+with serde kryo size : 630013
+percent : 0.414056194810077
+
+==== test Serialize time of class org.locationtech.jts.index.quadtree.Quadtree====
+originalserialize time : 4.171
+original deserialize time : 1.568
+with serde kryo serialize time : 0.207
+with serde kryo deserialize time : 0.248
+
+==== test Serialize time of class org.locationtech.jts.index.strtree.STRtree====
+originalserialize time : 5.247
+original deserialize time : 1.616
+with serde kryo serialize time : 0.127
+with serde kryo deserialize time : 0.243
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.037 sec - in org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Running org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.PointSerdeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PointSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Running org.apache.sedona.common.ConstructorsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.sedona.common.ConstructorsTest
+Running org.apache.sedona.common.H3UtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec - in org.apache.sedona.common.H3UtilTest
+Running org.apache.sedona.common.FunctionsTest
+Oct 02, 2026 6:28:16 AM org.geotools.referencing.operation.projection.MercatorPseudoProvider$Spherical transform
+WARNING: Possible use of "Popular Visualisation Pseudo Mercator" projection outside its valid area.
+Latitude 120°00.0'N is out of range (±90°).
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.382 sec - in org.apache.sedona.common.FunctionsTest
+
+Results :
+
+Tests run: 378, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/sedona/common/.nondex
+nondexJarDir=/home/a360/research/projects/sedona/common/.nondex
+nondexExecid=AUDAppCeTQjJljCrcWQ7vmFY1xbL96LEbT2ktqdqL8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/sedona/common/.nondex/AUDAppCeTQjJljCrcWQ7vmFY1xbL96LEbT2ktqdqL8=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.sedona.common.raster.CRSSerializerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.246 sec - in org.apache.sedona.common.raster.CRSSerializerTest
+Running org.apache.sedona.common.raster.RasterAccessorsTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.571 sec - in org.apache.sedona.common.raster.RasterAccessorsTest
+Running org.apache.sedona.common.raster.RasterOutputTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.256 sec - in org.apache.sedona.common.raster.RasterOutputTest
+Running org.apache.sedona.common.raster.RasterConstructorsTest
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 sec - in org.apache.sedona.common.raster.RasterConstructorsTest
+Running org.apache.sedona.common.raster.SerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.473 sec - in org.apache.sedona.common.raster.SerdeTest
+Running org.apache.sedona.common.raster.FunctionEditorsTest
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:28:39 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.apache.sedona.common.raster.FunctionEditorsTest
+Running org.apache.sedona.common.raster.RasterEditorsTest
+Oct 02, 2026 6:28:40 AM org.geotools.image.ImageWorker <clinit>
+INFO: Warp/affine reduction enabled: true
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.37 sec - in org.apache.sedona.common.raster.RasterEditorsTest
+Running org.apache.sedona.common.raster.GeometryFunctionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.apache.sedona.common.raster.GeometryFunctionsTest
+Running org.apache.sedona.common.raster.MapAlgebraTest
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.578 sec - in org.apache.sedona.common.raster.MapAlgebraTest
+Running org.apache.sedona.common.raster.RasterBandEditorsTest
+Oct 02, 2026 6:28:41 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.553 sec - in org.apache.sedona.common.raster.RasterBandEditorsTest
+Running org.apache.sedona.common.raster.RasterPredicatesTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.7 sec - in org.apache.sedona.common.raster.RasterPredicatesTest
+Running org.apache.sedona.common.raster.FunctionsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in org.apache.sedona.common.raster.FunctionsTest
+Running org.apache.sedona.common.raster.RasterBandAccessorsTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.63 sec - in org.apache.sedona.common.raster.RasterBandAccessorsTest
+Running org.apache.sedona.common.S2UtilTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec - in org.apache.sedona.common.S2UtilTest
+Running org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Running org.apache.sedona.common.GeometryUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.GeometryUtilTest
+Running org.apache.sedona.common.CircleTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.sedona.common.CircleTest
+Running org.apache.sedona.common.utils.RasterUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.sedona.common.utils.RasterUtilsTest
+Running org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+
+==== test correctness of class org.locationtech.jts.index.quadtree.Quadtree====
+
+==== test correctness of class org.locationtech.jts.index.strtree.STRtree====
+
+==== test size of class org.locationtech.jts.index.quadtree.Quadtree====
+original size : 1851129
+with serde kryo size : 611862
+percent : 0.3305345008370567
+
+==== test size of class org.locationtech.jts.index.strtree.STRtree====
+original size : 1521564
+with serde kryo size : 630013
+percent : 0.414056194810077
+
+==== test Serialize time of class org.locationtech.jts.index.quadtree.Quadtree====
+originalserialize time : 3.837
+original deserialize time : 1.674
+with serde kryo serialize time : 0.196
+with serde kryo deserialize time : 0.105
+
+==== test Serialize time of class org.locationtech.jts.index.strtree.STRtree====
+originalserialize time : 5.631
+original deserialize time : 2.074
+with serde kryo serialize time : 0.189
+with serde kryo deserialize time : 0.167
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.409 sec - in org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Running org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.PointSerdeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PointSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Running org.apache.sedona.common.ConstructorsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.sedona.common.ConstructorsTest
+Running org.apache.sedona.common.H3UtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in org.apache.sedona.common.H3UtilTest
+Running org.apache.sedona.common.FunctionsTest
+Oct 02, 2026 6:28:59 AM org.geotools.referencing.operation.projection.MercatorPseudoProvider$Spherical transform
+WARNING: Possible use of "Popular Visualisation Pseudo Mercator" projection outside its valid area.
+Latitude 120°00.0'N is out of range (±90°).
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.481 sec - in org.apache.sedona.common.FunctionsTest
+
+Results :
+
+Tests run: 378, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/sedona/common/.nondex
+nondexJarDir=/home/a360/research/projects/sedona/common/.nondex
+nondexExecid=aQML2FxUgl3jMFT5ogkSBAmlWAldnzVDvy9o4vBgw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/sedona/common/.nondex/aQML2FxUgl3jMFT5ogkSBAmlWAldnzVDvy9o4vBgw=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.sedona.common.raster.CRSSerializerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.298 sec - in org.apache.sedona.common.raster.CRSSerializerTest
+Running org.apache.sedona.common.raster.RasterAccessorsTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.566 sec - in org.apache.sedona.common.raster.RasterAccessorsTest
+Running org.apache.sedona.common.raster.RasterOutputTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.554 sec - in org.apache.sedona.common.raster.RasterOutputTest
+Running org.apache.sedona.common.raster.RasterConstructorsTest
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:24 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.246 sec - in org.apache.sedona.common.raster.RasterConstructorsTest
+Running org.apache.sedona.common.raster.SerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.502 sec - in org.apache.sedona.common.raster.SerdeTest
+Running org.apache.sedona.common.raster.FunctionEditorsTest
+Oct 02, 2026 6:29:25 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:25 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:25 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:25 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Oct 02, 2026 6:29:25 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in org.apache.sedona.common.raster.FunctionEditorsTest
+Running org.apache.sedona.common.raster.RasterEditorsTest
+Oct 02, 2026 6:29:25 AM org.geotools.image.ImageWorker <clinit>
+INFO: Warp/affine reduction enabled: true
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.414 sec - in org.apache.sedona.common.raster.RasterEditorsTest
+Running org.apache.sedona.common.raster.GeometryFunctionsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in org.apache.sedona.common.raster.GeometryFunctionsTest
+Running org.apache.sedona.common.raster.MapAlgebraTest
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+ANTLR Tool version 4.7.1 used for code generation does not match the current runtime version 4.9.3
+ANTLR Runtime version 4.7.1 used for parser compilation does not match the current runtime version 4.9.3
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.6 sec - in org.apache.sedona.common.raster.MapAlgebraTest
+Running org.apache.sedona.common.raster.RasterBandEditorsTest
+Oct 02, 2026 6:29:26 AM org.geotools.process.vector.VectorToRasterProcess initialize
+WARNING: coercing double feature values to float raster values
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.54 sec - in org.apache.sedona.common.raster.RasterBandEditorsTest
+Running org.apache.sedona.common.raster.RasterPredicatesTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.633 sec - in org.apache.sedona.common.raster.RasterPredicatesTest
+Running org.apache.sedona.common.raster.FunctionsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in org.apache.sedona.common.raster.FunctionsTest
+Running org.apache.sedona.common.raster.RasterBandAccessorsTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.729 sec - in org.apache.sedona.common.raster.RasterBandAccessorsTest
+Running org.apache.sedona.common.S2UtilTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec - in org.apache.sedona.common.S2UtilTest
+Running org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.apache.sedona.common.sphere.HaversineEnvelopeTest
+Running org.apache.sedona.common.GeometryUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.GeometryUtilTest
+Running org.apache.sedona.common.CircleTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.sedona.common.CircleTest
+Running org.apache.sedona.common.utils.RasterUtilsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.utils.RasterUtilsTest
+Running org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+
+==== test correctness of class org.locationtech.jts.index.quadtree.Quadtree====
+
+==== test correctness of class org.locationtech.jts.index.strtree.STRtree====
+
+==== test size of class org.locationtech.jts.index.quadtree.Quadtree====
+original size : 1852239
+with serde kryo size : 612312
+percent : 0.3305793690771007
+
+==== test size of class org.locationtech.jts.index.strtree.STRtree====
+original size : 1521564
+with serde kryo size : 630013
+percent : 0.414056194810077
+
+==== test Serialize time of class org.locationtech.jts.index.quadtree.Quadtree====
+originalserialize time : 4.328
+original deserialize time : 1.844
+with serde kryo serialize time : 0.125
+with serde kryo deserialize time : 0.156
+
+==== test Serialize time of class org.locationtech.jts.index.strtree.STRtree====
+originalserialize time : 5.348
+original deserialize time : 1.76
+with serde kryo serialize time : 0.383
+with serde kryo deserialize time : 0.148
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.674 sec - in org.apache.sedona.common.geometrySerde.SpatialIndexSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.GeometryCollectionSerdeTest
+Running org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiLineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.sedona.common.geometrySerde.LineStringSerdeTest
+Running org.apache.sedona.common.geometrySerde.PointSerdeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.PointSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiPolygonSerdeTest
+Running org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.sedona.common.geometrySerde.MultiPointSerdeTest
+Running org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.sedona.common.geometrySerde.GeometryBufferTest
+Running org.apache.sedona.common.ConstructorsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.apache.sedona.common.ConstructorsTest
+Running org.apache.sedona.common.H3UtilTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in org.apache.sedona.common.H3UtilTest
+Running org.apache.sedona.common.FunctionsTest
+Oct 02, 2026 6:29:45 AM org.geotools.referencing.operation.projection.MercatorPseudoProvider$Spherical transform
+WARNING: Possible use of "Popular Visualisation Pseudo Mercator" projection outside its valid area.
+Latitude 120°00.0'N is out of range (±90°).
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.569 sec - in org.apache.sedona.common.FunctionsTest
+
+Results :
+
+Tests run: 378, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/sedona/common/.nondex" -DnondexJarDir="/home/a360/research/projects/sedona/common/.nondex" -DnondexExecid=PghsO3PJgluEZV+XjK38EsYy7nyEXKrG9bOw3ynw4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/sedona/common/.nondex" -DnondexJarDir="/home/a360/research/projects/sedona/common/.nondex" -DnondexExecid=AUDAppCeTQjJljCrcWQ7vmFY1xbL96LEbT2ktqdqL8= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/sedona/common/.nondex" -DnondexJarDir="/home/a360/research/projects/sedona/common/.nondex" -DnondexExecid=aQML2FxUgl3jMFT5ogkSBAmlWAldnzVDvy9o4vBgw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/sedona/common/.nondex/PghsO3PJgluEZV+XjK38EsYy7nyEXKrG9bOw3ynw4=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: PghsO3PJgluEZV+XjK38EsYy7nyEXKrG9bOw3ynw4=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:02 min
+[[1;34mINFO[m] Finished at: 2026-10-02T06:30:04-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,62 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.github.jnr:jnr-posix[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding jnr-posix 3.1.5-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjnr-posix[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0:enforce[m [1m(enforce-maven)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jnr-posix/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(java9-compile)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:manifest[m [1m(bundle-manifest)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jnr-posix/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjnr-posix[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjnr-posix[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mjnr-posix[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 114 tests. Time taken: 0.3359999656677246 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.github.jnr:jnr-posix:3.1.5-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/jnr-posix/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/jnr-posix/.dtfixingtools/original-order
+[INFO] Getting original results (114 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified jnr.posix.NlLanginfoTest.testNlLanginfo, status: expected ERROR, got ERROR
+Verified jnr.posix.NlLanginfoTest.testNlLanginfo, status: expected PASS, got PASS
+[INFO] Found 1 tests in round 1 of 3 (0.0 seconds elapsed (12.1 total), 0.0 seconds remaining).
+Verified jnr.posix.NlLanginfoTest.testNlLanginfo, status: expected ERROR, got ERROR
+Verified jnr.posix.NlLanginfoTest.testNlLanginfo, status: expected PASS, got PASS
+Verified jnr.posix.FileTest.closeTest, status: expected PASS, got PASS
+Verified jnr.posix.FileTest.closeTest, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 2 of 3 (0.0 seconds elapsed (30.3 total), 0.0 seconds remaining).
+Verified jnr.posix.GroupTest.getgroups, status: expected ERROR, got ERROR
+Verified jnr.posix.GroupTest.getgroups, status: expected PASS, got PASS
+[INFO] Found 1 tests in round 3 of 3 (0.0 seconds elapsed (42.2 total), 0.0 seconds remaining).
+
+[INFO] Found 3 tests, writing list to /home/a360/research/projects/jnr-posix/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/jnr-posix/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:02 min
+[[1;34mINFO[m] Finished at: 2026-10-02T12:37:11-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,756 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.shenyu:shenyu-common[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding shenyu-common 2.4.2-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mshenyu-common[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-maven-version)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.0:check[m [1m(validate)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.7:prepare-agent[m [1m(default)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/a360/research/projects/incubator-shenyu/shenyu-common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.5:process[m [1m(process-resource-bundles)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/incubator-shenyu/shenyu-common/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:compile[m [1m(default-compile)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mshenyu-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mshenyu-common[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mshenyu-common[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_r1TVOTDNl3GhHEjbyWEOqDqg0JmkyRrvBy4pc0jubmI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.127 s - in org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+04:36:37.080 [main] ERROR org.apache.shenyu.common.utils.UpstreamCheckUtils - socket connect is error.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.isHostConnector(UpstreamCheckUtils.java:80)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:75)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:52)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtilsTest.testSocketConnect(UpstreamCheckUtilsTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 s - in org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+04:36:37.409 [main] INFO org.apache.shenyu.common.utils.VersionUtils - No codeSource for class java.lang.String when getVersion, use default version 2.0.2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 s - in org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 142, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexJarDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexExecid=0MtRl10K8QJ5C44zIQfTzGgYKLeYPhFDzdTqfMweWaQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.086 s[1;31m <<< FAILURE![m - in org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;31mERROR[m] org.apache.shenyu.common.utils.GsonUtilsTest.testToJson  Time elapsed: 0.008 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false}]}> but was:<{"[nestedMap":{"map_2":{},"map_1":{"map_key_3":"map_value_3","map_key_5":"map_value_5","map_key_9":"map_value_9","map_key_4":"map_value_4","map_key_1":"map_value_1","map_key_6":"map_value_6","map_key_0":"map_value_0","map_key_7":"map_value_7","map_key_2":"map_value_2","map_key_8":"map_value_8"},"bool":false},"iNumber":1,"string":"test","fNumber":1.0,"testMap":{"map_key_2":"map_value_2","map_key_5":"map_value_5","map_key_6":"map_value_6","map_key_0":"map_value_0","map_key_1":"map_value_1","map_key_7":"map_value_7","map_key_4":"map_value_4","map_key_8":"map_value_8","map_key_9":"map_value_9","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"bool":true,"dNumber":1.0,"bigDecimal":1,"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"]]}>
+	at org.apache.shenyu.common.utils.GsonUtilsTest.testToJson(GsonUtilsTest.java:68)
+
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.098 s - in org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+04:36:40.525 [main] ERROR org.apache.shenyu.common.utils.UpstreamCheckUtils - socket connect is error.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.isHostConnector(UpstreamCheckUtils.java:80)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:75)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:52)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtilsTest.testSocketConnect(UpstreamCheckUtilsTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s - in org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+04:36:40.836 [main] INFO org.apache.shenyu.common.utils.VersionUtils - No codeSource for class java.lang.String when getVersion, use default version 2.0.2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.264 s[1;31m <<< FAILURE![m - in org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;31mERROR[m] org.apache.shenyu.common.utils.JsonUtilsTest.toJson  Time elapsed: 0.262 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[id":123,"name":"test object","deleted":false,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"nullObject":null,"emptyList":[],"emptyMap":{},"nestedMap":{"boolean":false,"map2":{},"map1":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"testInt":100}]}> but was:<{"[testMap":{"test_map_1":"test_value_1","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_2":"test_value_2","test_map_5":"test_value_5","test_map_3":"test_value_3","test_map_4":"test_value_4","test_map_8":"test_value_8","test_map_0":"test_value_0","test_map_9":"test_value_9"},"nestedMap":{"map2":{},"map1":{"test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_5":"test_value_5","test_map_2":"test_value_2","test_map_3":"test_value_3","test_map_9":"test_value_9","test_map_6":"test_value_6","test_map_8":"test_value_8","test_map_7":"test_value_7","test_map_4":"test_value_4"},"testInt":100,"boolean":false},"nullObject":null,"name":"test object","deleted":false,"id":123,"emptyList":[],"emptyMap":{},"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"]]}>
+	at org.apache.shenyu.common.utils.JsonUtilsTest.toJson(JsonUtilsTest.java:75)
+
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GsonUtilsTest.testToJson:68 expected:<{"[bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false}]}> but was:<{"[nestedMap":{"map_2":{},"map_1":{"map_key_3":"map_value_3","map_key_5":"map_value_5","map_key_9":"map_value_9","map_key_4":"map_value_4","map_key_1":"map_value_1","map_key_6":"map_value_6","map_key_0":"map_value_0","map_key_7":"map_value_7","map_key_2":"map_value_2","map_key_8":"map_value_8"},"bool":false},"iNumber":1,"string":"test","fNumber":1.0,"testMap":{"map_key_2":"map_value_2","map_key_5":"map_value_5","map_key_6":"map_value_6","map_key_0":"map_value_0","map_key_1":"map_value_1","map_key_7":"map_value_7","map_key_4":"map_value_4","map_key_8":"map_value_8","map_key_9":"map_value_9","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"bool":true,"dNumber":1.0,"bigDecimal":1,"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"]]}>[m
+[[1;31mERROR[m] [1;31m  JsonUtilsTest.toJson:75 expected:<{"[id":123,"name":"test object","deleted":false,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"nullObject":null,"emptyList":[],"emptyMap":{},"nestedMap":{"boolean":false,"map2":{},"map1":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"testInt":100}]}> but was:<{"[testMap":{"test_map_1":"test_value_1","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_2":"test_value_2","test_map_5":"test_value_5","test_map_3":"test_value_3","test_map_4":"test_value_4","test_map_8":"test_value_8","test_map_0":"test_value_0","test_map_9":"test_value_9"},"nestedMap":{"map2":{},"map1":{"test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_5":"test_value_5","test_map_2":"test_value_2","test_map_3":"test_value_3","test_map_9":"test_value_9","test_map_6":"test_value_6","test_map_8":"test_value_8","test_map_7":"test_value_7","test_map_4":"test_value_4"},"testInt":100,"boolean":false},"nullObject":null,"name":"test object","deleted":false,"id":123,"emptyList":[],"emptyMap":{},"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"]]}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 142, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 0MtRl10K8QJ5C44zIQfTzGgYKLeYPhFDzdTqfMweWaQ=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexJarDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexExecid=Q7CbA0LtrGjsoAF6y26IVTAdBOvfL1XSN7m6FxiqNoY=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.088 s[1;31m <<< FAILURE![m - in org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;31mERROR[m] org.apache.shenyu.common.utils.GsonUtilsTest.testToJson  Time elapsed: 0.007 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false}]}> but was:<{"[iNumber":1,"emptyList":[],"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"string":"test","bool":true,"emptyMap":{},"nestedMap":{"bool":false,"map_2":{},"map_1":{"map_key_1":"map_value_1","map_key_3":"map_value_3","map_key_2":"map_value_2","map_key_7":"map_value_7","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_4":"map_value_4","map_key_5":"map_value_5","map_key_6":"map_value_6","map_key_0":"map_value_0"}},"fNumber":1.0,"testMap":{"map_key_0":"map_value_0","map_key_2":"map_value_2","map_key_6":"map_value_6","map_key_3":"map_value_3","map_key_7":"map_value_7","map_key_5":"map_value_5","map_key_1":"map_value_1","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_4":"map_value_4"},"dNumber":1.0,"bigDecimal":1]}>
+	at org.apache.shenyu.common.utils.GsonUtilsTest.testToJson(GsonUtilsTest.java:68)
+
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.124 s - in org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+04:36:43.985 [main] ERROR org.apache.shenyu.common.utils.UpstreamCheckUtils - socket connect is error.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.isHostConnector(UpstreamCheckUtils.java:80)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:75)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:52)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtilsTest.testSocketConnect(UpstreamCheckUtilsTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+04:36:44.291 [main] INFO org.apache.shenyu.common.utils.VersionUtils - No codeSource for class java.lang.String when getVersion, use default version 2.0.2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.248 s[1;31m <<< FAILURE![m - in org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;31mERROR[m] org.apache.shenyu.common.utils.JsonUtilsTest.toJson  Time elapsed: 0.246 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[id":123,"name":"test object","deleted":false,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"nullObject":null,"emptyList":[],"emptyMap":{},"nestedMap":{"boolean":false,"map2":{},"map1":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"testInt":100}]}> but was:<{"[testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"name":"test object","testMap":{"test_map_5":"test_value_5","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_8":"test_value_8","test_map_6":"test_value_6","test_map_9":"test_value_9","test_map_2":"test_value_2","test_map_4":"test_value_4","test_map_3":"test_value_3","test_map_1":"test_value_1"},"nestedMap":{"testInt":100,"map1":{"test_map_2":"test_value_2","test_map_5":"test_value_5","test_map_8":"test_value_8","test_map_0":"test_value_0","test_map_9":"test_value_9","test_map_1":"test_value_1","test_map_4":"test_value_4","test_map_7":"test_value_7","test_map_3":"test_value_3","test_map_6":"test_value_6"},"boolean":false,"map2":{}},"id":123,"deleted":false,"emptyMap":{},"nullObject":null,"emptyList":[]]}>
+	at org.apache.shenyu.common.utils.JsonUtilsTest.toJson(JsonUtilsTest.java:75)
+
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GsonUtilsTest.testToJson:68 expected:<{"[bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false}]}> but was:<{"[iNumber":1,"emptyList":[],"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"string":"test","bool":true,"emptyMap":{},"nestedMap":{"bool":false,"map_2":{},"map_1":{"map_key_1":"map_value_1","map_key_3":"map_value_3","map_key_2":"map_value_2","map_key_7":"map_value_7","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_4":"map_value_4","map_key_5":"map_value_5","map_key_6":"map_value_6","map_key_0":"map_value_0"}},"fNumber":1.0,"testMap":{"map_key_0":"map_value_0","map_key_2":"map_value_2","map_key_6":"map_value_6","map_key_3":"map_value_3","map_key_7":"map_value_7","map_key_5":"map_value_5","map_key_1":"map_value_1","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_4":"map_value_4"},"dNumber":1.0,"bigDecimal":1]}>[m
+[[1;31mERROR[m] [1;31m  JsonUtilsTest.toJson:75 expected:<{"[id":123,"name":"test object","deleted":false,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"nullObject":null,"emptyList":[],"emptyMap":{},"nestedMap":{"boolean":false,"map2":{},"map1":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"testInt":100}]}> but was:<{"[testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"name":"test object","testMap":{"test_map_5":"test_value_5","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_8":"test_value_8","test_map_6":"test_value_6","test_map_9":"test_value_9","test_map_2":"test_value_2","test_map_4":"test_value_4","test_map_3":"test_value_3","test_map_1":"test_value_1"},"nestedMap":{"testInt":100,"map1":{"test_map_2":"test_value_2","test_map_5":"test_value_5","test_map_8":"test_value_8","test_map_0":"test_value_0","test_map_9":"test_value_9","test_map_1":"test_value_1","test_map_4":"test_value_4","test_map_7":"test_value_7","test_map_3":"test_value_3","test_map_6":"test_value_6"},"boolean":false,"map2":{}},"id":123,"deleted":false,"emptyMap":{},"nullObject":null,"emptyList":[]]}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 142, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for Q7CbA0LtrGjsoAF6y26IVTAdBOvfL1XSN7m6FxiqNoY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexJarDir=/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex
+nondexExecid=0PsVWwWyq43gBG93vYNb4VyUeIONQYbRAbF2OwS9QBs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.shenyu.common.constant.[1mDefaultPathConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.constant.[1mRedisKeyConstantsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.shenyu.common.exception.[1mSerializerExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.shenyu.common.exception.[1mShenyuExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.exception.[1mCommonErrorCodeTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mAdminPluginOperateEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mResultEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mHttpMethodEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mHystrixIsolationModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mDataEventTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.shenyu.common.enums.[1mConfigGroupEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mWafModelEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mRedisModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mDataSyncEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.enums.[1mOperatorEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mSerializeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shenyu.common.enums.[1mLoadBalanceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mWafEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mPluginEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shenyu.common.enums.[1mParamTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.enums.[1mPluginTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mSelectorTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mMatchModeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shenyu.common.enums.[1mRpcTypeEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.enums.[1mRateLimitEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mPluginRoleEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.enums.[1mAdminResourceEnumTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.concurrent.[1mShenyuThreadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.shenyu.common.dto.[1mMetaDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in org.apache.shenyu.common.dto.[1mConfigDataTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.088 s[1;31m <<< FAILURE![m - in org.apache.shenyu.common.utils.[1mGsonUtilsTest[m
+[[1;31mERROR[m] org.apache.shenyu.common.utils.GsonUtilsTest.testToJson  Time elapsed: 0.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false]}}> but was:<{"[fNumber":1.0,"bool":true,"nestedMap":{"map_2":{},"bool":false,"map_1":{"map_key_2":"map_value_2","map_key_6":"map_value_6","map_key_7":"map_value_7","map_key_3":"map_value_3","map_key_8":"map_value_8","map_key_5":"map_value_5","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_4":"map_value_4","map_key_9":"map_value_9"}},"emptyList":[],"string":"test","iNumber":1,"bigDecimal":1,"dNumber":1.0,"testMap":{"map_key_6":"map_value_6","map_key_7":"map_value_7","map_key_5":"map_value_5","map_key_8":"map_value_8","map_key_9":"map_value_9","map_key_1":"map_value_1","map_key_4":"map_value_4","map_key_0":"map_value_0","map_key_3":"map_value_3","map_key_2":"map_value_2"},"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"emptyMap":{]}}>
+	at org.apache.shenyu.common.utils.GsonUtilsTest.testToJson(GsonUtilsTest.java:68)
+
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.shenyu.common.utils.[1mDateUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.shenyu.common.utils.[1mHttpParamConverterTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.096 s - in org.apache.shenyu.common.utils.[1mThreadUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shenyu.common.utils.[1mReflectUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.shenyu.common.utils.[1mPathMatchUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+04:36:47.301 [main] ERROR org.apache.shenyu.common.utils.UpstreamCheckUtils - socket connect is error.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.isHostConnector(UpstreamCheckUtils.java:80)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:75)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtils.checkUrl(UpstreamCheckUtils.java:52)
+	at org.apache.shenyu.common.utils.UpstreamCheckUtilsTest.testSocketConnect(UpstreamCheckUtilsTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.apache.shenyu.common.utils.[1mUpstreamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.shenyu.common.utils.[1mSignUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.apache.shenyu.common.utils.[1mLogUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shenyu.common.utils.[1mSpiLoadFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+04:36:47.594 [main] INFO org.apache.shenyu.common.utils.VersionUtils - No codeSource for class java.lang.String when getVersion, use default version 2.0.2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shenyu.common.utils.[1mVersionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shenyu.common.utils.[1mParamCheckUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.266 s[1;31m <<< FAILURE![m - in org.apache.shenyu.common.utils.[1mJsonUtilsTest[m
+[[1;31mERROR[m] org.apache.shenyu.common.utils.JsonUtilsTest.toJson  Time elapsed: 0.265 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[id":123,"name":"test object","deleted":false,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"nullObject":null,"emptyList":[],"emptyMap":{},"nestedMap":{"boolean":false,"map2":{},"map1":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"testInt":100]}}> but was:<{"[nestedMap":{"map2":{},"map1":{"test_map_1":"test_value_1","test_map_3":"test_value_3","test_map_9":"test_value_9","test_map_5":"test_value_5","test_map_6":"test_value_6","test_map_0":"test_value_0","test_map_2":"test_value_2","test_map_4":"test_value_4","test_map_8":"test_value_8","test_map_7":"test_value_7"},"boolean":false,"testInt":100},"emptyList":[],"name":"test object","nullObject":null,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_6":"test_value_6","test_map_4":"test_value_4","test_map_2":"test_value_2","test_map_8":"test_value_8","test_map_7":"test_value_7","test_map_5":"test_value_5","test_map_1":"test_value_1","test_map_9":"test_value_9","test_map_0":"test_value_0","test_map_3":"test_value_3"},"deleted":false,"id":123,"emptyMap":{]}}>
+	at org.apache.shenyu.common.utils.JsonUtilsTest.toJson(JsonUtilsTest.java:75)
+
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shenyu.common.utils.[1mUUIDUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shenyu.common.utils.[1mMd5UtilsTest[m
+[[1;34mINFO[m] Running org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.apache.shenyu.common.utils.[1mIpUtilsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GsonUtilsTest.testToJson:68 expected:<{"[bool":true,"iNumber":1,"fNumber":1.0,"dNumber":1.0,"bigDecimal":1,"string":"test","testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"testMap":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"emptyList":[],"emptyMap":{},"nestedMap":{"map_2":{},"map_1":{"map_key_2":"map_value_2","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_9":"map_value_9","map_key_8":"map_value_8","map_key_7":"map_value_7","map_key_6":"map_value_6","map_key_5":"map_value_5","map_key_4":"map_value_4","map_key_3":"map_value_3"},"bool":false]}}> but was:<{"[fNumber":1.0,"bool":true,"nestedMap":{"map_2":{},"bool":false,"map_1":{"map_key_2":"map_value_2","map_key_6":"map_value_6","map_key_7":"map_value_7","map_key_3":"map_value_3","map_key_8":"map_value_8","map_key_5":"map_value_5","map_key_1":"map_value_1","map_key_0":"map_value_0","map_key_4":"map_value_4","map_key_9":"map_value_9"}},"emptyList":[],"string":"test","iNumber":1,"bigDecimal":1,"dNumber":1.0,"testMap":{"map_key_6":"map_value_6","map_key_7":"map_value_7","map_key_5":"map_value_5","map_key_8":"map_value_8","map_key_9":"map_value_9","map_key_1":"map_value_1","map_key_4":"map_value_4","map_key_0":"map_value_0","map_key_3":"map_value_3","map_key_2":"map_value_2"},"testList":["list_string_0","list_string_1","list_string_2","list_string_3","list_string_4","list_string_5","list_string_6","list_string_7","list_string_8","list_string_9"],"emptyMap":{]}}>[m
+[[1;31mERROR[m] [1;31m  JsonUtilsTest.toJson:75 expected:<{"[id":123,"name":"test object","deleted":false,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"nullObject":null,"emptyList":[],"emptyMap":{},"nestedMap":{"boolean":false,"map2":{},"map1":{"test_map_9":"test_value_9","test_map_8":"test_value_8","test_map_3":"test_value_3","test_map_2":"test_value_2","test_map_1":"test_value_1","test_map_0":"test_value_0","test_map_7":"test_value_7","test_map_6":"test_value_6","test_map_5":"test_value_5","test_map_4":"test_value_4"},"testInt":100]}}> but was:<{"[nestedMap":{"map2":{},"map1":{"test_map_1":"test_value_1","test_map_3":"test_value_3","test_map_9":"test_value_9","test_map_5":"test_value_5","test_map_6":"test_value_6","test_map_0":"test_value_0","test_map_2":"test_value_2","test_map_4":"test_value_4","test_map_8":"test_value_8","test_map_7":"test_value_7"},"boolean":false,"testInt":100},"emptyList":[],"name":"test object","nullObject":null,"testList":["test_string_0","test_string_1","test_string_2","test_string_3","test_string_4","test_string_5","test_string_6","test_string_7","test_string_8","test_string_9"],"testMap":{"test_map_6":"test_value_6","test_map_4":"test_value_4","test_map_2":"test_value_2","test_map_8":"test_value_8","test_map_7":"test_value_7","test_map_5":"test_value_5","test_map_1":"test_value_1","test_map_9":"test_value_9","test_map_0":"test_value_0","test_map_3":"test_value_3"},"deleted":false,"id":123,"emptyMap":{]}}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 142, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 0PsVWwWyq43gBG93vYNb4VyUeIONQYbRAbF2OwS9QBs=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex" -DnondexJarDir="/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex" -DnondexExecid=0MtRl10K8QJ5C44zIQfTzGgYKLeYPhFDzdTqfMweWaQ= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.shenyu.common.utils.GsonUtilsTest#testToJson
+[[1;33mWARNING[m] org.apache.shenyu.common.utils.JsonUtilsTest#toJson
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex" -DnondexJarDir="/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex" -DnondexExecid=Q7CbA0LtrGjsoAF6y26IVTAdBOvfL1XSN7m6FxiqNoY= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.shenyu.common.utils.GsonUtilsTest#testToJson
+[[1;33mWARNING[m] org.apache.shenyu.common.utils.JsonUtilsTest#toJson
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex" -DnondexJarDir="/home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex" -DnondexExecid=0PsVWwWyq43gBG93vYNb4VyUeIONQYbRAbF2OwS9QBs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.shenyu.common.utils.GsonUtilsTest#testToJson
+[[1;33mWARNING[m] org.apache.shenyu.common.utils.JsonUtilsTest#toJson
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.shenyu.common.utils.GsonUtilsTest#testToJson
+[[1;34mINFO[m] org.apache.shenyu.common.utils.JsonUtilsTest#toJson
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex/0MtRl10K8QJ5C44zIQfTzGgYKLeYPhFDzdTqfMweWaQ=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 0MtRl10K8QJ5C44zIQfTzGgYKLeYPhFDzdTqfMweWaQ=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  18.600 s
+[[1;34mINFO[m] Finished at: 2026-10-02T04:36:48-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mshenyu-common[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/incubator-shenyu/shenyu-common/.nondex/0MtRl10K8QJ5C44zIQfTzGgYKLeYPhFDzdTqfMweWaQ= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

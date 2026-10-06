@@ -1,0 +1,594 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.cloudera.oryx:oryx-common[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Common 2.9.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36moryx-common[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:check[m [1m(validate)[m @ [36moryx-common[0;1m ---[m
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce)[m @ [36moryx-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36moryx-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36moryx-common[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 32 source files to /home/a360/research/projects/oryx/framework/oryx-common/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36moryx-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36moryx-common[0;1m ---[m
+[[1;33mWARNING[m]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 20 source files to /home/a360/research/projects/oryx/framework/oryx-common/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36moryx-common[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36moryx-common[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_fEuttKxl4hKi9tjPmzp0dumFqiF+jQMWep+kTpbhsg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mVectorMathTest[m
+Oct 01, 2026 10:14:41 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+Oct 01, 2026 10:14:41 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.385 s - in com.cloudera.oryx.common.math.[1mVectorMathTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+2026-10-01 22:14:42,055 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.4500100000000002E-4). Add more data or decrease the number of features, to <= about 2
+2026-10-01 22:14:42,058 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.20003E-4). Add more data or decrease the number of features, to <= about 1
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+2026-10-01 22:14:42,098 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest842269780350261430
+2026-10-01 22:14:42,111 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest473519567470232980
+2026-10-01 22:14:42,114 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest5121767921250770999
+2026-10-01 22:14:42,117 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest6332300079330433732
+2026-10-01 22:14:42,120 WARN  IOUtils:124 Unable to close
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:14:42,122 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest5007555925135723745
+2026-10-01 22:14:42,124 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest11065762213557350407
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mLoggingTest[m
+2026-10-01 22:14:42,301 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$78/0x00000008400b9c40@8c3b9d
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:14:42,304 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$82/0x00000008400f8040@26b3fd41
+java.lang.AssertionError: It's safe to ignore this exception
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.cloudera.oryx.common.lang.[1mLoggingTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 s - in com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.037 s - in com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.002 s - in com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.278 s - in com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+2026-10-01 22:15:07,679 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest6915430783400213352
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.844 s - in com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 92, Failures: 0, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexJarDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexExecid=MN9dKst3ckWyE4NoLrMdYeqSC5qMO13Et2LHFA5T4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mVectorMathTest[m
+Oct 01, 2026 10:15:08 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+Oct 01, 2026 10:15:08 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.325 s - in com.cloudera.oryx.common.math.[1mVectorMathTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+2026-10-01 22:15:08,984 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.4500100000000002E-4). Add more data or decrease the number of features, to <= about 2
+2026-10-01 22:15:08,986 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.20003E-4). Add more data or decrease the number of features, to <= about 1
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+2026-10-01 22:15:08,991 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest18287523111206986143
+2026-10-01 22:15:09,010 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest18437510456944051686
+2026-10-01 22:15:09,012 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest3614570917462302243
+2026-10-01 22:15:09,015 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest16977131256507231193
+2026-10-01 22:15:09,019 WARN  IOUtils:124 Unable to close
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:15:09,021 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest10957945218583558412
+2026-10-01 22:15:09,023 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest17465551712415204321
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s - in com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mLoggingTest[m
+2026-10-01 22:15:09,176 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$102/0x0000000100173c40@748741cb
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:15:09,178 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$106/0x0000000100172040@1b266842
+java.lang.AssertionError: It's safe to ignore this exception
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.oryx.common.lang.[1mLoggingTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 s - in com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.046 s - in com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s - in com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m11[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.264 s[1;31m <<< FAILURE![m - in com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;31mERROR[m] com.cloudera.oryx.common.text.TextUtilsTest.testJSONMap  Time elapsed: 0.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<["A",{"[1":"bar","foo":2]},"B"]> but was:<["A",{"[foo":2,"1":"bar"]},"B"]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cloudera.oryx.common.text.TextUtilsTest.testJSONMap(TextUtilsTest.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+[[1;34mINFO[m] Running com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+2026-10-01 22:15:35,294 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest13864280905771379292
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m5[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 1.607 s[1;31m <<< FAILURE![m - in com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+[[1;31mERROR[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest.testToString  Time elapsed: 1.561 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<... version="4.3" xmlns[="http://www.dmg.org/PMML-4_3" xmlns:data="http://jpmml.org/jpmml-model/InlineTable]"><Header><Applicati...> but was:<... version="4.3" xmlns[:data="http://jpmml.org/jpmml-model/InlineTable" xmlns="http://www.dmg.org/PMML-4_3]"><Header><Applicati...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cloudera.oryx.common.pmml.PMMLUtilsTest.testToString(PMMLUtilsTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  PMMLUtilsTest.testToString:68->Assert.assertEquals:146->Assert.assertEquals:117 expected:<... version="4.3" xmlns[="http://www.dmg.org/PMML-4_3" xmlns:data="http://jpmml.org/jpmml-model/InlineTable]"><Header><Applicati...> but was:<... version="4.3" xmlns[:data="http://jpmml.org/jpmml-model/InlineTable" xmlns="http://www.dmg.org/PMML-4_3]"><Header><Applicati...>[m
+[[1;31mERROR[m] [1;31m  TextUtilsTest.testJSONMap:126->Assert.assertEquals:146->Assert.assertEquals:117 expected:<["A",{"[1":"bar","foo":2]},"B"]> but was:<["A",{"[foo":2,"1":"bar"]},"B"]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 92, Failures: 2, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for MN9dKst3ckWyE4NoLrMdYeqSC5qMO13Et2LHFA5T4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexJarDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexExecid=uOXSZBqaRitWl+M6gVBref28nvzWfkSo8ocCBR8y6wM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mVectorMathTest[m
+Oct 01, 2026 10:15:36 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+Oct 01, 2026 10:15:36 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 s - in com.cloudera.oryx.common.math.[1mVectorMathTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+2026-10-01 22:15:36,516 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.4500100000000002E-4). Add more data or decrease the number of features, to <= about 2
+2026-10-01 22:15:36,518 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.20003E-4). Add more data or decrease the number of features, to <= about 1
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+2026-10-01 22:15:36,523 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest14000382234716153370
+2026-10-01 22:15:36,542 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest7728732539324287056
+2026-10-01 22:15:36,544 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest2880079005008352106
+2026-10-01 22:15:36,547 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest13731593472481760267
+2026-10-01 22:15:36,550 WARN  IOUtils:124 Unable to close
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:15:36,552 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest7139066616684118207
+2026-10-01 22:15:36,553 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest5224667776590479054
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mLoggingTest[m
+2026-10-01 22:15:36,715 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$102/0x0000000100173c40@748741cb
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:15:36,718 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$106/0x0000000100172040@1b266842
+java.lang.AssertionError: It's safe to ignore this exception
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.oryx.common.lang.[1mLoggingTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 s - in com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.044 s - in com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s - in com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 s - in com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+2026-10-01 22:16:02,834 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest16742374735899934550
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m5[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 1.616 s[1;31m <<< FAILURE![m - in com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+[[1;31mERROR[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest.testToString  Time elapsed: 1.569 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<... version="4.3" xmlns[="http://www.dmg.org/PMML-4_3" xmlns:data="http://jpmml.org/jpmml-model/InlineTable]"><Header><Applicati...> but was:<... version="4.3" xmlns[:data="http://jpmml.org/jpmml-model/InlineTable" xmlns="http://www.dmg.org/PMML-4_3]"><Header><Applicati...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cloudera.oryx.common.pmml.PMMLUtilsTest.testToString(PMMLUtilsTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  PMMLUtilsTest.testToString:68->Assert.assertEquals:146->Assert.assertEquals:117 expected:<... version="4.3" xmlns[="http://www.dmg.org/PMML-4_3" xmlns:data="http://jpmml.org/jpmml-model/InlineTable]"><Header><Applicati...> but was:<... version="4.3" xmlns[:data="http://jpmml.org/jpmml-model/InlineTable" xmlns="http://www.dmg.org/PMML-4_3]"><Header><Applicati...>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 92, Failures: 1, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for uOXSZBqaRitWl+M6gVBref28nvzWfkSo8ocCBR8y6wM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexJarDir=/home/a360/research/projects/oryx/framework/oryx-common/.nondex
+nondexExecid=+tcJtjksZNOFpSZqyI9o7ZhQZp3i4kj01ECHTLSMvZw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mVectorMathTest[m
+Oct 01, 2026 10:16:03 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+Oct 01, 2026 10:16:03 PM com.github.fommil.netlib.BLAS <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 s - in com.cloudera.oryx.common.math.[1mVectorMathTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.oryx.common.math.[1mDoubleWeightedMeanTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+2026-10-01 22:16:03,962 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.4500100000000002E-4). Add more data or decrease the number of features, to <= about 2
+2026-10-01 22:16:03,964 WARN  LinearSystemSolver:73 3 x 3 matrix is near-singular (threshold 1.20003E-4). Add more data or decrease the number of features, to <= about 1
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.cloudera.oryx.common.math.[1mLinearSystemSolverTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+2026-10-01 22:16:03,970 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest11427210120970675030
+2026-10-01 22:16:03,990 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest11618222304510429389
+2026-10-01 22:16:03,992 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest15749311241879048729
+2026-10-01 22:16:03,994 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest2144036436532299239
+2026-10-01 22:16:03,997 WARN  IOUtils:124 Unable to close
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:16:03,999 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest17246551450455507768
+2026-10-01 22:16:04,001 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest562318184173121227
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.cloudera.oryx.common.io.[1mIOUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.oryx.common.collection.[1mPairsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.collection.[1mPairTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in com.cloudera.oryx.common.settings.[1mConfigUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.cloudera.oryx.common.settings.[1mConfigToPropertiesTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mLoggingTest[m
+2026-10-01 22:16:04,156 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$102/0x0000000100173c40@748741cb
+java.io.IOException: It's safe to ignore this exception
+2026-10-01 22:16:04,158 WARN  LoggingCallable:58 Unexpected error in com.cloudera.oryx.common.lang.LoggingTest$$Lambda$106/0x0000000100172040@1b266842
+java.lang.AssertionError: It's safe to ignore this exception
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.oryx.common.lang.[1mLoggingTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 s - in com.cloudera.oryx.common.lang.[1mRateLimitCheckTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.048 s - in com.cloudera.oryx.common.lang.[1mExecUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.oryx.common.lang.[1mJVMUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.oryx.common.lang.[1mAutoLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.oryx.common.lang.[1mClassUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.oryx.common.lang.[1mAutoReadWriteLockTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.oryx.common.random.[1mRandomManagerTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.003 s - in com.cloudera.oryx.common.random.[1mRandomManagerRandomTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 s - in com.cloudera.oryx.common.text.[1mTextUtilsTest[m
+[[1;34mINFO[m] Running com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+2026-10-01 22:16:30,396 INFO  OryxTest:50 Test temp dir is /tmp/OryxTest16445559398496036298
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m5[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 1.699 s[1;31m <<< FAILURE![m - in com.cloudera.oryx.common.pmml.[1mPMMLUtilsTest[m
+[[1;31mERROR[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest.testToString  Time elapsed: 1.642 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<... version="4.3" xmlns[="http://www.dmg.org/PMML-4_3" xmlns:data="http://jpmml.org/jpmml-model/InlineTable]"><Header><Applicati...> but was:<... version="4.3" xmlns[:data="http://jpmml.org/jpmml-model/InlineTable" xmlns="http://www.dmg.org/PMML-4_3]"><Header><Applicati...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cloudera.oryx.common.pmml.PMMLUtilsTest.testToString(PMMLUtilsTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  PMMLUtilsTest.testToString:68->Assert.assertEquals:146->Assert.assertEquals:117 expected:<... version="4.3" xmlns[="http://www.dmg.org/PMML-4_3" xmlns:data="http://jpmml.org/jpmml-model/InlineTable]"><Header><Applicati...> but was:<... version="4.3" xmlns[:data="http://jpmml.org/jpmml-model/InlineTable" xmlns="http://www.dmg.org/PMML-4_3]"><Header><Applicati...>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 92, Failures: 1, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for +tcJtjksZNOFpSZqyI9o7ZhQZp3i4kj01ECHTLSMvZw=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/oryx/framework/oryx-common/.nondex" -DnondexJarDir="/home/a360/research/projects/oryx/framework/oryx-common/.nondex" -DnondexExecid=MN9dKst3ckWyE4NoLrMdYeqSC5qMO13Et2LHFA5T4= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cloudera.oryx.common.text.TextUtilsTest#testJSONMap
+[[1;33mWARNING[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest#testToString
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/oryx/framework/oryx-common/.nondex" -DnondexJarDir="/home/a360/research/projects/oryx/framework/oryx-common/.nondex" -DnondexExecid=uOXSZBqaRitWl+M6gVBref28nvzWfkSo8ocCBR8y6wM= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest#testToString
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/oryx/framework/oryx-common/.nondex" -DnondexJarDir="/home/a360/research/projects/oryx/framework/oryx-common/.nondex" -DnondexExecid=+tcJtjksZNOFpSZqyI9o7ZhQZp3i4kj01ECHTLSMvZw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest#testToString
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.cloudera.oryx.common.text.TextUtilsTest#testJSONMap
+[[1;34mINFO[m] com.cloudera.oryx.common.pmml.PMMLUtilsTest#testToString
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/oryx/framework/oryx-common/.nondex/MN9dKst3ckWyE4NoLrMdYeqSC5qMO13Et2LHFA5T4=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: MN9dKst3ckWyE4NoLrMdYeqSC5qMO13Et2LHFA5T4=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:54 min
+[[1;34mINFO[m] Finished at: 2026-10-01T22:16:30-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36moryx-common[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/oryx/framework/oryx-common/.nondex/MN9dKst3ckWyE4NoLrMdYeqSC5qMO13Et2LHFA5T4= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

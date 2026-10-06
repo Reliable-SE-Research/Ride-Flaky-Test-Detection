@@ -1,0 +1,140 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcommons-jxpath:commons-jxpath[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons JXPath 1.4-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcommons-jxpath[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.5.0:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.5.0:enforce[m [1m(enforce-java-version)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat:0.16.1:check[m [1m(rat-check)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Rat check: Summary over all files. Unapproved: 0, unknown: 0, generated: 10, approved: 290 licenses.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32martifact:3.5.1:check-buildplan[m [1m(check-buildplan)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-enforcer-plugin:3.5.0
+[[1;34mINFO[m] no known issue with org.apache.rat:apache-rat-plugin:0.16.1
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-artifact-plugin:3.5.1
+[[1;34mINFO[m] no known issue with org.codehaus.mojo:build-helper-maven-plugin:3.6.0
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-antrun-plugin:3.1.0
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-remote-resources-plugin:3.2.0 (>= 1.7.0)
+[[1;34mINFO[m] no known issue with org.codehaus.mojo:buildnumber-maven-plugin:3.2.1
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[[1;34mINFO[m] no known issue with org.apache.felix:maven-bundle-plugin:5.1.9 (>= 5.1.9)
+[[1;34mINFO[m] no known issue with org.jacoco:jacoco-maven-plugin:0.8.12
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-surefire-plugin:3.5.1
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-jar-plugin:3.4.2 (>= 3.2.0)
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-source-plugin:3.2.1 (>= 3.2.1)
+[[1;34mINFO[m] no known issue with org.cyclonedx:cyclonedx-maven-plugin:2.9.0 (>= 2.7.9)
+[[1;34mINFO[m] no known issue with org.spdx:spdx-maven-plugin:0.7.4
+[[1;34mINFO[m] no known issue with org.moditect:moditect-maven-plugin:1.2.2.Final (>= 1.2.0.Final)
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-site-plugin:3.12.1
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-install-plugin:3.1.2
+[[1;34mINFO[m] no known issue with org.apache.maven.plugins:maven-deploy-plugin:3.1.2
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.6.0:parse-version[m [1m(parse-version)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mantrun:3.1.0:run[m [1m(javadoc.resources)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:3.2.0:process[m [1m(process-resource-bundles)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Skipping remote resources execution.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:3.2.1:create[m [1m(default)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/commons-jxpath' && 'git' 'log' '-1' '--no-merges' '--format=format:%H %aI %aE %aN'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/commons-jxpath
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1790916590293
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/commons-jxpath' && 'git' 'symbolic-ref' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/commons-jxpath
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/commons-jxpath' && 'git' 'log' '-1' '--no-merges' '--format=format:%H %aI %aE %aN'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/commons-jxpath
+[[1;34mINFO[m] Storing scmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/commons-jxpath/src/main/resources
+[[1;34mINFO[m] Copying 2 resources from  to target/classes/META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:5.1.9:manifest[m [1m(bundle-manifest)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Writing manifest: /home/a360/research/projects/commons-jxpath/target/osgi/MANIFEST.MF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Copying 7 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] Copying 2 resources from  to target/test-classes/META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-jxpath[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcommons-jxpath[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mcommons-jxpath[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 250 tests. Time taken: 0.48399996757507324 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving commons-jxpath:commons-jxpath:1.4-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/commons-jxpath/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/commons-jxpath/.dtfixingtools/original-order
+[INFO] Getting original results (250 tests).
+---------------------------------------------------
+java.lang.RuntimeException: Set of executed tests is not equal to test list that should have been executed (249 tests executed, 250 tests expected). Did you use testplugin.runner.idempotent.num.runs? Missing tests are: Set()
+	at edu.illinois.cs.testrunner.runner.SmartRunner.$anonfun$run$1(SmartRunner.scala:44)
+	at scala.util.Success.flatMap(Try.scala:247)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.run(SmartRunner.scala:36)
+	at edu.illinois.cs.testrunner.runner.Runner.runList(Runner.scala:29)
+	at edu.illinois.cs.testrunner.runner.Runner.runList$(Runner.scala:28)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runList(SmartRunner.scala:22)
+	at edu.illinois.cs.dt.tools.detection.DetectorUtil.originalResults(DetectorUtil.java:35)
+	at edu.illinois.cs.dt.tools.detection.detectors.RandomDetector.<init>(RandomDetector.java:29)
+	at edu.illinois.cs.dt.tools.detection.detectors.DetectorFactory.makeDetector(DetectorFactory.java:20)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:292)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.310 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:49:56-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

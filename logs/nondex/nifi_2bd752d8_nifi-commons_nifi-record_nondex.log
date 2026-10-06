@@ -1,0 +1,268 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.nifi:nifi-record[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding nifi-record 1.15.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mnifi-record[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(enforce-maven-version)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(enforce-maven)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(enforce-no-snapshots)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/nifi/nifi-commons/nifi-record/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/nifi/nifi-commons/nifi-record/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(groovy-tests)[m @ [36mnifi-record[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mnifi-record[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mnifi-record[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_N4DPIQ4gvi3TPFi7SNw1A4QhfhqVR5rP0DgHGafHbZI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m64[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.266 s - in org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.22 s - in org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] Running org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 97, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexJarDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexExecid=8YHPDdJZN2akvpVo3ibmKoA0ACNXxRssYMrGvfg76Y=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m9[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.127 s[1;31m <<< FAILURE![m - in org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues  Time elapsed: 0.034 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <33> but was: <1>
+	at org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues(TestMapRecord.java:127)
+
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestMapRecord.testDefaultValueWithAliasValue  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <33> but was: <1>
+	at org.apache.nifi.serialization.record.TestMapRecord.testDefaultValueWithAliasValue(TestMapRecord.java:166)
+
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m64[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.35 s[1;31m <<< FAILURE![m - in org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@df6620a<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@4e31276e<RECORD>
+	at org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys(TestDataTypeUtils.java:624)
+
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.675 s - in org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] Running org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestDataTypeUtils.testInferTypeWithMapStringKeys:624 expected: org.apache.nifi.serialization.record.type.RecordDataType@df6620a<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@4e31276e<RECORD>[m
+[[1;31mERROR[m] [1;31m  TestMapRecord.testAliasConflictingAliasValues:127 expected: <33> but was: <1>[m
+[[1;31mERROR[m] [1;31m  TestMapRecord.testDefaultValueWithAliasValue:166 expected: <33> but was: <1>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 97, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 8YHPDdJZN2akvpVo3ibmKoA0ACNXxRssYMrGvfg76Y=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexJarDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexExecid=M6g8Gd6emh3e5xbW7hQsvlz915xNOQakCMnTfkIxhE0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m9[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.122 s[1;31m <<< FAILURE![m - in org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestMapRecord.testDefaultValueWithAliasValue  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <33> but was: <1>
+	at org.apache.nifi.serialization.record.TestMapRecord.testDefaultValueWithAliasValue(TestMapRecord.java:167)
+
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m64[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.369 s[1;31m <<< FAILURE![m - in org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@df6620a<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@4e31276e<RECORD>
+	at org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys(TestDataTypeUtils.java:624)
+
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.755 s - in org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] Running org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestDataTypeUtils.testInferTypeWithMapStringKeys:624 expected: org.apache.nifi.serialization.record.type.RecordDataType@df6620a<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@4e31276e<RECORD>[m
+[[1;31mERROR[m] [1;31m  TestMapRecord.testDefaultValueWithAliasValue:167 expected: <33> but was: <1>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 97, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for M6g8Gd6emh3e5xbW7hQsvlz915xNOQakCMnTfkIxhE0=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexJarDir=/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex
+nondexExecid=aMxzJtVzfOAyCVMLINe2QvvC8uS3XeCs9ohA7O2z20=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m9[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.121 s[1;31m <<< FAILURE![m - in org.apache.nifi.serialization.record.[1mTestMapRecord[m
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues  Time elapsed: 0.033 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <33> but was: <1>
+	at org.apache.nifi.serialization.record.TestMapRecord.testAliasConflictingAliasValues(TestMapRecord.java:127)
+
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestMapRecord.testDefaultValueWithAliasValue  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <33> but was: <1>
+	at org.apache.nifi.serialization.record.TestMapRecord.testDefaultValueWithAliasValue(TestMapRecord.java:166)
+
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m64[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.419 s[1;31m <<< FAILURE![m - in org.apache.nifi.serialization.record.[1mTestDataTypeUtils[m
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@df6620a<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@4e31276e<RECORD>
+	at org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapStringKeys(TestDataTypeUtils.java:624)
+
+[[1;31mERROR[m] org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: org.apache.nifi.serialization.record.type.RecordDataType@6ee4d9ab<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@5a5338df<RECORD>
+	at org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys(TestDataTypeUtils.java:639)
+
+[[1;34mINFO[m] Running org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.764 s - in org.apache.nifi.serialization.record.[1mResultSetRecordSetTest[m
+[[1;34mINFO[m] Running org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.apache.nifi.serialization.[1mTestSimpleRecordSchema[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestDataTypeUtils.testInferTypeWithMapNonStringKeys:639 expected: org.apache.nifi.serialization.record.type.RecordDataType@6ee4d9ab<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@5a5338df<RECORD>[m
+[[1;31mERROR[m] [1;31m  TestDataTypeUtils.testInferTypeWithMapStringKeys:624 expected: org.apache.nifi.serialization.record.type.RecordDataType@df6620a<RECORD> but was: org.apache.nifi.serialization.record.type.RecordDataType@4e31276e<RECORD>[m
+[[1;31mERROR[m] [1;31m  TestMapRecord.testAliasConflictingAliasValues:127 expected: <33> but was: <1>[m
+[[1;31mERROR[m] [1;31m  TestMapRecord.testDefaultValueWithAliasValue:166 expected: <33> but was: <1>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 97, Failures: 4, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for aMxzJtVzfOAyCVMLINe2QvvC8uS3XeCs9ohA7O2z20=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex" -DnondexJarDir="/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex" -DnondexExecid=8YHPDdJZN2akvpVo3ibmKoA0ACNXxRssYMrGvfg76Y= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestMapRecord#testAliasConflictingAliasValues
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestMapRecord#testDefaultValueWithAliasValue
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapStringKeys
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex" -DnondexJarDir="/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex" -DnondexExecid=M6g8Gd6emh3e5xbW7hQsvlz915xNOQakCMnTfkIxhE0= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestMapRecord#testDefaultValueWithAliasValue
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapStringKeys
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex" -DnondexJarDir="/home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex" -DnondexExecid=aMxzJtVzfOAyCVMLINe2QvvC8uS3XeCs9ohA7O2z20= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestMapRecord#testAliasConflictingAliasValues
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestMapRecord#testDefaultValueWithAliasValue
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapStringKeys
+[[1;33mWARNING[m] org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapNonStringKeys
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.nifi.serialization.record.TestMapRecord#testAliasConflictingAliasValues
+[[1;34mINFO[m] org.apache.nifi.serialization.record.TestMapRecord#testDefaultValueWithAliasValue
+[[1;34mINFO[m] org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapStringKeys
+[[1;34mINFO[m] org.apache.nifi.serialization.record.TestDataTypeUtils#testInferTypeWithMapNonStringKeys
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex/8YHPDdJZN2akvpVo3ibmKoA0ACNXxRssYMrGvfg76Y=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 8YHPDdJZN2akvpVo3ibmKoA0ACNXxRssYMrGvfg76Y=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  18.961 s
+[[1;34mINFO[m] Finished at: 2026-10-02T05:35:56-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mnifi-record[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/nifi/nifi-commons/nifi-record/.nondex/8YHPDdJZN2akvpVo3ibmKoA0ACNXxRssYMrGvfg76Y= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

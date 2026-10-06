@@ -1,0 +1,147 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.esotericsoftware:kryo[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Kryo 5.6.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mkryo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.12.1:compile[m [1m(default-compile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mclirr:2.8:check[m [1m(check-on-compile)[0;1m > [0;1mcompile[m @ [36mkryo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.12.1:compile[m [1m(default-compile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mclirr:2.8:check[m [1m(check-on-compile)[0;1m < [0;1mcompile[m @ [36mkryo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclirr:2.8:check[m [1m(check-on-compile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Skipping execution
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.5.0:add-test-source[m [1m(add-test-source)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/kryo/test-kotlin added.
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/kryo/test-jdk11 added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.12.1:testCompile[m [1m(default-testCompile)[m @ [36mkryo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mkotlin:1.9.22:test-compile[m [1m(test-compile)[m @ [36mkryo[0;1m ---[m
+[[1;33mWARNING[m] Using experimental Kotlin incremental compilation
+[[1;34mINFO[m] Compiled 0 Kotlin files using incremental compiler
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mkryo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mkryo[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 273 tests. Time taken: 1.247999906539917 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.esotericsoftware:kryo:5.6.1-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/kryo/main/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/kryo/main/.dtfixingtools/original-order
+[INFO] Getting original results (273 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (10.1 total), 0.0 seconds remaining).
+---------------------------------------------------
+java.lang.RuntimeException: java.lang.Exception: Non-zero exit code (output in /home/a360/research/projects/kryo/main/failing-test-output-1790899528192-8d032349-32ce-4145-948f-3e1e2edf5cc6): 1
+	at edu.illinois.cs.dt.tools.detection.detectors.ExecutingDetector$RunnerIterator.generateDetectionRound(ExecutingDetector.java:149)
+	at edu.illinois.cs.dt.tools.detection.detectors.ExecutingDetector$RunnerIterator.generate(ExecutingDetector.java:154)
+	at edu.illinois.cs.dt.tools.detection.detectors.ExecutingDetector$RunnerIterator.hasNext(ExecutingDetector.java:116)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:132)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at edu.illinois.cs.dt.tools.runner.data.DependentTestList.<init>(DependentTestList.java:65)
+	at edu.illinois.cs.dt.tools.detection.detectors.ExecutingDetector.writeTo(ExecutingDetector.java:93)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:294)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+Caused by: java.lang.Exception: Non-zero exit code (output in /home/a360/research/projects/kryo/main/failing-test-output-1790899528192-8d032349-32ce-4145-948f-3e1e2edf5cc6): 1
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$3(Runner.scala:83)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$2(TempFiles.scala:38)
+	at edu.illinois.cs.testrunner.util.autoClose.$anonfun$autoCloseTry$1(autoClose.scala:7)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.autoClose.autoCloseTry(autoClose.scala:7)
+	at edu.illinois.cs.testrunner.util.autoClose.apply(autoClose.scala:24)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$1(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withProperties(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$2(Runner.scala:62)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$1(Runner.scala:61)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withSeq$1(TempFiles.scala:31)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withSeq(TempFiles.scala:25)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp(Runner.scala:60)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp$(Runner.scala:59)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runWithCp(SmartRunner.scala:22)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.lambda$runWithCp$0(InstrumentingSmartRunner.java:58)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles.withTempFile(TempFiles.scala)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.runWithCp(InstrumentingSmartRunner.java:54)
+	at edu.illinois.cs.testrunner.runner.Runner.run(Runner.scala:34)
+	at edu.illinois.cs.testrunner.runner.Runner.run$(Runner.scala:34)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.run(SmartRunner.scala:29)
+	at edu.illinois.cs.testrunner.runner.Runner.runList(Runner.scala:29)
+	at edu.illinois.cs.testrunner.runner.Runner.runList$(Runner.scala:28)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runList(SmartRunner.scala:22)
+	at edu.illinois.cs.dt.tools.detection.detectors.ExecutingDetector.runList(ExecutingDetector.java:53)
+	at edu.illinois.cs.dt.tools.detection.detectors.RandomDetector.results(RandomDetector.java:43)
+	at edu.illinois.cs.dt.tools.detection.detectors.ExecutingDetector$RunnerIterator.generateDetectionRound(ExecutingDetector.java:137)
+	... 42 more
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+COPY_FAILING_TEST_OUTPUT: /home/a360/research/projects/kryo/main/failing-test-output-1790899528192-8d032349-32ce-4145-948f-3e1e2edf5cc6
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  34.605 s
+[[1;34mINFO[m] Finished at: 2026-10-01T19:05:37-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

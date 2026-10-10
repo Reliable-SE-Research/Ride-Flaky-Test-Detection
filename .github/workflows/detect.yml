@@ -44,18 +44,22 @@ jobs:
           python3 - <<'PYEOF'
           import csv, json, os, sys
 
+          def safe_int(val, default):
+              try: return int(val) if str(val).strip() else default
+              except (ValueError, TypeError): return default
+
           # If triggered by a push to run_config.json, read settings from there
           config_file = ".github/run_config.json"
           if os.path.exists(config_file):
               with open(config_file) as f:
                   cfg = json.load(f)
-              shard_size = int(cfg.get("shard_size", 8))
-              max_shards = int(cfg.get("max_shards", 0))
+              shard_size = safe_int(cfg.get("shard_size"), 8)
+              max_shards = safe_int(cfg.get("max_shards"), 0)
               jdk = str(cfg.get("jdk", "8"))
           else:
-              shard_size = int(os.environ.get("SHARD_SIZE", "8"))
-              max_shards = int(os.environ.get("MAX_SHARDS", "0"))
-              jdk = os.environ.get("JDK", "8")
+              shard_size = safe_int(os.environ.get("SHARD_SIZE"), 8)
+              max_shards = safe_int(os.environ.get("MAX_SHARDS"), 0)
+              jdk = os.environ.get("JDK") or "8"
 
           seen = set()
           pairs = []
@@ -90,9 +94,9 @@ jobs:
               fh.write(f"total_shards={len(shards)}\n")
           PYEOF
         env:
-          SHARD_SIZE: ${{ github.event.inputs.shard_size }}
-          MAX_SHARDS: ${{ github.event.inputs.max_shards }}
-          JDK: ${{ github.event.inputs.jdk }}
+          SHARD_SIZE: ${{ github.event.inputs.shard_size || '' }}
+          MAX_SHARDS: ${{ github.event.inputs.max_shards || '' }}
+          JDK: ${{ github.event.inputs.jdk || '' }}
 
   # ── 2. DETECT: run detectors on each shard in parallel ───────────────────
   detect:
@@ -107,11 +111,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Java ${{ github.event.inputs.jdk || '8' }}
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: ${{ github.event.inputs.jdk || '8' }}
+          java-version: "8"
 
       - name: Pre-cache Maven plugins
         run: |

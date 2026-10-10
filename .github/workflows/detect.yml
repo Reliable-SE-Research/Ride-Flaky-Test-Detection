@@ -19,7 +19,7 @@ on:
       - ".github/run_config.json"
 
 jobs:
-  # ── 1. PREP: read run_config.json and export shard_size / max_shards ──────
+  # ── 1. PREP: read run_config.json, export shard_size and max_shards ────────
   prep:
     runs-on: ubuntu-latest
     outputs:
@@ -32,7 +32,6 @@ jobs:
       - name: Read config
         id: cfg
         run: |
-          # Dispatch inputs take precedence; fall back to run_config.json; then hardcoded defaults.
           SHARD_SIZE="${{ github.event.inputs.shard_size }}"
           MAX_SHARDS="${{ github.event.inputs.max_shards }}"
 
@@ -48,14 +47,13 @@ jobs:
 
           echo "shard_size=$SHARD_SIZE" >> "$GITHUB_OUTPUT"
           echo "max_shards=$MAX_SHARDS"  >> "$GITHUB_OUTPUT"
-          echo "Config → shard_size=$SHARD_SIZE  max_shards=$MAX_SHARDS"
+          echo "Config: shard_size=$SHARD_SIZE  max_shards=$MAX_SHARDS"
 
-  # ── 2. DETECT: 100 parallel shards, each runs its slice of projects ────────
+  # ── 2. DETECT: 100 parallel shards ─────────────────────────────────────────
+  # All 100 shard jobs start. Each one checks its own index against max_shards
+  # at the top of the run step and exits early if it's out of range.
   detect:
     needs: prep
-    # Skip individual shard jobs that fall outside max_shards.
-    # max_shards==0 means "run all 100".
-    if: needs.prep.outputs.max_shards == '0' || matrix.shard < fromJSON(needs.prep.outputs.max_shards)
     runs-on: ubuntu-latest
     timeout-minutes: 390
     strategy:
@@ -66,32 +64,43 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Java 8
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: "8"
-
-      - name: Pre-warm Maven plugin cache
-        run: |
-          mvn -B -q dependency:get \
-            -Dartifact=edu.illinois.cs:idflakies-maven-plugin:2.0.0 \
-            -DremoteRepositories=central::https://repo1.maven.org/maven2 || true
-          mvn -B -q dependency:get \
-            -Dartifact=edu.illinois:nondex-maven-plugin:2.2.1 \
-            -DremoteRepositories=central::https://repo1.maven.org/maven2 || true
-
       - name: Run shard ${{ matrix.shard }}
         run: |
           SHARD=${{ matrix.shard }}
           SHARD_SIZE=${{ needs.prep.outputs.shard_size }}
+          MAX_SHARDS=${{ needs.prep.outputs.max_shards }}
+
+          # Exit early if this shard is outside the requested range.
+          # MAX_SHARDS=0 means "run all".
+          if [ "$MAX_SHARDS" != "0" ] && [ "$SHARD" -ge "$MAX_SHARDS" ]; then
+            echo "Shard $SHARD is beyond max_shards=$MAX_SHARDS — nothing to do."
+            exit 0
+          fi
+
+          # Install Java 8
+          sudo apt-get install -y -q temurin-8-jdk 2>/dev/null || true
+          # Use setup-java approach via SDKMAN or whatever is on the runner.
+          # GitHub ubuntu-latest ships Temurin 8 as JAVA_HOME_8_X64.
+          if [ -n "${JAVA_HOME_8_X64:-}" ]; then
+            export JAVA_HOME="$JAVA_HOME_8_X64"
+            export PATH="$JAVA_HOME/bin:$PATH"
+          fi
+          java -version
+
+          # Pre-warm Maven plugin cache (best-effort)
+          mvn -B -q dependency:get \
+            -Dartifact=edu.illinois.cs:idflakies-maven-plugin:2.0.0 \
+            -DremoteRepositories=central::https://repo1.maven.org/maven2 2>/dev/null || true
+          mvn -B -q dependency:get \
+            -Dartifact=edu.illinois:nondex-maven-plugin:2.2.1 \
+            -DremoteRepositories=central::https://repo1.maven.org/maven2 2>/dev/null || true
 
           # Download the full dataset
           curl -fsSL \
             "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv" \
             -o pr-data.csv
 
-          # Deduplicate to unique (URL, SHA) pairs (columns 1 and 2), skip header
+          # Deduplicate to unique (URL, SHA) pairs — columns 1 & 2, skip header
           awk -F',' 'NR>1 {
             url=$1; sha=$2
             gsub(/\r/, "", sha)
@@ -105,11 +114,10 @@ jobs:
           # Slice this shard (1-indexed into unique_pairs.csv)
           START=$(( SHARD * SHARD_SIZE + 1 ))
           END=$(( START + SHARD_SIZE - 1 ))
-
           awk -v s="$START" -v e="$END" 'NR>=s && NR<=e' unique_pairs.csv > shard_rows.csv
 
           NROWS=$(wc -l < shard_rows.csv)
-          echo "Shard $SHARD: rows $START–$END → $NROWS project(s)"
+          echo "Shard $SHARD: rows $START-$END → $NROWS project(s)"
           cat shard_rows.csv
 
           mkdir -p results projects
@@ -129,7 +137,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-  # ── 3. MERGE: combine all shard JSONs → deliverable CSVs ──────────────────
+  # ── 3. MERGE: combine all shard JSONs into deliverable CSVs ────────────────
   merge:
     needs: detect
     if: always()
@@ -163,10 +171,9 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           N=$(find all_results -name "*.json" 2>/dev/null | wc -l | tr -d ' ')
-          # Fetch and merge the target branch so we don't lose previous results
           git fetch origin sanskriti-data || true
-          git checkout -B sanskriti-data origin/sanskriti-data 2>/dev/null || git checkout -b sanskriti-data
-          # Copy outputs into the branch
+          git checkout -B sanskriti-data origin/sanskriti-data 2>/dev/null \
+            || git checkout -b sanskriti-data
           cp -r sanskriti/. .
           git add Sanskriti_Tiwari_idflakies.csv Sanskriti_Tiwari_nondex.csv \
                   summary.csv flakesync_input.csv REPORT.md 2>/dev/null || true

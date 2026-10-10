@@ -15,6 +15,12 @@ on:
         description: "Primary JDK version (8, 11, or 17)"
         required: false
         default: "8"
+  push:
+    branches:
+      - main
+      - cursor/actions-pipeline-4d64
+    paths:
+      - ".github/run_config.json"   # push a config file to trigger with custom settings
 
 jobs:
   # ── 1. PREP: download pr-data.csv and emit the shard matrix ──────────────
@@ -38,9 +44,18 @@ jobs:
           python3 - <<'PYEOF'
           import csv, json, os, sys
 
-          shard_size = int(os.environ.get("SHARD_SIZE", "8"))
-          max_shards = int(os.environ.get("MAX_SHARDS", "0"))
-          jdk = os.environ.get("JDK", "8")
+          # If triggered by a push to run_config.json, read settings from there
+          config_file = ".github/run_config.json"
+          if os.path.exists(config_file):
+              with open(config_file) as f:
+                  cfg = json.load(f)
+              shard_size = int(cfg.get("shard_size", 8))
+              max_shards = int(cfg.get("max_shards", 0))
+              jdk = str(cfg.get("jdk", "8"))
+          else:
+              shard_size = int(os.environ.get("SHARD_SIZE", "8"))
+              max_shards = int(os.environ.get("MAX_SHARDS", "0"))
+              jdk = os.environ.get("JDK", "8")
 
           seen = set()
           pairs = []

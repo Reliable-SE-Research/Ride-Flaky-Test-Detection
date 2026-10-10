@@ -1,0 +1,232 @@
+name: Flaky Test Detection (iDFlakies + NonDex)
+
+on:
+  workflow_dispatch:
+    inputs:
+      shard_size:
+        description: "Projects per shard (default 8)"
+        required: false
+        default: "8"
+      max_shards:
+        description: "Max shards to run (0 = all). Use small number for pilots."
+        required: false
+        default: "0"
+      jdk:
+        description: "Primary JDK version (8, 11, or 17)"
+        required: false
+        default: "8"
+
+jobs:
+  # ── 1. PREP: download pr-data.csv and emit the shard matrix ──────────────
+  prep:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.shards.outputs.matrix }}
+      total_projects: ${{ steps.shards.outputs.total_projects }}
+      total_shards: ${{ steps.shards.outputs.total_shards }}
+    steps:
+      - name: Download pr-data.csv
+        run: |
+          curl -fsSL \
+            "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv" \
+            -o pr-data.csv
+          wc -l pr-data.csv
+
+      - name: Build shard matrix
+        id: shards
+        run: |
+          python3 - <<'PYEOF'
+          import csv, json, os, sys
+
+          shard_size = int(os.environ.get("SHARD_SIZE", "8"))
+          max_shards = int(os.environ.get("MAX_SHARDS", "0"))
+          jdk = os.environ.get("JDK", "8")
+
+          seen = set()
+          pairs = []
+          with open("pr-data.csv", encoding="utf-8") as f:
+              for row in csv.DictReader(f):
+                  url = row["Project URL"].strip()
+                  sha = row["SHA Detected"].strip()
+                  if url.startswith("http") and len(sha) == 40:
+                      key = (url, sha)
+                      if key not in seen:
+                          seen.add(key)
+                          pairs.append({"url": url, "sha": sha, "jdk": jdk})
+
+          print(f"Total unique (url, sha) pairs: {len(pairs)}", file=sys.stderr)
+
+          shards = []
+          for i in range(0, len(pairs), shard_size):
+              shards.append({"shard_index": i // shard_size, "projects": pairs[i:i+shard_size]})
+
+          if max_shards and max_shards > 0:
+              shards = shards[:max_shards]
+
+          total_projects = sum(len(s["projects"]) for s in shards)
+          print(f"Running {len(shards)} shards covering {total_projects} projects", file=sys.stderr)
+
+          # GitHub matrix requires the array in the matrix.include form
+          matrix = {"include": shards}
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"matrix={json.dumps(matrix)}\n")
+              fh.write(f"total_projects={total_projects}\n")
+              fh.write(f"total_shards={len(shards)}\n")
+          PYEOF
+        env:
+          SHARD_SIZE: ${{ github.event.inputs.shard_size }}
+          MAX_SHARDS: ${{ github.event.inputs.max_shards }}
+          JDK: ${{ github.event.inputs.jdk }}
+
+  # ── 2. DETECT: run detectors on each shard in parallel ───────────────────
+  detect:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 360          # 6 h per shard
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prep.outputs.matrix) }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java ${{ github.event.inputs.jdk || '8' }}
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ github.event.inputs.jdk || '8' }}
+
+      - name: Pre-cache Maven plugins
+        run: |
+          # Warm the local repo with the two detector plugins so each project
+          # doesn't re-download them from Central.
+          mvn -B dependency:get \
+            -Dartifact=edu.illinois.cs:idflakies-maven-plugin:2.0.0 \
+            -DremoteRepositories=central::default::https://repo1.maven.org/maven2 || true
+          mvn -B dependency:get \
+            -Dartifact=edu.illinois:nondex-maven-plugin:2.2.1 \
+            -DremoteRepositories=central::default::https://repo1.maven.org/maven2 || true
+
+      - name: Make run_one.sh executable
+        run: chmod +x scripts/run_one.sh
+
+      - name: Run shard ${{ matrix.shard_index }}
+        run: |
+          RESULTS_DIR="shard_results/shard_${{ matrix.shard_index }}"
+          mkdir -p "$RESULTS_DIR" projects
+
+          # Iterate over projects in this shard
+          echo '${{ toJSON(matrix.projects) }}' | python3 - "$RESULTS_DIR" <<'PYEOF'
+          import json, os, subprocess, sys
+
+          results_dir = sys.argv[1]
+          projects = json.loads(sys.stdin.read())
+
+          for p in projects:
+              url, sha, jdk = p["url"], p["sha"], p.get("jdk", "8")
+              name = url.rstrip("/").split("/")[-1].replace(".git", "")
+              sha7 = sha[:7]
+              out_json = os.path.join(results_dir, f"{name}_{sha7}.json")
+              if os.path.exists(out_json):
+                  print(f"[SKIP] {name} @ {sha7} already done")
+                  continue
+              print(f"\n[RUN ] {name} @ {sha7}", flush=True)
+              ret = subprocess.run(
+                  ["bash", "scripts/run_one.sh", url, sha, results_dir, jdk],
+                  cwd=os.environ.get("GITHUB_WORKSPACE", "."),
+              )
+              print(f"[DONE] {name} exit={ret.returncode}", flush=True)
+          PYEOF
+
+      - name: Upload shard results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-results-${{ matrix.shard_index }}
+          path: shard_results/shard_${{ matrix.shard_index }}/
+          retention-days: 30
+
+      - name: Upload raw detector output for projects with findings
+        if: always()
+        run: |
+          # Tar up .dtfixingtools and .nondex dirs for projects that found something
+          FINDINGS_DIR="findings_${{ matrix.shard_index }}"
+          mkdir -p "$FINDINGS_DIR"
+          for json_file in shard_results/shard_${{ matrix.shard_index }}/*.json; do
+            idf_count=$(python3 -c "import json;d=json.load(open('$json_file'));print(len(d.get('idflakies',[])))" 2>/dev/null || echo 0)
+            nd_count=$(python3 -c "import json;d=json.load(open('$json_file'));print(len(d.get('nondex',[])))" 2>/dev/null || echo 0)
+            if [ "$idf_count" -gt 0 ] || [ "$nd_count" -gt 0 ]; then
+              base=$(basename "$json_file" .json)
+              proj_dir="projects/$base"
+              if [ -d "$proj_dir" ]; then
+                tar -czf "$FINDINGS_DIR/${base}_raw.tar.gz" \
+                  --exclude='**/target/**' \
+                  --exclude='**/.git/**' \
+                  -C "projects" "$base" 2>/dev/null || true
+              fi
+            fi
+          done
+          ls -lh "$FINDINGS_DIR/" || true
+
+      - name: Upload raw findings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-findings-${{ matrix.shard_index }}
+          path: findings_${{ matrix.shard_index }}/
+          retention-days: 30
+          if-no-files-found: ignore
+
+  # ── 3. MERGE: combine all shards into final CSVs ─────────────────────────
+  merge:
+    needs: detect
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all shard results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: shard-results-*
+          path: all_shard_results/
+          merge-multiple: false
+
+      - name: Flatten results into one directory
+        run: |
+          mkdir -p merged_results
+          find all_shard_results -name "*.json" -exec cp {} merged_results/ \;
+          echo "Total result files: $(ls merged_results/*.json 2>/dev/null | wc -l)"
+
+      - name: Download pr-data.csv
+        run: |
+          curl -fsSL \
+            "https://raw.githubusercontent.com/TestingResearchIllinois/idoft/main/pr-data.csv" \
+            -o pr-data.csv
+
+      - name: Merge results
+        run: |
+          python3 scripts/merge_results.py \
+            --results-dir merged_results \
+            --pr-data pr-data.csv \
+            --out-dir sanskriti/
+
+      - name: Commit and push results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sanskriti/
+          git diff --cached --stat
+          git commit -m "ci: add detection results ($(ls merged_results/*.json | wc -l | tr -d ' ') projects)" \
+            || echo "Nothing to commit"
+          git push origin HEAD:sanskriti-data || git push origin HEAD:${{ github.ref_name }}
+
+      - name: Upload merged CSVs as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-results
+          path: sanskriti/
+          retention-days: 90

@@ -166,21 +166,31 @@ jobs:
             --pr-data pr-data.csv \
             --out-dir sanskriti
 
-      - name: Commit results to sanskriti-data branch
+      - name: Push results to private repo (UG-RIDE-2192)
+        env:
+          RESULTS_PAT: ${{ secrets.RESULTS_PAT }}
         run: |
+          N=$(find all_results -name "*.json" 2>/dev/null | wc -l | tr -d ' ')
+          # Clone the private results repo using the PAT
+          git clone \
+            "https://x-access-token:${RESULTS_PAT}@github.com/sans-2186/UG-RIDE-2192.git" \
+            private-results
+          # Copy the deliverable files in
+          cp sanskriti/Sanskriti_Tiwari_idflakies.csv \
+             sanskriti/Sanskriti_Tiwari_nondex.csv \
+             sanskriti/summary.csv \
+             sanskriti/flakesync_input.csv \
+             sanskriti/REPORT.md \
+             private-results/
+          cd private-results
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          N=$(find all_results -name "*.json" 2>/dev/null | wc -l | tr -d ' ')
-          git fetch origin sanskriti-data || true
-          git checkout -B sanskriti-data origin/sanskriti-data 2>/dev/null \
-            || git checkout -b sanskriti-data
-          cp -r sanskriti/. .
           git add Sanskriti_Tiwari_idflakies.csv Sanskriti_Tiwari_nondex.csv \
-                  summary.csv flakesync_input.csv REPORT.md 2>/dev/null || true
+                  summary.csv flakesync_input.csv REPORT.md
           git diff --cached --stat
           git commit -m "ci: detection results ($N projects) [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" \
             || echo "Nothing to commit"
-          git push origin sanskriti-data
+          git push
 
       - name: Upload final CSVs as artifact
         uses: actions/upload-artifact@v4

@@ -180,7 +180,7 @@ jobs:
           git diff --cached --stat
           git commit -m "ci: detection results ($N projects) [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" \
             || echo "Nothing to commit"
-          git push origin sanskriti-data
+          git push --force origin sanskriti-data
 
       - name: Upload final CSVs as artifact
         uses: actions/upload-artifact@v4

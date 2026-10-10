@@ -268,7 +268,7 @@ whole Maven project (no module restriction). Raw data: `summary.csv`.
 ## 4. FlakeSync input
 
 File `flakesync_input.csv` — {len(detected_by)} unique tests from
-{len({{k[0] for k in detected_by}})} projects, ready for FlakeSync phase analysis.
+{len({k[0] for k in detected_by})} projects, ready for FlakeSync phase analysis.
 """)
     print(f"Wrote {os.path.relpath(report_path)}")
 

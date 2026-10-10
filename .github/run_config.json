@@ -1,7 +1,7 @@
 {
-  "shard_size": 3,
+  "shard_size": 5,
   "max_shards": 1,
   "jdk": "8",
-  "_triggered": "2026-10-10T09:00:00Z",
-  "_comment": "PILOT: 3 projects (shard 0 only). Set max_shards to 0 and shard_size to 8 for the full run."
+  "_triggered": "2026-10-10T09:10:00Z",
+  "_comment": "PILOT-5: 5 projects — Mapper x3 + Accenture/mercury x2. Set max_shards to 0 and shard_size to 8 for the full run."
 }

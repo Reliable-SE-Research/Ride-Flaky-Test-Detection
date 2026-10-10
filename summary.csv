@@ -1,0 +1,6 @@
+project_name,project_url,sha,status,idflakies_count,nondex_count,common_count,union_count,idflakies_reproduced_known,nondex_reproduced_known
+Mapper,https://github.com/abel533/Mapper,1764748eedb2f320a0d1c43cb4f928c4ccb1f2f5,ok,43,5,0,48,0,5
+Mapper,https://github.com/abel533/Mapper,3c0b3307011fad53f811e08d05147d94fc6c0d67,ok,43,5,0,48,43,0
+Mapper,https://github.com/abel533/Mapper,7990b9c48bbcebf590f09fc245daba0c396f7b57,build_failed,0,0,0,0,0,0
+mercury,https://github.com/Accenture/mercury,6b744cdbb2206feca62848df92b3bf542f890be5,timeout,0,1,0,1,0,0
+mercury,https://github.com/Accenture/mercury,8586dc79f8bf75a929896f0aac03fe95824d9578,build_failed,0,0,0,0,0,0

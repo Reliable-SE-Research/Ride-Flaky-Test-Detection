@@ -87,13 +87,11 @@ jobs:
           fi
           java -version
 
-          # Pre-warm Maven plugin cache (best-effort)
+          # Pre-warm Maven plugin cache (best-effort — failures are ignored)
           mvn -B -q dependency:get \
-            -Dartifact=edu.illinois.cs:idflakies-maven-plugin:2.0.0 \
-            -DremoteRepositories=central::https://repo1.maven.org/maven2 2>/dev/null || true
+            -Dartifact=edu.illinois.cs:idflakies-maven-plugin:2.0.0 2>/dev/null || true
           mvn -B -q dependency:get \
-            -Dartifact=edu.illinois:nondex-maven-plugin:2.2.1 \
-            -DremoteRepositories=central::https://repo1.maven.org/maven2 2>/dev/null || true
+            -Dartifact=edu.illinois:nondex-maven-plugin:2.2.1 2>/dev/null || true
 
           # Download the full dataset
           curl -fsSL \

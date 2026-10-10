@@ -54,16 +54,18 @@ SKIP_FLAGS=(
 # Pick JAVA_HOME based on requested JDK version
 pick_java() {
   local v="$1"
+  # GitHub Actions runners expose pre-installed JDK paths as JAVA_HOME_8_X64, etc.
+  local jh_var="JAVA_HOME_${v}_X64"
+  local jh="${!jh_var:-}"   # bash indirect expansion
   local candidates=(
+    "${jh}"
     "/usr/lib/jvm/temurin-${v}-jdk-amd64"
     "/usr/lib/jvm/java-${v}-openjdk-amd64"
     "/usr/lib/jvm/java-${v}-amazon-corretto"
-    "${JAVA_HOME_${v}_X64:-}"
   )
   for c in "${candidates[@]}"; do
     [ -d "${c:-}" ] && { echo "$c"; return 0; }
   done
-  # fallback: let the runner default decide
   echo ""
 }
 

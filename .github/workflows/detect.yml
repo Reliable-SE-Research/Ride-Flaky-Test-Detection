@@ -131,17 +131,26 @@ jobs:
       - name: Make run_one.sh executable
         run: chmod +x scripts/run_one.sh
 
+      - name: Write project list for this shard
+        run: |
+          python3 -c "
+import json, sys
+projects = json.loads(sys.argv[1])
+with open('shard_projects.json', 'w') as f:
+    json.dump(projects, f)
+" '${{ toJSON(matrix.projects) }}'
+
       - name: Run shard ${{ matrix.shard_index }}
         run: |
           RESULTS_DIR="shard_results/shard_${{ matrix.shard_index }}"
           mkdir -p "$RESULTS_DIR" projects
 
-          # Iterate over projects in this shard
-          echo '${{ toJSON(matrix.projects) }}' | python3 - "$RESULTS_DIR" <<'PYEOF'
+          python3 - "$RESULTS_DIR" <<'PYEOF'
           import json, os, subprocess, sys
 
           results_dir = sys.argv[1]
-          projects = json.loads(sys.stdin.read())
+          with open("shard_projects.json") as f:
+              projects = json.load(f)
 
           for p in projects:
               url, sha, jdk = p["url"], p["sha"], p.get("jdk", "8")

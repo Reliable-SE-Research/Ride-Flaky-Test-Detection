@@ -8,32 +8,34 @@ whole Maven project (no module restriction). Raw data: `summary.csv`.
 
 | | Count |
 |---|---|
-| Attempted | 5 |
-| Built and tested | 3 |
-| &nbsp;&nbsp;completed normally | 2 |
-| &nbsp;&nbsp;hit time limit | 1 |
-| Failed | 2 |
-| &nbsp;&nbsp;build_failed | 2 |
+| Attempted | 702 |
+| Built and tested | 358 |
+| &nbsp;&nbsp;completed normally | 260 |
+| &nbsp;&nbsp;hit time limit | 98 |
+| Failed | 344 |
+| &nbsp;&nbsp;build_failed | 331 |
+| &nbsp;&nbsp;checkout_failed | 7 |
+| &nbsp;&nbsp;clone_failed | 6 |
 
 ## 2. Flaky tests found
 
 | | iDFlakies | NonDex |
 |---|---|---|
-| Unique tests found | 86 | 11 |
-| Projects with at least one find | 1 | 2 |
-| Known pr-data tests reproduced | 43 | 5 |
-| New (not in pr-data) | 43 | 6 |
+| Unique tests found | 2424 | 3754 |
+| Projects with at least one find | 73 | 193 |
+| Known pr-data tests reproduced | 235 | 1134 |
+| New (not in pr-data) | 2189 | 2620 |
 
 ## 3. Comparison
 
 | | Tests |
 |---|---|
-| Found by both | 0 |
-| iDFlakies only | 86 |
-| NonDex only | 11 |
-| Total unique | 97 |
+| Found by both | 15 |
+| iDFlakies only | 2409 |
+| NonDex only | 3739 |
+| Total unique | 6163 |
 
 ## 4. FlakeSync input
 
-File `flakesync_input.csv` — 97 unique tests from
-2 projects, ready for FlakeSync phase analysis.
+File `flakesync_input.csv` — 6163 unique tests from
+215 projects, ready for FlakeSync phase analysis.

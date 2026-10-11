@@ -7,16 +7,16 @@ FlakeSync detects and repairs **timing-dependent (TD)** async flaky tests via de
 
 | | Count |
 |---|---|
-| Projects processed | 1 |
-| Built successfully | 0 |
-| Partial build | 1 |
+| Projects processed | 214 |
+| Built successfully | 114 |
+| Partial build | 100 |
 | Clone failed | 0 |
 
 ## 2. Test Analysis
 
 | Phase outcome | Tests |
 |---|---|
-| No concurrent methods found (not TD) | 0 |
+| No concurrent methods found (not TD) | 2467 |
 | Concurrent found but no delay locations | 0 |
 | Has delay locations (TD candidate) | 0 |
 | **Patch generated (repaired)** | **0** |

@@ -1,0 +1,210 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] easy-retry-extensions                                              [pom]
+[[1;34mINFO[m] easy-retry-spring-extension                                        [jar]
+[[1;34mINFO[m] easy-retry-mybatis-extension                                       [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.alibaba:easy-retry-extensions[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding easy-retry-extensions 1.0.0                               [1/3][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36measy-retry-extensions[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.1.0:flatten[m [1m(flatten)[m @ [36measy-retry-extensions[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project com.alibaba:easy-retry-extensions:pom:1.0.0...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36measy-retry-extensions[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36measy-retry-extensions[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.03900003433227539 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.alibaba:easy-retry-extensions:1.0.0 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.alibaba:easy-retry-spring-extension[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding easy-retry-spring-extension 1.0.0                         [2/3][m
+[[1;34mINFO[m]   from easy-retry-spring-extension/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36measy-retry-spring-extension[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.1.0:flatten[m [1m(flatten)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project com.alibaba:easy-retry-spring-extension:jar:1.0.0...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-spring-extension/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36measy-retry-spring-extension[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36measy-retry-spring-extension[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36measy-retry-spring-extension[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.0 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.alibaba:easy-retry-spring-extension:1.0.0 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.alibaba:easy-retry-mybatis-extension[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding easy-retry-mybatis-extension 1.0.0                        [3/3][m
+[[1;34mINFO[m]   from easy-retry-mybatis-extension/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36measy-retry-mybatis-extension[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.1.0:flatten[m [1m(flatten)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project com.alibaba:easy-retry-mybatis-extension:jar:1.0.0...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36measy-retry-mybatis-extension[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36measy-retry-mybatis-extension[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 11 tests. Time taken: 0.12400007247924805 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.alibaba:easy-retry-mybatis-extension:1.0.0 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.dtfixingtools/original-order
+[INFO] Getting original results (11 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest#deleteRetryTask(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest#deleteRetryTask(), status: expected PASS, got PASS
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#stop(), status: expected PASS, got PASS
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#stop(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#handle(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#handle(), status: expected PASS, got PASS
+Verified com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest#listRetryTask(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest#listRetryTask(), status: expected PASS, got PASS
+[INFO] Found 4 tests in round 1 of 3 (0.0 seconds elapsed (18.7 total), 0.0 seconds remaining).
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#handle(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#handle(), status: expected PASS, got PASS
+[INFO] Found 0 tests in round 2 of 3 (0.0 seconds elapsed (24.9 total), 0.0 seconds remaining).
+Verified com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest#deleteRetryTask(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.dao.RetryTaskDAOImplTest#deleteRetryTask(), status: expected PASS, got PASS
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#finish(), status: expected ERROR, got ERROR
+Verified com.alibaba.easyretry.extension.mybatis.access.MybatisRetryTaskAccessTest#finish(), status: expected PASS, got PASS
+[INFO] Found 1 tests in round 3 of 3 (6.2 seconds elapsed (35.2 total), 0.0 seconds remaining).
+
+[INFO] Found 5 tests, writing list to /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/easy-retry/easy-retry-extensions/easy-retry-mybatis-extension/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for easy-retry-extensions 1.0.0:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] easy-retry-extensions .............................. [1;32mSUCCESS[m [  1.822 s]
+[[1;34mINFO[m] easy-retry-spring-extension ........................ [1;32mSUCCESS[m [  0.384 s]
+[[1;34mINFO[m] easy-retry-mybatis-extension ....................... [1;32mSUCCESS[m [ 42.075 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  44.548 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:01:07-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,234 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.alibaba.testable:testable-core[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding testable-core 0.6.8[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mtestable-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mtestable-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/testable-mock/testable-core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mtestable-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mtestable-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/testable-mock/testable-core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mtestable-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mtestable-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mtestable-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_7Xmeke2pwatRySDBFlGqtaC9Pz4oaI3rQ1gayYdUSw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by com.alibaba.testable.core.tool.OmniConstructor (file:/home/a360/research/projects/testable-mock/testable-core/target/classes/) to field java.lang.Integer.value
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of com.alibaba.testable.core.tool.OmniConstructor
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 13, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexJarDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexExecid=+l2s7rqmvVH2IrHR1N+DIaoAd5+LAKgx0w1Z57sKYw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m7[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.083 s[1;31m <<< FAILURE![m - in com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: </c{DemoChild}> but was: </ssc{StaticSubChild}>
+	at com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index(OmniAccessorTest.java:16)
+
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by com.alibaba.testable.core.tool.OmniConstructor (file:/home/a360/research/projects/testable-mock/testable-core/target/classes/) to field java.lang.Integer.value
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of com.alibaba.testable.core.tool.OmniConstructor
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  OmniAccessorTest.should_generate_member_index:16 expected: </c{DemoChild}> but was: </ssc{StaticSubChild}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 13, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for +l2s7rqmvVH2IrHR1N+DIaoAd5+LAKgx0w1Z57sKYw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexJarDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexExecid=pTi+JCxjIObpik0NqUykcnzpYfEXM2BgdZrQaexqo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m7[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.078 s[1;31m <<< FAILURE![m - in com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: </c{DemoChild}> but was: </ssc{StaticSubChild}>
+	at com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index(OmniAccessorTest.java:16)
+
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by com.alibaba.testable.core.tool.OmniConstructor (file:/home/a360/research/projects/testable-mock/testable-core/target/classes/) to field java.lang.Integer.value
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of com.alibaba.testable.core.tool.OmniConstructor
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  OmniAccessorTest.should_generate_member_index:16 expected: </c{DemoChild}> but was: </ssc{StaticSubChild}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 13, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for pTi+JCxjIObpik0NqUykcnzpYfEXM2BgdZrQaexqo=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexJarDir=/home/a360/research/projects/testable-mock/testable-core/.nondex
+nondexExecid=LhojbrBIPPTkAhSoI9AOKS49sAUvdMSiPGtyw6036Ig=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m7[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.081 s[1;31m <<< FAILURE![m - in com.alibaba.testable.core.tool.[1mOmniAccessorTest[m
+[[1;31mERROR[m] com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: </c{DemoChild}> but was: </ssc{StaticSubChild}>
+	at com.alibaba.testable.core.tool.OmniAccessorTest.should_generate_member_index(OmniAccessorTest.java:16)
+
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.alibaba.testable.core.tool.[1mPrivateAccessorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by com.alibaba.testable.core.tool.OmniConstructor (file:/home/a360/research/projects/testable-mock/testable-core/target/classes/) to field java.lang.Integer.value
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of com.alibaba.testable.core.tool.OmniConstructor
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.alibaba.testable.core.tool.[1mOmniConstructorTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.alibaba.testable.core.util.[1mCollectionUtilTest[m
+[[1;34mINFO[m] Running com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.alibaba.testable.core.util.[1mMockAssociationUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  OmniAccessorTest.should_generate_member_index:16 expected: </c{DemoChild}> but was: </ssc{StaticSubChild}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 13, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for LhojbrBIPPTkAhSoI9AOKS49sAUvdMSiPGtyw6036Ig=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/testable-mock/testable-core/.nondex" -DnondexJarDir="/home/a360/research/projects/testable-mock/testable-core/.nondex" -DnondexExecid=+l2s7rqmvVH2IrHR1N+DIaoAd5+LAKgx0w1Z57sKYw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.alibaba.testable.core.tool.OmniAccessorTest#should_generate_member_index
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/testable-mock/testable-core/.nondex" -DnondexJarDir="/home/a360/research/projects/testable-mock/testable-core/.nondex" -DnondexExecid=pTi+JCxjIObpik0NqUykcnzpYfEXM2BgdZrQaexqo= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.alibaba.testable.core.tool.OmniAccessorTest#should_generate_member_index
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/testable-mock/testable-core/.nondex" -DnondexJarDir="/home/a360/research/projects/testable-mock/testable-core/.nondex" -DnondexExecid=LhojbrBIPPTkAhSoI9AOKS49sAUvdMSiPGtyw6036Ig= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.alibaba.testable.core.tool.OmniAccessorTest#should_generate_member_index
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.alibaba.testable.core.tool.OmniAccessorTest#should_generate_member_index
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/testable-mock/testable-core/.nondex/+l2s7rqmvVH2IrHR1N+DIaoAd5+LAKgx0w1Z57sKYw=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: +l2s7rqmvVH2IrHR1N+DIaoAd5+LAKgx0w1Z57sKYw=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.929 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:25:28-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mtestable-core[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/testable-mock/testable-core/.nondex/+l2s7rqmvVH2IrHR1N+DIaoAd5+LAKgx0w1Z57sKYw= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

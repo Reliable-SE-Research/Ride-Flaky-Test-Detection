@@ -1,0 +1,197 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.p2sdev:jsonToOrmMapper[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding jsonToOrmMapper 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjsonToOrmMapper[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mjsonToOrmMapper[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jsonToOrmMapper/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mjsonToOrmMapper[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjsonToOrmMapper[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/jsonToOrmMapper/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mjsonToOrmMapper[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjsonToOrmMapper[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mjsonToOrmMapper[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_YOtelIC7ZY08BOxrMjXVHqzs1F0oSm2bSAWXHhimqHo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonToOrmMapper/.nondex/clean_YOtelIC7ZY08BOxrMjXVHqzs1F0oSm2bSAWXHhimqHo=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.p2sdev.jsonToOrmMapper.AppTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in com.p2sdev.jsonToOrmMapper.AppTest
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexJarDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexExecid=4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonToOrmMapper/.nondex/4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.p2sdev.jsonToOrmMapper.AppTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec <<< FAILURE! - in com.p2sdev.jsonToOrmMapper.AppTest
+testValidJSONObject(com.p2sdev.jsonToOrmMapper.AppTest)  Time elapsed: 0.027 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...ld(primary_key=True)[f_name = models.CharField(max_length=100)p_id = models.IntegerField()l]_name = models.CharF...> but was:<...ld(primary_key=True)[l_name = models.CharField(max_length=100)p_id = models.IntegerField()f]_name = models.CharF...>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at com.p2sdev.jsonToOrmMapper.AppTest.testValidJSONObject(AppTest.java:74)
+
+
+Results :
+
+Failed tests: 
+  AppTest.testValidJSONObject:74 expected:<...ld(primary_key=True)[f_name = models.CharField(max_length=100)p_id = models.IntegerField()l]_name = models.CharF...> but was:<...ld(primary_key=True)[l_name = models.CharField(max_length=100)p_id = models.IntegerField()f]_name = models.CharF...>
+
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexJarDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexExecid=Vdy2nAJSVXqi194GiqwPN1+lgH0IGn6WEBqIEGtoWY=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonToOrmMapper/.nondex/Vdy2nAJSVXqi194GiqwPN1+lgH0IGn6WEBqIEGtoWY=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.p2sdev.jsonToOrmMapper.AppTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec <<< FAILURE! - in com.p2sdev.jsonToOrmMapper.AppTest
+testValidJSONObject(com.p2sdev.jsonToOrmMapper.AppTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...ield(max_length=100)[p_id = models.IntegerField()l_name = models.CharField(max_length=100])> but was:<...ield(max_length=100)[l_name = models.CharField(max_length=100)p_id = models.IntegerField(])>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at com.p2sdev.jsonToOrmMapper.AppTest.testValidJSONObject(AppTest.java:74)
+
+
+Results :
+
+Failed tests: 
+  AppTest.testValidJSONObject:74 expected:<...ield(max_length=100)[p_id = models.IntegerField()l_name = models.CharField(max_length=100])> but was:<...ield(max_length=100)[l_name = models.CharField(max_length=100)p_id = models.IntegerField(])>
+
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for Vdy2nAJSVXqi194GiqwPN1+lgH0IGn6WEBqIEGtoWY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexJarDir=/home/a360/research/projects/jsonToOrmMapper/.nondex
+nondexExecid=6hHJew8ItD2PprNlCRfa60OnJN7b1WzISwT7O+DViE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/jsonToOrmMapper/.nondex/6hHJew8ItD2PprNlCRfa60OnJN7b1WzISwT7O+DViE=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.p2sdev.jsonToOrmMapper.AppTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec <<< FAILURE! - in com.p2sdev.jsonToOrmMapper.AppTest
+testValidJSONObject(com.p2sdev.jsonToOrmMapper.AppTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...ld(primary_key=True)[f_name = models.CharField(max_length=100)p_id = models.IntegerField(])l_name = models.Cha...> but was:<...ld(primary_key=True)[p_id = models.IntegerField()f_name = models.CharField(max_length=100])l_name = models.Cha...>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at com.p2sdev.jsonToOrmMapper.AppTest.testValidJSONObject(AppTest.java:74)
+
+
+Results :
+
+Failed tests: 
+  AppTest.testValidJSONObject:74 expected:<...ld(primary_key=True)[f_name = models.CharField(max_length=100)p_id = models.IntegerField(])l_name = models.Cha...> but was:<...ld(primary_key=True)[p_id = models.IntegerField()f_name = models.CharField(max_length=100])l_name = models.Cha...>
+
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 6hHJew8ItD2PprNlCRfa60OnJN7b1WzISwT7O+DViE=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jsonToOrmMapper/.nondex" -DnondexJarDir="/home/a360/research/projects/jsonToOrmMapper/.nondex" -DnondexExecid=4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.p2sdev.jsonToOrmMapper.AppTest#testValidJSONObject
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jsonToOrmMapper/.nondex" -DnondexJarDir="/home/a360/research/projects/jsonToOrmMapper/.nondex" -DnondexExecid=Vdy2nAJSVXqi194GiqwPN1+lgH0IGn6WEBqIEGtoWY= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.p2sdev.jsonToOrmMapper.AppTest#testValidJSONObject
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/jsonToOrmMapper/.nondex" -DnondexJarDir="/home/a360/research/projects/jsonToOrmMapper/.nondex" -DnondexExecid=6hHJew8ItD2PprNlCRfa60OnJN7b1WzISwT7O+DViE= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.p2sdev.jsonToOrmMapper.AppTest#testValidJSONObject
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.p2sdev.jsonToOrmMapper.AppTest#testValidJSONObject
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/jsonToOrmMapper/.nondex/4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.507 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:16:49-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mjsonToOrmMapper[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/jsonToOrmMapper/.nondex/4cwU1Pjslv9SsK7gJMgi1bT8Db0yWfdiV+8i68LaxGI= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

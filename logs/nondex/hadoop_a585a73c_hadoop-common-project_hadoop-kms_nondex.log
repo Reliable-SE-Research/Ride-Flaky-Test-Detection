@@ -1,0 +1,259 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-kms:jar:3.3.4
+[[1;33mWARNING[m] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hbase:hbase-server:jar -> duplicate declaration of version ${hbase.version} @ org.apache.hadoop:hadoop-project:3.3.4, /home/a360/research/projects/hadoop/hadoop-project/pom.xml, line 1771, column 19
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 6.18
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 18
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 26.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.hadoop:hadoop-kms[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Hadoop KMS 3.3.4[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mhadoop-kms[0;1m >>>[m
+[[1;33mWARNING[m] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mantrun:1.7:run[m [1m(create-testdirs)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(banned-illegal-imports)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-generated-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-guava)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Replacement run on 25 files.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Compiling 16 source files to /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/target/classes
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/main/java/org/apache/hadoop/crypto/key/kms/server/KMS.java: /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/main/java/org/apache/hadoop/crypto/key/kms/server/KMS.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/main/java/org/apache/hadoop/crypto/key/kms/server/KMS.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-test-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-generated-test-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Compiling 9 source files to /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/target/test-classes
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mhadoop-kms[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mhadoop-kms[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_jxWT02ubyQiQchNmi4SY092umMQ9nQEknD8cl58o=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 142.73 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.085 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.283 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.745 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.576 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.352 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 48, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexJarDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexExecid=5vvGaUXS1amkfMib8DL3D04H6AiulEdEDZmjQ6gPAi0=
+nondexLogging=CONFIG
+test=
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/3.0.0-M1/surefire-junit47-3.0.0-M1.jar
+Progress (1): 2.3/93 kBProgress (1): 5.0/93 kBProgress (1): 7.7/93 kBProgress (1): 10/93 kB Progress (1): 13/93 kBProgress (1): 16/93 kBProgress (1): 18/93 kBProgress (1): 21/93 kBProgress (1): 24/93 kBProgress (1): 27/93 kBProgress (1): 29/93 kBProgress (1): 32/93 kBProgress (1): 35/93 kBProgress (1): 37/93 kBProgress (1): 40/93 kBProgress (1): 43/93 kBProgress (1): 46/93 kBProgress (1): 48/93 kBProgress (1): 51/93 kBProgress (1): 54/93 kBProgress (1): 58/93 kBProgress (1): 62/93 kBProgress (1): 66/93 kBProgress (1): 70/93 kBProgress (1): 74/93 kBProgress (1): 78/93 kBProgress (1): 82/93 kBProgress (1): 87/93 kBProgress (1): 91/93 kBProgress (1): 93 kB                      Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/3.0.0-M1/surefire-junit47-3.0.0-M1.jar[90m (93 kB at 84 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/3.0.0-M1/surefire-junit47-3.0.0-M1.pom
+Progress (1): 4.1 kBProgress (1): 7.3 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/3.0.0-M1/surefire-junit47-3.0.0-M1.pom[90m (7.3 kB at 30 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/3.0.0-M1/common-junit48-3.0.0-M1.pom
+Progress (1): 2.4 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/3.0.0-M1/common-junit48-3.0.0-M1.pom[90m (2.4 kB at 7.9 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/3.0.0-M1/surefire-grouper-3.0.0-M1.pom
+Progress (1): 2.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/3.0.0-M1/surefire-grouper-3.0.0-M1.pom[90m (2.6 kB at 9.5 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/3.0.0-M1/common-junit48-3.0.0-M1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/3.0.0-M1/surefire-grouper-3.0.0-M1.jar
+Progress (1): 4.1/22 kBProgress (1): 8.2/22 kBProgress (1): 12/22 kB Progress (1): 16/22 kBProgress (1): 20/22 kBProgress (1): 22 kB   Progress (2): 22 kB | 2.3/40 kBProgress (2): 22 kB | 5.0/40 kBProgress (2): 22 kB | 7.7/40 kBProgress (2): 22 kB | 10/40 kB Progress (2): 22 kB | 13/40 kBProgress (2): 22 kB | 16/40 kBProgress (2): 22 kB | 19/40 kBProgress (2): 22 kB | 21/40 kBProgress (2): 22 kB | 24/40 kBProgress (2): 22 kB | 27/40 kBProgress (2): 22 kB | 30/40 kBProgress (2): 22 kB | 32/40 kBProgress (2): 22 kB | 35/40 kBProgress (2): 22 kB | 38/40 kBProgress (2): 22 kB | 40 kB                              Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/3.0.0-M1/common-junit48-3.0.0-M1.jar[90m (22 kB at 90 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/3.0.0-M1/surefire-grouper-3.0.0-M1.jar[90m (40 kB at 148 kB/s)[0m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 154.829 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.076 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.029 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.464 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.756 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.536 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 48, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexJarDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexExecid=dz8LwiBscRJLCgyZSVhfgjenzC7ZcA2y6517ICmHojI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 156.004 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.109 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.026 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.469 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.79 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.533 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 48, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexJarDir=/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex
+nondexExecid=1R6ydd6M5ou9AnPEFffo9FrPCXjOwAExYU3jEkjiZC8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 155.149 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMS[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.124 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKeyAuthorizationKeyProvider[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.039 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSWithZK[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.451 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSACLs[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.8 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSMDCFilter[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.537 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAudit[m
+[[1;34mINFO[m] Running org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.303 s - in org.apache.hadoop.crypto.key.kms.server.[1mTestKMSAuthenticationFilter[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 48, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex" -DnondexJarDir="/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex" -DnondexExecid=5vvGaUXS1amkfMib8DL3D04H6AiulEdEDZmjQ6gPAi0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex" -DnondexJarDir="/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex" -DnondexExecid=dz8LwiBscRJLCgyZSVhfgjenzC7ZcA2y6517ICmHojI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex" -DnondexJarDir="/home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex" -DnondexExecid=1R6ydd6M5ou9AnPEFffo9FrPCXjOwAExYU3jEkjiZC8= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.nondex/5vvGaUXS1amkfMib8DL3D04H6AiulEdEDZmjQ6gPAi0=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 5vvGaUXS1amkfMib8DL3D04H6AiulEdEDZmjQ6gPAi0=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11:14 min
+[[1;34mINFO[m] Finished at: 2026-10-02T03:55:59-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

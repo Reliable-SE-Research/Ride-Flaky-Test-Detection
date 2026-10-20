@@ -1,0 +1,752 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.google.monitoring-client:metrics[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Main Metrics Library 1.0.8-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmetrics[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmetrics[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/java-monitoring-client-library/metrics/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mmetrics[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmetrics[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/java-monitoring-client-library/metrics/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mmetrics[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmetrics[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mmetrics[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_2JpqkjAy29HsijHU9BsP1AqVfuH07Am9FV5YeJf4spI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricReporterTest[m
+Oct 02, 2026 9:08:52 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/push_intervals
+Oct 02, 2026 9:08:52 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/points_pushed
+Oct 02, 2026 9:08:52 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /metrics/timeseries_count
+Oct 02, 2026 9:08:52 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:08:52 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricReporter shutDown
+SEVERE: Failed to shut down MetricExporter within the timeout
+java.util.concurrent.TimeoutException: Timed out waiting for MetricExporter [NEW] to reach a terminal state. Current state: NEW
+	at com.google.common.util.concurrent.AbstractService.awaitTerminated(AbstractService.java:331)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService.awaitTerminated(AbstractExecutionThreadService.java:229)
+	at com.google.monitoring.metrics.MetricReporter.shutDown(MetricReporter.java:122)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$6e044d05.CGLIB$shutDown$2(<generated>)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$6e044d05$$FastClassByMockitoWithCGLIB$$9a2867fe.invoke(<generated>)
+	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216)
+	at org.mockito.internal.creation.cglib.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:19)
+	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21)
+	at org.mockito.internal.invocation.realmethod.CleanTraceRealMethod.invoke(CleanTraceRealMethod.java:30)
+	at org.mockito.internal.invocation.InvocationImpl.callRealMethod(InvocationImpl.java:112)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:42)
+	at org.mockito.Answers.answer(Answers.java:90)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:93)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+	at org.mockito.internal.creation.cglib.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$6e044d05.shutDown(<generated>)
+	at com.google.monitoring.metrics.MetricReporterTest.testShutDown_enqueuesBatchAndPoisonPill(MetricReporterTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.444 s - in com.google.monitoring.metrics.[1mMetricReporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricExporterTest[m
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.google.monitoring.metrics.[1mMetricExporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /test_counter
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricRegistryImpl unregisterMetric
+INFO: Unregistered metric: /test/metric
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /test_metric
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:02 AM com.google.monitoring.metrics.MetricRegistryImpl newEventMetric
+INFO: Registered new event metric: /test_metric
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 81, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexJarDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexExecid=ef5APZPm4sI3+f52NQBD+NL8jzuoNgixJYKw18UArkc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricReporterTest[m
+Oct 02, 2026 9:09:04 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/push_intervals
+Oct 02, 2026 9:09:04 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/points_pushed
+Oct 02, 2026 9:09:04 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /metrics/timeseries_count
+Oct 02, 2026 9:09:04 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:04 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricReporter shutDown
+SEVERE: Failed to shut down MetricExporter within the timeout
+java.util.concurrent.TimeoutException: Timed out waiting for MetricExporter [NEW] to reach a terminal state. Current state: NEW
+	at com.google.common.util.concurrent.AbstractService.awaitTerminated(AbstractService.java:331)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService.awaitTerminated(AbstractExecutionThreadService.java:229)
+	at com.google.monitoring.metrics.MetricReporter.shutDown(MetricReporter.java:122)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$f70cea91.CGLIB$shutDown$3(<generated>)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$f70cea91$$FastClassByMockitoWithCGLIB$$95aeb8ce.invoke(<generated>)
+	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216)
+	at org.mockito.internal.creation.cglib.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:19)
+	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21)
+	at org.mockito.internal.invocation.realmethod.CleanTraceRealMethod.invoke(CleanTraceRealMethod.java:30)
+	at org.mockito.internal.invocation.InvocationImpl.callRealMethod(InvocationImpl.java:112)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:42)
+	at org.mockito.Answers.answer(Answers.java:90)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:93)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+	at org.mockito.internal.creation.cglib.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$f70cea91.shutDown(<generated>)
+	at com.google.monitoring.metrics.MetricReporterTest.testShutDown_enqueuesBatchAndPoisonPill(MetricReporterTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.339 s - in com.google.monitoring.metrics.[1mMetricReporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricExporterTest[m
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.google.monitoring.metrics.[1mMetricExporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /test_counter
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricRegistryImpl unregisterMetric
+INFO: Unregistered metric: /test/metric
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /test_metric
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:14 AM com.google.monitoring.metrics.MetricRegistryImpl newEventMetric
+INFO: Registered new event metric: /test_metric
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 81, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexJarDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexExecid=MB88HvqfifbmzVA2e5GH+G8j1VE+E+dCwY7iHSxrivw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricReporterTest[m
+Oct 02, 2026 9:09:15 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/push_intervals
+Oct 02, 2026 9:09:15 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/points_pushed
+Oct 02, 2026 9:09:15 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /metrics/timeseries_count
+Oct 02, 2026 9:09:15 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:15 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:25 AM com.google.monitoring.metrics.MetricReporter shutDown
+SEVERE: Failed to shut down MetricExporter within the timeout
+java.util.concurrent.TimeoutException: Timed out waiting for MetricExporter [NEW] to reach a terminal state. Current state: NEW
+	at com.google.common.util.concurrent.AbstractService.awaitTerminated(AbstractService.java:331)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService.awaitTerminated(AbstractExecutionThreadService.java:229)
+	at com.google.monitoring.metrics.MetricReporter.shutDown(MetricReporter.java:122)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$ef2d1013.CGLIB$shutDown$1(<generated>)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$ef2d1013$$FastClassByMockitoWithCGLIB$$e771d96a.invoke(<generated>)
+	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216)
+	at org.mockito.internal.creation.cglib.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:19)
+	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21)
+	at org.mockito.internal.invocation.realmethod.CleanTraceRealMethod.invoke(CleanTraceRealMethod.java:30)
+	at org.mockito.internal.invocation.InvocationImpl.callRealMethod(InvocationImpl.java:112)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:42)
+	at org.mockito.Answers.answer(Answers.java:90)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:93)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+	at org.mockito.internal.creation.cglib.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$ef2d1013.shutDown(<generated>)
+	at com.google.monitoring.metrics.MetricReporterTest.testShutDown_enqueuesBatchAndPoisonPill(MetricReporterTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.344 s - in com.google.monitoring.metrics.[1mMetricReporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricExporterTest[m
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.google.monitoring.metrics.[1mMetricExporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /test_counter
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricRegistryImpl unregisterMetric
+INFO: Unregistered metric: /test/metric
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /test_metric
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:26 AM com.google.monitoring.metrics.MetricRegistryImpl newEventMetric
+INFO: Registered new event metric: /test_metric
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 81, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexJarDir=/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex
+nondexExecid=nEVLBOaJsek2P57QQTN7q1r1L6duq8o9v3ExAsRWbc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricReporterTest[m
+Oct 02, 2026 9:09:27 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/push_intervals
+Oct 02, 2026 9:09:27 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /metrics/points_pushed
+Oct 02, 2026 9:09:27 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /metrics/timeseries_count
+Oct 02, 2026 9:09:27 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:27 AM com.google.monitoring.metrics.MetricReporter runOneIteration
+SEVERE: writeQueue full, dropped a reporting interval of points
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricReporter shutDown
+SEVERE: Failed to shut down MetricExporter within the timeout
+java.util.concurrent.TimeoutException: Timed out waiting for MetricExporter [NEW] to reach a terminal state. Current state: NEW
+	at com.google.common.util.concurrent.AbstractService.awaitTerminated(AbstractService.java:331)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService.awaitTerminated(AbstractExecutionThreadService.java:229)
+	at com.google.monitoring.metrics.MetricReporter.shutDown(MetricReporter.java:122)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$c38c3173.CGLIB$shutDown$2(<generated>)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$c38c3173$$FastClassByMockitoWithCGLIB$$98019b2b.invoke(<generated>)
+	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216)
+	at org.mockito.internal.creation.cglib.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:19)
+	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21)
+	at org.mockito.internal.invocation.realmethod.CleanTraceRealMethod.invoke(CleanTraceRealMethod.java:30)
+	at org.mockito.internal.invocation.InvocationImpl.callRealMethod(InvocationImpl.java:112)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:42)
+	at org.mockito.Answers.answer(Answers.java:90)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:93)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+	at org.mockito.internal.creation.cglib.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+	at com.google.monitoring.metrics.MetricReporter$$EnhancerByMockitoWithCGLIB$$c38c3173.shutDown(<generated>)
+	at com.google.monitoring.metrics.MetricReporterTest.testShutDown_enqueuesBatchAndPoisonPill(MetricReporterTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.346 s - in com.google.monitoring.metrics.[1mMetricReporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.google.monitoring.metrics.[1mLinearFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mCustomFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.google.monitoring.metrics.[1mVirtualMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mStoredMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.google.monitoring.metrics.[1mFibonacciFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.google.monitoring.metrics.[1mExponentialFitterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mMetricSchemaTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.google.monitoring.metrics.[1mCounterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.google.monitoring.metrics.[1mLabelDescriptorTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.google.monitoring.metrics.[1mEventMetricTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricExporterTest[m
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Received a poison pill, stopping now
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+WARNING: Threw an exception while writing or flushing metrics
+java.io.IOException
+	at com.google.monitoring.metrics.MetricExporter.run(MetricExporter.java:62)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:66)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricExporter run
+INFO: Started up MetricExporter
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.google.monitoring.metrics.[1mMetricExporterTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.google.monitoring.metrics.[1mMutableDistributionTest[m
+[[1;34mINFO[m] Running com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricRegistryImpl newIncrementableMetric
+INFO: Registered new counter: /test_counter
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricRegistryImpl unregisterMetric
+INFO: Unregistered metric: /test/metric
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricRegistryImpl newGauge
+INFO: Registered new callback metric: /test_metric
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricRegistryImpl newSettableMetric
+INFO: Registered new stored metric: /test_metric
+Oct 02, 2026 9:09:37 AM com.google.monitoring.metrics.MetricRegistryImpl newEventMetric
+INFO: Registered new event metric: /test_metric
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.google.monitoring.metrics.[1mMetricRegistryImplTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 81, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex" -DnondexJarDir="/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex" -DnondexExecid=ef5APZPm4sI3+f52NQBD+NL8jzuoNgixJYKw18UArkc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex" -DnondexJarDir="/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex" -DnondexExecid=MB88HvqfifbmzVA2e5GH+G8j1VE+E+dCwY7iHSxrivw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex" -DnondexJarDir="/home/a360/research/projects/java-monitoring-client-library/metrics/.nondex" -DnondexExecid=nEVLBOaJsek2P57QQTN7q1r1L6duq8o9v3ExAsRWbc= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/java-monitoring-client-library/metrics/.nondex/ef5APZPm4sI3+f52NQBD+NL8jzuoNgixJYKw18UArkc=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: ef5APZPm4sI3+f52NQBD+NL8jzuoNgixJYKw18UArkc=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  48.362 s
+[[1;34mINFO[m] Finished at: 2026-10-02T09:09:37-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

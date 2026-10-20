@@ -1,0 +1,52 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mcom.espertech:esper-example-rfidassetzone[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Esper Examples - RFIDAssetZone 8.0.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mesper-example-rfidassetzone[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/esper/examples/rfidassetzone/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:compile[m [1m(default-compile)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 11 resources from etc to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mesper-example-rfidassetzone[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mesper-example-rfidassetzone[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 2 tests. Time taken: 0.08899998664855957 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.espertech:esper-example-rfidassetzone:8.0.0 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/esper/examples/rfidassetzone/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/esper/examples/rfidassetzone/.dtfixingtools/original-order
+[INFO] Getting original results (2 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (8.2 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (8.2 seconds elapsed (16.5 total), 4.1 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (16.5 seconds elapsed (24.7 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/esper/examples/rfidassetzone/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/esper/examples/rfidassetzone/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  36.031 s
+[[1;34mINFO[m] Finished at: 2026-10-02T08:19:18-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

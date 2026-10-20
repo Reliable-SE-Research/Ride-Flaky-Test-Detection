@@ -1,0 +1,1236 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mnet.redpipe:redpipe-engine[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding redpipe-engine 0.0.5-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mredpipe-engine[0;1m >>>[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mredpipe-engine[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 3 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mredpipe-engine[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mredpipe-engine[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mredpipe-engine[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mredpipe-engine[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mredpipe-engine[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_8hENbkewpN+er02tkaIlJzk6VsXPDN3fE3FWL26BEs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/redpipe/redpipe-engine/.nondex/clean_8hENbkewpN+er02tkaIlJzk6VsXPDN3fE3FWL26BEs=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.redpipe.engine.ServerExtendableTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/home/a360/.m2/repository/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 9:00:32 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 6.0.13.Final
+Oct 02, 2026 9:00:32 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:33 AM org.reflections.Reflections scan
+INFO: Reflections took 38 ms to scan 2 urls, producing 9 keys and 12 values 
+Oct 02, 2026 9:00:33 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: MLog clients using slf4j logging.
+Oct 02, 2026 9:00:33 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+Server started on port 9000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.051 sec - in net.redpipe.engine.ServerExtendableTest
+Running net.redpipe.engine.ApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:34 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:34 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-flowable
+uri: /context-flowable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:36 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:36 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:36 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:36 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:36 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:36 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:37 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:37 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:37 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:37 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:38 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-maybe
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:39 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:39 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:39 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:39 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-observable
+uri: /context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:40 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:40 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:40 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:41 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:41 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:41 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:41 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:41 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-observable
+uri: /rx1/context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:42 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-completable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:44 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:44 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:44 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:44 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:44 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:44 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:44 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:44 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:44 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:44 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:44 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:44 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:44 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:44 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:45 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:45 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:45 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:45 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:45 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:45 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:45 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:45 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:45 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:45 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:45 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:45 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:46 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:46 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:46 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:46 AM org.reflections.Reflections scan
+INFO: Reflections took 1 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:46 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:46 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:47 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:47 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 13.607 sec - in net.redpipe.engine.ApiTest
+Running net.redpipe.engine.swagger.SwaggerApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:47 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 7 keys and 7 values 
+Server started on port 9000
+Oct 02, 2026 9:00:47 AM org.reflections.Reflections scan
+INFO: Reflections took 2 ms to scan 2 urls, producing 7 keys and 7 values 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.189 sec - in net.redpipe.engine.swagger.SwaggerApiTest
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 2
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexJarDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexExecid=3z4Ljtob8yhG3mFfFDU7kpuzeHM3N6qFRuCr6xabfIw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/redpipe/redpipe-engine/.nondex/3z4Ljtob8yhG3mFfFDU7kpuzeHM3N6qFRuCr6xabfIw=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.redpipe.engine.ServerExtendableTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/home/a360/.m2/repository/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 9:00:49 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 6.0.13.Final
+Oct 02, 2026 9:00:49 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:49 AM org.reflections.Reflections scan
+INFO: Reflections took 41 ms to scan 2 urls, producing 9 keys and 12 values 
+Oct 02, 2026 9:00:49 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: MLog clients using slf4j logging.
+Oct 02, 2026 9:00:49 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+Server started on port 9000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.184 sec - in net.redpipe.engine.ServerExtendableTest
+Running net.redpipe.engine.ApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:50 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:50 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-flowable
+uri: /context-flowable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:53 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:53 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:53 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:53 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:53 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:53 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:53 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:54 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:54 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:54 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:55 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:55 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-maybe
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:56 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:56 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:56 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:56 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-observable
+uri: /context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:57 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:57 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:57 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:58 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:59 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:00:59 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:00:59 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:00:59 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-observable
+uri: /rx1/context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:00 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:00 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-completable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:01 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:01 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:01 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:01 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:01 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:01 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:01 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:01 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:01 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:01 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:01 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:01 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:02 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:02 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:03 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:03 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:03 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:03 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:03 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:03 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:03 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:03 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:03 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:03 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:03 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:03 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:04 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:04 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:04 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:04 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:04 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:04 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:05 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:05 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:05 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:05 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 15.3 sec - in net.redpipe.engine.ApiTest
+Running net.redpipe.engine.swagger.SwaggerApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:06 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:06 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 7 keys and 7 values 
+Server started on port 9000
+Oct 02, 2026 9:01:06 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 7 keys and 7 values 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.246 sec - in net.redpipe.engine.swagger.SwaggerApiTest
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 2
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexJarDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexExecid=ZowQDddfbWZ7wK78MUYWK7aM7+0R1CmAs3GG7Dgtsis=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/redpipe/redpipe-engine/.nondex/ZowQDddfbWZ7wK78MUYWK7aM7+0R1CmAs3GG7Dgtsis=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.redpipe.engine.ServerExtendableTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/home/a360/.m2/repository/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 9:01:07 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 6.0.13.Final
+Oct 02, 2026 9:01:07 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:08 AM org.reflections.Reflections scan
+INFO: Reflections took 45 ms to scan 2 urls, producing 9 keys and 12 values 
+Oct 02, 2026 9:01:08 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: MLog clients using slf4j logging.
+Oct 02, 2026 9:01:08 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+Server started on port 9000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.247 sec - in net.redpipe.engine.ServerExtendableTest
+Running net.redpipe.engine.ApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:09 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:09 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-flowable
+uri: /context-flowable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:11 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:11 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:11 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:11 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:12 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:12 AM org.reflections.Reflections scan
+INFO: Reflections took 7 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:12 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:12 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:12 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:12 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:13 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:13 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-maybe
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:15 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:15 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:15 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:15 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-observable
+uri: /context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:16 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:16 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:16 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:17 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:17 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:17 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:17 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:17 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-observable
+uri: /rx1/context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:18 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:18 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-completable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:19 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:19 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:20 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:20 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:20 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:20 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:20 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:20 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:20 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:20 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:20 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:20 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:20 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:20 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:21 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:21 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:21 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:21 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:21 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:21 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:21 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:22 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:22 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:22 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:22 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:22 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:23 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:23 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:24 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:24 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:24 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:24 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:24 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:24 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:24 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 15.398 sec - in net.redpipe.engine.ApiTest
+Running net.redpipe.engine.swagger.SwaggerApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:24 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 7 keys and 7 values 
+Server started on port 9000
+Oct 02, 2026 9:01:24 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 7 keys and 7 values 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 sec - in net.redpipe.engine.swagger.SwaggerApiTest
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 2
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexJarDir=/home/a360/research/projects/redpipe/redpipe-engine/.nondex
+nondexExecid=1zuYcSwMuZ5e5CSf+gW76yj98aueAOpV7Jg62M39cv0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/redpipe/redpipe-engine/.nondex/1zuYcSwMuZ5e5CSf+gW76yj98aueAOpV7Jg62M39cv0=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.redpipe.engine.ServerExtendableTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/home/a360/.m2/repository/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 9:01:26 AM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 6.0.13.Final
+Oct 02, 2026 9:01:26 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:26 AM org.reflections.Reflections scan
+INFO: Reflections took 38 ms to scan 2 urls, producing 9 keys and 12 values 
+Oct 02, 2026 9:01:26 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: MLog clients using slf4j logging.
+Oct 02, 2026 9:01:26 AM com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger log
+INFO: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+Server started on port 9000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.2 sec - in net.redpipe.engine.ServerExtendableTest
+Running net.redpipe.engine.ApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:27 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:27 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-flowable
+uri: /context-flowable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:30 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:30 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:30 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:30 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:30 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:30 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:30 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:30 AM org.reflections.Reflections scan
+INFO: Reflections took 7 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:31 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:31 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:32 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:32 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-maybe
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:33 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:33 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:33 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:33 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-observable
+uri: /context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:34 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:34 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:34 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:35 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:36 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:36 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:36 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:36 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /rx1/context-observable
+uri: /rx1/context-observable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:37 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:37 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-completable
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:38 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:38 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:38 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:38 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:38 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:38 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:38 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:38 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:39 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+uri: /context-single
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:40 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:40 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:40 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:40 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:40 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:40 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:40 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:40 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:40 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:40 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:40 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:40 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:41 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:41 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:41 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:41 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:41 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:41 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:41 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 5 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:42 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 6 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Oct 02, 2026 9:01:42 AM org.apache.shiro.session.mgt.AbstractValidatingSessionManager enableSessionValidation
+INFO: Enabling session validation scheduler...
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:42 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:42 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 9 keys and 12 values 
+Server started on port 9000
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 15.318 sec - in net.redpipe.engine.ApiTest
+Running net.redpipe.engine.swagger.SwaggerApiTest
+/home/a360/research/projects/redpipe/redpipe-engine/conf/config.json
+Oct 02, 2026 9:01:43 AM org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver getValidatorFactory
+INFO: RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+Oct 02, 2026 9:01:43 AM org.reflections.Reflections scan
+INFO: Reflections took 3 ms to scan 2 urls, producing 7 keys and 7 values 
+Server started on port 9000
+Oct 02, 2026 9:01:43 AM org.reflections.Reflections scan
+INFO: Reflections took 4 ms to scan 2 urls, producing 7 keys and 7 values 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec - in net.redpipe.engine.swagger.SwaggerApiTest
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 2
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/redpipe/redpipe-engine/.nondex" -DnondexJarDir="/home/a360/research/projects/redpipe/redpipe-engine/.nondex" -DnondexExecid=3z4Ljtob8yhG3mFfFDU7kpuzeHM3N6qFRuCr6xabfIw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/redpipe/redpipe-engine/.nondex" -DnondexJarDir="/home/a360/research/projects/redpipe/redpipe-engine/.nondex" -DnondexExecid=ZowQDddfbWZ7wK78MUYWK7aM7+0R1CmAs3GG7Dgtsis= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/redpipe/redpipe-engine/.nondex" -DnondexJarDir="/home/a360/research/projects/redpipe/redpipe-engine/.nondex" -DnondexExecid=1zuYcSwMuZ5e5CSf+gW76yj98aueAOpV7Jg62M39cv0= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/redpipe/redpipe-engine/.nondex/3z4Ljtob8yhG3mFfFDU7kpuzeHM3N6qFRuCr6xabfIw=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 3z4Ljtob8yhG3mFfFDU7kpuzeHM3N6qFRuCr6xabfIw=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:14 min
+[[1;34mINFO[m] Finished at: 2026-10-02T09:01:43-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

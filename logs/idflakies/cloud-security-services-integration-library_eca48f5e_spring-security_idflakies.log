@@ -1,0 +1,51 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.sap.cloud.security:spring-security[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding spring-security 2.11.3[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mspring-security[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.7:prepare-agent[m [1m(default-prepare-agent)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/a360/research/projects/cloud-security-services-integration-library/spring-security/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/cloud-security-services-integration-library/spring-security/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] Copying 4 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mspring-security[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mspring-security[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mspring-security[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.33700013160705566 seconds
+INFO: Locating tests...
+INFO: Located 79 tests. Time taken: 0.40199995040893555 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.sap.cloud.security:spring-security:2.11.3 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/cloud-security-services-integration-library/spring-security/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/cloud-security-services-integration-library/spring-security/.dtfixingtools/original-order
+[INFO] Getting original results (79 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (10.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (10.1 seconds elapsed (20.5 total), 5.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (20.5 seconds elapsed (31.0 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/cloud-security-services-integration-library/spring-security/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/cloud-security-services-integration-library/spring-security/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  45.027 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:18:20-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

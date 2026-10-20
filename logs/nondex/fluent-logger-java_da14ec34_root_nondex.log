@@ -1,0 +1,371 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.fluentd:fluent-logger[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Fluent Logger for Java 0.3.4-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mfluent-logger[0;1m >>>[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.16.1-GA during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0:enforce[m [1m(enforce-maven)[m @ [36mfluent-logger[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mfluent-logger[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/fluent-logger-java/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mfluent-logger[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mfluent-logger[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mfluent-logger[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mfluent-logger[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mfluent-logger[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_AQXNzcSbDs+8wi1gv8kDR1xJr1H7iftl7Ys9RDYbv4Q=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/fluent-logger-java/.nondex/clean_AQXNzcSbDs+8wi1gv8kDR1xJr1H7iftl7Ys9RDYbv4Q=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.646 sec
+Running org.fluentd.logger.TestFluentLogger
+2026-10-02 08:55:27,610 [39mDEBUG[0;39m [pool-2-thread-1] Started MockFluentd port:40333
+2026-10-02 08:55:30,057 [39mDEBUG[0;39m [pool-2-thread-1] Terminated MockFluentd port:40333
+2026-10-02 08:55:30,071 [39mDEBUG[0;39m [pool-3-thread-1] Started MockFluentd port:41023
+2026-10-02 08:55:30,974 [34mINFO [0;39m [main] Closing the current fluentd instance
+2026-10-02 08:55:30,978 [39mDEBUG[0;39m [pool-3-thread-1] Terminated MockFluentd port:41023
+2026-10-02 08:55:31,484 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:55:32,238 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:55:32,991 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:55:32,992 [39mDEBUG[0;39m [pool-3-thread-2] Started MockFluentd port:41023
+2026-10-02 08:55:36,147 [39mDEBUG[0;39m [pool-3-thread-2] Terminated MockFluentd port:41023
+2026-10-02 08:55:38,175 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:55:38,176 [39mDEBUG[0;39m [pool-7-thread-1] Started MockFluentd port:38665
+2026-10-02 08:55:38,581 [39mDEBUG[0;39m [pool-7-thread-1] Terminated MockFluentd port:38665
+2026-10-02 08:55:38,596 [39mDEBUG[0;39m [pool-9-thread-1] Started MockFluentd port:42419
+2026-10-02 08:55:41,001 [39mDEBUG[0;39m [pool-9-thread-1] Terminated MockFluentd port:42419
+2026-10-02 08:55:41,016 [39mDEBUG[0;39m [pool-11-thread-1] Started MockFluentd port:40773
+2026-10-02 08:55:54,951 [39mDEBUG[0;39m [pool-11-thread-1] Terminated MockFluentd port:40773
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.381 sec
+Running org.fluentd.logger.sender.TestSenderFluentdDownOperation
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.003 sec
+Running org.fluentd.logger.sender.TestNullSender
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.fluentd.logger.sender.TestRawSocketSender
+2026-10-02 08:55:54,964 [39mDEBUG[0;39m [Thread-6] Started MockFluentd port:42655
+2026-10-02 08:55:57,476 [39mDEBUG[0;39m [Thread-6] Terminated MockFluentd port:42655
+2026-10-02 08:55:57,490 [39mDEBUG[0;39m [Thread-7] Started MockFluentd port:37753
+2026-10-02 08:55:57,892 [39mDEBUG[0;39m [Thread-8] Started MockFluentd port:33569
+2026-10-02 08:56:00,404 [39mDEBUG[0;39m [Thread-7] Terminated MockFluentd port:37753
+2026-10-02 08:56:00,405 [39mDEBUG[0;39m [Thread-8] Terminated MockFluentd port:33569
+2026-10-02 08:56:00,410 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:00,668 [39mDEBUG[0;39m [Thread-9] Started MockFluentd port:33251
+2026-10-02 08:56:05,225 [39mDEBUG[0;39m [Thread-9] Terminated MockFluentd port:33251
+2026-10-02 08:56:05,227 [39mDEBUG[0;39m [Thread-10] Started MockFluentd port:38065
+2026-10-02 08:56:06,633 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:56:07,138 [39mDEBUG[0;39m [Thread-10] Terminated MockFluentd port:38065
+2026-10-02 08:56:07,139 [39mDEBUG[0;39m [Thread-11] Started MockFluentd port:44425
+2026-10-02 08:56:07,141 [1;31mERROR[0;39m [main] Log data 545 larger than remaining buffer size 256
+2026-10-02 08:56:07,141 [39mDEBUG[0;39m [Thread-11] Terminated MockFluentd port:44425
+2026-10-02 08:56:07,145 [39mDEBUG[0;39m [Thread-12] Started MockFluentd port:34689
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.589 sec
+2026-10-02 08:56:09,550 [39mDEBUG[0;39m [Thread-12] Terminated MockFluentd port:34689
+
+Results :
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 2
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexJarDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexExecid=Fk421CWTV+RJdBK6diXSYPeRTr0I0WSqZsGXj8XOQI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/fluent-logger-java/.nondex/Fk421CWTV+RJdBK6diXSYPeRTr0I0WSqZsGXj8XOQI=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.619 sec
+Running org.fluentd.logger.sender.TestSenderFluentdDownOperation
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.003 sec
+Running org.fluentd.logger.sender.TestNullSender
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.fluentd.logger.sender.TestRawSocketSender
+2026-10-02 08:56:12,630 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:13,135 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:13,886 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:15,011 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:16,700 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:18,352 [39mDEBUG[0;39m [Thread-1] Started MockFluentd port:39643
+2026-10-02 08:56:22,925 [39mDEBUG[0;39m [Thread-1] Terminated MockFluentd port:39643
+2026-10-02 08:56:22,927 [39mDEBUG[0;39m [Thread-2] Started MockFluentd port:33323
+2026-10-02 08:56:25,335 [39mDEBUG[0;39m [Thread-2] Terminated MockFluentd port:33323
+2026-10-02 08:56:25,337 [39mDEBUG[0;39m [Thread-3] Started MockFluentd port:36613
+2026-10-02 08:56:26,743 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:56:27,249 [39mDEBUG[0;39m [Thread-3] Terminated MockFluentd port:36613
+2026-10-02 08:56:27,257 [39mDEBUG[0;39m [Thread-4] Started MockFluentd port:33943
+2026-10-02 08:56:27,660 [39mDEBUG[0;39m [Thread-5] Started MockFluentd port:43217
+2026-10-02 08:56:32,009 [39mDEBUG[0;39m [Thread-4] Terminated MockFluentd port:33943
+2026-10-02 08:56:32,011 [39mDEBUG[0;39m [Thread-5] Terminated MockFluentd port:43217
+2026-10-02 08:56:32,013 [39mDEBUG[0;39m [Thread-6] Started MockFluentd port:36031
+2026-10-02 08:56:35,326 [39mDEBUG[0;39m [Thread-6] Terminated MockFluentd port:36031
+2026-10-02 08:56:35,330 [39mDEBUG[0;39m [Thread-7] Started MockFluentd port:40785
+2026-10-02 08:56:35,331 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:35,332 [1;31mERROR[0;39m [main] Log data 545 larger than remaining buffer size 256
+2026-10-02 08:56:35,333 [39mDEBUG[0;39m [Thread-7] Terminated MockFluentd port:40785
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.732 sec
+Running org.fluentd.logger.TestFluentLogger
+2026-10-02 08:56:35,412 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:35,413 [39mDEBUG[0;39m [pool-11-thread-1] Started MockFluentd port:38339
+2026-10-02 08:56:35,819 [39mDEBUG[0;39m [pool-11-thread-1] Terminated MockFluentd port:38339
+2026-10-02 08:56:35,838 [39mDEBUG[0;39m [pool-13-thread-1] Started MockFluentd port:36997
+2026-10-02 08:56:42,343 [39mDEBUG[0;39m [pool-13-thread-1] Terminated MockFluentd port:36997
+2026-10-02 08:56:42,370 [39mDEBUG[0;39m [pool-15-thread-1] Started MockFluentd port:42115
+2026-10-02 08:56:43,274 [34mINFO [0;39m [main] Closing the current fluentd instance
+2026-10-02 08:56:43,277 [39mDEBUG[0;39m [pool-15-thread-1] Terminated MockFluentd port:42115
+2026-10-02 08:56:43,779 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:56:44,532 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:45,285 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:45,286 [39mDEBUG[0;39m [pool-15-thread-2] Started MockFluentd port:42115
+2026-10-02 08:56:48,442 [39mDEBUG[0;39m [pool-15-thread-2] Terminated MockFluentd port:42115
+2026-10-02 08:56:50,476 [39mDEBUG[0;39m [pool-19-thread-1] Started MockFluentd port:45235
+2026-10-02 08:56:52,881 [39mDEBUG[0;39m [pool-19-thread-1] Terminated MockFluentd port:45235
+2026-10-02 08:56:52,899 [39mDEBUG[0;39m [pool-21-thread-1] Started MockFluentd port:40795
+2026-10-02 08:56:55,334 [39mDEBUG[0;39m [pool-21-thread-1] Terminated MockFluentd port:40795
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.992 sec
+
+Results :
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 2
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexJarDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexExecid=RAyqHsIJbuR0gqxp6qofkk8kh+0UiHo6DvCrofsAt4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/fluent-logger-java/.nondex/RAyqHsIJbuR0gqxp6qofkk8kh+0UiHo6DvCrofsAt4=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.sender.TestSenderFluentdDownOperation
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.05 sec
+Running org.fluentd.logger.sender.TestRawSocketSender
+2026-10-02 08:56:56,130 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:56,634 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:57,385 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:56:58,511 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:00,200 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:01,780 [39mDEBUG[0;39m [Thread-1] Started MockFluentd port:33439
+2026-10-02 08:57:06,723 [39mDEBUG[0;39m [Thread-1] Terminated MockFluentd port:33439
+2026-10-02 08:57:06,729 [39mDEBUG[0;39m [Thread-2] Started MockFluentd port:39867
+2026-10-02 08:57:07,131 [39mDEBUG[0;39m [Thread-3] Started MockFluentd port:46207
+2026-10-02 08:57:11,500 [39mDEBUG[0;39m [Thread-2] Terminated MockFluentd port:39867
+2026-10-02 08:57:11,502 [39mDEBUG[0;39m [Thread-3] Terminated MockFluentd port:46207
+2026-10-02 08:57:11,504 [39mDEBUG[0;39m [Thread-4] Started MockFluentd port:38453
+2026-10-02 08:57:13,909 [39mDEBUG[0;39m [Thread-4] Terminated MockFluentd port:38453
+2026-10-02 08:57:13,911 [39mDEBUG[0;39m [Thread-5] Started MockFluentd port:41291
+2026-10-02 08:57:17,215 [39mDEBUG[0;39m [Thread-5] Terminated MockFluentd port:41291
+2026-10-02 08:57:17,217 [39mDEBUG[0;39m [Thread-6] Started MockFluentd port:45365
+2026-10-02 08:57:17,230 [1;31mERROR[0;39m [main] Log data 545 larger than remaining buffer size 256
+2026-10-02 08:57:17,232 [39mDEBUG[0;39m [Thread-6] Terminated MockFluentd port:45365
+2026-10-02 08:57:17,234 [39mDEBUG[0;39m [Thread-7] Started MockFluentd port:37347
+2026-10-02 08:57:18,641 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:57:19,147 [39mDEBUG[0;39m [Thread-7] Terminated MockFluentd port:37347
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.372 sec
+Running org.fluentd.logger.sender.TestNullSender
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.fluentd.logger.TestFluentLogger
+2026-10-02 08:57:19,238 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:19,239 [39mDEBUG[0;39m [pool-11-thread-1] Started MockFluentd port:35023
+2026-10-02 08:57:19,645 [39mDEBUG[0;39m [pool-11-thread-1] Terminated MockFluentd port:35023
+2026-10-02 08:57:19,676 [39mDEBUG[0;39m [pool-13-thread-1] Started MockFluentd port:41563
+2026-10-02 08:57:22,129 [39mDEBUG[0;39m [pool-13-thread-1] Terminated MockFluentd port:41563
+2026-10-02 08:57:22,146 [39mDEBUG[0;39m [pool-15-thread-1] Started MockFluentd port:32919
+2026-10-02 08:57:24,550 [39mDEBUG[0;39m [pool-15-thread-1] Terminated MockFluentd port:32919
+2026-10-02 08:57:24,567 [39mDEBUG[0;39m [pool-17-thread-1] Started MockFluentd port:46271
+2026-10-02 08:57:31,095 [39mDEBUG[0;39m [pool-17-thread-1] Terminated MockFluentd port:46271
+2026-10-02 08:57:31,126 [39mDEBUG[0;39m [pool-19-thread-1] Started MockFluentd port:36161
+2026-10-02 08:57:32,029 [34mINFO [0;39m [main] Closing the current fluentd instance
+2026-10-02 08:57:32,031 [39mDEBUG[0;39m [pool-19-thread-1] Terminated MockFluentd port:36161
+2026-10-02 08:57:32,533 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:57:33,285 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:34,037 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:34,039 [39mDEBUG[0;39m [pool-19-thread-2] Started MockFluentd port:36161
+2026-10-02 08:57:37,193 [39mDEBUG[0;39m [pool-19-thread-2] Terminated MockFluentd port:36161
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.03 sec
+Running org.fluentd.logger.TestFluentLogFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.313 sec
+
+Results :
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 2
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexJarDir=/home/a360/research/projects/fluent-logger-java/.nondex
+nondexExecid=Jr2Zcu+n610ZeGwF4RHuTXRiJ9ooYaer4AeZkU0LGic=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/fluent-logger-java/.nondex/Jr2Zcu+n610ZeGwF4RHuTXRiJ9ooYaer4AeZkU0LGic=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-02 08:57:42,297 [39mDEBUG[0;39m [pool-2-thread-1] Started MockFluentd port:39463
+2026-10-02 08:57:48,844 [39mDEBUG[0;39m [pool-2-thread-1] Terminated MockFluentd port:39463
+2026-10-02 08:57:48,872 [39mDEBUG[0;39m [pool-5-thread-1] Started MockFluentd port:37619
+2026-10-02 08:57:51,333 [39mDEBUG[0;39m [pool-5-thread-1] Terminated MockFluentd port:37619
+2026-10-02 08:57:51,350 [39mDEBUG[0;39m [pool-7-thread-1] Started MockFluentd port:43247
+2026-10-02 08:57:53,755 [39mDEBUG[0;39m [pool-7-thread-1] Terminated MockFluentd port:43247
+2026-10-02 08:57:53,777 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:53,780 [39mDEBUG[0;39m [pool-9-thread-1] Started MockFluentd port:44809
+2026-10-02 08:57:54,185 [39mDEBUG[0;39m [pool-9-thread-1] Terminated MockFluentd port:44809
+2026-10-02 08:57:54,203 [39mDEBUG[0;39m [pool-10-thread-1] Started MockFluentd port:35269
+2026-10-02 08:57:55,106 [34mINFO [0;39m [main] Closing the current fluentd instance
+2026-10-02 08:57:55,109 [39mDEBUG[0;39m [pool-10-thread-1] Terminated MockFluentd port:35269
+2026-10-02 08:57:55,611 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:57:56,364 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:57,117 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:57:57,118 [39mDEBUG[0;39m [pool-10-thread-2] Started MockFluentd port:35269
+2026-10-02 08:58:00,272 [39mDEBUG[0;39m [pool-10-thread-2] Terminated MockFluentd port:35269
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.377 sec
+Running org.fluentd.logger.TestFluentLogFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.331 sec
+Running org.fluentd.logger.sender.TestNullSender
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.fluentd.logger.sender.TestRawSocketSender
+2026-10-02 08:58:04,652 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:58:05,154 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:58:05,905 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:58:07,030 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:58:08,719 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-02 08:58:10,234 [39mDEBUG[0;39m [Thread-7] Started MockFluentd port:33321
+2026-10-02 08:58:14,606 [39mDEBUG[0;39m [Thread-7] Terminated MockFluentd port:33321
+2026-10-02 08:58:14,608 [39mDEBUG[0;39m [Thread-8] Started MockFluentd port:44217
+2026-10-02 08:58:16,019 [1;31mERROR[0;39m [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Connection reset by peer (Write failed)
+2026-10-02 08:58:16,523 [39mDEBUG[0;39m [Thread-8] Terminated MockFluentd port:44217
+2026-10-02 08:58:16,534 [39mDEBUG[0;39m [Thread-9] Started MockFluentd port:33995
+2026-10-02 08:58:16,937 [39mDEBUG[0;39m [Thread-10] Started MockFluentd port:35337
+2026-10-02 08:58:21,215 [39mDEBUG[0;39m [Thread-9] Terminated MockFluentd port:33995
+2026-10-02 08:58:21,216 [39mDEBUG[0;39m [Thread-10] Terminated MockFluentd port:35337
+2026-10-02 08:58:21,218 [39mDEBUG[0;39m [Thread-11] Started MockFluentd port:45993
+2026-10-02 08:58:24,677 [39mDEBUG[0;39m [Thread-11] Terminated MockFluentd port:45993
+2026-10-02 08:58:24,679 [39mDEBUG[0;39m [Thread-12] Started MockFluentd port:46641
+2026-10-02 08:58:27,084 [39mDEBUG[0;39m [Thread-12] Terminated MockFluentd port:46641
+2026-10-02 08:58:27,086 [39mDEBUG[0;39m [Thread-13] Started MockFluentd port:40637
+2026-10-02 08:58:27,088 [1;31mERROR[0;39m [main] Log data 545 larger than remaining buffer size 256
+2026-10-02 08:58:27,089 [39mDEBUG[0;39m [Thread-13] Terminated MockFluentd port:40637
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.475 sec
+Running org.fluentd.logger.sender.TestSenderFluentdDownOperation
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 2
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/fluent-logger-java/.nondex" -DnondexJarDir="/home/a360/research/projects/fluent-logger-java/.nondex" -DnondexExecid=Fk421CWTV+RJdBK6diXSYPeRTr0I0WSqZsGXj8XOQI= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/fluent-logger-java/.nondex" -DnondexJarDir="/home/a360/research/projects/fluent-logger-java/.nondex" -DnondexExecid=RAyqHsIJbuR0gqxp6qofkk8kh+0UiHo6DvCrofsAt4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/fluent-logger-java/.nondex" -DnondexJarDir="/home/a360/research/projects/fluent-logger-java/.nondex" -DnondexExecid=Jr2Zcu+n610ZeGwF4RHuTXRiJ9ooYaer4AeZkU0LGic= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/fluent-logger-java/.nondex/Fk421CWTV+RJdBK6diXSYPeRTr0I0WSqZsGXj8XOQI=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: Fk421CWTV+RJdBK6diXSYPeRTr0I0WSqZsGXj8XOQI=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:04 min
+[[1;34mINFO[m] Finished at: 2026-10-02T08:58:27-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

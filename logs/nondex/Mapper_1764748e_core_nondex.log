@@ -1,0 +1,347 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for tk.mybatis:mapper-core:jar:1.1.5
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ tk.mybatis:mapper-parent:3, /home/a360/.m2/repository/tk/mybatis/mapper-parent/3/mapper-parent-3.pom, line 141, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ tk.mybatis:mapper-parent:3, /home/a360/.m2/repository/tk/mybatis/mapper-parent/3/mapper-parent-3.pom, line 149, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-source-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 11.0.32.1
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[[1;34mINFO[m] Latest version of plugin org.apache.maven.plugins:maven-source-plugin failed compatibility check
+[[1;34mINFO[m] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-source-plugin
+[[1;34mINFO[m] Selected plugin org.apache.maven.plugins:maven-source-plugin:3.4.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mtk.mybatis:mapper-core[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding mapper-core 1.1.5[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmapper-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmapper-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/Mapper/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mmapper-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmapper-core[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/Mapper/core/src/test/resources
+[[1;34mINFO[m] Copying 11 resources from src/test/java to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mmapper-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmapper-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mmapper-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_13XJiZ3GQ8hS2UT5m05fVgNfeAfsb8S3wSoo7JaOIUM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/Mapper/core/.nondex/clean_13XJiZ3GQ8hS2UT5m05fVgNfeAfsb8S3wSoo7JaOIUM=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running tk.mybatis.mapper.mapperhelper.SqlHelperTest
+log4j:WARN No appenders could be found for logger (org.apache.ibatis.logging.LogFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 sec - in tk.mybatis.mapper.mapperhelper.SqlHelperTest
+Running tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Running tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+init
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+Running tk.mybatis.mapper.annotation.NameStyleTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in tk.mybatis.mapper.annotation.NameStyleTest
+Running tk.mybatis.mapper.annotation.TableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in tk.mybatis.mapper.annotation.TableTest
+Running tk.mybatis.mapper.annotation.RegisterMapperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.RegisterMapperTest
+Running tk.mybatis.mapper.annotation.IdTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in tk.mybatis.mapper.annotation.IdTest
+Running tk.mybatis.mapper.annotation.ColumnTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in tk.mybatis.mapper.annotation.ColumnTypeTest
+Running tk.mybatis.mapper.annotation.ColumnTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in tk.mybatis.mapper.annotation.ColumnTest
+Running tk.mybatis.mapper.annotation.VersionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in tk.mybatis.mapper.annotation.VersionTest
+Running tk.mybatis.mapper.annotation.KeySqlTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in tk.mybatis.mapper.annotation.KeySqlTest
+
+Results :
+
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexJarDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexExecid=XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/Mapper/core/.nondex/XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running tk.mybatis.mapper.mapperhelper.SqlHelperTest
+log4j:WARN No appenders could be found for logger (org.apache.ibatis.logging.LogFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.SqlHelperTest
+testLogicDeleteSql(tk.mybatis.mapper.mapperhelper.SqlHelperTest)  Time elapsed: 0.128 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<<where><if test="[id != null"> AND id = #{id}</if><if test="username != null"> AND username = #{username]}</if> AND is_valid ...> but was:<<where><if test="[username != null"> AND username = #{username}</if><if test="id != null"> AND id = #{id]}</if> AND is_valid ...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.SqlHelperTest.testLogicDeleteSql(SqlHelperTest.java:29)
+
+Running tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.FieldHelperTest
+testComplex(tk.mybatis.mapper.mapperhelper.FieldHelperTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[admin]> but was:<[user]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.FieldHelperTest.testComplex(FieldHelperTest.java:38)
+
+Running tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+test(tk.mybatis.mapper.mapperhelper.ComplexEntityTest)  Time elapsed: 0.057 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT [id,user_name,address,state  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state]}</if></where>> but was:<SELECT [user_name,address,state,id  FROM user <where><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state}</if><if test="id != null"> AND id = #{id]}</if></where>>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.ComplexEntityTest.test(ComplexEntityTest.java:155)
+
+Running tk.mybatis.mapper.annotation.NameStyleTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in tk.mybatis.mapper.annotation.NameStyleTest
+Running tk.mybatis.mapper.annotation.TableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in tk.mybatis.mapper.annotation.TableTest
+Running tk.mybatis.mapper.annotation.RegisterMapperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.RegisterMapperTest
+Running tk.mybatis.mapper.annotation.IdTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in tk.mybatis.mapper.annotation.IdTest
+Running tk.mybatis.mapper.annotation.ColumnTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in tk.mybatis.mapper.annotation.ColumnTypeTest
+Running tk.mybatis.mapper.annotation.ColumnTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in tk.mybatis.mapper.annotation.ColumnTest
+Running tk.mybatis.mapper.annotation.VersionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.VersionTest
+Running tk.mybatis.mapper.annotation.KeySqlTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in tk.mybatis.mapper.annotation.KeySqlTest
+
+Results :
+
+Failed tests: 
+  SqlHelperTest.testLogicDeleteSql:29 expected:<<where><if test="[id != null"> AND id = #{id}</if><if test="username != null"> AND username = #{username]}</if> AND is_valid ...> but was:<<where><if test="[username != null"> AND username = #{username}</if><if test="id != null"> AND id = #{id]}</if> AND is_valid ...>
+  FieldHelperTest.testComplex:38 expected:<[admin]> but was:<[user]>
+  ComplexEntityTest.test:155 expected:<SELECT [id,user_name,address,state  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state]}</if></where>> but was:<SELECT [user_name,address,state,id  FROM user <where><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state}</if><if test="id != null"> AND id = #{id]}</if></where>>
+
+Tests run: 29, Failures: 3, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexJarDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexExecid=snSo8RI8tXvPe5+vpJ6NSHoMgVIxAC0ojdg4+wpn6nc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/Mapper/core/.nondex/snSo8RI8tXvPe5+vpJ6NSHoMgVIxAC0ojdg4+wpn6nc=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running tk.mybatis.mapper.mapperhelper.SqlHelperTest
+log4j:WARN No appenders could be found for logger (org.apache.ibatis.logging.LogFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.SqlHelperTest
+testLogicDeleteSql(tk.mybatis.mapper.mapperhelper.SqlHelperTest)  Time elapsed: 0.122 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<<where><if test="[id != null"> AND id = #{id}</if><if test="username != null"> AND username = #{username]}</if> AND is_valid ...> but was:<<where><if test="[username != null"> AND username = #{username}</if><if test="id != null"> AND id = #{id]}</if> AND is_valid ...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.SqlHelperTest.testLogicDeleteSql(SqlHelperTest.java:29)
+
+Running tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Running tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+test(tk.mybatis.mapper.mapperhelper.ComplexEntityTest)  Time elapsed: 0.057 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT id,[user_name,address,state  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{stat]e}</if></where>> but was:<SELECT id,[address,state,user_name  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state}</if><if test="userName != null"> AND user_name = #{userNam]e}</if></where>>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.ComplexEntityTest.test(ComplexEntityTest.java:155)
+
+Running tk.mybatis.mapper.annotation.NameStyleTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in tk.mybatis.mapper.annotation.NameStyleTest
+Running tk.mybatis.mapper.annotation.TableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in tk.mybatis.mapper.annotation.TableTest
+Running tk.mybatis.mapper.annotation.RegisterMapperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.RegisterMapperTest
+Running tk.mybatis.mapper.annotation.IdTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE! - in tk.mybatis.mapper.annotation.IdTest
+testCompositeKeys(tk.mybatis.mapper.annotation.IdTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<<where> AND [name = #{name} AND orgId = #{orgId]}</where>> but was:<<where> AND [orgId = #{orgId} AND name = #{name]}</where>>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.annotation.IdTest.testCompositeKeys(IdTest.java:88)
+
+Running tk.mybatis.mapper.annotation.ColumnTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in tk.mybatis.mapper.annotation.ColumnTypeTest
+Running tk.mybatis.mapper.annotation.ColumnTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in tk.mybatis.mapper.annotation.ColumnTest
+Running tk.mybatis.mapper.annotation.VersionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.VersionTest
+Running tk.mybatis.mapper.annotation.KeySqlTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in tk.mybatis.mapper.annotation.KeySqlTest
+
+Results :
+
+Failed tests: 
+  SqlHelperTest.testLogicDeleteSql:29 expected:<<where><if test="[id != null"> AND id = #{id}</if><if test="username != null"> AND username = #{username]}</if> AND is_valid ...> but was:<<where><if test="[username != null"> AND username = #{username}</if><if test="id != null"> AND id = #{id]}</if> AND is_valid ...>
+  ComplexEntityTest.test:155 expected:<SELECT id,[user_name,address,state  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{stat]e}</if></where>> but was:<SELECT id,[address,state,user_name  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state}</if><if test="userName != null"> AND user_name = #{userNam]e}</if></where>>
+  IdTest.testCompositeKeys:88 expected:<<where> AND [name = #{name} AND orgId = #{orgId]}</where>> but was:<<where> AND [orgId = #{orgId} AND name = #{name]}</where>>
+
+Tests run: 29, Failures: 3, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for snSo8RI8tXvPe5+vpJ6NSHoMgVIxAC0ojdg4+wpn6nc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexJarDir=/home/a360/research/projects/Mapper/core/.nondex
+nondexExecid=uSywnH7t0lFRCRf7uA1WZYL9DP+moH2puAUHSNeAye0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/Mapper/core/.nondex/uSywnH7t0lFRCRf7uA1WZYL9DP+moH2puAUHSNeAye0=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running tk.mybatis.mapper.mapperhelper.SqlHelperTest
+log4j:WARN No appenders could be found for logger (org.apache.ibatis.logging.LogFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.SqlHelperTest
+testLogicDeleteSql(tk.mybatis.mapper.mapperhelper.SqlHelperTest)  Time elapsed: 0.119 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<<set>[username = #{username},is_valid = 1],</set>> but was:<<set>[is_valid = 1,username = #{username}],</set>>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.SqlHelperTest.testLogicDeleteSql(SqlHelperTest.java:38)
+
+Running tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in tk.mybatis.mapper.mapperhelper.FieldHelperTest
+Running tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec <<< FAILURE! - in tk.mybatis.mapper.mapperhelper.ComplexEntityTest
+test(tk.mybatis.mapper.mapperhelper.ComplexEntityTest)  Time elapsed: 0.052 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT [id,user_name,address,state  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state]}</if></where>> but was:<SELECT [state,id,user_name,address  FROM user <where><if test="state != null"> AND state = #{state}</if><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler]}</if></where>>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at tk.mybatis.mapper.mapperhelper.ComplexEntityTest.test(ComplexEntityTest.java:155)
+
+Running tk.mybatis.mapper.annotation.NameStyleTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in tk.mybatis.mapper.annotation.NameStyleTest
+Running tk.mybatis.mapper.annotation.TableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in tk.mybatis.mapper.annotation.TableTest
+Running tk.mybatis.mapper.annotation.RegisterMapperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.RegisterMapperTest
+Running tk.mybatis.mapper.annotation.IdTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in tk.mybatis.mapper.annotation.IdTest
+Running tk.mybatis.mapper.annotation.ColumnTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in tk.mybatis.mapper.annotation.ColumnTypeTest
+Running tk.mybatis.mapper.annotation.ColumnTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in tk.mybatis.mapper.annotation.ColumnTest
+Running tk.mybatis.mapper.annotation.VersionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in tk.mybatis.mapper.annotation.VersionTest
+Running tk.mybatis.mapper.annotation.KeySqlTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in tk.mybatis.mapper.annotation.KeySqlTest
+
+Results :
+
+Failed tests: 
+  SqlHelperTest.testLogicDeleteSql:38 expected:<<set>[username = #{username},is_valid = 1],</set>> but was:<<set>[is_valid = 1,username = #{username}],</set>>
+  ComplexEntityTest.test:155 expected:<SELECT [id,user_name,address,state  FROM user <where><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler}</if><if test="state != null"> AND state = #{state]}</if></where>> but was:<SELECT [state,id,user_name,address  FROM user <where><if test="state != null"> AND state = #{state}</if><if test="id != null"> AND id = #{id}</if><if test="userName != null"> AND user_name = #{userName}</if><if test="address != null"> AND address = #{address, typeHandler=tk.mybatis.mapper.mapperhelper.ComplexEntityTest.AddressHandler]}</if></where>>
+
+Tests run: 29, Failures: 2, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for uSywnH7t0lFRCRf7uA1WZYL9DP+moH2puAUHSNeAye0=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/Mapper/core/.nondex" -DnondexJarDir="/home/a360/research/projects/Mapper/core/.nondex" -DnondexExecid=XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.ComplexEntityTest#test
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.FieldHelperTest#testComplex
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.SqlHelperTest#testLogicDeleteSql
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/Mapper/core/.nondex" -DnondexJarDir="/home/a360/research/projects/Mapper/core/.nondex" -DnondexExecid=snSo8RI8tXvPe5+vpJ6NSHoMgVIxAC0ojdg4+wpn6nc= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.ComplexEntityTest#test
+[[1;33mWARNING[m] tk.mybatis.mapper.annotation.IdTest#testCompositeKeys
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.SqlHelperTest#testLogicDeleteSql
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/Mapper/core/.nondex" -DnondexJarDir="/home/a360/research/projects/Mapper/core/.nondex" -DnondexExecid=uSywnH7t0lFRCRf7uA1WZYL9DP+moH2puAUHSNeAye0= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.ComplexEntityTest#test
+[[1;33mWARNING[m] tk.mybatis.mapper.mapperhelper.SqlHelperTest#testLogicDeleteSql
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] tk.mybatis.mapper.mapperhelper.ComplexEntityTest#test
+[[1;34mINFO[m] tk.mybatis.mapper.mapperhelper.FieldHelperTest#testComplex
+[[1;34mINFO[m] tk.mybatis.mapper.mapperhelper.SqlHelperTest#testLogicDeleteSql
+[[1;34mINFO[m] tk.mybatis.mapper.annotation.IdTest#testCompositeKeys
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/Mapper/core/.nondex/XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.701 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:48:20-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mmapper-core[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/Mapper/core/.nondex/XnBWudbMKKONM9j+Ojv6VwUheHBiSXlbDo4aHJYKvkY= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

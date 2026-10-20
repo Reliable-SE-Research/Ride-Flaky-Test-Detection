@@ -1,0 +1,54 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.ibm.cloud:sdk-core[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding sdk-core 99-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] [1;33mParameter '[0;1;33msystemPropertyVariables[0;1;33m' is unknown for plugin '[0;1;33mjacoco-maven-plugin[0;1;33m:[0;1;33m0.8.3[0;1;33m:[0;1;33mprepare-agent[0;1;33m ([0;1;33mprepare-agent[0;1;33m)[0;1;33m'[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36msdk-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.3:prepare-agent[m [1m(prepare-agent)[m @ [36msdk-core[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/a360/research/projects/java-sdk-core/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36msdk-core[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36msdk-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 83 source files to /home/a360/research/projects/java-sdk-core/target/classes
+[[1;34mINFO[m] /home/a360/research/projects/java-sdk-core/src/main/java/com/ibm/cloud/sdk/core/http/HttpConfigOptions.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/java-sdk-core/src/main/java/com/ibm/cloud/sdk/core/http/HttpConfigOptions.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36msdk-core[0;1m ---[m
+[[1;34mINFO[m] Copying 14 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36msdk-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36msdk-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36msdk-core[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 1 tests. Time taken: 1.1990001201629639 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.ibm.cloud:sdk-core:99-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/java-sdk-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/java-sdk-core/.dtfixingtools/original-order
+[INFO] Getting original results (1 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (0.8 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (0.8 seconds elapsed (1.5 total), 0.4 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (1.5 seconds elapsed (2.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/java-sdk-core/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/java-sdk-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.888 s
+[[1;34mINFO[m] Finished at: 2026-10-01T20:25:18-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

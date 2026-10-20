@@ -1,0 +1,87 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.ignite:ignite-core[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding ignite-core 3.0.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mignite-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-maven-version)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.2.0:add-test-source[m [1m(add-test-source)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/ignite-3/modules/core/src/integrationTest/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.2.0:add-test-resource[m [1m(add-test-resource)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.2.2:flatten[m [1m(flatten)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.apache.ignite:ignite-core:jar:3.0.0-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 75 source files to /home/a360/research/projects/ignite-3/modules/core/target/classes
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[39,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[62,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[1580,20] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[1582,20] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[1586,55] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[1588,36] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[1589,43] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/util/GridUnsafe.java:[1593,41] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/tostring/IgniteToStringBuilder.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/ignite-3/modules/core/src/main/java/org/apache/ignite/internal/tostring/IgniteToStringBuilder.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/ignite-3/modules/core/src/test/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/ignite-3/modules/core/src/integrationTest/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 38 source files to /home/a360/research/projects/ignite-3/modules/core/target/test-classes
+[[1;34mINFO[m] /home/a360/research/projects/ignite-3/modules/core/src/test/java/org/apache/ignite/internal/testframework/IgniteTestUtils.java: /home/a360/research/projects/ignite-3/modules/core/src/test/java/org/apache/ignite/internal/testframework/IgniteTestUtils.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/ignite-3/modules/core/src/test/java/org/apache/ignite/internal/testframework/IgniteTestUtils.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/a360/research/projects/ignite-3/modules/core/src/test/java/org/apache/ignite/internal/testframework/IgniteTestUtils.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/ignite-3/modules/core/src/test/java/org/apache/ignite/internal/testframework/IgniteTestUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmodernizer:2.3.0:modernizer[m [1m(modernizer)[m @ [36mignite-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mignite-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mignite-core[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 171 tests. Time taken: 0.5439999103546143 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.ignite:ignite-core:3.0.0-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/ignite-3/modules/core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/ignite-3/modules/core/.dtfixingtools/original-order
+[INFO] Getting original results (171 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (32.2 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (32.2 seconds elapsed (64.3 total), 16.1 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (64.3 seconds elapsed (96.6 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/ignite-3/modules/core/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/ignite-3/modules/core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:21 min
+[[1;34mINFO[m] Finished at: 2026-10-02T04:20:27-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,349 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mlv.ctco.cukes:cukes-core[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Cukes Core 0.0.33-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcukes-core[0;1m >>>[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mcukes-core[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36mcukes-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mcukes-core[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 2 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36mcukes-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcukes-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mcukes-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_zc4r2SQXfMFSIvedsgGxum5w77BR7Vyzlft27loSkg=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec - in lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+Running lv.ctco.cukes.core.RunCukesTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/home/a360/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feature: Issue 92
+var1=b5e6dff8-59fe-4813-beb5-d0cd1130f8c5
+var2=adeea7da-e9c3-48cf-a677-6ffe0ca5e5b4
+var1=b5e6dff8-59fe-4813-beb5-d0cd1130f8c5
+
+  Scenario: should generate proper report       [90m# features/issue92.feature:2[0m
+    [32mGiven [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random UUID[0m [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mAnd [0m[32mlet variable "[0m[32m[1mvar2[0m[32m" to be random UUID[0m   [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar2[0m[32m" is set to "[0m[32m[1m{(var2)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+Feature: Password generation - by given length
+var1=3Pq8Na7W
+
+  Scenario: should generate password with provided length        [90m# features/passwordGeneration.feature:2[0m
+    [32mWhen [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random password with length [0m[32m[1m8[0m [90m# GivenSteps.var_randomPassword_by_length(String,int)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m                    [90m# TestSteps.variableIsSet(String,String)[0m
+
+2 Scenarios ([32m2 passed[0m)
+7 Steps ([32m7 passed[0m)
+0m0.296s
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.155 sec - in lv.ctco.cukes.core.RunCukesTest
+Running lv.ctco.cukes.core.internal.context.ContextInflaterTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 sec - in lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Running lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec - in lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+Running lv.ctco.cukes.core.internal.context.ContextCapturerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.292 sec - in lv.ctco.cukes.core.internal.context.ContextCapturerTest
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexJarDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexExecid=gQYUjVAIDRWCxGCbwnM3AuBJDu8Okarq7FrWRCqne84=
+nondexLogging=CONFIG
+test=
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.19.1/surefire-junit47-2.19.1.pom
+Progress (1): 4.1 kBProgress (1): 6.2 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.19.1/surefire-junit47-2.19.1.pom[90m (6.2 kB at 13 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.19.1/common-junit48-2.19.1.pom
+Progress (1): 3.1 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.19.1/common-junit48-2.19.1.pom[90m (3.1 kB at 24 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.19.1/common-junit4-2.19.1.pom
+Progress (1): 2.1 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.19.1/common-junit4-2.19.1.pom[90m (2.1 kB at 20 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.19.1/common-junit3-2.19.1.pom
+Progress (1): 1.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.19.1/common-junit3-2.19.1.pom[90m (1.6 kB at 12 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.pom
+Progress (1): 2.6 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.pom[90m (2.6 kB at 24 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.19.1/surefire-junit47-2.19.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.19.1/common-junit3-2.19.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.19.1/common-junit4-2.19.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.19.1/common-junit48-2.19.1.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.jar
+Progress (1): 2.3/153 kBProgress (1): 5.0/153 kBProgress (1): 7.7/153 kBProgress (1): 10/153 kB Progress (1): 13/153 kBProgress (1): 16/153 kBProgress (1): 19/153 kBProgress (1): 21/153 kBProgress (1): 24/153 kBProgress (1): 27/153 kBProgress (1): 30/153 kBProgress (1): 34/153 kBProgress (1): 38/153 kBProgress (1): 42/153 kBProgress (1): 46/153 kBProgress (1): 50/153 kBProgress (1): 54/153 kBProgress (1): 56/153 kBProgress (1): 60/153 kBProgress (1): 65/153 kBProgress (1): 69/153 kBProgress (1): 73/153 kBProgress (1): 77/153 kBProgress (1): 81/153 kBProgress (1): 85/153 kBProgress (1): 89/153 kBProgress (1): 93/153 kBProgress (1): 97/153 kBProgress (1): 101/153 kBProgress (1): 105/153 kBProgress (1): 110/153 kBProgress (1): 114/153 kBProgress (1): 118/153 kBProgress (1): 122/153 kBProgress (1): 124/153 kBProgress (1): 128/153 kBProgress (1): 132/153 kBProgress (1): 136/153 kBProgress (1): 140/153 kBProgress (1): 144/153 kBProgress (1): 149/153 kBProgress (1): 153/153 kBProgress (1): 153 kB    Progress (2): 153 kB | 2.3/12 kBProgress (2): 153 kB | 5.0/12 kBProgress (2): 153 kB | 7.7/12 kBProgress (2): 153 kB | 10/12 kB Progress (3): 153 kB | 10/12 kB | 2.3/26 kBProgress (3): 153 kB | 12 kB | 2.3/26 kB   Progress (3): 153 kB | 12 kB | 5.0/26 kBProgress (3): 153 kB | 12 kB | 7.7/26 kBProgress (3): 153 kB | 12 kB | 10/26 kB Progress (3): 153 kB | 12 kB | 13/26 kBProgress (3): 153 kB | 12 kB | 15/26 kBProgress (3): 153 kB | 12 kB | 18/26 kBProgress (3): 153 kB | 12 kB | 21/26 kBProgress (3): 153 kB | 12 kB | 24/26 kBProgress (3): 153 kB | 12 kB | 26 kB   Progress (4): 153 kB | 12 kB | 26 kB | 2.3/23 kBProgress (5): 153 kB | 12 kB | 26 kB | 2.3/23 kB | 2.3/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 2.3/23 kB | 5.0/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 5.5/23 kB | 5.0/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 8.2/23 kB | 5.0/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 8.2/23 kB | 7.7/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 11/23 kB | 7.7/38 kB Progress (5): 153 kB | 12 kB | 26 kB | 11/23 kB | 10/38 kB Progress (5): 153 kB | 12 kB | 26 kB | 14/23 kB | 10/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 14/23 kB | 13/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 16/23 kB | 13/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 16/23 kB | 16/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 19/23 kB | 16/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 19/23 kB | 19/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 22/23 kB | 19/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 22/23 kB | 21/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 21/38 kB   Progress (5): 153 kB | 12 kB | 26 kB | 23 kB | 24/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 27/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 30/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 33/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 36/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 38/38 kBProgress (5): 153 kB | 12 kB | 26 kB | 23 kB | 38 kB                                                       Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit3/2.19.1/common-junit3-2.19.1.jar[90m (12 kB at 54 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-junit47/2.19.1/surefire-junit47-2.19.1.jar[90m (153 kB at 724 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit4/2.19.1/common-junit4-2.19.1.jar[90m (26 kB at 122 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.jar[90m (38 kB at 181 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/surefire/common-junit48/2.19.1/common-junit48-2.19.1.jar[90m (23 kB at 83 kB/s)[0m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/home/a360/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feature: Issue 92
+Running Scenario: should generate proper report
+var1=4c92d466-d519-4dc1-927d-53a15f586c63
+var2=d80926ae-0b55-4b18-ab6d-3ee7f7057084
+var1=4c92d466-d519-4dc1-927d-53a15f586c63
+
+  Scenario: should generate proper report       [90m# features/issue92.feature:2[0m
+    [32mGiven [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random UUID[0m [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mAnd [0m[32mlet variable "[0m[32m[1mvar2[0m[32m" to be random UUID[0m   [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar2[0m[32m" is set to "[0m[32m[1m{(var2)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+Feature: Password generation - by given length
+var1=4qA0xV5q
+
+  Scenario: should generate password with provided length        [90m# features/passwordGeneration.feature:2[0m
+    [32mWhen [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random password with length [0m[32m[1m8[0m [90m# GivenSteps.var_randomPassword_by_length(String,int)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m                    [90m# TestSteps.variableIsSet(String,String)[0m
+
+2 Scenarios ([32m2 passed[0m)
+7 Steps ([32m7 passed[0m)
+0m0.336s
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.381 sec - in Scenario: should generate password with provided length
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Running lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Running lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Running lv.ctco.cukes.core.internal.context.ContextCapturerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in lv.ctco.cukes.core.internal.context.ContextCapturerTest
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexJarDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexExecid=UUBxCdRSskBGAGscbZ+VLd9JEPDaOyjhFnVJ6fQA4pY=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/home/a360/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feature: Issue 92
+Running Scenario: should generate proper report
+var1=d5d1f16a-ba18-4223-a2a3-b5f20f3698e0
+var2=19a08478-443c-4261-8612-0efcc59b6dca
+var1=d5d1f16a-ba18-4223-a2a3-b5f20f3698e0
+
+  Scenario: should generate proper report       [90m# features/issue92.feature:2[0m
+    [32mGiven [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random UUID[0m [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mAnd [0m[32mlet variable "[0m[32m[1mvar2[0m[32m" to be random UUID[0m   [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar2[0m[32m" is set to "[0m[32m[1m{(var2)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+Feature: Password generation - by given length
+var1=2Oo2Bf2O
+
+  Scenario: should generate password with provided length        [90m# features/passwordGeneration.feature:2[0m
+    [32mWhen [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random password with length [0m[32m[1m8[0m [90m# GivenSteps.var_randomPassword_by_length(String,int)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m                    [90m# TestSteps.variableIsSet(String,String)[0m
+
+2 Scenarios ([32m2 passed[0m)
+7 Steps ([32m7 passed[0m)
+0m0.360s
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.412 sec - in Scenario: should generate password with provided length
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Running lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Running lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Running lv.ctco.cukes.core.internal.context.ContextCapturerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec - in lv.ctco.cukes.core.internal.context.ContextCapturerTest
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexJarDir=/home/a360/research/projects/cukes/cukes-core/.nondex
+nondexExecid=NMB9DKaN5BGueLQdXjolNLzInBLg8MLkBVx0Issr8o=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in lv.ctco.cukes.core.facade.RandomGeneratorFacadeImplTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/home/a360/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feature: Issue 92
+Running Scenario: should generate proper report
+var1=9165e992-f791-4039-800b-f714af3ace77
+var2=26c84f58-b453-4ad0-86c9-535fd48fdb69
+var1=9165e992-f791-4039-800b-f714af3ace77
+
+  Scenario: should generate proper report       [90m# features/issue92.feature:2[0m
+    [32mGiven [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random UUID[0m [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mAnd [0m[32mlet variable "[0m[32m[1mvar2[0m[32m" to be random UUID[0m   [90m# GivenSteps.var_random_UUID(String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar2[0m[32m" is set to "[0m[32m[1m{(var2)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m   [90m# TestSteps.variableIsSet(String,String)[0m
+Feature: Password generation - by given length
+var1=3Nb5In2J
+
+  Scenario: should generate password with provided length        [90m# features/passwordGeneration.feature:2[0m
+    [32mWhen [0m[32mlet variable "[0m[32m[1mvar1[0m[32m" to be random password with length [0m[32m[1m8[0m [90m# GivenSteps.var_randomPassword_by_length(String,int)[0m
+    [32mThen [0m[32mvariable "[0m[32m[1mvar1[0m[32m" is set to "[0m[32m[1m{(var1)}[0m[32m"[0m                    [90m# TestSteps.variableIsSet(String,String)[0m
+
+2 Scenarios ([32m2 passed[0m)
+7 Steps ([32m7 passed[0m)
+0m0.348s
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 sec - in Scenario: should generate password with provided length
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Running lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in lv.ctco.cukes.core.internal.context.ContextInflaterTest
+Running lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in lv.ctco.cukes.core.internal.context.BaseContextHandlerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/a360/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Running lv.ctco.cukes.core.internal.context.ContextCapturerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in lv.ctco.cukes.core.internal.context.ContextCapturerTest
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/cukes/cukes-core/.nondex" -DnondexJarDir="/home/a360/research/projects/cukes/cukes-core/.nondex" -DnondexExecid=gQYUjVAIDRWCxGCbwnM3AuBJDu8Okarq7FrWRCqne84= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/cukes/cukes-core/.nondex" -DnondexJarDir="/home/a360/research/projects/cukes/cukes-core/.nondex" -DnondexExecid=UUBxCdRSskBGAGscbZ+VLd9JEPDaOyjhFnVJ6fQA4pY= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/cukes/cukes-core/.nondex" -DnondexJarDir="/home/a360/research/projects/cukes/cukes-core/.nondex" -DnondexExecid=NMB9DKaN5BGueLQdXjolNLzInBLg8MLkBVx0Issr8o= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/cukes/cukes-core/.nondex/gQYUjVAIDRWCxGCbwnM3AuBJDu8Okarq7FrWRCqne84=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: gQYUjVAIDRWCxGCbwnM3AuBJDu8Okarq7FrWRCqne84=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  26.057 s
+[[1;34mINFO[m] Finished at: 2026-10-02T07:57:23-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,119 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36morg.apache.tika:tika-parser-microsoft-module[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Apache Tika Microsoft parser module 2.7.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mtika-parser-microsoft-module[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mossindex:3.2.0:audit[m [1m(audit-dependencies)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Checking for vulnerabilities; 45 artifacts
+[[1;34mINFO[m] Exclude coordinates: [com.ibm.icu:icu4j:62.2, com.google.guava:guava:31.1-jre, org.apache.lucene:lucene-queryparser:4.0.0, com.drewnoakes:metadata-extractor:2.18.0, io.netty:netty-handler:4.1.89.Final, com.fasterxml.jackson.core:jackson-core:2.14.2, xerces:xercesImpl:2.12.2, com.h2database:h2:2.1.214, io.grpc:grpc-core:1.53.0, commons-dbcp:commons-dbcp:1.4]
+[[1;34mINFO[m] Exclude vulnerability identifiers: []
+[[1;34mINFO[m] CVSS-score threshold: 0.0
+[[1;33mWARNING[m] Failed to fetch component-reports
+[1;31morg.sonatype.ossindex.service.client.transport.Transport$TransportException[m: [1;31mUnexpected response; status: HTTP/1.1 401 Unauthorized[m
+    [1mat[m org.sonatype.ossindex.service.client.transport.HttpClientTransport.post ([1mHttpClientTransport.java:102[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.doRequestComponentReports ([1mOssindexClientImpl.java:204[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.requestComponentReports ([1mOssindexClientImpl.java:170[m)
+    [1mat[m org.sonatype.ossindex.maven.common.ComponentReportAssistant.request ([1mComponentReportAssistant.java:86[m)
+    [1mat[m org.sonatype.ossindex.maven.plugin.AuditMojoSupport.execute ([1mAuditMojoSupport.java:242[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:126[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:328[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:316[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions ([1mMojoExecutor.java:448[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:311[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:105[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:73[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:53[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:118[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:261[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:173[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:101[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:919[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:285[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:207[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.2.1:enforce[m [1m(enforce-maven-version)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.2.1:enforce[m [1m(enforce-java-version)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.2.1:enforce[m [1m(enforce-maven)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.DependencyConvergence passed
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.2.1:enforce[m [1m(ban-bad-log4j-versions)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.2.1:check[m [1m(validate)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:resources[m [1m(default-resources)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:5.1.8:manifest[m [1m(bundle-manifest)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Writing manifest: /home/a360/research/projects/tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/classes/META-INF/MANIFEST.MF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:testResources[m [1m(default-testResources)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Copying 333 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mtika-parser-microsoft-module[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mtika-parser-microsoft-module[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 412 tests. Time taken: 1.2709999084472656 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.tika:tika-parser-microsoft-module:2.7.1-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/.dtfixingtools/original-order
+[INFO] Getting original results (412 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (70.4 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (70.4 seconds elapsed (142.1 total), 35.2 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (142.1 seconds elapsed (213.1 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  04:53 min
+[[1;34mINFO[m] Finished at: 2026-10-02T07:08:11-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

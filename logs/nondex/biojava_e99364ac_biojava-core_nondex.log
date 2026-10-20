@@ -1,0 +1,455 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.biojava:biojava-core[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding biojava-core 6.0.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mbiojava-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.2:enforce[m [1m(enforce-java)[m @ [36mbiojava-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.2:enforce[m [1m(enforce-maven)[m @ [36mbiojava-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mbiojava-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 24 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36mbiojava-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mbiojava-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 46 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mbiojava-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mbiojava-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mbiojava-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_7wiF2k8syYf+35lGqCxyenjotySQ9D16kae26VOtUw4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mHspTest[m
+getAlignment
+hashCode
+equals
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.701 s - in org.biojava.nbio.core.search.io.[1mHspTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.416 s - in org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.564 s - in org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 1.717 s - in org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.706 s - in org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.655 s - in org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.67 s - in org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m35[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.716 s - in org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m54[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.759 s - in org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m35[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.718 s - in org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.676 s - in org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.059 s - in org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.682 s - in org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.764 s - in org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.704 s - in org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.63 s - in org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.689 s - in org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 s - in org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.756 s - in org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.706 s - in org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.686 s - in org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.678 s - in org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.678 s - in org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.657 s - in org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.771 s - in org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.996 s - in org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.251 s - in org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.357 s - in org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.661 s - in org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.67 s - in org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.664 s - in org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 247, Failures: 0, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexJarDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexExecid=Ax3tL21wpnXiXYp5Y3bDuQcghOkho9iz5SWB8l4QERQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mHspTest[m
+getAlignment
+hashCode
+equals
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in org.biojava.nbio.core.search.io.[1mHspTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.25 s - in org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.518 s - in org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 1.725 s - in org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.745 s - in org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.667 s - in org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.683 s - in org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m35[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.699 s - in org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m54[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.759 s - in org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m35[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.71 s - in org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.661 s - in org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.003 s - in org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.674 s - in org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.743 s - in org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.757 s - in org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.689 s - in org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 s - in org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.051 s - in org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.92 s - in org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.678 s - in org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 s - in org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.718 s - in org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.281 s - in org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.406 s - in org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.133 s - in org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.399 s - in org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.67 s - in org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.663 s - in org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.682 s - in org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 247, Failures: 0, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexJarDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexExecid=kWF2BYcTkZdf+4mIFexDdQnk7tFw+cbVcJ0CsYXcgU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mHspTest[m
+getAlignment
+hashCode
+equals
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.674 s - in org.biojava.nbio.core.search.io.[1mHspTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.379 s - in org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.501 s - in org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 1.651 s - in org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.742 s - in org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.668 s - in org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.707 s - in org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m35[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.696 s - in org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m54[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.757 s - in org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m35[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.69 s - in org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 s - in org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.003 s - in org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.692 s - in org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.753 s - in org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.781 s - in org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.69 s - in org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.683 s - in org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.096 s - in org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.036 s - in org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.69 s - in org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.688 s - in org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.7 s - in org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.344 s - in org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.336 s - in org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.67 s - in org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.358 s - in org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.683 s - in org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.664 s - in org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.685 s - in org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 247, Failures: 0, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexJarDir=/home/a360/research/projects/biojava/biojava-core/.nondex
+nondexExecid=t0SieIdI966VrB0pfg6eNS78L4tJpBHtW5CKTx5AFKw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mHspTest[m
+getAlignment
+hashCode
+equals
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.695 s - in org.biojava.nbio.core.search.io.[1mHspTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.4 s - in org.biojava.nbio.core.search.io.[1mSearchIOTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.454 s - in org.biojava.nbio.core.search.io.blast.[1mBlastTabularParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+createObjects
+getFileExtensions
+setFile
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 1.686 s - in org.biojava.nbio.core.search.io.blast.[1mBlastXMLParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.733 s - in org.biojava.nbio.core.[1mTestAmbiguityCompoundSet[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.644 s - in org.biojava.nbio.core.util.[1mTestUncompressInputStream[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.705 s - in org.biojava.nbio.core.fasta.[1mTestFASTAReader[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m35[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.691 s - in org.biojava.nbio.core.alignment.[1mSimpleAlignedSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m54[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.751 s - in org.biojava.nbio.core.alignment.[1mSimpleProfileTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m35[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 s - in org.biojava.nbio.core.alignment.[1mSimpleSequencePairTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 s - in org.biojava.nbio.core.sequence.location.[1mInsdcParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m2[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.003 s - in org.biojava.nbio.core.sequence.location.[1mLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.663 s - in org.biojava.nbio.core.sequence.location.[1mLocationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.biojava.nbio.core.sequence.location.[1mTargetedLocationParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.767 s - in org.biojava.nbio.core.sequence.io.[1mGenbankReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.702 s - in org.biojava.nbio.core.sequence.io.[1mGenbankWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.655 s - in org.biojava.nbio.core.sequence.io.[1mCasePreservingProteinSequenceCreatorTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.695 s - in org.biojava.nbio.core.sequence.io.[1mFastaWriterTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.072 s - in org.biojava.nbio.core.sequence.io.[1mABITracerTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.865 s - in org.biojava.nbio.core.sequence.io.[1mGenbankCookbookTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.biojava.nbio.core.sequence.io.[1mGenericFastaHeaderParserTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.biojava.nbio.core.sequence.io.embl.[1mEmblReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in org.biojava.nbio.core.sequence.io.[1mFastaReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.681 s - in org.biojava.nbio.core.sequence.[1mTestSequenceEquals[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.686 s - in org.biojava.nbio.core.sequence.[1mMultipleSequenceAlignmentTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.649 s - in org.biojava.nbio.core.sequence.compound.[1mAmbiguityDNACompoundTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.669 s - in org.biojava.nbio.core.sequence.[1mEditSequenceTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.312 s - in org.biojava.nbio.core.sequence.[1mDNATest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 s - in org.biojava.nbio.core.sequence.[1mTranslationTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.282 s - in org.biojava.nbio.core.sequence.loader.[1mGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.542 s - in org.biojava.nbio.core.sequence.loader.[1mSimpleGenbankProxySequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.69 s - in org.biojava.nbio.core.sequence.views.[1mWindowViewTests[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.67 s - in org.biojava.nbio.core.sequence.[1mJoiningSequenceReaderTest[m
+[[1;34mINFO[m] Running org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.673 s - in org.biojava.nbio.core.sequence.[1mSequenceViewTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 247, Failures: 0, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/biojava/biojava-core/.nondex" -DnondexJarDir="/home/a360/research/projects/biojava/biojava-core/.nondex" -DnondexExecid=Ax3tL21wpnXiXYp5Y3bDuQcghOkho9iz5SWB8l4QERQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/biojava/biojava-core/.nondex" -DnondexJarDir="/home/a360/research/projects/biojava/biojava-core/.nondex" -DnondexExecid=kWF2BYcTkZdf+4mIFexDdQnk7tFw+cbVcJ0CsYXcgU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/biojava/biojava-core/.nondex" -DnondexJarDir="/home/a360/research/projects/biojava/biojava-core/.nondex" -DnondexExecid=t0SieIdI966VrB0pfg6eNS78L4tJpBHtW5CKTx5AFKw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/biojava/biojava-core/.nondex/Ax3tL21wpnXiXYp5Y3bDuQcghOkho9iz5SWB8l4QERQ=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: Ax3tL21wpnXiXYp5Y3bDuQcghOkho9iz5SWB8l4QERQ=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  05:26 min
+[[1;34mINFO[m] Finished at: 2026-10-02T07:43:34-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

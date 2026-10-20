@@ -1,0 +1,246 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36msoftware.amazon.pay:amazon-pay-api-sdk-java[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding Amazon Pay Java SDK 2.4.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mamazon-pay-api-sdk-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/amazon-pay-api-sdk-java/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/amazon-pay-api-sdk-java/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mamazon-pay-api-sdk-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mamazon-pay-api-sdk-java[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_XbOvt6cbC6tT94bBM7cCNoEvO+gfGffI1HCLdTfZ8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/amazon-pay-api-sdk-java/.nondex/clean_XbOvt6cbC6tT94bBM7cCNoEvO+gfGffI1HCLdTfZ8=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.pay.api.GenerateButtonSignatureTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.44 sec - in com.amazon.pay.api.GenerateButtonSignatureTest
+Running com.amazon.pay.api.CreateStringToSignTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.amazon.pay.api.CreateStringToSignTest
+Running com.amazon.pay.api.RequestSignerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.7/powermock-reflect-2.0.7.jar) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.968 sec - in com.amazon.pay.api.RequestSignerTest
+Running com.amazon.pay.api.RequestSignerWithHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.02 sec - in com.amazon.pay.api.RequestSignerWithHeaderTest
+Running com.amazon.pay.api.SignatureHelperTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.837 sec - in com.amazon.pay.api.SignatureHelperTest
+Running com.amazon.pay.api.UtilTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 sec - in com.amazon.pay.api.UtilTest
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexExecid=8U6Q32jOUtGpcsckxlkjOL5MC+N7LlRMrdJ3+zriUT4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/amazon-pay-api-sdk-java/.nondex/8U6Q32jOUtGpcsckxlkjOL5MC+N7LlRMrdJ3+zriUT4=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.pay.api.GenerateButtonSignatureTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 sec - in com.amazon.pay.api.GenerateButtonSignatureTest
+Running com.amazon.pay.api.CreateStringToSignTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.294 sec - in com.amazon.pay.api.CreateStringToSignTest
+Running com.amazon.pay.api.RequestSignerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.7/powermock-reflect-2.0.7.jar) to method java.lang.Object.registerNatives()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.906 sec - in com.amazon.pay.api.RequestSignerTest
+Running com.amazon.pay.api.RequestSignerWithHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec - in com.amazon.pay.api.RequestSignerWithHeaderTest
+Running com.amazon.pay.api.SignatureHelperTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.747 sec - in com.amazon.pay.api.SignatureHelperTest
+Running com.amazon.pay.api.UtilTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 sec - in com.amazon.pay.api.UtilTest
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexExecid=TC85RxPUqFiJlNphEF5ZNL1JDGnSsoSDMXqQ0kwK7kU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/amazon-pay-api-sdk-java/.nondex/TC85RxPUqFiJlNphEF5ZNL1JDGnSsoSDMXqQ0kwK7kU=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.pay.api.GenerateButtonSignatureTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.353 sec <<< FAILURE! - in com.amazon.pay.api.GenerateButtonSignatureTest
+testButtonSignatureWithJSONObject(com.amazon.pay.api.GenerateButtonSignatureTest)  Time elapsed: 0.32 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.amazon.pay.api.GenerateButtonSignatureTest.testButtonSignatureWithJSONObject(GenerateButtonSignatureTest.java:94)
+
+Running com.amazon.pay.api.CreateStringToSignTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.319 sec - in com.amazon.pay.api.CreateStringToSignTest
+Running com.amazon.pay.api.RequestSignerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.7/powermock-reflect-2.0.7.jar) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.949 sec - in com.amazon.pay.api.RequestSignerTest
+Running com.amazon.pay.api.RequestSignerWithHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in com.amazon.pay.api.RequestSignerWithHeaderTest
+Running com.amazon.pay.api.SignatureHelperTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.825 sec - in com.amazon.pay.api.SignatureHelperTest
+Running com.amazon.pay.api.UtilTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 sec - in com.amazon.pay.api.UtilTest
+
+Results :
+
+Failed tests: 
+  GenerateButtonSignatureTest.testButtonSignatureWithJSONObject:94 null
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for TC85RxPUqFiJlNphEF5ZNL1JDGnSsoSDMXqQ0kwK7kU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex
+nondexExecid=dypyZopeL0NGnfGHEHkXGYMfmURhIONlsPL7YwX694=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/amazon-pay-api-sdk-java/.nondex/dypyZopeL0NGnfGHEHkXGYMfmURhIONlsPL7YwX694=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.pay.api.GenerateButtonSignatureTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.332 sec <<< FAILURE! - in com.amazon.pay.api.GenerateButtonSignatureTest
+testButtonSignatureWithJSONObject(com.amazon.pay.api.GenerateButtonSignatureTest)  Time elapsed: 0.296 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.amazon.pay.api.GenerateButtonSignatureTest.testButtonSignatureWithJSONObject(GenerateButtonSignatureTest.java:94)
+
+Running com.amazon.pay.api.CreateStringToSignTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.272 sec - in com.amazon.pay.api.CreateStringToSignTest
+Running com.amazon.pay.api.RequestSignerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.7/powermock-reflect-2.0.7.jar) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.92 sec - in com.amazon.pay.api.RequestSignerTest
+Running com.amazon.pay.api.RequestSignerWithHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec - in com.amazon.pay.api.RequestSignerWithHeaderTest
+Running com.amazon.pay.api.SignatureHelperTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.727 sec - in com.amazon.pay.api.SignatureHelperTest
+Running com.amazon.pay.api.UtilTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 sec - in com.amazon.pay.api.UtilTest
+
+Results :
+
+Failed tests: 
+  GenerateButtonSignatureTest.testButtonSignatureWithJSONObject:94 null
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for dypyZopeL0NGnfGHEHkXGYMfmURhIONlsPL7YwX694=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex" -DnondexExecid=8U6Q32jOUtGpcsckxlkjOL5MC+N7LlRMrdJ3+zriUT4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex" -DnondexExecid=TC85RxPUqFiJlNphEF5ZNL1JDGnSsoSDMXqQ0kwK7kU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.amazon.pay.api.GenerateButtonSignatureTest#testButtonSignatureWithJSONObject
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/amazon-pay-api-sdk-java/.nondex" -DnondexExecid=dypyZopeL0NGnfGHEHkXGYMfmURhIONlsPL7YwX694= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.amazon.pay.api.GenerateButtonSignatureTest#testButtonSignatureWithJSONObject
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.amazon.pay.api.GenerateButtonSignatureTest#testButtonSignatureWithJSONObject
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/amazon-pay-api-sdk-java/.nondex/8U6Q32jOUtGpcsckxlkjOL5MC+N7LlRMrdJ3+zriUT4=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 8U6Q32jOUtGpcsckxlkjOL5MC+N7LlRMrdJ3+zriUT4=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.293 s
+[[1;34mINFO[m] Finished at: 2026-10-01T23:29:18-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mamazon-pay-api-sdk-java[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/amazon-pay-api-sdk-java/.nondex/TC85RxPUqFiJlNphEF5ZNL1JDGnSsoSDMXqQ0kwK7kU= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

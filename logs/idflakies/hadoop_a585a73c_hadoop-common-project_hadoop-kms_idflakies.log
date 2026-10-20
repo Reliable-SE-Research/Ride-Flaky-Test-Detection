@@ -1,0 +1,103 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-kms:jar:3.3.4
+[[1;33mWARNING[m] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.hbase:hbase-server:jar -> duplicate declaration of version ${hbase.version} @ org.apache.hadoop:hadoop-project:3.3.4, /home/a360/research/projects/hadoop/hadoop-project/pom.xml, line 1771, column 19
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 6.18
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 18
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 26.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.hadoop:hadoop-kms[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Hadoop KMS 3.3.4[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mhadoop-kms[0;1m >>>[m
+[[1;33mWARNING[m] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mantrun:1.7:run[m [1m(create-testdirs)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(banned-illegal-imports)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-generated-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-guava)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Replacement run on 25 files.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Compiling 16 source files to /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/target/classes
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/main/java/org/apache/hadoop/crypto/key/kms/server/KMS.java: /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/main/java/org/apache/hadoop/crypto/key/kms/server/KMS.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/main/java/org/apache/hadoop/crypto/key/kms/server/KMS.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-test-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-generated-test-sources)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhadoop-kms[0;1m ---[m
+[[1;34mINFO[m] Compiling 9 source files to /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/target/test-classes
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/src/test/java/org/apache/hadoop/crypto/key/kms/server/TestKMS.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mhadoop-kms[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mhadoop-kms[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 48 tests. Time taken: 1.934999942779541 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.apache.hadoop:hadoop-kms:3.3.4 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.dtfixingtools/original-order
+[INFO] Getting original results (48 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified org.apache.hadoop.crypto.key.kms.server.TestKMS.testStartStopHttpPseudo, status: expected PASS, got PASS
+Verified org.apache.hadoop.crypto.key.kms.server.TestKMS.testStartStopHttpPseudo, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 1 of 3 (0.0 seconds elapsed (401.9 total), 0.0 seconds remaining).
+Verified org.apache.hadoop.crypto.key.kms.server.TestKMSAudit.testAggregationUnauth, status: expected PASS, got PASS
+Verified org.apache.hadoop.crypto.key.kms.server.TestKMSAudit.testAggregationUnauth, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 2 of 3 (0.0 seconds elapsed (852.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (0.0 seconds elapsed (998.7 total), 0.0 seconds remaining).
+
+[INFO] Found 2 tests, writing list to /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/hadoop/hadoop-common-project/hadoop-kms/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  19:12 min
+[[1;34mINFO[m] Finished at: 2026-10-02T03:44:42-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

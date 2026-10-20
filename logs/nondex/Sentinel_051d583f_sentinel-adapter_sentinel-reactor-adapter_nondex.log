@@ -1,0 +1,184 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.alibaba.csp:sentinel-reactor-adapter[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding sentinel-reactor-adapter 1.8.2[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36msentinel-reactor-adapter[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.3:prepare-agent[m [1m(default)[m @ [36msentinel-reactor-adapter[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36msentinel-reactor-adapter[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36msentinel-reactor-adapter[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36msentinel-reactor-adapter[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36msentinel-reactor-adapter[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36msentinel-reactor-adapter[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36msentinel-reactor-adapter[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_0HlrHckgcCgM9aRrSetcvGY0XbHhIF6gCDJEy5gDyo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: /home/a360/logs/csp/
+INFO: Sentinel log name use pid is: false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.058 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 15, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexJarDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexExecid=Y2J0tm1lH7L5Nv2bZIDab3i5Ur2CFkn4WvaWsQ22tAE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[WARNING] Couldn't load group class 'edu.illinois.NonDexIgnore' in Surefire|Failsafe plugin. The group class is ignored!
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: /home/a360/logs/csp/
+INFO: Sentinel log name use pid is: false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.313 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.053 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 15, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexJarDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexExecid=hd2knVQ5fKB5EE6LckrWWyp722qEe1HNknyoAfO191Y=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[WARNING] Couldn't load group class 'edu.illinois.NonDexIgnore' in Surefire|Failsafe plugin. The group class is ignored!
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: /home/a360/logs/csp/
+INFO: Sentinel log name use pid is: false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.055 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 15, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexJarDir=/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex
+nondexExecid=MNPx2jxQ8j2XqrQd5h3XrmTz3dX30PDvYomIHb3kxU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[WARNING] Couldn't load group class 'edu.illinois.NonDexIgnore' in Surefire|Failsafe plugin. The group class is ignored!
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: /home/a360/logs/csp/
+INFO: Sentinel log name use pid is: false
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.314 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mFluxSentinelOperatorTestIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.057 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mMonoSentinelOperatorIntegrationTest[m
+[[1;34mINFO[m] Running com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.alibaba.csp.sentinel.adapter.reactor.[1mReactorSphUTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 15, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex" -DnondexJarDir="/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex" -DnondexExecid=Y2J0tm1lH7L5Nv2bZIDab3i5Ur2CFkn4WvaWsQ22tAE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex" -DnondexJarDir="/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex" -DnondexExecid=hd2knVQ5fKB5EE6LckrWWyp722qEe1HNknyoAfO191Y= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex" -DnondexJarDir="/home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex" -DnondexExecid=MNPx2jxQ8j2XqrQd5h3XrmTz3dX30PDvYomIHb3kxU= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/.nondex/Y2J0tm1lH7L5Nv2bZIDab3i5Ur2CFkn4WvaWsQ22tAE=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: Y2J0tm1lH7L5Nv2bZIDab3i5Ur2CFkn4WvaWsQ22tAE=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.694 s
+[[1;34mINFO[m] Finished at: 2026-10-01T22:57:00-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

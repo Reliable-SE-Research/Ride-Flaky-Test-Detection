@@ -1,0 +1,376 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.modelmapper:modelmapper:jar:3.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 159, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.modelmapper:modelmapper[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding ModelMapper 3.1.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmodelmapper[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0:enforce[m [1m(enforce-maven)[m @ [36mmodelmapper[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmodelmapper[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/modelmapper/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mmodelmapper[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 136 source files to /home/a360/research/projects/modelmapper/core/target/classes
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/main/java/org/modelmapper/internal/MappingEngineImpl.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/main/java/org/modelmapper/internal/MappingEngineImpl.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/main/java/org/modelmapper/internal/MappingContextImpl.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/main/java/org/modelmapper/internal/MappingContextImpl.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:3.5.0:manifest[m [1m(bundle-manifest)[m @ [36mmodelmapper[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmodelmapper[0;1m ---[m
+[[1;34mINFO[m] Copying 5 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mmodelmapper[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 220 source files to /home/a360/research/projects/modelmapper/core/target/test-classes
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/test/java/org/modelmapper/internal/converter/DateConverterTest.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/test/java/org/modelmapper/internal/converter/DateConverterTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/test/java/org/modelmapper/bugs/GH415.java: /home/a360/research/projects/modelmapper/core/src/test/java/org/modelmapper/bugs/GH415.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/modelmapper/core/src/test/java/org/modelmapper/bugs/GH415.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmodelmapper[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mmodelmapper[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_luL3vqHGuAYWpRKOV+ZgqmTgfwOPJ4trSaLmAfDDMQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+...
+... TestNG 7.5 by Cédric Beust (cedric@beust.com)
+...
+
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access using Lookup on org.modelmapper.internal.ProxyFactory (file:/home/a360/research/projects/modelmapper/core/target/classes/) to class java.util.Date
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.modelmapper.internal.ProxyFactory
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 5:05:38 PM org.hibernate.jpa.boot.spi.ProviderChecker hibernateProviderNamesContain
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+Oct 02, 2026 5:05:38 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: mmtest]
+Oct 02, 2026 5:05:38 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.6.3.Final
+Oct 02, 2026 5:05:38 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Oct 02, 2026 5:05:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 02, 2026 5:05:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [null] at URL [jdbc:h2:mem:]
+Oct 02, 2026 5:05:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {}
+Oct 02, 2026 5:05:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 02, 2026 5:05:39 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 02, 2026 5:05:39 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Oct 02, 2026 5:05:39 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5274830e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:05:39 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6baee63b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:05:39 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m614[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.069 s - in [1mTestSuite[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 614, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexJarDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexExecid=pXzSaVfcFq6cq1cz7fQBdPEVRFUXlnwMmRP0bx8qQXk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+...
+... TestNG 7.5 by Cédric Beust (cedric@beust.com)
+...
+
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access using Lookup on org.modelmapper.internal.ProxyFactory (file:/home/a360/research/projects/modelmapper/core/target/classes/) to class java.util.Date
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.modelmapper.internal.ProxyFactory
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 5:05:48 PM org.hibernate.jpa.boot.spi.ProviderChecker hibernateProviderNamesContain
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+Oct 02, 2026 5:05:48 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: mmtest]
+Oct 02, 2026 5:05:48 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.6.3.Final
+Oct 02, 2026 5:05:48 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Oct 02, 2026 5:05:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 02, 2026 5:05:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [null] at URL [jdbc:h2:mem:]
+Oct 02, 2026 5:05:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {}
+Oct 02, 2026 5:05:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 02, 2026 5:05:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 02, 2026 5:05:49 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Oct 02, 2026 5:05:49 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@282240] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:05:50 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a0c04ab] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:05:50 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m614[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 9.694 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: 3 != 4 expected [3] but found [4]
+	at org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet(ArrayConverterTest.java:56)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ArrayConverterTest.shouldConvertFromSet:56 Lists differ at element [0]: 3 != 4 expected [3] but found [4][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 614, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for pXzSaVfcFq6cq1cz7fQBdPEVRFUXlnwMmRP0bx8qQXk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexJarDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexExecid=D7ngnsNelCed9DVjSS9pB2vFba1gfopTugEjjYvCkGw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+...
+... TestNG 7.5 by Cédric Beust (cedric@beust.com)
+...
+
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access using Lookup on org.modelmapper.internal.ProxyFactory (file:/home/a360/research/projects/modelmapper/core/target/classes/) to class java.util.Date
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.modelmapper.internal.ProxyFactory
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 5:05:59 PM org.hibernate.jpa.boot.spi.ProviderChecker hibernateProviderNamesContain
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+Oct 02, 2026 5:05:59 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: mmtest]
+Oct 02, 2026 5:05:59 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.6.3.Final
+Oct 02, 2026 5:05:59 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Oct 02, 2026 5:05:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 02, 2026 5:05:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [null] at URL [jdbc:h2:mem:]
+Oct 02, 2026 5:05:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {}
+Oct 02, 2026 5:05:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 02, 2026 5:05:59 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 02, 2026 5:05:59 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Oct 02, 2026 5:06:00 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@12811f95] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:06:00 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@644f6e89] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:06:00 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m614[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 9.55 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] org.modelmapper.internal.TypeInfoImplTest.shouldProduceMutators  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [firstName] but found [age]
+	at org.modelmapper.internal.TypeInfoImplTest.shouldProduceMutators(TypeInfoImplTest.java:53)
+
+[[1;31mERROR[m] org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [1]: 4 != 5 expected [4] but found [5]
+	at org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet(ArrayConverterTest.java:56)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TypeInfoImplTest.shouldProduceMutators:53 expected [firstName] but found [age][m
+[[1;31mERROR[m] [1;31m  ArrayConverterTest.shouldConvertFromSet:56 Lists differ at element [1]: 4 != 5 expected [4] but found [5][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 614, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for D7ngnsNelCed9DVjSS9pB2vFba1gfopTugEjjYvCkGw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexJarDir=/home/a360/research/projects/modelmapper/core/.nondex
+nondexExecid=4bHWNsyLbIccd086kFUnCbkkegHH9P+VGxuVf4WmIR0=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+...
+... TestNG 7.5 by Cédric Beust (cedric@beust.com)
+...
+
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access using Lookup on org.modelmapper.internal.ProxyFactory (file:/home/a360/research/projects/modelmapper/core/target/classes/) to class java.util.Date
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.modelmapper.internal.ProxyFactory
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Oct 02, 2026 5:06:09 PM org.hibernate.jpa.boot.spi.ProviderChecker hibernateProviderNamesContain
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+Oct 02, 2026 5:06:09 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: mmtest]
+Oct 02, 2026 5:06:09 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.6.3.Final
+Oct 02, 2026 5:06:09 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+Oct 02, 2026 5:06:10 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Oct 02, 2026 5:06:10 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [null] at URL [jdbc:h2:mem:]
+Oct 02, 2026 5:06:10 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {}
+Oct 02, 2026 5:06:10 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 02, 2026 5:06:10 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Oct 02, 2026 5:06:10 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Oct 02, 2026 5:06:10 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9c5d76b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:06:10 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5d9d8ecf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 02, 2026 5:06:10 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m614[m, [1;31mFailures: [0;1;31m3[m, Errors: 0, Skipped: 0, Time elapsed: 9.95 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] org.modelmapper.internal.TypeInfoImplTest.shouldProduceAccessors  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [setFirstName] but found [age]
+	at org.modelmapper.internal.TypeInfoImplTest.shouldProduceAccessors(TypeInfoImplTest.java:46)
+
+[[1;31mERROR[m] org.modelmapper.internal.TypeInfoImplTest.shouldProduceMutators  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [firstName] but found [age]
+	at org.modelmapper.internal.TypeInfoImplTest.shouldProduceMutators(TypeInfoImplTest.java:53)
+
+[[1;31mERROR[m] org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [1]: 4 != 5 expected [4] but found [5]
+	at org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet(ArrayConverterTest.java:56)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TypeInfoImplTest.shouldProduceAccessors:46 expected [setFirstName] but found [age][m
+[[1;31mERROR[m] [1;31m  TypeInfoImplTest.shouldProduceMutators:53 expected [firstName] but found [age][m
+[[1;31mERROR[m] [1;31m  ArrayConverterTest.shouldConvertFromSet:56 Lists differ at element [1]: 4 != 5 expected [4] but found [5][m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 614, Failures: 3, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 4bHWNsyLbIccd086kFUnCbkkegHH9P+VGxuVf4WmIR0=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/modelmapper/core/.nondex" -DnondexJarDir="/home/a360/research/projects/modelmapper/core/.nondex" -DnondexExecid=pXzSaVfcFq6cq1cz7fQBdPEVRFUXlnwMmRP0bx8qQXk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.modelmapper.internal.converter.ArrayConverterTest#shouldConvertFromSet
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/modelmapper/core/.nondex" -DnondexJarDir="/home/a360/research/projects/modelmapper/core/.nondex" -DnondexExecid=D7ngnsNelCed9DVjSS9pB2vFba1gfopTugEjjYvCkGw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.modelmapper.internal.TypeInfoImplTest#shouldProduceMutators
+[[1;33mWARNING[m] org.modelmapper.internal.converter.ArrayConverterTest#shouldConvertFromSet
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/modelmapper/core/.nondex" -DnondexJarDir="/home/a360/research/projects/modelmapper/core/.nondex" -DnondexExecid=4bHWNsyLbIccd086kFUnCbkkegHH9P+VGxuVf4WmIR0= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.modelmapper.internal.TypeInfoImplTest#shouldProduceAccessors
+[[1;33mWARNING[m] org.modelmapper.internal.TypeInfoImplTest#shouldProduceMutators
+[[1;33mWARNING[m] org.modelmapper.internal.converter.ArrayConverterTest#shouldConvertFromSet
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.modelmapper.internal.converter.ArrayConverterTest#shouldConvertFromSet
+[[1;34mINFO[m] org.modelmapper.internal.TypeInfoImplTest#shouldProduceMutators
+[[1;34mINFO[m] org.modelmapper.internal.TypeInfoImplTest#shouldProduceAccessors
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/modelmapper/core/.nondex/pXzSaVfcFq6cq1cz7fQBdPEVRFUXlnwMmRP0bx8qQXk=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: pXzSaVfcFq6cq1cz7fQBdPEVRFUXlnwMmRP0bx8qQXk=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  48.124 s
+[[1;34mINFO[m] Finished at: 2026-10-02T17:06:13-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mmodelmapper[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/modelmapper/core/.nondex/pXzSaVfcFq6cq1cz7fQBdPEVRFUXlnwMmRP0bx8qQXk= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

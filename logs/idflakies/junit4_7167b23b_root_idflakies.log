@@ -1,0 +1,251 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The project junit:junit:jar:4.13.3-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------------< [0;36mjunit:junit[0;1m >-----------------------------[m
+[[1;34mINFO[m] [1mBuilding JUnit 4.13.3-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjunit[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4:enforce[m [1m(enforce-versions)[m @ [36mjunit[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(default)[m @ [36mjunit[0;1m ---[m
+[[1;34mINFO[m] Replacement run on 1 file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.7:resources[m [1m(default-resources)[m @ [36mjunit[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.3:compile[m [1m(default-compile)[m @ [36mjunit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 219 source files to /home/a360/research/projects/junit4/target/classes
+[[1;33mWARNING[m] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+/home/a360/research/projects/junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/runner/notification/SynchronizedRunListener.java:[67,7] no description for @throws
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java:[109,11] no description for @param
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/runner/FilterFactories.java:[19,7] no description for @throws
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/runner/JUnitCore.java:[66,7] no description for @param
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/internal/Classes.java:[24,7] no description for @throws
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/internal/Classes.java:[37,7] no description for @throws
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/main/java/org/junit/runners/model/FrameworkMember.java:[33,19] [unchecked] unchecked cast
+[[1;33mWARNING[m]   required: T
+  found:    FrameworkMember<T>
+  where T is a type-variable:
+    T extends FrameworkMember<T> declared in class FrameworkMember
+/home/a360/research/projects/junit4/src/main/java/org/junit/experimental/theories/internal/Assignments.java:[122,18] [deprecation] newInstance() in Class has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in class Class
+/home/a360/research/projects/junit4/src/main/java/org/junit/validator/AnnotationValidatorFactory.java:[31,59] [deprecation] newInstance() in Class has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in class Class
+/home/a360/research/projects/junit4/src/main/java/org/junit/rules/ExpectedException.java:[271,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/main/java/org/junit/runners/Parameterized.java:[406,35] [deprecation] newInstance() in Class has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in class Class
+/home/a360/research/projects/junit4/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java:[69,64] [deprecation] newInstance() in Class has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in class Class
+/home/a360/research/projects/junit4/src/main/java/org/junit/rules/ErrorCollector.java:[77,16] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.7:testResources[m [1m(default-testResources)[m @ [36mjunit[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 9 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.3:testCompile[m [1m(default-testCompile)[m @ [36mjunit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 252 source files to /home/a360/research/projects/junit4/target/test-classes
+[[1;33mWARNING[m] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[[1;33mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.
+/home/a360/research/projects/junit4/src/test/java/org/junit/rules/TestWatchmanTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java:[8,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java:[9,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExternalResourceRuleTest.java:[140,64] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[359,52] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/samples/SimpleTest.java:[41,21] [deprecation] Long(long) in Long has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/samples/SimpleTest.java:[41,35] [deprecation] Long(long) in Long has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/samples/ListTest.java:[88,21] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[34,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[35,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[36,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[70,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[71,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[72,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[78,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[79,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[80,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[86,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[87,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[88,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[94,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[95,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/MultiCategoryTest.java:[96,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[23,58] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/description/SuiteDescriptionTest.java:[23,35] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runner/FilterFactoriesTest.java:[19,66] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/description/TestDescriptionTest.java:[12,78] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runners/model/FrameworkMethodTest.java:[19,44] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[220,21] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[220,37] [deprecation] Long(long) in Long has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[681,30] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[697,12] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[710,12] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[726,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[791,25] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[792,25] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[807,25] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[808,25] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/internal/runners/statements/ExpectExceptionTest.java:[20,38] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/internal/runners/statements/ExpectExceptionTest.java:[85,12] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/samples/SimpleTest.java:[63,21] [deprecation] Long(long) in Long has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/samples/SimpleTest.java:[63,35] [deprecation] Long(long) in Long has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/TemporaryFolderUsageTest.java:[27,61] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/validator/AnnotationValidatorFactoryTest.java:[13,58] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersTest.java:[27,44] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/running/methods/ExpectedTest.java:[75,18] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/experimental/theories/internal/AllMembersSupplierTest.java:[25,57] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runners/parameterized/TestWithParametersTest.java:[26,44] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runners/parameterized/TestWithParametersTest.java:[109,30] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[117,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[126,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[137,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[149,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[160,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[171,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[181,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[191,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[203,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[214,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[225,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[236,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[247,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[260,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[270,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[281,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[292,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[308,42] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[323,59] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[338,58] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[349,59] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[362,58] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[377,59] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/JavadocTest.java:[65,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/JavadocTest.java:[66,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/JavadocTest.java:[73,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/JavadocTest.java:[74,8] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[[1;33mWARNING[m]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/home/a360/research/projects/junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithParameterSupplier.java:[26,57] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[200,33] [deprecation] CategoryFilter(Class<?>,Class<?>) in CategoryFilter has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/CategoryTest.java:[219,32] [deprecation] CategoryFilter(Class<?>,Class<?>) in CategoryFilter has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[143,23] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[143,39] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[151,22] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[152,28] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[153,22] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[153,38] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/junit/tests/framework/AssertTest.java:[155,26] [deprecation] Integer(int) in Integer has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runner/JUnitCommandLineParseResultTest.java:[18,66] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/LoggingTestWatcher.java:[29,19] [deprecation] skipped(AssumptionViolatedException,Description) in TestWatcher has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ErrorCollectorTest.java:[136,31] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/rules/ErrorCollectorTest.java:[232,26] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/experimental/categories/CategoryFilterFactoryTest.java:[20,66] [deprecation] none() in ExpectedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/tests/assertion/MultipleFailureExceptionTest.java:[91,66] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/junit4/src/test/java/org/junit/runners/model/FrameworkFieldTest.java:[19,44] [deprecation] none() in ExpectedException has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjunit[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mjunit[0;1m ---[m
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving junit:junit:4.13.3-SNAPSHOT 3 rounds to run for random-class-method
+---------------------------------------------------
+java.lang.NullPointerException
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:287)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:211)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:211)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:919)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:285)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.697 s
+[[1;34mINFO[m] Finished at: 2026-10-02T12:39:40-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

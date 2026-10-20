@@ -1,0 +1,71 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.adyen:adyen-java-api-library:jar:17.2.0
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 37, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 45, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mcom.adyen:adyen-java-api-library[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Adyen Java API Library 17.2.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36madyen-java-api-library[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.2:check[m [1m(validate)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;33mWARNING[m] Old version of checkstyle detected. Consider updating to >= v8.30
+[[1;33mWARNING[m] For more information see: https://maven.apache.org/plugins/maven-checkstyle-plugin/examples/upgrading-checkstyle.html
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.7:prepare-agent[m [1m(default-prepare-agent)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/a360/research/projects/adyen-java-api-library/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/adyen-java-api-library/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:5.1.2:manifest[m [1m(bundle-manifest)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;33mWARNING[m] Manifest com.adyen:adyen-java-api-library:jar:17.2.0 : Export com.adyen,  has 2,  private references [com.adyen.enums, com.adyen.httpclient]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;34mINFO[m] Copying 186 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36madyen-java-api-library[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36madyen-java-api-library[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36madyen-java-api-library[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 336 tests. Time taken: 0.8240001201629639 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving com.adyen:adyen-java-api-library:17.2.0 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/adyen-java-api-library/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/adyen-java-api-library/.dtfixingtools/original-order
+[INFO] Getting original results (336 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (3.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (3.9 seconds elapsed (8.0 total), 2.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (8.0 seconds elapsed (12.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/adyen-java-api-library/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/adyen-java-api-library/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.733 s
+[[1;34mINFO[m] Finished at: 2026-10-01T18:29:16-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

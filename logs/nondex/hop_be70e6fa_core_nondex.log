@@ -1,0 +1,1067 @@
+[[1;34mINFO[m] BuildTimeEventSpy is registered.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.apache.hop:hop-core[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Hop Core 2.7.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mhop-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-maven-version)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:parse-version[m [1m(set-doc-version-property)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:rootlocation[m [1m(set-root-dir-property)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.7:prepare-agent[m [1m(coverage-initialize)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/a360/research/projects/hop/core/target/jacoco.exec,excludes=**/*Dialog*
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:resources[m [1m(default-resources)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 106 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:compile[m [1m(default-compile)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjandex:3.0.5:jandex[m [1m(make-index)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] Saving Jandex index: /home/a360/research/projects/hop/core/target/classes/META-INF/jandex.idx
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.0.2:testResources[m [1m(default-testResources)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 55 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mhop-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mhop-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mhop-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hop/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_ZlrXsToLE7QUduzTPrBSbgs2oPDCrLbFgpBmD3oT4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.678 s - in org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 s - in org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar) to method java.lang.Object.clone()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr_FR
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: zh
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.231 s - in org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;34mINFO[m] Running org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 s - in org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m100[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.358 s - in org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m41[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 s - in org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 s - in org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m67[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.647 s - in org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.065 s - in org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.164 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.185 s - in org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s - in org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.057 s - in org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.459 s - in org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.355 s - in org.apache.hop.core.logging.[1mLogChannelTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.46 s - in org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m25[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.397 s - in org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.917 s - in org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 s - in org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m30[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.796 s - in org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.064 s - in org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 s - in org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 s - in org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 616, Failures: 0, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hop/core/.nondex
+nondexJarDir=/home/a360/research/projects/hop/core/.nondex
+nondexExecid=wlTRGS3idWwg5p5YtqmtiwXylavjw7906B2qVAQ08TU=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.884 s - in org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar) to method java.lang.Object.clone()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr_FR
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: zh
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.255 s - in org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;34mINFO[m] Running org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.299 s - in org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m100[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.369 s - in org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s - in org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m41[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.425 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.306 s[1;31m <<< FAILURE![m - in org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;31mERROR[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson  Time elapsed: 0.014 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[schema":{"name":"all_values","namespace":"hop.apache.org","doc":"No documentation URL for now","type":"record","fields":[{"name":"id","type":["long","null"]},{"name":"sysdate","type":["string","null"]},{"name":"num","type":["double","null"]},{"name":"int","type":["long","null"]},{"name":"str","type":["string","null"]},{"name":"uuid","type":["string","null"]}]},"precision":-1,"name":"test","length":-1,"conversionMask":null,"type":20]}> but was:<{"[conversionMask":null,"name":"test","type":20,"precision":-1,"length":-1,"schema":{"doc":"No documentation URL for now","type":"record","fields":[{"type":["long","null"],"name":"id"},{"name":"sysdate","type":["string","null"]},{"type":["double","null"],"name":"num"},{"type":["long","null"],"name":"int"},{"type":["string","null"],"name":"str"},{"type":["string","null"],"name":"uuid"}],"name":"all_values","namespace":"hop.apache.org"}]}>
+	at org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson(ValueMetaAvroRecordTest.java:171)
+
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m67[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.725 s - in org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.079 s - in org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.045 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.177 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s - in org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.037 s - in org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.579 s - in org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.065 s - in org.apache.hop.core.logging.[1mLogChannelTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.507 s - in org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m25[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.476 s - in org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.881 s - in org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.247 s - in org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m30[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 s - in org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.808 s - in org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.086 s - in org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.275 s[1;31m <<< FAILURE![m - in org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;31mERROR[m] org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentXml  Time elapsed: 0.259 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ke-miterlimit="10" s[hape-rendering="auto" stroke-opacity="1]" fill="black" strok...> but was:<...ke-miterlimit="10" s[troke-opacity="1" shape-rendering="auto]" fill="black" strok...>
+	at org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentXml(HopSvgGraphics2DTest.java:60)
+
+[[1;31mERROR[m] org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentSimpleXml  Time elapsed: 0.013 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ty="1" fill="black" [stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto]" xmlns="http://www....> but was:<...ty="1" fill="black" [font-weight="normal" stroke-dasharray="none" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" image-rendering="auto" stroke-dashoffset="0]" xmlns="http://www....>
+	at org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentSimpleXml(HopSvgGraphics2DTest.java:69)
+
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.363 s - in org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ValueMetaAvroRecordTest.testStoreLoadMetaInJson:171 expected:<{"[schema":{"name":"all_values","namespace":"hop.apache.org","doc":"No documentation URL for now","type":"record","fields":[{"name":"id","type":["long","null"]},{"name":"sysdate","type":["string","null"]},{"name":"num","type":["double","null"]},{"name":"int","type":["long","null"]},{"name":"str","type":["string","null"]},{"name":"uuid","type":["string","null"]}]},"precision":-1,"name":"test","length":-1,"conversionMask":null,"type":20]}> but was:<{"[conversionMask":null,"name":"test","type":20,"precision":-1,"length":-1,"schema":{"doc":"No documentation URL for now","type":"record","fields":[{"type":["long","null"],"name":"id"},{"name":"sysdate","type":["string","null"]},{"type":["double","null"],"name":"num"},{"type":["long","null"],"name":"int"},{"type":["string","null"],"name":"str"},{"type":["string","null"],"name":"uuid"}],"name":"all_values","namespace":"hop.apache.org"}]}>[m
+[[1;31mERROR[m] [1;31m  HopSvgGraphics2DTest.testNewDocumentSimpleXml:69 expected:<...ty="1" fill="black" [stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto]" xmlns="http://www....> but was:<...ty="1" fill="black" [font-weight="normal" stroke-dasharray="none" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" image-rendering="auto" stroke-dashoffset="0]" xmlns="http://www....>[m
+[[1;31mERROR[m] [1;31m  HopSvgGraphics2DTest.testNewDocumentXml:60 expected:<...ke-miterlimit="10" s[hape-rendering="auto" stroke-opacity="1]" fill="black" strok...> but was:<...ke-miterlimit="10" s[troke-opacity="1" shape-rendering="auto]" fill="black" strok...>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 616, Failures: 3, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for wlTRGS3idWwg5p5YtqmtiwXylavjw7906B2qVAQ08TU=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hop/core/.nondex
+nondexJarDir=/home/a360/research/projects/hop/core/.nondex
+nondexExecid=QaHAT+dYvFpTm+jyxdxXZqLHFCowzO6T1ZToHy8Xs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.91 s - in org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar) to method java.lang.Object.registerNatives()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr_FR
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: zh
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.736 s - in org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;34mINFO[m] Running org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 s - in org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m100[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.337 s - in org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 s - in org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m41[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.306 s[1;31m <<< FAILURE![m - in org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;31mERROR[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson  Time elapsed: 0.021 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[schema":{"name":"all_values","namespace":"hop.apache.org","doc":"No documentation URL for now","type":"record","fields":[{"name":"id","type":["long","null"]},{"name":"sysdate","type":["string","null"]},{"name":"num","type":["double","null"]},{"name":"int","type":["long","null"]},{"name":"str","type":["string","null"]},{"name":"uuid","type":["string","null"]}]},"precision":-1,"name":"test","length":-1,"conversionMask":null,"type":20]}> but was:<{"[conversionMask":null,"type":20,"precision":-1,"name":"test","schema":{"namespace":"hop.apache.org","fields":[{"name":"id","type":["long","null"]},{"type":["string","null"],"name":"sysdate"},{"type":["double","null"],"name":"num"},{"type":["long","null"],"name":"int"},{"name":"str","type":["string","null"]},{"type":["string","null"],"name":"uuid"}],"type":"record","doc":"No documentation URL for now","name":"all_values"},"length":-1]}>
+	at org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson(ValueMetaAvroRecordTest.java:171)
+
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m67[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.745 s - in org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.079 s - in org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.965 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.179 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.703 s - in org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s - in org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.034 s - in org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.475 s - in org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.097 s - in org.apache.hop.core.logging.[1mLogChannelTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.51 s - in org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m25[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.471 s - in org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.743 s - in org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 s - in org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m30[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.807 s - in org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.117 s - in org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.328 s[1;31m <<< FAILURE![m - in org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;31mERROR[m] org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentXml  Time elapsed: 0.314 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ke-miterlimit="10" s[hape-rendering="auto" stroke-opacity="1]" fill="black" strok...> but was:<...ke-miterlimit="10" s[troke-opacity="1" shape-rendering="auto]" fill="black" strok...>
+	at org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentXml(HopSvgGraphics2DTest.java:60)
+
+[[1;31mERROR[m] org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentSimpleXml  Time elapsed: 0.011 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...r" font-size="12px" [stroke-dashoffset="0" image-rendering="auto]" xmlns="http://www....> but was:<...r" font-size="12px" [image-rendering="auto" stroke-dashoffset="0]" xmlns="http://www....>
+	at org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentSimpleXml(HopSvgGraphics2DTest.java:69)
+
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 s - in org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ValueMetaAvroRecordTest.testStoreLoadMetaInJson:171 expected:<{"[schema":{"name":"all_values","namespace":"hop.apache.org","doc":"No documentation URL for now","type":"record","fields":[{"name":"id","type":["long","null"]},{"name":"sysdate","type":["string","null"]},{"name":"num","type":["double","null"]},{"name":"int","type":["long","null"]},{"name":"str","type":["string","null"]},{"name":"uuid","type":["string","null"]}]},"precision":-1,"name":"test","length":-1,"conversionMask":null,"type":20]}> but was:<{"[conversionMask":null,"type":20,"precision":-1,"name":"test","schema":{"namespace":"hop.apache.org","fields":[{"name":"id","type":["long","null"]},{"type":["string","null"],"name":"sysdate"},{"type":["double","null"],"name":"num"},{"type":["long","null"],"name":"int"},{"name":"str","type":["string","null"]},{"type":["string","null"],"name":"uuid"}],"type":"record","doc":"No documentation URL for now","name":"all_values"},"length":-1]}>[m
+[[1;31mERROR[m] [1;31m  HopSvgGraphics2DTest.testNewDocumentSimpleXml:69 expected:<...r" font-size="12px" [stroke-dashoffset="0" image-rendering="auto]" xmlns="http://www....> but was:<...r" font-size="12px" [image-rendering="auto" stroke-dashoffset="0]" xmlns="http://www....>[m
+[[1;31mERROR[m] [1;31m  HopSvgGraphics2DTest.testNewDocumentXml:60 expected:<...ke-miterlimit="10" s[hape-rendering="auto" stroke-opacity="1]" fill="black" strok...> but was:<...ke-miterlimit="10" s[troke-opacity="1" shape-rendering="auto]" fill="black" strok...>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 616, Failures: 3, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for QaHAT+dYvFpTm+jyxdxXZqLHFCowzO6T1ZToHy8Xs=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/hop/core/.nondex
+nondexJarDir=/home/a360/research/projects/hop/core/.nondex
+nondexExecid=YKdF8yDx++VMQ31dPiYWsPKz+WmBhXuX9o+foVGIGQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.852 s - in org.apache.hop.concurrency.[1mLoggingBufferConcurrencyTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.hop.i18n.[1mGlobalMessageUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;31mERROR[m] WARNING: An illegal reflective access operation has occurred
+[[1;31mERROR[m] WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/a360/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar) to method java.lang.Object.clone()
+[[1;31mERROR[m] WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+[[1;31mERROR[m] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[[1;31mERROR[m] WARNING: All illegal access operations will be denied in a future release
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: fr_FR
+Warning: Unable to find properties file for package 'org.apache.hop/i18n/messages/test_ascii_messages' and class 'org.apache.hop.i18n.GlobalMessages' in the available locales: zh
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.257 s - in org.apache.hop.i18n.[1mGlobalMessagesTest[m
+[[1;34mINFO[m] Running org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 s - in org.apache.hop.laf.[1mRemoveAltKeyMessageHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mProgressNullMonitorListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.apache.hop.core.[1mWriterOutputStreamTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m100[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 s - in org.apache.hop.core.[1mConstTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.apache.hop.core.parameters.[1mUnknownParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.hop.core.parameters.[1mNamedParamsDefaultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.parameters.[1mDuplicateParamExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.parameters.[1mNamedParamsExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in org.apache.hop.core.vfs.[1mHopVfsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m41[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 s - in org.apache.hop.core.row.[1mValueMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.hop.core.row.value.[1mValueMetaInternetAddressTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.hop.core.row.value.[1mValueMetaBaseLenientStringConversionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.core.row.value.[1mValueMetaStringTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.apache.hop.core.row.value.[1mValueMetaFactoryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.453 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSetPreparedStmntValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.apache.hop.core.row.value.[1mValueMetaTimestampTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m6[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.289 s[1;31m <<< FAILURE![m - in org.apache.hop.core.row.value.[1mValueMetaAvroRecordTest[m
+[[1;31mERROR[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson  Time elapsed: 0.013 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[schema":{"name":"all_values","namespace":"hop.apache.org","doc":"No documentation URL for now","type":"record","fields":[{"name":"id","type":["long","null"]},{"name":"sysdate","type":["string","null"]},{"name":"num","type":["double","null"]},{"name":"int","type":["long","null"]},{"name":"str","type":["string","null"]},{"name":"uuid","type":["string","null"]}]},"precision":-1,"name":"test","length":-1,"conversionMask":null,"type":20]}> but was:<{"[name":"test","precision":-1,"type":20,"schema":{"doc":"No documentation URL for now","namespace":"hop.apache.org","fields":[{"type":["long","null"],"name":"id"},{"type":["string","null"],"name":"sysdate"},{"type":["double","null"],"name":"num"},{"type":["long","null"],"name":"int"},{"type":["string","null"],"name":"str"},{"type":["string","null"],"name":"uuid"}],"name":"all_values","type":"record"},"conversionMask":null,"length":-1]}>
+	at org.apache.hop.core.row.value.ValueMetaAvroRecordTest.testStoreLoadMetaInJson(ValueMetaAvroRecordTest.java:171)
+
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in org.apache.hop.core.row.value.[1mValueMetaBaseSerializationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.apache.hop.core.row.value.[1mValueMetaConverterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m67[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.742 s - in org.apache.hop.core.row.value.[1mValueMetaBaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m6[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.072 s - in org.apache.hop.core.row.value.timestamp.[1mSimpleTimestampFormatTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.row.[1mRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.hop.core.row.[1mValueDateUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.row.[1mRowMetaAddRemoveValueTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.hop.core.row.[1mRowDataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in org.apache.hop.core.row.[1mRowMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.99 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.179 s - in org.apache.hop.core.row.[1mValueMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.hop.core.hash.[1mLongHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.hash.[1mByteArrayHashIndexTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mObjectUsageCountTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.hop.core.exception.[1mHopFileNotFoundExceptionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.apache.hop.core.plugins.[1mPluginRegistryUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.hop.core.plugins.[1mPluginTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.[1mRowMetaAndDataTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.encryption.[1mEncrTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.encryption.[1mHopTwoWayPasswordEncoderTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.apache.hop.core.[1mSingleRowRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.apache.hop.core.[1mBlockingBatchingRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in org.apache.hop.core.variables.[1mVariableRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.677 s - in org.apache.hop.core.variables.[1mVariablesTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in org.apache.hop.core.xml.[1mXmlFormatterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in org.apache.hop.core.xml.[1mXmlCheckTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.hop.core.xml.[1mXmlUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[Fatal Error] :2:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.hop.core.xml.[1mXmlHandlerUnitTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.gui.plugin.[1mGuiRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.[1mBlockingListeningRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.apache.hop.core.[1mHopAttributeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.hop.core.metrics.[1mMetricsDurationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCounterTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.hop.core.[1mSqlStatementTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.032 s - in org.apache.hop.core.logging.[1mMetricsRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.hop.core.logging.[1mLogChannelFileWriterBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in org.apache.hop.core.logging.[1mSlf4jLoggingEventListenerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.hop.core.logging.[1mLoggingPluginTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.hop.core.logging.[1mLoggingBufferTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.hop.core.logging.[1mLoggingObjectTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.451 s - in org.apache.hop.core.logging.[1mLoggingRegistrySingltonTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLogChannelTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.073 s - in org.apache.hop.core.logging.[1mLogChannelTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+Hop configuration file not found, not serializing: /home/a360/research/projects/hop/core/config/hop-config.json
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.49 s - in org.apache.hop.core.logging.[1mLoggingRegistryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.logging.[1mHopLogLayoutTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m25[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.432 s - in org.apache.hop.core.util.[1mStringEvaluatorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.hop.core.util.[1mDateDetectorTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.hop.core.util.[1mUtilsTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.hop.core.util.[1mStringUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.hop.core.[1mCheckResultTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.hop.core.[1mSourceToTargetMappingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.hop.core.[1mRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.hop.core.[1mConditionTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.hop.core.[1mQueueRowSetTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.606 s - in org.apache.hop.core.database.[1mDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.hop.core.database.[1mSqlScriptParserTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 s - in org.apache.hop.core.database.[1mBaseDatabaseMetaTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m30[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 s - in org.apache.hop.core.database.[1mDatabaseTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.813 s - in org.apache.hop.core.database.[1mDatabaseConnectingTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mCountersTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.spreadsheet.[1mKCellTypeTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.hop.core.[1mTimedRowTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.hop.core.extension.[1mExtensionPointMapTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in org.apache.hop.core.extension.[1mExtensionPointHandlerTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.173 s - in org.apache.hop.core.extension.[1mExtensionPointIntegrationTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.hop.core.fileinput.[1mFileInputListTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.hop.core.[1mDbCacheEntryTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.194 s[1;31m <<< FAILURE![m - in org.apache.hop.core.svg.[1mHopSvgGraphics2DTest[m
+[[1;31mERROR[m] org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentXml  Time elapsed: 0.183 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ke-miterlimit="10" s[hape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto]" xmlns="http://www....> but was:<...ke-miterlimit="10" s[troke-opacity="1" shape-rendering="auto" fill="black" font-weight="normal" stroke-dasharray="none" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" image-rendering="auto" stroke-dashoffset="0]" xmlns="http://www....>
+	at org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentXml(HopSvgGraphics2DTest.java:60)
+
+[[1;31mERROR[m] org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentSimpleXml  Time elapsed: 0.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...nterpolation="auto" [text-rendering="auto" stroke="black" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal]" stroke-width="1" f...> but was:<...nterpolation="auto" [stroke="black" text-rendering="auto" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" font-weight="normal" stroke-dasharray="none]" stroke-width="1" f...>
+	at org.apache.hop.core.svg.HopSvgGraphics2DTest.testNewDocumentSimpleXml(HopSvgGraphics2DTest.java:69)
+
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.apache.hop.core.svg.[1mSvgSupportTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.apache.hop.core.svg.[1mSvgImageTest[m
+[[1;34mINFO[m] Running org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.hop.core.[1mResultFileTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.apache.hop.metadata.serializer.json.[1mJsonMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in org.apache.hop.metadata.serializer.xml.[1mXmlMetadataUtilTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataSerializerTest[m
+[[1;34mINFO[m] Running org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.hop.metadata.serializer.multi.[1mMultiMetadataProviderTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 s - in org.apache.hop.server.[1mServerConnectionManagerTest[m
+[[1;34mINFO[m] Running org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.hop.server.[1mHttpUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  ValueMetaAvroRecordTest.testStoreLoadMetaInJson:171 expected:<{"[schema":{"name":"all_values","namespace":"hop.apache.org","doc":"No documentation URL for now","type":"record","fields":[{"name":"id","type":["long","null"]},{"name":"sysdate","type":["string","null"]},{"name":"num","type":["double","null"]},{"name":"int","type":["long","null"]},{"name":"str","type":["string","null"]},{"name":"uuid","type":["string","null"]}]},"precision":-1,"name":"test","length":-1,"conversionMask":null,"type":20]}> but was:<{"[name":"test","precision":-1,"type":20,"schema":{"doc":"No documentation URL for now","namespace":"hop.apache.org","fields":[{"type":["long","null"],"name":"id"},{"type":["string","null"],"name":"sysdate"},{"type":["double","null"],"name":"num"},{"type":["long","null"],"name":"int"},{"type":["string","null"],"name":"str"},{"type":["string","null"],"name":"uuid"}],"name":"all_values","type":"record"},"conversionMask":null,"length":-1]}>[m
+[[1;31mERROR[m] [1;31m  HopSvgGraphics2DTest.testNewDocumentSimpleXml:69 expected:<...nterpolation="auto" [text-rendering="auto" stroke="black" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal]" stroke-width="1" f...> but was:<...nterpolation="auto" [stroke="black" text-rendering="auto" stroke-linecap="square" stroke-miterlimit="10" shape-rendering="auto" stroke-opacity="1" fill="black" font-weight="normal" stroke-dasharray="none]" stroke-width="1" f...>[m
+[[1;31mERROR[m] [1;31m  HopSvgGraphics2DTest.testNewDocumentXml:60 expected:<...ke-miterlimit="10" s[hape-rendering="auto" stroke-opacity="1" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" stroke-dashoffset="0" image-rendering="auto]" xmlns="http://www....> but was:<...ke-miterlimit="10" s[troke-opacity="1" shape-rendering="auto" fill="black" font-weight="normal" stroke-dasharray="none" stroke-width="1" font-family="'Dialog'" font-style="normal" stroke-linejoin="miter" font-size="12px" image-rendering="auto" stroke-dashoffset="0]" xmlns="http://www....>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 616, Failures: 3, Errors: 0, Skipped: 6[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for YKdF8yDx++VMQ31dPiYWsPKz+WmBhXuX9o+foVGIGQ=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hop/core/.nondex" -DnondexJarDir="/home/a360/research/projects/hop/core/.nondex" -DnondexExecid=wlTRGS3idWwg5p5YtqmtiwXylavjw7906B2qVAQ08TU= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest#testStoreLoadMetaInJson
+[[1;33mWARNING[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentXml
+[[1;33mWARNING[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentSimpleXml
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hop/core/.nondex" -DnondexJarDir="/home/a360/research/projects/hop/core/.nondex" -DnondexExecid=QaHAT+dYvFpTm+jyxdxXZqLHFCowzO6T1ZToHy8Xs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest#testStoreLoadMetaInJson
+[[1;33mWARNING[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentXml
+[[1;33mWARNING[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentSimpleXml
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/hop/core/.nondex" -DnondexJarDir="/home/a360/research/projects/hop/core/.nondex" -DnondexExecid=YKdF8yDx++VMQ31dPiYWsPKz+WmBhXuX9o+foVGIGQ= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest#testStoreLoadMetaInJson
+[[1;33mWARNING[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentXml
+[[1;33mWARNING[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentSimpleXml
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.hop.core.row.value.ValueMetaAvroRecordTest#testStoreLoadMetaInJson
+[[1;34mINFO[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentXml
+[[1;34mINFO[m] org.apache.hop.core.svg.HopSvgGraphics2DTest#testNewDocumentSimpleXml
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/hop/core/.nondex/wlTRGS3idWwg5p5YtqmtiwXylavjw7906B2qVAQ08TU=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: wlTRGS3idWwg5p5YtqmtiwXylavjw7906B2qVAQ08TU=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:45 min
+[[1;34mINFO[m] Finished at: 2026-10-02T04:14:25-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mhop-core[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/hop/core/.nondex/wlTRGS3idWwg5p5YtqmtiwXylavjw7906B2qVAQ08TU= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

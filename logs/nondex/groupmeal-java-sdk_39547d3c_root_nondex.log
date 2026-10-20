@@ -1,0 +1,314 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.github.meituan-dianping:groupmeal-java-sdk[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding groupmeal-java-sdk 0.0.1[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mgroupmeal-java-sdk[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mgroupmeal-java-sdk[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3:compile[m [1m(default-compile)[m @ [36mgroupmeal-java-sdk[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mgroupmeal-java-sdk[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/groupmeal-java-sdk/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3:testCompile[m [1m(default-testCompile)[m @ [36mgroupmeal-java-sdk[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mgroupmeal-java-sdk[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mgroupmeal-java-sdk[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_YZBWTuB3XbbhcwRHZDnMbcJvqPwx5tcyYkB0GoJ81dE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/groupmeal-java-sdk/.nondex/clean_YZBWTuB3XbbhcwRHZDnMbcJvqPwx5tcyYkB0GoJ81dE=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running JsonTest
+{"status":1,"message":"fail","trade_no":"2340343433","payment_id":"20210343","notify_time":"1790909827","total_amount":"2590"}
+{"status":1,"message":"fail","trade_no":"2340343433","payment_id":"20210343","notify_time":"1790909827","total_amount":"2590"}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec - in JsonTest
+Running PayClientTest
+[2026-10-01 21:57:07.735]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1790909827727.65414 body: {"status":0,"trade_no":"604557080286524400","payment_id":"1","notify_time":"1790909827","total_amount":"1300"} 
+[2026-10-01 21:57:07.957]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1790909827727.65414 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1790909827727.65414
+App-Id: tcqd_demo03
+Sign: 473b61d372f832a949cfa9f999c25e0c
+Sign-Type: MD5
+Timestamp: 1790909827
+ 
+[2026-10-01 21:57:09.024]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1790909827727.65414 cost:1066
+Server: openresty
+Date: Fri, 02 Oct 2026 02:57:08 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27adc97e7d1790909828720
+ 
+[2026-10-01 21:57:09.025]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1790909827727.65414 body: {"code":40001,"message":"App-Id not support "} 
+result: {"code":40001,"message":"App-Id not support "}
+签名不匹配,需要排查
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.603 sec - in PayClientTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexJarDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexExecid=3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/groupmeal-java-sdk/.nondex/3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running JsonTest
+{"notify_time":"1790909829","message":"fail","payment_id":"20210343","total_amount":"2590","trade_no":"2340343433","status":1}
+{"notify_time":"1790909829","payment_id":"20210343","trade_no":"2340343433","status":1,"message":"fail","total_amount":"2590"}
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec <<< FAILURE! - in JsonTest
+payCallBackParam(JsonTest)  Time elapsed: 0.081 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at JsonTest.payCallBackParam(JsonTest.java:29)
+
+Running PayClientTest
+[2026-10-01 21:57:10.084]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1790909830075.1264 body: {"payment_id":"1","total_amount":"1300","status":0,"notify_time":"1790909830","trade_no":"604557080286524400"} 
+[2026-10-01 21:57:10.266]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1790909830075.1264 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1790909830075.1264
+App-Id: tcqd_demo03
+Sign: 413272307c6498022169ac7fe10fd6cd
+Sign-Type: MD5
+Timestamp: 1790909830
+ 
+[2026-10-01 21:57:11.342]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1790909830075.1264 cost:1074
+Server: openresty
+Date: Fri, 02 Oct 2026 02:57:11 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27adc97e9d1790909831042
+ 
+[2026-10-01 21:57:11.342]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1790909830075.1264 body: {"code":40001,"message":"App-Id not support "} 
+result: {"message":"App-Id not support ","code":40001}
+签名不匹配,需要排查
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.631 sec - in PayClientTest
+
+Results :
+
+Failed tests: 
+  JsonTest.payCallBackParam:29 null
+
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexJarDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexExecid=J75tnzbUfMSmHYAMnKmUG6MRxsdJkSZyDS9LBUvYmo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/groupmeal-java-sdk/.nondex/J75tnzbUfMSmHYAMnKmUG6MRxsdJkSZyDS9LBUvYmo=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running JsonTest
+{"total_amount":"2590","payment_id":"20210343","notify_time":"1790909831","status":1,"trade_no":"2340343433","message":"fail"}
+{"trade_no":"2340343433","status":1,"total_amount":"2590","notify_time":"1790909831","payment_id":"20210343","message":"fail"}
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec <<< FAILURE! - in JsonTest
+payCallBackParam(JsonTest)  Time elapsed: 0.086 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at JsonTest.payCallBackParam(JsonTest.java:29)
+
+Running PayClientTest
+[2026-10-01 21:57:12.286]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1790909832276.23946 body: {"status":0,"total_amount":"1300","notify_time":"1790909832","payment_id":"1","trade_no":"604557080286524400"} 
+[2026-10-01 21:57:12.480]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1790909832276.23946 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1790909832276.23946
+App-Id: tcqd_demo03
+Sign: 48e2590f635e20664251f5dd832db556
+Sign-Type: MD5
+Timestamp: 1790909832
+ 
+[2026-10-01 21:57:13.603]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1790909832276.23946 cost:1122
+Server: openresty
+Date: Fri, 02 Oct 2026 02:57:13 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27c2f0cfbe1790909833295
+ 
+[2026-10-01 21:57:13.604]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1790909832276.23946 body: {"code":40001,"message":"App-Id not support "} 
+result: {"message":"App-Id not support ","code":40001}
+签名不匹配,需要排查
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.714 sec - in PayClientTest
+
+Results :
+
+Failed tests: 
+  JsonTest.payCallBackParam:29 null
+
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for J75tnzbUfMSmHYAMnKmUG6MRxsdJkSZyDS9LBUvYmo=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexJarDir=/home/a360/research/projects/groupmeal-java-sdk/.nondex
+nondexExecid=LEPKQF2ygTHG7fmxPvr6oE17vRmfGpPOLTKhtq51zMw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/groupmeal-java-sdk/.nondex/LEPKQF2ygTHG7fmxPvr6oE17vRmfGpPOLTKhtq51zMw=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running JsonTest
+{"payment_id":"20210343","message":"fail","trade_no":"2340343433","status":1,"total_amount":"2590","notify_time":"1790909834"}
+{"total_amount":"2590","payment_id":"20210343","notify_time":"1790909834","message":"fail","status":1,"trade_no":"2340343433"}
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec <<< FAILURE! - in JsonTest
+payCallBackParam(JsonTest)  Time elapsed: 0.081 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at JsonTest.payCallBackParam(JsonTest.java:29)
+
+Running PayClientTest
+[2026-10-01 21:57:14.514]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1790909834504.75802 body: {"trade_no":"604557080286524400","status":0,"total_amount":"1300","payment_id":"1","notify_time":"1790909834"} 
+[2026-10-01 21:57:14.701]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1790909834504.75802 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1790909834504.75802
+App-Id: tcqd_demo03
+Sign: 27ecae264775ae03a2be65c2ff82d8c3
+Sign-Type: MD5
+Timestamp: 1790909834
+ 
+[2026-10-01 21:57:15.766]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1790909834504.75802 cost:1065
+Server: openresty
+Date: Fri, 02 Oct 2026 02:57:15 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a65b28bb5721790909835470
+ 
+[2026-10-01 21:57:15.767]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1790909834504.75802 body: {"code":40001,"message":"App-Id not support "} 
+result: {"code":40001,"message":"App-Id not support "}
+签名不匹配,需要排查
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.654 sec - in PayClientTest
+
+Results :
+
+Failed tests: 
+  JsonTest.payCallBackParam:29 null
+
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for LEPKQF2ygTHG7fmxPvr6oE17vRmfGpPOLTKhtq51zMw=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/groupmeal-java-sdk/.nondex" -DnondexJarDir="/home/a360/research/projects/groupmeal-java-sdk/.nondex" -DnondexExecid=3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] JsonTest#payCallBackParam
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/groupmeal-java-sdk/.nondex" -DnondexJarDir="/home/a360/research/projects/groupmeal-java-sdk/.nondex" -DnondexExecid=J75tnzbUfMSmHYAMnKmUG6MRxsdJkSZyDS9LBUvYmo= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] JsonTest#payCallBackParam
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/groupmeal-java-sdk/.nondex" -DnondexJarDir="/home/a360/research/projects/groupmeal-java-sdk/.nondex" -DnondexExecid=LEPKQF2ygTHG7fmxPvr6oE17vRmfGpPOLTKhtq51zMw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] JsonTest#payCallBackParam
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] JsonTest#payCallBackParam
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/groupmeal-java-sdk/.nondex/3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.004 s
+[[1;34mINFO[m] Finished at: 2026-10-01T21:57:15-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mgroupmeal-java-sdk[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/groupmeal-java-sdk/.nondex/3rCwzYCyriez056aRIGO6sy0KedhN5nNBPGnMzO0CI8= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

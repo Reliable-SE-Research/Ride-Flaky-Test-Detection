@@ -1,0 +1,1065 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36morg.apache.avro:avro[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Avro 1.10.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mavro[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] Adding ignore: module-info
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-banned-dependencies)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.5:process[m [1m(process-resource-bundles)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspotless:1.24.1:check[m [1m(spotless-check)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:4.1.0:manifest[m [1m(bundle-manifest)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mavro[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mavro[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mavro[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_nxp2vNLQNYVnfDkIEpcvS8kJCJvvikeMcve8rC8OZ8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m84[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m192[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m816[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.533 s - in org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.601 s - in org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.955 s - in org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m48[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m52[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.667 s - in org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflect[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m73[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in org.apache.avro.reflect.[1mTestReflect[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m17[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.027 s - in org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m32[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] Running org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m972[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.455 s - in org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m376[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m50[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] Running org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 s - in org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 3176, Failures: 0, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexJarDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexExecid=BRQoPRjNm8JnB32Ia43FWSsP3AivcVrs+463UW7RtFs=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m48[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m84[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.019 s - in org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.247 s - in org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] Running org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m816[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.876 s - in org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m17[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.021 s - in org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m32[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m50[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m192[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 s - in org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.018 s - in org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.033 s[1;31m <<< FAILURE![m - in org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;31mERROR[m] testNonStringMapKeys(org.apache.avro.reflect.TestNonStringMapKeys)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: JSON decoder output not same as Binary Decoder expected:<{"employees": [{"key": {"id": 2}, "value": {"name": "Bar"}}, {"key": {"id": 1}, "value": {"name": "Foo"}}]}> but was:<{"employees": [{"key": {"id": 1}, "value": {"name": "Foo"}}, {"key": {"id": 2}, "value": {"name": "Bar"}}]}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.avro.reflect.TestNonStringMapKeys.testNonStringMapKeys(TestNonStringMapKeys.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] Running org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m972[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 s - in org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m376[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m52[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.995 s - in org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflect[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m73[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.087 s[1;31m <<< FAILURE![m - in org.apache.avro.reflect.[1mTestReflect[m
+[[1;31mERROR[m] testAnnotationMultiAvroMeta(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.008 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...":"a","type":"int","[K":"V","L":"W]"}],"X":"Y","A":"B"}> but was:<...":"a","type":"int","[L":"W","K":"V]"}],"X":"Y","A":"B"}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta(TestReflect.java:635)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;31mERROR[m] testAvroDoc(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.002 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...,"fields":[{"name":"[foo","type":"int","doc":"Some Documentation"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentation"},{"name":"defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And agai]n"}]}> but was:<...,"fields":[{"name":"[defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And again"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentation"},{"name":"foo","type":"int","doc":"Some Documentatio]n"}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testAvroDoc(TestReflect.java:1319)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;34mINFO[m] Running org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestNonStringMapKeys.testNonStringMapKeys:88 JSON decoder output not same as Binary Decoder expected:<{"employees": [{"key": {"id": 2}, "value": {"name": "Bar"}}, {"key": {"id": 1}, "value": {"name": "Foo"}}]}> but was:<{"employees": [{"key": {"id": 1}, "value": {"name": "Foo"}}, {"key": {"id": 2}, "value": {"name": "Bar"}}]}>[m
+[[1;31mERROR[m] [1;31m  TestReflect.testAnnotationMultiAvroMeta:635->check:704 expected:<...":"a","type":"int","[K":"V","L":"W]"}],"X":"Y","A":"B"}> but was:<...":"a","type":"int","[L":"W","K":"V]"}],"X":"Y","A":"B"}>[m
+[[1;31mERROR[m] [1;31m  TestReflect.testAvroDoc:1319->check:704 expected:<...,"fields":[{"name":"[foo","type":"int","doc":"Some Documentation"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentation"},{"name":"defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And agai]n"}]}> but was:<...,"fields":[{"name":"[defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And again"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentation"},{"name":"foo","type":"int","doc":"Some Documentatio]n"}]}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 3176, Failures: 3, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for BRQoPRjNm8JnB32Ia43FWSsP3AivcVrs+463UW7RtFs=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexJarDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexExecid=INgX6U65LO6rxg98O00mz4AGuUJF90zNJnsErbtc4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m816[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.673 s - in org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflect[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m73[m, [1;31mFailures: [0;1;31m4[m, Errors: 0, Skipped: 0, Time elapsed: 0.107 s[1;31m <<< FAILURE![m - in org.apache.avro.reflect.[1mTestReflect[m
+[[1;31mERROR[m] testAnnotationMultiAvroMeta(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.013 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...":"a","type":"int","[K":"V","L":"W]"}],"X":"Y","A":"B"}> but was:<...":"a","type":"int","[L":"W","K":"V]"}],"X":"Y","A":"B"}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta(TestReflect.java:635)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;31mERROR[m] testAvroDoc(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.004 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...,"fields":[{"name":"[foo","type":"int","doc":"Some Documentation"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentation"},{"name":"defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And agai]n"}]}> but was:<...,"fields":[{"name":"[defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And again"},{"name":"foo","type":"int","doc":"Some Documentation"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentatio]n"}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testAvroDoc(TestReflect.java:1319)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;31mERROR[m] testMultipleFieldAliases(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...t","aliases":["alias[1","alias2]"]}]}> but was:<...t","aliases":["alias[2","alias1]"]}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testMultipleFieldAliases(TestReflect.java:1258)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;31mERROR[m] testRecord(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...,"fields":[{"name":"[a","type":"int"},{"name":"b","type":"long]"}]}> but was:<...,"fields":[{"name":"[b","type":"long"},{"name":"a","type":"int]"}]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testRecord(TestReflect.java:595)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m17[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.032 s - in org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m192[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m52[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.394 s - in org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m32[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.791 s - in org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m376[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m48[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.278 s - in org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m972[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 s - in org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.574 s - in org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m50[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] Running org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] Running org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m84[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s - in org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestReflect.testAnnotationMultiAvroMeta:635->check:704 expected:<...":"a","type":"int","[K":"V","L":"W]"}],"X":"Y","A":"B"}> but was:<...":"a","type":"int","[L":"W","K":"V]"}],"X":"Y","A":"B"}>[m
+[[1;31mERROR[m] [1;31m  TestReflect.testAvroDoc:1319->check:704 expected:<...,"fields":[{"name":"[foo","type":"int","doc":"Some Documentation"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentation"},{"name":"defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And agai]n"}]}> but was:<...,"fields":[{"name":"[defaultTest","type":{"type":"record","name":"DefaultTest","fields":[{"name":"foo","type":"int","default":1}]},"doc":"And again"},{"name":"foo","type":"int","doc":"Some Documentation"},{"name":"enums","type":{"type":"enum","name":"DocTestEnum","symbols":["ENUM_1","ENUM_2"]},"doc":"Some other Documentatio]n"}]}>[m
+[[1;31mERROR[m] [1;31m  TestReflect.testMultipleFieldAliases:1258->check:704 expected:<...t","aliases":["alias[1","alias2]"]}]}> but was:<...t","aliases":["alias[2","alias1]"]}]}>[m
+[[1;31mERROR[m] [1;31m  TestReflect.testRecord:595->check:704 expected:<...,"fields":[{"name":"[a","type":"int"},{"name":"b","type":"long]"}]}> but was:<...,"fields":[{"name":"[b","type":"long"},{"name":"a","type":"int]"}]}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 3176, Failures: 4, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for INgX6U65LO6rxg98O00mz4AGuUJF90zNJnsErbtc4=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexJarDir=/home/a360/research/projects/avro/lang/java/avro/.nondex
+nondexExecid=bpjKWZyqZrQuIwH0nnElndnAO+C3b5IciFHrSodxfkI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprint[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.avro.[1mTestSchemaNormalization$TestFingerprintInternationalization[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.avro.[1mTestSchemaNormalization$TestCanonical[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m32[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingEnumSymbols[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m84[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.avro.io.[1mTestBlockingIO2[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.avro.generic.[1mTestGenericConcreteEnum[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.util.[1mTestCaseFinder$SimpleCases[m
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.util.[1mTestCaseFinder$NonParameterized[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.avro.[1mTestSchemaCompatibilityFixedSizeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m52[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.383 s - in org.apache.avro.[1mTestDataFile[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestSchemaCompatibilityReaderFieldMissingDefaultValue[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.avro.[1mTestSchemaBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestDataFileMeta[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in org.apache.avro.reflect.[1mTestNonStringMapKeys[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m376[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.apache.avro.io.[1mTestBlockingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestDataFileDeflate[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestCustomCodec[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.avro.[1mTestDataFileReader[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m50[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.avro.[1mTestReadingWritingDataInEvolvedSchemas[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestUnionSelfReference[m
+[[1;34mINFO[m] Running org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.util.internal.[1mTestJacksonUtils[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m816[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.96 s - in org.apache.avro.io.[1mTestResolvingIO[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.avro.reflect.[1mTestReflectionUtil[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 s - in org.apache.avro.reflect.[1mTestByteBuffer[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.avro.io.[1mTestEncoders[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.generic.[1mTestGenericRecordBuilder[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflect[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m73[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.127 s[1;31m <<< FAILURE![m - in org.apache.avro.reflect.[1mTestReflect[m
+[[1;31mERROR[m] testAnnotationMultiAvroMeta(org.apache.avro.reflect.TestReflect)  Time elapsed: 0.015 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...":"a","type":"int","[K":"V","L":"W]"}],"X":"Y","A":"B"}> but was:<...":"a","type":"int","[L":"W","K":"V]"}],"X":"Y","A":"B"}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.avro.reflect.TestReflect.check(TestReflect.java:704)
+	at org.apache.avro.reflect.TestReflect.testAnnotationMultiAvroMeta(TestReflect.java:635)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+[[1;34mINFO[m] Running org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.util.[1mTestUtf8[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.file.[1mTestSeekableByteArrayInput[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestCircularReferences[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m192[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in org.apache.avro.io.[1mTestResolvingIOResolving[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.file.[1mTestZstandardCodec[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.avro.[1mTestSchemaValidation[m
+[[1;34mINFO[m] Running org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.message.[1mTestBinaryMessageEncoding[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.io.[1mTestJsonDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.avro.specific.[1mTestSpecificData[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestDataFileCorruption[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.avro.generic.[1mTestGenericData[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.io.[1mTestBinaryEncoderFidelity[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m20[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.avro.[1mTestSchema[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestNestedRecords[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.avro.generic.[1mTestGenericLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m17[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.034 s - in org.apache.avro.reflect.[1mTestReflectLogicalTypes[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestSchemaCompatibilityNameMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.avro.[1mTestDataFileCustomSync[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.avro.[1mTestLogicalType[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.497 s - in org.apache.avro.[1mTestDataFileConcat[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m972[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 s - in org.apache.avro.io.[1mTestValidatingIO[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestSchemaCompatibilityEnumDefaults[m
+[[1;34mINFO[m] Running org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m48[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.avro.io.[1mTestBinaryDecoder[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.[1mTestSchemaCompatibilityMultiple[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.357 s - in org.apache.avro.file.[1mTestAllCodecs[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.avro.[1mTestDataFileReflect[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.578 s - in org.apache.avro.reflect.[1mTestReflectData[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.avro.[1mTestSchemaCompatibilityMissingUnionBranch[m
+[[1;34mINFO[m] Running org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.io.parsing.[1mTestResolvingGrammarGenerator2[m
+[[1;34mINFO[m] Running org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.avro.data.[1mTestTimeConversions[m
+[[1;34mINFO[m] Running org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.avro.generic.[1mTestGenericDatumWriter[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestProtocol[m
+[[1;34mINFO[m] Running org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.avro.file.[1mTestIOExceptionDuringWrite[m
+[[1;34mINFO[m] Running org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.avro.specific.[1mTestSpecificToFromByteArray[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.avro.[1mTestFixed[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.avro.reflect.[1mTestReflectAllowNulls[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.avro.[1mTestSchemaCompatibility[m
+[[1;34mINFO[m] Running org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.[1mTestSchemaCompatibilityTypeMismatch[m
+[[1;34mINFO[m] Running org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.avro.reflect.[1mTestReflectDatumReader[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestReflect.testAnnotationMultiAvroMeta:635->check:704 expected:<...":"a","type":"int","[K":"V","L":"W]"}],"X":"Y","A":"B"}> but was:<...":"a","type":"int","[L":"W","K":"V]"}],"X":"Y","A":"B"}>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 3176, Failures: 1, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for bpjKWZyqZrQuIwH0nnElndnAO+C3b5IciFHrSodxfkI=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/avro/lang/java/avro/.nondex" -DnondexJarDir="/home/a360/research/projects/avro/lang/java/avro/.nondex" -DnondexExecid=BRQoPRjNm8JnB32Ia43FWSsP3AivcVrs+463UW7RtFs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.avro.reflect.TestNonStringMapKeys#testNonStringMapKeys
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testAnnotationMultiAvroMeta
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testAvroDoc
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/avro/lang/java/avro/.nondex" -DnondexJarDir="/home/a360/research/projects/avro/lang/java/avro/.nondex" -DnondexExecid=INgX6U65LO6rxg98O00mz4AGuUJF90zNJnsErbtc4= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testAnnotationMultiAvroMeta
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testAvroDoc
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testMultipleFieldAliases
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testRecord
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/avro/lang/java/avro/.nondex" -DnondexJarDir="/home/a360/research/projects/avro/lang/java/avro/.nondex" -DnondexExecid=bpjKWZyqZrQuIwH0nnElndnAO+C3b5IciFHrSodxfkI= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.avro.reflect.TestReflect#testAnnotationMultiAvroMeta
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.avro.reflect.TestNonStringMapKeys#testNonStringMapKeys
+[[1;34mINFO[m] org.apache.avro.reflect.TestReflect#testAnnotationMultiAvroMeta
+[[1;34mINFO[m] org.apache.avro.reflect.TestReflect#testAvroDoc
+[[1;34mINFO[m] org.apache.avro.reflect.TestReflect#testMultipleFieldAliases
+[[1;34mINFO[m] org.apache.avro.reflect.TestReflect#testRecord
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/avro/lang/java/avro/.nondex/BRQoPRjNm8JnB32Ia43FWSsP3AivcVrs+463UW7RtFs=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: BRQoPRjNm8JnB32Ia43FWSsP3AivcVrs+463UW7RtFs=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:09 min
+[[1;34mINFO[m] Finished at: 2026-10-01T23:39:07-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mavro[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/avro/lang/java/avro/.nondex/BRQoPRjNm8JnB32Ia43FWSsP3AivcVrs+463UW7RtFs= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

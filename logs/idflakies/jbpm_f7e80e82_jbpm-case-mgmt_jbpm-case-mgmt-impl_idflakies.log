@@ -1,0 +1,79 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.jbpm:jbpm-case-mgmt-impl[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding jBPM :: Case Management Impl 7.75.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjbpm-case-mgmt-impl[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-plugin-versions)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(ban-blacklisted-dependencies)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-java-version)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(enforce-maven-version)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M3:enforce[m [1m(no-managed-deps)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.4:create[m [1m(get-scm-revision)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl
+[[1;34mINFO[m] Storing buildNumber: f7e80e82b7670c09485ce83869a287ef51dcb59c at timestamp: 1790973802753
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:add-source[m [1m(default)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl/target/generated-sources/annotations added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:parse-version[m [1m(default)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 83 resources
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjbpm-case-mgmt-impl[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36mjbpm-case-mgmt-impl[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 239 tests. Time taken: 2.01200008392334 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.jbpm:jbpm-case-mgmt-impl:7.75.0-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl/.dtfixingtools/original-order
+[INFO] Getting original results (239 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (297.0 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (297.0 seconds elapsed (598.1 total), 148.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (598.1 seconds elapsed (897.4 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/jbpm/jbpm-case-mgmt/jbpm-case-mgmt-impl/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  20:02 min
+[[1;34mINFO[m] Finished at: 2026-10-02T16:03:21-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

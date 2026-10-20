@@ -1,0 +1,2071 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mio.github.classgraph:classgraph[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding ClassGraph 4.8.48-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mclassgraph[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/classgraph/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:copy-resources[m [1m(copy-license-to-target)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:copy-resources[m [1m(copy-license-to-javadocs)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:4.2.1:manifest[m [1m(bundle-manifest)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:add-test-source[m [1m(add-test-source)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Test Source directory: /home/a360/research/projects/classgraph/src/test/perf added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 28 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mclassgraph[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mclassgraph[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mclassgraph[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/classgraph/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_K7KTXZDY4ULlxYdMBuBJ72uREEcwj7CdLxcLsIBw42c=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.403 s - in io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 s - in io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] Running io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue128.[1mIssue128Test[m
+Could not download remote jar, skipping test io.github.classgraph.issues.issue128.Issue128Test: java.io.IOException: Server returned HTTP response code: 503 for URL: https://github.com/classgraph/classgraph/blob/master/src/test/resources/nested-jars-level1.zip?raw=true!level2.jar!level3.jar!classpath1/classpath2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.892 s - in io.github.classgraph.issues.issue128.[1mIssue128Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.932 s - in io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s - in io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s - in io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s - in io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.829 s - in io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] Running io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] Running [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] Running nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] Running [1mDefaultPackageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in [1mDefaultPackageTest[m
+[[1;34mINFO[m] Running com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 140, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/classgraph/.nondex
+nondexJarDir=/home/a360/research/projects/classgraph/.nondex
+nondexExecid=cNuN81KQNebgtKgUg+Fyw7x0MADehSqHfMfh+44dw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.39 s - in io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 s - in io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] Running io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, [1;31mErrors: [0;1;31m1[m, Skipped: 0, Time elapsed: 0.067 s[1;31m <<< FAILURE![m - in io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;31mERROR[m] testSerializeThenDeserializeScanResult  Time elapsed: 0.049 s  <<< ERROR!
+java.lang.IllegalArgumentException: JSON is not in correct format
+	at io.github.classgraph.json.JSONSerializationTest.testSerializeThenDeserializeScanResult(JSONSerializationTest.java:286)
+
+[[1;31mERROR[m] testJSON  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <"{"e":{"map":{"3":3},"list":[3,3,3],"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+to be equal to:
+ <"{"e":{"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"map":{"3":3},"list":[3,3,3],"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+but was not.
+	at io.github.classgraph.json.JSONSerializationTest.testJSON(JSONSerializationTest.java:260)
+
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s - in io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue128.[1mIssue128Test[m
+Could not download remote jar, skipping test io.github.classgraph.issues.issue128.Issue128Test: java.io.IOException: Server returned HTTP response code: 503 for URL: https://github.com/classgraph/classgraph/blob/master/src/test/resources/nested-jars-level1.zip?raw=true!level2.jar!level3.jar!classpath1/classpath2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.689 s - in io.github.classgraph.issues.issue128.[1mIssue128Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.914 s - in io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.262 s - in io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 s - in io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 s - in io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.791 s - in io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] Running io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s - in io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] Running [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] Running nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] Running [1mDefaultPackageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in [1mDefaultPackageTest[m
+[[1;34mINFO[m] Running com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  JSONSerializationTest.testJSON:260 
+Expecting:
+ <"{"e":{"map":{"3":3},"list":[3,3,3],"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+to be equal to:
+ <"{"e":{"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"map":{"3":3},"list":[3,3,3],"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+but was not.[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  JSONSerializationTest.testSerializeThenDeserializeScanResult:286 » IllegalArgument[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 140, Failures: 1, Errors: 1, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for cNuN81KQNebgtKgUg+Fyw7x0MADehSqHfMfh+44dw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/classgraph/.nondex
+nondexJarDir=/home/a360/research/projects/classgraph/.nondex
+nondexExecid=w330m4bAXNGxnUZ0b3nIkPsOQj+KL8EErR6fDtXBLe4=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 s - in io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 s - in io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] Running io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m1[m, [1;31mErrors: [0;1;31m1[m, Skipped: 0, Time elapsed: 0.065 s[1;31m <<< FAILURE![m - in io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;31mERROR[m] testSerializeThenDeserializeScanResult  Time elapsed: 0.048 s  <<< ERROR!
+java.lang.IllegalArgumentException: JSON is not in correct format
+	at io.github.classgraph.json.JSONSerializationTest.testSerializeThenDeserializeScanResult(JSONSerializationTest.java:286)
+
+[[1;31mERROR[m] testJSON  Time elapsed: 0.013 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <"{"e":{"list":[3,3,3],"map":{"3":3},"q":{"b":3,"a":{"y":"x","x":[3]},"arr":[3,3,3]},"c":{"b":5,"a":{"y":"x","x":[5]},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"list":[1.5,1.5,1.5],"q":{"b":1.5,"a":{"y":"x","x":[1.5]},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"wxy":123}}">
+to be equal to:
+ <"{"e":{"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"map":{"3":3},"list":[3,3,3],"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+but was not.
+	at io.github.classgraph.json.JSONSerializationTest.testJSON(JSONSerializationTest.java:260)
+
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue128.[1mIssue128Test[m
+Could not download remote jar, skipping test io.github.classgraph.issues.issue128.Issue128Test: java.io.IOException: Server returned HTTP response code: 503 for URL: https://github.com/classgraph/classgraph/blob/master/src/test/resources/nested-jars-level1.zip?raw=true!level2.jar!level3.jar!classpath1/classpath2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.038 s - in io.github.classgraph.issues.issue128.[1mIssue128Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.05 s - in io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.288 s - in io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s - in io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.721 s - in io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] Running io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s - in io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] Running [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] Running nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] Running [1mDefaultPackageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in [1mDefaultPackageTest[m
+[[1;34mINFO[m] Running com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  JSONSerializationTest.testJSON:260 
+Expecting:
+ <"{"e":{"list":[3,3,3],"map":{"3":3},"q":{"b":3,"a":{"y":"x","x":[3]},"arr":[3,3,3]},"c":{"b":5,"a":{"y":"x","x":[5]},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"list":[1.5,1.5,1.5],"q":{"b":1.5,"a":{"y":"x","x":[1.5]},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"wxy":123}}">
+to be equal to:
+ <"{"e":{"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"map":{"3":3},"list":[3,3,3],"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+but was not.[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  JSONSerializationTest.testSerializeThenDeserializeScanResult:286 » IllegalArgument[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 140, Failures: 1, Errors: 1, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for w330m4bAXNGxnUZ0b3nIkPsOQj+KL8EErR6fDtXBLe4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/classgraph/.nondex
+nondexJarDir=/home/a360/research/projects/classgraph/.nondex
+nondexExecid=peT80AYvJ7yXPZzEhAkjWtCzKaOXmwcAwHGdG5aI4k=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.399 s - in io.github.classgraph.features.[1mAnnotationParamWithPrimitiveTypedArrayTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in io.github.classgraph.features.[1mMultiReleaseJarTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in io.github.classgraph.features.[1mMethodParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 s - in io.github.classgraph.features.[1mDeclaredVsNonDeclaredTest[m
+[[1;34mINFO[m] Running io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in io.github.classgraph.features.[1mAnnotationEqualityTest[m
+[[1;34mINFO[m] Running io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m2[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.089 s[1;31m <<< FAILURE![m - in io.github.classgraph.json.[1mJSONSerializationTest[m
+[[1;31mERROR[m] testSerializeThenDeserializeScanResult  Time elapsed: 0.085 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <"{
+  "classInfo": [
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINS_INNER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest",
+      "packageInfo": {
+        "__ID": "[#3]",
+        "parent": {
+          "__ID": "[#2]",
+          "parent": {
+            "__ID": "[#1]",
+            "parent": {
+              "__ID": "[#0]",
+              "parent": {
+                "__ID": "[#4]",
+                "name": "",
+                "children": [
+                  "[#0]"
+                ]
+              },
+              "name": "io",
+              "children": [
+                "[#1]"
+              ]
+            },
+            "name": "io.github",
+            "children": [
+              "[#2]"
+            ]
+          },
+          "name": "io.github.classgraph",
+          "children": [
+            "[#3]"
+          ]
+        },
+        "name": "io.github.classgraph.json",
+        "memberClassNameToClassInfo": {
+          "io.github.classgraph.json.JSONSerializationTest": "io.github.classgraph.json.JSONSerializationTest",
+          "io.github.classgraph.json.JSONSerializationTest$1": "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A": "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B": "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C": "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D": "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E": "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F": "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G": "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H": "io.github.classgraph.json.JSONSerializationTest$H"
+        }
+      },
+      "modifiers": 33
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$1",
+      "isInherited": false,
+      "fullyQualifiedDefiningMethodName": "io.github.classgraph.json.JSONSerializationTest.<clinit>",
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$1",
+      "packageInfo": "[#3]",
+      "modifiers": 4128
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$A",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<X:Ljava/lang/Object;Y:Ljava/lang/Object;>Ljava/lang/Object;",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$A",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$B",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<V:Ljava/lang/Object;>Ljava/lang/Object;",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$C"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$B",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$C",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Lio/github/classgraph/json/JSONSerializationTest$B<TT;>;",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$B"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$C",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$D",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Ljava/lang/Object;",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$D",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$E",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Short;>;",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$E",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$F",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Float;>;",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$F",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$G",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$G",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$H",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$H",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    }
+  ],
+  "format": "9",
+  "classpath": [
+    "/home/a360/research/projects/classgraph/target/test-classes"
+  ],
+  "scanSpec": {
+    "pathPrefixWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "pathWhiteBlackList": {
+      "whitelist": [
+        "io/github/classgraph/json/"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ],
+      "separatorChar": "/",
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ]
+    },
+    "ignoreParentClassLoaders": false,
+    "scanNestedJars": true,
+    "ignoreParentModuleLayers": false,
+    "enableClassInfo": true,
+    "enableSystemJarsAndModules": false,
+    "enableInterClassDependencies": false,
+    "extendScanningUpwardsToExternalClasses": true,
+    "classpathElementResourcePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "libOrExtJarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableExternalClasses": false,
+    "ignoreClassVisibility": true,
+    "classPackageWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "moduleWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "modulePathInfo": {},
+    "packageWhiteBlackList": {
+      "whitelist": [
+        "io.github.classgraph.json"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ],
+      "separatorChar": ".",
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ]
+    },
+    "packagePrefixWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "disableRuntimeInvisibleAnnotations": false,
+    "enableAnnotationInfo": false,
+    "initializeLoadedClasses": false,
+    "performScan": true,
+    "scanModules": true,
+    "enableRemoteJarScanning": false,
+    "scanDirs": true,
+    "overrideClasspath": "file:/home/a360/research/projects/classgraph/target/test-classes/",
+    "scanJars": true,
+    "enableStaticFinalFieldConstantInitializerValues": false,
+    "classWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "removeTemporaryFilesAfterScan": false,
+    "ignoreFieldVisibility": false,
+    "classPackagePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "ignoreMethodVisibility": false,
+    "enableFieldInfo": false,
+    "jarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "classfilePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableMethodInfo": false
+  },
+  "packageInfo": [
+    "[#4]",
+    "[#0]",
+    "[#1]",
+    "[#2]",
+    "[#3]"
+  ],
+  "moduleInfo": []
+}">
+to be equal to:
+ <"{
+  "format": "9",
+  "moduleInfo": [],
+  "classInfo": [
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest",
+      "packageInfo": {
+        "__ID": "[#0]",
+        "memberClassNameToClassInfo": {
+          "io.github.classgraph.json.JSONSerializationTest": "io.github.classgraph.json.JSONSerializationTest",
+          "io.github.classgraph.json.JSONSerializationTest$1": "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A": "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B": "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C": "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D": "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E": "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F": "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G": "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H": "io.github.classgraph.json.JSONSerializationTest$H"
+        },
+        "parent": {
+          "__ID": "[#1]",
+          "children": [
+            "[#0]"
+          ],
+          "parent": {
+            "__ID": "[#2]",
+            "children": [
+              "[#1]"
+            ],
+            "parent": {
+              "__ID": "[#3]",
+              "children": [
+                "[#2]"
+              ],
+              "parent": {
+                "__ID": "[#4]",
+                "children": [
+                  "[#3]"
+                ],
+                "name": ""
+              },
+              "name": "io"
+            },
+            "name": "io.github"
+          },
+          "name": "io.github.classgraph"
+        },
+        "name": "io.github.classgraph.json"
+      },
+      "relatedClasses": {
+        "CONTAINS_INNER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest",
+      "modifiers": 33,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$1",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$1",
+      "modifiers": 4128,
+      "isInherited": false,
+      "fullyQualifiedDefiningMethodName": "io.github.classgraph.json.JSONSerializationTest.<clinit>",
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$A",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<X:Ljava/lang/Object;Y:Ljava/lang/Object;>Ljava/lang/Object;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$A",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$B",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$C"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<V:Ljava/lang/Object;>Ljava/lang/Object;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$B",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$C",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$B"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Lio/github/classgraph/json/JSONSerializationTest$B<TT;>;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$C",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$D",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Ljava/lang/Object;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$D",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$E",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Short;>;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$E",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$F",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Float;>;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$F",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$G",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$G",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$H",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$H",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    }
+  ],
+  "packageInfo": [
+    "[#4]",
+    "[#3]",
+    "[#2]",
+    "[#1]",
+    "[#0]"
+  ],
+  "scanSpec": {
+    "pathWhiteBlackList": {
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ],
+      "whitelist": [
+        "io/github/classgraph/json/"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ],
+      "separatorChar": "/"
+    },
+    "enableAnnotationInfo": false,
+    "packageWhiteBlackList": {
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ],
+      "whitelist": [
+        "io.github.classgraph.json"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ],
+      "separatorChar": "."
+    },
+    "disableRuntimeInvisibleAnnotations": false,
+    "classPackageWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "scanJars": true,
+    "enableRemoteJarScanning": false,
+    "ignoreParentClassLoaders": false,
+    "enableFieldInfo": false,
+    "ignoreParentModuleLayers": false,
+    "ignoreClassVisibility": true,
+    "ignoreFieldVisibility": false,
+    "classWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "initializeLoadedClasses": false,
+    "jarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "performScan": true,
+    "classfilePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableExternalClasses": false,
+    "classpathElementResourcePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "modulePathInfo": {},
+    "pathPrefixWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "overrideClasspath": "file:/home/a360/research/projects/classgraph/target/test-classes/",
+    "ignoreMethodVisibility": false,
+    "scanDirs": true,
+    "enableInterClassDependencies": false,
+    "moduleWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "scanModules": true,
+    "libOrExtJarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableMethodInfo": false,
+    "enableClassInfo": true,
+    "extendScanningUpwardsToExternalClasses": true,
+    "removeTemporaryFilesAfterScan": false,
+    "packagePrefixWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "enableStaticFinalFieldConstantInitializerValues": false,
+    "enableSystemJarsAndModules": false,
+    "scanNestedJars": true,
+    "classPackagePathWhiteBlackList": {
+      "separatorChar": "/"
+    }
+  },
+  "classpath": [
+    "/home/a360/research/projects/classgraph/target/test-classes"
+  ]
+}">
+but was not.
+	at io.github.classgraph.json.JSONSerializationTest.testSerializeThenDeserializeScanResult(JSONSerializationTest.java:288)
+
+[[1;31mERROR[m] testJSON  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting:
+ <"{"e":{"list":[3,3,3],"map":{"3":3},"q":{"b":3,"a":{"y":"x","x":[3]},"arr":[3,3,3]},"z":42,"c":{"b":5,"a":{"y":"x","x":[5]},"arr":[5,5,5]}},"f":{"map":{"1.5":1.5},"q":{"b":1.5,"a":{"y":"x","x":[1.5]},"arr":[1.5,1.5,1.5]},"list":[1.5,1.5,1.5],"z":1.5,"wxy":123}}">
+to be equal to:
+ <"{"e":{"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"map":{"3":3},"list":[3,3,3],"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+but was not.
+	at io.github.classgraph.json.JSONSerializationTest.testJSON(JSONSerializationTest.java:260)
+
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.classgraph.issues.issue78.[1mIssue78Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in io.github.classgraph.issues.issue171.[1mIssue171Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.classgraph.issues.issue245.[1mIssue245Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in io.github.classgraph.issues.issue38.[1mIssue38Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.classgraph.issues.issue151.[1mIssue151Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in io.github.classgraph.issues.issue246.[1mIssue246Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue99.[1mIssue99Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in io.github.classgraph.issues.issue46.[1mIssue46Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.classgraph.issues.issue260.[1mIssue260Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in io.github.classgraph.issues.issue303.[1mIssue303Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in io.github.classgraph.issues.issue255.[1mIssue255Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in io.github.classgraph.issues.issue277.[1mIssue227Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in io.github.classgraph.issues.issue267.[1mClassLoadingWorksWithParentLastLoadersStubTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.classgraph.issues.issue146.[1mIssue146Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in io.github.classgraph.issues.issue216.[1mIssue216Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in io.github.classgraph.issues.issue101.[1mIssue101Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in io.github.classgraph.issues.issue175.[1mIssue175Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue238.[1mIssue238Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue148.[1mIssue148Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue128.[1mIssue128Test[m
+Could not download remote jar, skipping test io.github.classgraph.issues.issue128.Issue128Test: java.io.IOException: Server returned HTTP response code: 503 for URL: https://github.com/classgraph/classgraph/blob/master/src/test/resources/nested-jars-level1.zip?raw=true!level2.jar!level3.jar!classpath1/classpath2
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.545 s - in io.github.classgraph.issues.issue128.[1mIssue128Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 s - in io.github.classgraph.issues.issue107.[1mIssue107Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.189 s - in io.github.classgraph.issues.[1mResolveTypeVariableTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.classgraph.issues.issue37.[1mIssue37Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.044 s - in io.github.classgraph.issues.issue80.[1mIssue80Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in io.github.classgraph.issues.issue100.[1mIssue100Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s - in io.github.classgraph.issues.issue193.[1mIssue193Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.classgraph.issues.issue83.[1mIssue83Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in io.github.classgraph.issues.issue223.[1mIssue223Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in io.github.classgraph.issues.[1mIssuesTest[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.classgraph.issues.issue209.[1mIssue209Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.classgraph.issues.issue261.[1mIssue261Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in io.github.classgraph.issues.issue286.[1mIssue286Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in io.github.classgraph.issues.issue153.[1mIssue153Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue152.[1mIssue152Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in io.github.classgraph.issues.issue74.[1mIssue74Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.classgraph.issues.issue364.[1mIssue364Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.issue166.[1mIssue166Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in io.github.classgraph.issues.issue167.[1mIssue167Test[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in io.github.classgraph.issues.[1mTestGetUniqueClasspathElements[m
+[[1;34mINFO[m] Running io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in io.github.classgraph.issues.issue140.[1mIssue140Test[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in io.github.classgraph.test.methodinfo.[1mMethodInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.71 s - in io.github.classgraph.test.[1mClassGraphTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in io.github.classgraph.test.fieldannotation.[1mFieldAndMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in io.github.classgraph.test.methodannotation2.[1mTestMethodMetaAnnotation[m
+[[1;34mINFO[m] Running io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.classgraph.test.classrefannotation.[1mAnnotationClassRefTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in io.github.classgraph.test.[1mClassInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in io.github.classgraph.test.utils.[1mLogNodeTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in io.github.classgraph.test.methodannotation.[1mMethodAnnotationTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in io.github.classgraph.test.parameterannotation.[1mRetentionPolicyForFunctionParameterAnnotationsTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in io.github.classgraph.test.fieldinfo.[1mFieldInfoTest[m
+[[1;34mINFO[m] Running io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s - in io.github.classgraph.test.internal.[1mInternalExternalTest[m
+[[1;34mINFO[m] Running [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in [1mDisableRecursiveScanningTest[m
+[[1;34mINFO[m] Running nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in nonapi.io.github.classgraph.json.[1mJSONParserTest[m
+[[1;34mINFO[m] Running [1mDefaultPackageTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in [1mDefaultPackageTest[m
+[[1;34mINFO[m] Running com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.xyz.[1mMetaAnnotationTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  JSONSerializationTest.testJSON:260 
+Expecting:
+ <"{"e":{"list":[3,3,3],"map":{"3":3},"q":{"b":3,"a":{"y":"x","x":[3]},"arr":[3,3,3]},"z":42,"c":{"b":5,"a":{"y":"x","x":[5]},"arr":[5,5,5]}},"f":{"map":{"1.5":1.5},"q":{"b":1.5,"a":{"y":"x","x":[1.5]},"arr":[1.5,1.5,1.5]},"list":[1.5,1.5,1.5],"z":1.5,"wxy":123}}">
+to be equal to:
+ <"{"e":{"q":{"b":3,"a":{"x":[3],"y":"x"},"arr":[3,3,3]},"map":{"3":3},"list":[3,3,3],"c":{"b":5,"a":{"x":[5],"y":"x"},"arr":[5,5,5]},"z":42},"f":{"z":1.5,"q":{"b":1.5,"a":{"x":[1.5],"y":"x"},"arr":[1.5,1.5,1.5]},"map":{"1.5":1.5},"list":[1.5,1.5,1.5],"wxy":123}}">
+but was not.[m
+[[1;31mERROR[m] [1;31m  JSONSerializationTest.testSerializeThenDeserializeScanResult:288 
+Expecting:
+ <"{
+  "classInfo": [
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINS_INNER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest",
+      "packageInfo": {
+        "__ID": "[#3]",
+        "parent": {
+          "__ID": "[#2]",
+          "parent": {
+            "__ID": "[#1]",
+            "parent": {
+              "__ID": "[#0]",
+              "parent": {
+                "__ID": "[#4]",
+                "name": "",
+                "children": [
+                  "[#0]"
+                ]
+              },
+              "name": "io",
+              "children": [
+                "[#1]"
+              ]
+            },
+            "name": "io.github",
+            "children": [
+              "[#2]"
+            ]
+          },
+          "name": "io.github.classgraph",
+          "children": [
+            "[#3]"
+          ]
+        },
+        "name": "io.github.classgraph.json",
+        "memberClassNameToClassInfo": {
+          "io.github.classgraph.json.JSONSerializationTest": "io.github.classgraph.json.JSONSerializationTest",
+          "io.github.classgraph.json.JSONSerializationTest$1": "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A": "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B": "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C": "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D": "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E": "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F": "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G": "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H": "io.github.classgraph.json.JSONSerializationTest$H"
+        }
+      },
+      "modifiers": 33
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$1",
+      "isInherited": false,
+      "fullyQualifiedDefiningMethodName": "io.github.classgraph.json.JSONSerializationTest.<clinit>",
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$1",
+      "packageInfo": "[#3]",
+      "modifiers": 4128
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$A",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<X:Ljava/lang/Object;Y:Ljava/lang/Object;>Ljava/lang/Object;",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$A",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$B",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<V:Ljava/lang/Object;>Ljava/lang/Object;",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$C"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$B",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$C",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Lio/github/classgraph/json/JSONSerializationTest$B<TT;>;",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$B"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$C",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$D",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Ljava/lang/Object;",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$D",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$E",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Short;>;",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$E",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$F",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Float;>;",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$F",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$G",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$G",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$H",
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true,
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$H",
+      "packageInfo": "[#3]",
+      "modifiers": 42
+    }
+  ],
+  "format": "9",
+  "classpath": [
+    "/home/a360/research/projects/classgraph/target/test-classes"
+  ],
+  "scanSpec": {
+    "pathPrefixWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "pathWhiteBlackList": {
+      "whitelist": [
+        "io/github/classgraph/json/"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ],
+      "separatorChar": "/",
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ]
+    },
+    "ignoreParentClassLoaders": false,
+    "scanNestedJars": true,
+    "ignoreParentModuleLayers": false,
+    "enableClassInfo": true,
+    "enableSystemJarsAndModules": false,
+    "enableInterClassDependencies": false,
+    "extendScanningUpwardsToExternalClasses": true,
+    "classpathElementResourcePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "libOrExtJarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableExternalClasses": false,
+    "ignoreClassVisibility": true,
+    "classPackageWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "moduleWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "modulePathInfo": {},
+    "packageWhiteBlackList": {
+      "whitelist": [
+        "io.github.classgraph.json"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ],
+      "separatorChar": ".",
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ]
+    },
+    "packagePrefixWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "disableRuntimeInvisibleAnnotations": false,
+    "enableAnnotationInfo": false,
+    "initializeLoadedClasses": false,
+    "performScan": true,
+    "scanModules": true,
+    "enableRemoteJarScanning": false,
+    "scanDirs": true,
+    "overrideClasspath": "file:/home/a360/research/projects/classgraph/target/test-classes/",
+    "scanJars": true,
+    "enableStaticFinalFieldConstantInitializerValues": false,
+    "classWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "removeTemporaryFilesAfterScan": false,
+    "ignoreFieldVisibility": false,
+    "classPackagePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "ignoreMethodVisibility": false,
+    "enableFieldInfo": false,
+    "jarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "classfilePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableMethodInfo": false
+  },
+  "packageInfo": [
+    "[#4]",
+    "[#0]",
+    "[#1]",
+    "[#2]",
+    "[#3]"
+  ],
+  "moduleInfo": []
+}">
+to be equal to:
+ <"{
+  "format": "9",
+  "moduleInfo": [],
+  "classInfo": [
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest",
+      "packageInfo": {
+        "__ID": "[#0]",
+        "memberClassNameToClassInfo": {
+          "io.github.classgraph.json.JSONSerializationTest": "io.github.classgraph.json.JSONSerializationTest",
+          "io.github.classgraph.json.JSONSerializationTest$1": "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A": "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B": "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C": "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D": "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E": "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F": "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G": "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H": "io.github.classgraph.json.JSONSerializationTest$H"
+        },
+        "parent": {
+          "__ID": "[#1]",
+          "children": [
+            "[#0]"
+          ],
+          "parent": {
+            "__ID": "[#2]",
+            "children": [
+              "[#1]"
+            ],
+            "parent": {
+              "__ID": "[#3]",
+              "children": [
+                "[#2]"
+              ],
+              "parent": {
+                "__ID": "[#4]",
+                "children": [
+                  "[#3]"
+                ],
+                "name": ""
+              },
+              "name": "io"
+            },
+            "name": "io.github"
+          },
+          "name": "io.github.classgraph"
+        },
+        "name": "io.github.classgraph.json"
+      },
+      "relatedClasses": {
+        "CONTAINS_INNER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest$1",
+          "io.github.classgraph.json.JSONSerializationTest$A",
+          "io.github.classgraph.json.JSONSerializationTest$B",
+          "io.github.classgraph.json.JSONSerializationTest$C",
+          "io.github.classgraph.json.JSONSerializationTest$D",
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F",
+          "io.github.classgraph.json.JSONSerializationTest$G",
+          "io.github.classgraph.json.JSONSerializationTest$H"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest",
+      "modifiers": 33,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$1",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$1",
+      "modifiers": 4128,
+      "isInherited": false,
+      "fullyQualifiedDefiningMethodName": "io.github.classgraph.json.JSONSerializationTest.<clinit>",
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$A",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<X:Ljava/lang/Object;Y:Ljava/lang/Object;>Ljava/lang/Object;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$A",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$B",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$C"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<V:Ljava/lang/Object;>Ljava/lang/Object;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$B",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$C",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$B"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Lio/github/classgraph/json/JSONSerializationTest$B<TT;>;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$C",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$D",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUBCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$E",
+          "io.github.classgraph.json.JSONSerializationTest$F"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "<T:Ljava/lang/Object;>Ljava/lang/Object;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$D",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$E",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Short;>;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$E",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$F",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "SUPERCLASSES": [
+          "io.github.classgraph.json.JSONSerializationTest$D"
+        ],
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "typeSignatureStr": "Lio/github/classgraph/json/JSONSerializationTest$D<Ljava/lang/Float;>;",
+      "name": "io.github.classgraph.json.JSONSerializationTest$F",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$G",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$G",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    },
+    {
+      "__ID": "io.github.classgraph.json.JSONSerializationTest$H",
+      "packageInfo": "[#0]",
+      "relatedClasses": {
+        "CONTAINED_WITHIN_OUTER_CLASS": [
+          "io.github.classgraph.json.JSONSerializationTest"
+        ]
+      },
+      "name": "io.github.classgraph.json.JSONSerializationTest$H",
+      "modifiers": 42,
+      "isInherited": false,
+      "isExternalClass": false,
+      "isScannedClass": true
+    }
+  ],
+  "packageInfo": [
+    "[#4]",
+    "[#3]",
+    "[#2]",
+    "[#1]",
+    "[#0]"
+  ],
+  "scanSpec": {
+    "pathWhiteBlackList": {
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ],
+      "whitelist": [
+        "io/github/classgraph/json/"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io/",
+        "io/github/",
+        "io/github/classgraph/",
+        "io/github/classgraph/json/"
+      ],
+      "separatorChar": "/"
+    },
+    "enableAnnotationInfo": false,
+    "packageWhiteBlackList": {
+      "whitelistPrefixesSet": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ],
+      "whitelist": [
+        "io.github.classgraph.json"
+      ],
+      "whitelistPrefixes": [
+        "",
+        "/",
+        "io.",
+        "io.github.",
+        "io.github.classgraph.",
+        "io.github.classgraph.json."
+      ],
+      "separatorChar": "."
+    },
+    "disableRuntimeInvisibleAnnotations": false,
+    "classPackageWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "scanJars": true,
+    "enableRemoteJarScanning": false,
+    "ignoreParentClassLoaders": false,
+    "enableFieldInfo": false,
+    "ignoreParentModuleLayers": false,
+    "ignoreClassVisibility": true,
+    "ignoreFieldVisibility": false,
+    "classWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "initializeLoadedClasses": false,
+    "jarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "performScan": true,
+    "classfilePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableExternalClasses": false,
+    "classpathElementResourcePathWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "modulePathInfo": {},
+    "pathPrefixWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "overrideClasspath": "file:/home/a360/research/projects/classgraph/target/test-classes/",
+    "ignoreMethodVisibility": false,
+    "scanDirs": true,
+    "enableInterClassDependencies": false,
+    "moduleWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "scanModules": true,
+    "libOrExtJarWhiteBlackList": {
+      "separatorChar": "/"
+    },
+    "enableMethodInfo": false,
+    "enableClassInfo": true,
+    "extendScanningUpwardsToExternalClasses": true,
+    "removeTemporaryFilesAfterScan": false,
+    "packagePrefixWhiteBlackList": {
+      "separatorChar": "."
+    },
+    "enableStaticFinalFieldConstantInitializerValues": false,
+    "enableSystemJarsAndModules": false,
+    "scanNestedJars": true,
+    "classPackagePathWhiteBlackList": {
+      "separatorChar": "/"
+    }
+  },
+  "classpath": [
+    "/home/a360/research/projects/classgraph/target/test-classes"
+  ]
+}">
+but was not.[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 140, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for peT80AYvJ7yXPZzEhAkjWtCzKaOXmwcAwHGdG5aI4k=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/classgraph/.nondex" -DnondexJarDir="/home/a360/research/projects/classgraph/.nondex" -DnondexExecid=cNuN81KQNebgtKgUg+Fyw7x0MADehSqHfMfh+44dw= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] io.github.classgraph.json.JSONSerializationTest#testSerializeThenDeserializeScanResult
+[[1;33mWARNING[m] io.github.classgraph.json.JSONSerializationTest#testJSON
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/classgraph/.nondex" -DnondexJarDir="/home/a360/research/projects/classgraph/.nondex" -DnondexExecid=w330m4bAXNGxnUZ0b3nIkPsOQj+KL8EErR6fDtXBLe4= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] io.github.classgraph.json.JSONSerializationTest#testSerializeThenDeserializeScanResult
+[[1;33mWARNING[m] io.github.classgraph.json.JSONSerializationTest#testJSON
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/classgraph/.nondex" -DnondexJarDir="/home/a360/research/projects/classgraph/.nondex" -DnondexExecid=peT80AYvJ7yXPZzEhAkjWtCzKaOXmwcAwHGdG5aI4k= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] io.github.classgraph.json.JSONSerializationTest#testSerializeThenDeserializeScanResult
+[[1;33mWARNING[m] io.github.classgraph.json.JSONSerializationTest#testJSON
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] io.github.classgraph.json.JSONSerializationTest#testSerializeThenDeserializeScanResult
+[[1;34mINFO[m] io.github.classgraph.json.JSONSerializationTest#testJSON
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/classgraph/.nondex/cNuN81KQNebgtKgUg+Fyw7x0MADehSqHfMfh+44dw=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: cNuN81KQNebgtKgUg+Fyw7x0MADehSqHfMfh+44dw=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  44.773 s
+[[1;34mINFO[m] Finished at: 2026-10-02T07:54:10-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mclassgraph[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/classgraph/.nondex/cNuN81KQNebgtKgUg+Fyw7x0MADehSqHfMfh+44dw= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

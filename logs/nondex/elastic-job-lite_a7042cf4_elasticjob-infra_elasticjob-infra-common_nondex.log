@@ -1,0 +1,377 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----< [0;36morg.apache.shardingsphere.elasticjob:elasticjob-infra-common[0;1m >----[m
+[[1;34mINFO[m] [1mBuilding elasticjob-infra-common 3.1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36melasticjob-infra-common[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.1.0:enforce[m [1m(enforce-maven-version)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.1.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.0:check[m [1m(validate)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.8:prepare-agent[m [1m(default)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.5:process[m [1m(process-resource-bundles)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.7:resources[m [1m(default-resources)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:compile[m [1m(default-compile)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.7:testResources[m [1m(default-testResources)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36melasticjob-infra-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36melasticjob-infra-common[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36melasticjob-infra-common[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Z9SY8Y9RJvIcMJZmHpdyD9Hy9ZVsppaQoMclK5wLpQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.334 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.46 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 92, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexJarDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexExecid=HZu92hUwgAqyKNNlN6LXNLOYNWDJ+8VH8S8ifW8lOg=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.486 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 92, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexJarDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexExecid=2dyMf0ra74S91JrhoMXv2WVZESKriDOigWQnanzYUo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.397 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.319 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 92, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexJarDir=/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex
+nondexExecid=BzZobA0I4puHAnC5GwP5vdT0KRKbIYpkEuMMOvOVQRw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mTimeServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mHostExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.35 s - in org.apache.shardingsphere.elasticjob.infra.env.[1mIpUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.[1mJobExecutorServiceHandlerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mSingleThreadJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.threadpool.impl.[1mCPUUsageJobExecutorServiceHandlerTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobInstanceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mOdevitySortByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mAverageAllocationJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.impl.[1mRotateServerByNameJobShardingStrategyTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.handler.sharding.[1mJobShardingStrategyFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mShardingItemParametersTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.shardingsphere.elasticjob.infra.context.[1mTaskContextTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.validator.[1mJobPropertiesValidateRuleTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobStatisticExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobExecutionEnvironmentExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobConfigurationExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mExceptionUtilsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.exception.[1mJobSystemExceptionTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.apache.shardingsphere.elasticjob.infra.json.[1mGsonFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mExecutorServiceReloadableTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.209 s - in org.apache.shardingsphere.elasticjob.infra.concurrent.[1mElasticJobExecutorServiceTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.shardingsphere.elasticjob.infra.yaml.config.[1mYamlConfigurationConverterFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.shardingsphere.elasticjob.infra.yaml.[1mYamlEngineTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mShardingContextsTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.shardingsphere.elasticjob.infra.listener.[1mElasticJobListenerFactoryTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.shardingsphere.elasticjob.infra.pojo.[1mJobConfigurationPOJOTest[m
+[[1;34mINFO[m] Running org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.shardingsphere.elasticjob.infra.spi.[1mElasticJobServiceLoaderTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 92, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex" -DnondexJarDir="/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex" -DnondexExecid=HZu92hUwgAqyKNNlN6LXNLOYNWDJ+8VH8S8ifW8lOg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex" -DnondexJarDir="/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex" -DnondexExecid=2dyMf0ra74S91JrhoMXv2WVZESKriDOigWQnanzYUo= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex" -DnondexJarDir="/home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex" -DnondexExecid=BzZobA0I4puHAnC5GwP5vdT0KRKbIYpkEuMMOvOVQRw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/elastic-job-lite/elasticjob-infra/elasticjob-infra-common/.nondex/HZu92hUwgAqyKNNlN6LXNLOYNWDJ+8VH8S8ifW8lOg=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: HZu92hUwgAqyKNNlN6LXNLOYNWDJ+8VH8S8ifW8lOg=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  16.722 s
+[[1;34mINFO[m] Finished at: 2026-10-02T08:16:41-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

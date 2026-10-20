@@ -1,0 +1,1094 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.mybatis-flex:mybatis-flex-core:jar:1.7.7
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.mybatis-flex:mybatis-flex-annotation:jar -> version ${mybatis-flex.version} vs 1.7.7 @ line 101, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.mybatis-flex:mybatis-flex-core[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding mybatis-flex-core 1.7.7[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmybatis-flex-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 254 source files to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/target/classes
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/keygen/RowJdbc3KeyGenerator.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/keygen/RowJdbc3KeyGenerator.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/query/QueryWrapper.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/main/java/com/mybatisflex/core/query/QueryWrapper.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mmybatis-flex-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 27 source files to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/target/test-classes
+mybatis flex processor run start...
+mybatis flex processor run start...
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/test/java/com/mybatisflex/coretest/Fastjson2TypeHandlerTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/mybatis-flex/mybatis-flex-core/src/test/java/com/mybatisflex/coretest/Fastjson2TypeHandlerTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmybatis-flex-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mmybatis-flex-core[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_+guFeV83+49Hef2nrzkBbM+TrQXFMkYbfHkTmBiBWqQ=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex/clean_+guFeV83+49Hef2nrzkBbM+TrQXFMkYbfHkTmBiBWqQ=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mybatisflex.coretest.DynamicOrderByTest
+SELECT `ac`.`id`, `ac`.`user_name` AS `name`, `ac`.`age` FROM `tb_account` AS `ac` LEFT JOIN `tb_article` AS `ar` ON `ar`.`account_id` = `ac`.`id` ORDER BY `ac`.`user_name` ASC, `ac`.`age` DESC, name ASC
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 sec - in com.mybatisflex.coretest.DynamicOrderByTest
+Running com.mybatisflex.coretest.DbTypeUtilTest
+SQLSERVER_2005
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.mybatisflex.coretest.DbTypeUtilTest
+Running com.mybatisflex.coretest.LambdaSqlTest
+SELECT
+  *
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` tb_account `.*,
+  ` tb_article `.*
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` ac `.*,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete `,
+  ` ar `.` title `,
+  ` ar `.` content `
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete `,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 sec - in com.mybatisflex.coretest.LambdaSqlTest
+Running com.mybatisflex.coretest.CountSqlTest
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT * FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.mybatisflex.coretest.CountSqlTest
+Running com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+interface       :{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}
+class           :{"basePath":"/var/upload","domain":"http://test.com"}
+interfaceList   :[{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}]
+classList       :[{"basePath":"/var/upload","domain":"http://test.com"}]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 sec - in com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+Running com.mybatisflex.coretest.DynamicConditionTest
+SELECT * FROM `tb_account` WHERE `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3)
+SELECT * FROM `tb_account` WHERE `id` = '1'
+SELECT * FROM `tb_account` WHERE `id` BETWEEN  '1' AND '2' 
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) AND `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+id
+age
+user_name
+SELECT * FROM `tb_account` WHERE `id` = 1 AND (`age` IN (17, 18, 19) OR `user_name` = 'zhang san')
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 OR ( 1 = 1  OR `id` = 123)
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.mybatisflex.coretest.DynamicConditionTest
+Running com.mybatisflex.coretest.PlusCompatibleTest
+SELECT * FROM `tb_account` WHERE column1 = 'value1' AND `age` >= 18 OR (column2 = 'value2' AND `sex` >= 0)
+SELECT * FROM `user` WHERE `tb_account`.`age` >= 18 OR (column2 LIKE 'value2%') OR (column3 = 'value3' AND `tb_account`.`sex` >= 0)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.mybatisflex.coretest.PlusCompatibleTest
+Running com.mybatisflex.coretest.IdGenTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.726 sec - in com.mybatisflex.coretest.IdGenTest
+Running com.mybatisflex.coretest.StringUtilTest
+aaBb
+aa_bb
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.StringUtilTest
+Running com.mybatisflex.coretest.FieldWrapperTest
+[1, 2]
+1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.mybatisflex.coretest.FieldWrapperTest
+Running com.mybatisflex.coretest.IfFunctionTest
+SELECT IF(`age` >= 6, `is_normal`, `is_delete`) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IF(`age` >= 18, '成年人', IF(`age` <= 8, '未上学', '已上学')) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(`id`, 0) FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(NULL, 0) FROM `tb_account`
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.mybatisflex.coretest.IfFunctionTest
+Running com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+SELECT (`id` + 100) AS `x100` FROM `tb_account`
+SELECT (`id` - 100) AS `x100` FROM `tb_account`
+SELECT ABS(-1) + 7 FROM `tb_account`
+SELECT (`id` + 100 + 200 + 300) AS `x100` FROM `tb_account`
+SELECT (`id` + `age`) AS `x100` FROM `tb_account`
+SELECT (`id` + (`age` + 100)) AS `x100` FROM `tb_account`
+SELECT (`id` + (`id` + 100) * 100) AS `x100` FROM `tb_account`
+SELECT SUM(`id` * `age`) AS `total_x` FROM `tb_account`
+SELECT (`id` / 100) AS `x100` FROM `tb_account`
+SELECT (`id` * 100) AS `x100` FROM `tb_account`
+SELECT -(-1), -ABS(`age`) AS `opp`, -(`id` + `age`) FROM `tb_account`
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+Running com.mybatisflex.coretest.AuthTest
+DELETE FROM  WHERE `id` = ?
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.mybatisflex.coretest.AuthTest
+Running com.mybatisflex.coretest.LogicDeleteTest
+===== DefaultLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== BooleanLogicDeleteProcessor =====
+`deleted` = true
+`deleted` = false
+===== IntegerLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== DateTimeLogicDeleteProcessor =====
+`deleted` = NOW()
+`deleted` IS NULL
+===== TimeStampLogicDeleteProcessor =====
+`deleted` = 1790980379452
+`deleted` = 0
+===== PrimaryKeyLogicDeleteProcessor =====
+`deleted` = `id`
+`deleted` IS NULL
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.mybatisflex.coretest.LogicDeleteTest
+Running com.mybatisflex.coretest.LocaleFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.mybatisflex.coretest.LocaleFormatTest
+Running com.mybatisflex.coretest.FunctionSqlTest
+SELECT `user_name` FROM `tb_account` WHERE `user_name` = REPLACE(nsg_contract.primer_name, ' ', '')
+SELECT CONCAT_WS('abc', `user_name`, `birthday`), ABS(-3) FROM `tb_account` WHERE NOT (`id` = 1)
+SELECT * FROM `tb_account` WHERE UPPER(`user_name`) LIKE UPPER('ws')
+SELECT * FROM `tb_account` WHERE FIND_IN_SET(100, `id`) > 0
+SELECT * FROM `tb_account` ORDER BY RAND()
+SELECT (select role_name from tb_role where id = 1), `user_name` FROM `tb_account`
+SELECT NOW() AS `n1`, NOW() AS `n2`, CONCAT(`user_name`, `age`) AS `c1` FROM `tb_account`
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.mybatisflex.coretest.FunctionSqlTest
+
+Results :
+
+Tests run: 55, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexJarDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexExecid=16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex/16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mybatisflex.coretest.DynamicOrderByTest
+SELECT `ac`.`id`, `ac`.`user_name` AS `name`, `ac`.`age` FROM `tb_account` AS `ac` LEFT JOIN `tb_article` AS `ar` ON `ar`.`account_id` = `ac`.`id` ORDER BY `ac`.`user_name` ASC, `ac`.`age` DESC, name ASC
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in com.mybatisflex.coretest.DynamicOrderByTest
+Running com.mybatisflex.coretest.DbTypeUtilTest
+SQLSERVER_2005
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.mybatisflex.coretest.DbTypeUtilTest
+Running com.mybatisflex.coretest.LambdaSqlTest
+SELECT
+  *
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` tb_account `.*,
+  ` tb_article `.*
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` ac `.*,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` birthday `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` sex `,
+  ` ac `.` id `,
+  ` ar `.` title `,
+  ` ar `.` content `
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` birthday `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` sex `,
+  ` ac `.` id `,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec <<< FAILURE! - in com.mybatisflex.coretest.LambdaSqlTest
+test04(com.mybatisflex.coretest.LambdaSqlTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.` title...> but was:<SELECT
+  ` ac `.` [birthday `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` sex `,
+  ` ac `.` id] `,
+  ` ar `.` title...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.mybatisflex.coretest.LambdaSqlTest.test04(LambdaSqlTest.java:106)
+
+test05(com.mybatisflex.coretest.LambdaSqlTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.*
+FROM
+...> but was:<SELECT
+  ` ac `.` [birthday `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` sex `,
+  ` ac `.` id] `,
+  ` ar `.*
+FROM
+...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.mybatisflex.coretest.LambdaSqlTest.test05(LambdaSqlTest.java:133)
+
+Running com.mybatisflex.coretest.CountSqlTest
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT * FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.mybatisflex.coretest.CountSqlTest
+Running com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+interface       :{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}
+class           :{"basePath":"/var/upload","domain":"http://test.com"}
+interfaceList   :[{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}]
+classList       :[{"basePath":"/var/upload","domain":"http://test.com"}]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 sec - in com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+Running com.mybatisflex.coretest.DynamicConditionTest
+SELECT * FROM `tb_account` WHERE `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3)
+SELECT * FROM `tb_account` WHERE `id` = '1'
+SELECT * FROM `tb_account` WHERE `id` BETWEEN  '1' AND '2' 
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) AND `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+id
+age
+user_name
+SELECT * FROM `tb_account` WHERE `id` = 1 AND (`age` IN (17, 18, 19) OR `user_name` = 'zhang san')
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 OR ( 1 = 1  OR `id` = 123)
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.mybatisflex.coretest.DynamicConditionTest
+Running com.mybatisflex.coretest.PlusCompatibleTest
+SELECT * FROM `tb_account` WHERE column1 = 'value1' AND `age` >= 18 OR (column2 = 'value2' AND `sex` >= 0)
+SELECT * FROM `user` WHERE `tb_account`.`age` >= 18 OR (column2 LIKE 'value2%') OR (column3 = 'value3' AND `tb_account`.`sex` >= 0)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.mybatisflex.coretest.PlusCompatibleTest
+Running com.mybatisflex.coretest.IdGenTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.701 sec - in com.mybatisflex.coretest.IdGenTest
+Running com.mybatisflex.coretest.StringUtilTest
+aaBb
+aa_bb
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.StringUtilTest
+Running com.mybatisflex.coretest.FieldWrapperTest
+[1, 2]
+1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.mybatisflex.coretest.FieldWrapperTest
+Running com.mybatisflex.coretest.IfFunctionTest
+SELECT IF(`age` >= 6, `is_normal`, `is_delete`) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IF(`age` >= 18, '成年人', IF(`age` <= 8, '未上学', '已上学')) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(`id`, 0) FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(NULL, 0) FROM `tb_account`
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.mybatisflex.coretest.IfFunctionTest
+Running com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+SELECT (`id` + 100) AS `x100` FROM `tb_account`
+SELECT (`id` - 100) AS `x100` FROM `tb_account`
+SELECT ABS(-1) + 7 FROM `tb_account`
+SELECT (`id` + 100 + 200 + 300) AS `x100` FROM `tb_account`
+SELECT (`id` + `age`) AS `x100` FROM `tb_account`
+SELECT (`id` + (`age` + 100)) AS `x100` FROM `tb_account`
+SELECT (`id` + (`id` + 100) * 100) AS `x100` FROM `tb_account`
+SELECT SUM(`id` * `age`) AS `total_x` FROM `tb_account`
+SELECT (`id` / 100) AS `x100` FROM `tb_account`
+SELECT (`id` * 100) AS `x100` FROM `tb_account`
+SELECT -(-1), -ABS(`age`) AS `opp`, -(`id` + `age`) FROM `tb_account`
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+Running com.mybatisflex.coretest.AuthTest
+DELETE FROM  WHERE `id` = ?
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in com.mybatisflex.coretest.AuthTest
+test(com.mybatisflex.coretest.AuthTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.mybatisflex.coretest.AuthTest.test(AuthTest.java:63)
+
+Running com.mybatisflex.coretest.LogicDeleteTest
+===== DefaultLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== BooleanLogicDeleteProcessor =====
+`deleted` = true
+`deleted` = false
+===== IntegerLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== DateTimeLogicDeleteProcessor =====
+`deleted` = NOW()
+`deleted` IS NULL
+===== TimeStampLogicDeleteProcessor =====
+`deleted` = 1790980381332
+`deleted` = 0
+===== PrimaryKeyLogicDeleteProcessor =====
+`deleted` = `id`
+`deleted` IS NULL
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.mybatisflex.coretest.LogicDeleteTest
+Running com.mybatisflex.coretest.LocaleFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.LocaleFormatTest
+Running com.mybatisflex.coretest.FunctionSqlTest
+SELECT `user_name` FROM `tb_account` WHERE `user_name` = REPLACE(nsg_contract.primer_name, ' ', '')
+SELECT CONCAT_WS('abc', `user_name`, `birthday`), ABS(-3) FROM `tb_account` WHERE NOT (`id` = 1)
+SELECT * FROM `tb_account` WHERE UPPER(`user_name`) LIKE UPPER('ws')
+SELECT * FROM `tb_account` WHERE FIND_IN_SET(100, `id`) > 0
+SELECT * FROM `tb_account` ORDER BY RAND()
+SELECT (select role_name from tb_role where id = 1), `user_name` FROM `tb_account`
+SELECT NOW() AS `n1`, NOW() AS `n2`, CONCAT(`user_name`, `age`) AS `c1` FROM `tb_account`
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.mybatisflex.coretest.FunctionSqlTest
+
+Results :
+
+Failed tests: 
+  LambdaSqlTest.test04:106 expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.` title...> but was:<SELECT
+  ` ac `.` [birthday `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` sex `,
+  ` ac `.` id] `,
+  ` ar `.` title...>
+  LambdaSqlTest.test05:133 expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.*
+FROM
+...> but was:<SELECT
+  ` ac `.` [birthday `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` sex `,
+  ` ac `.` id] `,
+  ` ar `.*
+FROM
+...>
+  AuthTest.test:63 null
+
+Tests run: 55, Failures: 3, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexJarDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexExecid=XzSXGLwAGyBrxmqJBNvBrTWENjxjS2xYoKfhWJugY=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex/XzSXGLwAGyBrxmqJBNvBrTWENjxjS2xYoKfhWJugY=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mybatisflex.coretest.DynamicOrderByTest
+SELECT `ac`.`id`, `ac`.`user_name` AS `name`, `ac`.`age` FROM `tb_account` AS `ac` LEFT JOIN `tb_article` AS `ar` ON `ar`.`account_id` = `ac`.`id` ORDER BY `ac`.`user_name` ASC, `ac`.`age` DESC, name ASC
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in com.mybatisflex.coretest.DynamicOrderByTest
+Running com.mybatisflex.coretest.DbTypeUtilTest
+SQLSERVER_2005
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.mybatisflex.coretest.DbTypeUtilTest
+Running com.mybatisflex.coretest.LambdaSqlTest
+SELECT
+  *
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` tb_account `.*,
+  ` tb_article `.*
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` ac `.*,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` id `,
+  ` ac `.` is_normal `,
+  ` ac `.` age `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` sex `,
+  ` ac `.` birthday `,
+  ` ar `.` title `,
+  ` ar `.` content `
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` id `,
+  ` ac `.` is_normal `,
+  ` ac `.` age `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` sex `,
+  ` ac `.` birthday `,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec <<< FAILURE! - in com.mybatisflex.coretest.LambdaSqlTest
+test04(com.mybatisflex.coretest.LambdaSqlTest)  Time elapsed: 0.026 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<....` id `,
+  ` ac `.` [user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.` title...> but was:<....` id `,
+  ` ac `.` [is_normal `,
+  ` ac `.` age `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` sex `,
+  ` ac `.` birthday] `,
+  ` ar `.` title...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.mybatisflex.coretest.LambdaSqlTest.test04(LambdaSqlTest.java:106)
+
+test05(com.mybatisflex.coretest.LambdaSqlTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<....` id `,
+  ` ac `.` [user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.*
+FROM
+...> but was:<....` id `,
+  ` ac `.` [is_normal `,
+  ` ac `.` age `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` sex `,
+  ` ac `.` birthday] `,
+  ` ar `.*
+FROM
+...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.mybatisflex.coretest.LambdaSqlTest.test05(LambdaSqlTest.java:133)
+
+Running com.mybatisflex.coretest.CountSqlTest
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT * FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.mybatisflex.coretest.CountSqlTest
+Running com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+interface       :{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}
+class           :{"basePath":"/var/upload","domain":"http://test.com"}
+interfaceList   :[{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}]
+classList       :[{"basePath":"/var/upload","domain":"http://test.com"}]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.247 sec - in com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+Running com.mybatisflex.coretest.DynamicConditionTest
+SELECT * FROM `tb_account` WHERE `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3)
+SELECT * FROM `tb_account` WHERE `id` = '1'
+SELECT * FROM `tb_account` WHERE `id` BETWEEN  '1' AND '2' 
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) AND `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+id
+age
+user_name
+SELECT * FROM `tb_account` WHERE `id` = 1 AND (`age` IN (17, 18, 19) OR `user_name` = 'zhang san')
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 OR ( 1 = 1  OR `id` = 123)
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.mybatisflex.coretest.DynamicConditionTest
+Running com.mybatisflex.coretest.PlusCompatibleTest
+SELECT * FROM `tb_account` WHERE column1 = 'value1' AND `age` >= 18 OR (column2 = 'value2' AND `sex` >= 0)
+SELECT * FROM `user` WHERE `tb_account`.`age` >= 18 OR (column2 LIKE 'value2%') OR (column3 = 'value3' AND `tb_account`.`sex` >= 0)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.mybatisflex.coretest.PlusCompatibleTest
+Running com.mybatisflex.coretest.IdGenTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.757 sec - in com.mybatisflex.coretest.IdGenTest
+Running com.mybatisflex.coretest.StringUtilTest
+aaBb
+aa_bb
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.StringUtilTest
+Running com.mybatisflex.coretest.FieldWrapperTest
+[1, 2]
+1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.mybatisflex.coretest.FieldWrapperTest
+Running com.mybatisflex.coretest.IfFunctionTest
+SELECT IF(`age` >= 6, `is_normal`, `is_delete`) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IF(`age` >= 18, '成年人', IF(`age` <= 8, '未上学', '已上学')) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(`id`, 0) FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(NULL, 0) FROM `tb_account`
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.mybatisflex.coretest.IfFunctionTest
+Running com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+SELECT (`id` + 100) AS `x100` FROM `tb_account`
+SELECT (`id` - 100) AS `x100` FROM `tb_account`
+SELECT ABS(-1) + 7 FROM `tb_account`
+SELECT (`id` + 100 + 200 + 300) AS `x100` FROM `tb_account`
+SELECT (`id` + `age`) AS `x100` FROM `tb_account`
+SELECT (`id` + (`age` + 100)) AS `x100` FROM `tb_account`
+SELECT (`id` + (`id` + 100) * 100) AS `x100` FROM `tb_account`
+SELECT SUM(`id` * `age`) AS `total_x` FROM `tb_account`
+SELECT (`id` / 100) AS `x100` FROM `tb_account`
+SELECT (`id` * 100) AS `x100` FROM `tb_account`
+SELECT -(-1), -ABS(`age`) AS `opp`, -(`id` + `age`) FROM `tb_account`
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+Running com.mybatisflex.coretest.AuthTest
+DELETE FROM  WHERE `id` = ?
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in com.mybatisflex.coretest.AuthTest
+test(com.mybatisflex.coretest.AuthTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.mybatisflex.coretest.AuthTest.test(AuthTest.java:63)
+
+Running com.mybatisflex.coretest.LogicDeleteTest
+===== DefaultLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== BooleanLogicDeleteProcessor =====
+`deleted` = true
+`deleted` = false
+===== IntegerLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== DateTimeLogicDeleteProcessor =====
+`deleted` = NOW()
+`deleted` IS NULL
+===== TimeStampLogicDeleteProcessor =====
+`deleted` = 1790980383279
+`deleted` = 0
+===== PrimaryKeyLogicDeleteProcessor =====
+`deleted` = `id`
+`deleted` IS NULL
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.mybatisflex.coretest.LogicDeleteTest
+Running com.mybatisflex.coretest.LocaleFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.LocaleFormatTest
+Running com.mybatisflex.coretest.FunctionSqlTest
+SELECT `user_name` FROM `tb_account` WHERE `user_name` = REPLACE(nsg_contract.primer_name, ' ', '')
+SELECT CONCAT_WS('abc', `user_name`, `birthday`), ABS(-3) FROM `tb_account` WHERE NOT (`id` = 1)
+SELECT * FROM `tb_account` WHERE UPPER(`user_name`) LIKE UPPER('ws')
+SELECT * FROM `tb_account` WHERE FIND_IN_SET(100, `id`) > 0
+SELECT * FROM `tb_account` ORDER BY RAND()
+SELECT (select role_name from tb_role where id = 1), `user_name` FROM `tb_account`
+SELECT NOW() AS `n1`, NOW() AS `n2`, CONCAT(`user_name`, `age`) AS `c1` FROM `tb_account`
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.mybatisflex.coretest.FunctionSqlTest
+
+Results :
+
+Failed tests: 
+  LambdaSqlTest.test04:106 expected:<....` id `,
+  ` ac `.` [user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.` title...> but was:<....` id `,
+  ` ac `.` [is_normal `,
+  ` ac `.` age `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` sex `,
+  ` ac `.` birthday] `,
+  ` ar `.` title...>
+  LambdaSqlTest.test05:133 expected:<....` id `,
+  ` ac `.` [user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.*
+FROM
+...> but was:<....` id `,
+  ` ac `.` [is_normal `,
+  ` ac `.` age `,
+  ` ac `.` user_name `,
+  ` ac `.` is_delete `,
+  ` ac `.` sex `,
+  ` ac `.` birthday] `,
+  ` ar `.*
+FROM
+...>
+  AuthTest.test:63 null
+
+Tests run: 55, Failures: 3, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for XzSXGLwAGyBrxmqJBNvBrTWENjxjS2xYoKfhWJugY=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexJarDir=/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex
+nondexExecid=KS2dZZ8XCdgncmJ2n5BX2zbyA489Q7Sz0+wuoYgM954=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex/KS2dZZ8XCdgncmJ2n5BX2zbyA489Q7Sz0+wuoYgM954=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mybatisflex.coretest.DynamicOrderByTest
+SELECT `ac`.`id`, `ac`.`user_name` AS `name`, `ac`.`age` FROM `tb_account` AS `ac` LEFT JOIN `tb_article` AS `ar` ON `ar`.`account_id` = `ac`.`id` ORDER BY `ac`.`user_name` ASC, `ac`.`age` DESC, name ASC
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec - in com.mybatisflex.coretest.DynamicOrderByTest
+Running com.mybatisflex.coretest.DbTypeUtilTest
+SQLSERVER_2005
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.DbTypeUtilTest
+Running com.mybatisflex.coretest.LambdaSqlTest
+SELECT
+  *
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` tb_account `.*,
+  ` tb_article `.*
+FROM
+  ` tb_account `
+  JOIN ` tb_article ` ON ` tb_article `.` account_id ` = ` tb_account `.` id `
+WHERE
+  ` tb_account `.` age ` >= 18
+SELECT
+  ` ac `.*,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` age `,
+  ` ac `.` id `,
+  ` ac `.` sex `,
+  ` ac `.` is_delete `,
+  ` ac `.` user_name `,
+  ` ac `.` is_normal `,
+  ` ac `.` birthday `,
+  ` ar `.` title `,
+  ` ar `.` content `
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+SELECT
+  ` ac `.` age `,
+  ` ac `.` id `,
+  ` ac `.` sex `,
+  ` ac `.` is_delete `,
+  ` ac `.` user_name `,
+  ` ac `.` is_normal `,
+  ` ac `.` birthday `,
+  ` ar `.*
+FROM
+  ` tb_account ` AS ` ac `
+  JOIN ` tb_article ` AS ` ar ` ON ` ar `.` account_id ` = ` ac `.` id `
+WHERE
+  ` ac `.` age ` >= 18
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.151 sec <<< FAILURE! - in com.mybatisflex.coretest.LambdaSqlTest
+test04(com.mybatisflex.coretest.LambdaSqlTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.` title...> but was:<SELECT
+  ` ac `.` [age `,
+  ` ac `.` id `,
+  ` ac `.` sex `,
+  ` ac `.` is_delete `,
+  ` ac `.` user_name `,
+  ` ac `.` is_normal `,
+  ` ac `.` birthday] `,
+  ` ar `.` title...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.mybatisflex.coretest.LambdaSqlTest.test04(LambdaSqlTest.java:106)
+
+test05(com.mybatisflex.coretest.LambdaSqlTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.*
+FROM
+...> but was:<SELECT
+  ` ac `.` [age `,
+  ` ac `.` id `,
+  ` ac `.` sex `,
+  ` ac `.` is_delete `,
+  ` ac `.` user_name `,
+  ` ac `.` is_normal `,
+  ` ac `.` birthday] `,
+  ` ar `.*
+FROM
+...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.mybatisflex.coretest.LambdaSqlTest.test05(LambdaSqlTest.java:133)
+
+Running com.mybatisflex.coretest.CountSqlTest
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE `a1`.`account_id` IN (1, 2, 3)
+SELECT * FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` LEFT JOIN `tb_article` AS `a1` ON `a1`.`account_id` = `tb_account`.`id` LEFT JOIN `tb_article` AS `a2` ON `a2`.`account_id` = `tb_account`.`id` WHERE  a1.account_id IN (1, 2, 3) 
+SELECT * FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+SELECT COUNT(*) AS `total` FROM `tb_account` AS `a` LEFT JOIN `tb_article` AS `a1` ON  a1.account_id = a.id  LEFT JOIN `tb_article` AS `a2` ON  a1.account_id = a.id  WHERE  a1.account_id IN (1, 2, 3) 
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.mybatisflex.coretest.CountSqlTest
+Running com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+interface       :{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}
+class           :{"basePath":"/var/upload","domain":"http://test.com"}
+interfaceList   :[{"@type":"com.mybatisflex.coretest.Fastjson2TypeHandlerTest$FtpFileClientConfig","basePath":"/var/upload","domain":"http://test.com"}]
+classList       :[{"basePath":"/var/upload","domain":"http://test.com"}]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.253 sec - in com.mybatisflex.coretest.Fastjson2TypeHandlerTest
+Running com.mybatisflex.coretest.DynamicConditionTest
+SELECT * FROM `tb_account` WHERE `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3)
+SELECT * FROM `tb_account` WHERE `id` = '1'
+SELECT * FROM `tb_account` WHERE `id` BETWEEN  '1' AND '2' 
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) AND `age` >= 18
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+SELECT * FROM `tb_account` WHERE `id` IN (1, 2, 3) OR `user_name` = 'zhang san'
+id
+age
+user_name
+SELECT * FROM `tb_account` WHERE `id` = 1 AND (`age` IN (17, 18, 19) OR `user_name` = 'zhang san')
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account`
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 AND (`id` >= '1' AND (`age` >= 18 OR `user_name` >= 'zs')) OR `birthday` <= '2023-10-28 22:13:36'
+SELECT * FROM `tb_account` WHERE `is_delete` = 0 OR ( 1 = 1  OR `id` = 123)
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in com.mybatisflex.coretest.DynamicConditionTest
+Running com.mybatisflex.coretest.PlusCompatibleTest
+SELECT * FROM `tb_account` WHERE column1 = 'value1' AND `age` >= 18 OR (column2 = 'value2' AND `sex` >= 0)
+SELECT * FROM `user` WHERE `tb_account`.`age` >= 18 OR (column2 LIKE 'value2%') OR (column3 = 'value3' AND `tb_account`.`sex` >= 0)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.mybatisflex.coretest.PlusCompatibleTest
+Running com.mybatisflex.coretest.IdGenTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.736 sec - in com.mybatisflex.coretest.IdGenTest
+Running com.mybatisflex.coretest.StringUtilTest
+aaBb
+aa_bb
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.StringUtilTest
+Running com.mybatisflex.coretest.FieldWrapperTest
+[1, 2]
+1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.mybatisflex.coretest.FieldWrapperTest
+Running com.mybatisflex.coretest.IfFunctionTest
+SELECT IF(`age` >= 6, `is_normal`, `is_delete`) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IF(`age` >= 18, '成年人', IF(`age` <= 8, '未上学', '已上学')) AS `type` FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(`id`, 0) FROM `tb_account` WHERE `id` = 1
+SELECT IFNULL(NULL, 0) FROM `tb_account`
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.mybatisflex.coretest.IfFunctionTest
+Running com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+SELECT (`id` + 100) AS `x100` FROM `tb_account`
+SELECT (`id` - 100) AS `x100` FROM `tb_account`
+SELECT ABS(-1) + 7 FROM `tb_account`
+SELECT (`id` + 100 + 200 + 300) AS `x100` FROM `tb_account`
+SELECT (`id` + `age`) AS `x100` FROM `tb_account`
+SELECT (`id` + (`age` + 100)) AS `x100` FROM `tb_account`
+SELECT (`id` + (`id` + 100) * 100) AS `x100` FROM `tb_account`
+SELECT SUM(`id` * `age`) AS `total_x` FROM `tb_account`
+SELECT (`id` / 100) AS `x100` FROM `tb_account`
+SELECT (`id` * 100) AS `x100` FROM `tb_account`
+SELECT -(-1), -ABS(`age`) AS `opp`, -(`id` + `age`) FROM `tb_account`
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.mybatisflex.coretest.query.ArithmeticQueryColumnTest
+Running com.mybatisflex.coretest.AuthTest
+DELETE FROM  WHERE `id` = ?
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in com.mybatisflex.coretest.AuthTest
+test(com.mybatisflex.coretest.AuthTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.mybatisflex.coretest.AuthTest.test(AuthTest.java:63)
+
+Running com.mybatisflex.coretest.LogicDeleteTest
+===== DefaultLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== BooleanLogicDeleteProcessor =====
+`deleted` = true
+`deleted` = false
+===== IntegerLogicDeleteProcessor =====
+`deleted` = 1
+`deleted` = 0
+===== DateTimeLogicDeleteProcessor =====
+`deleted` = NOW()
+`deleted` IS NULL
+===== TimeStampLogicDeleteProcessor =====
+`deleted` = 1790980385113
+`deleted` = 0
+===== PrimaryKeyLogicDeleteProcessor =====
+`deleted` = `id`
+`deleted` IS NULL
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.mybatisflex.coretest.LogicDeleteTest
+Running com.mybatisflex.coretest.LocaleFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.mybatisflex.coretest.LocaleFormatTest
+Running com.mybatisflex.coretest.FunctionSqlTest
+SELECT `user_name` FROM `tb_account` WHERE `user_name` = REPLACE(nsg_contract.primer_name, ' ', '')
+SELECT CONCAT_WS('abc', `user_name`, `birthday`), ABS(-3) FROM `tb_account` WHERE NOT (`id` = 1)
+SELECT * FROM `tb_account` WHERE UPPER(`user_name`) LIKE UPPER('ws')
+SELECT * FROM `tb_account` WHERE FIND_IN_SET(100, `id`) > 0
+SELECT * FROM `tb_account` ORDER BY RAND()
+SELECT (select role_name from tb_role where id = 1), `user_name` FROM `tb_account`
+SELECT NOW() AS `n1`, NOW() AS `n2`, CONCAT(`user_name`, `age`) AS `c1` FROM `tb_account`
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.mybatisflex.coretest.FunctionSqlTest
+
+Results :
+
+Failed tests: 
+  LambdaSqlTest.test04:106 expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.` title...> but was:<SELECT
+  ` ac `.` [age `,
+  ` ac `.` id `,
+  ` ac `.` sex `,
+  ` ac `.` is_delete `,
+  ` ac `.` user_name `,
+  ` ac `.` is_normal `,
+  ` ac `.` birthday] `,
+  ` ar `.` title...>
+  LambdaSqlTest.test05:133 expected:<SELECT
+  ` ac `.` [id `,
+  ` ac `.` user_name `,
+  ` ac `.` birthday `,
+  ` ac `.` sex `,
+  ` ac `.` age `,
+  ` ac `.` is_normal `,
+  ` ac `.` is_delete] `,
+  ` ar `.*
+FROM
+...> but was:<SELECT
+  ` ac `.` [age `,
+  ` ac `.` id `,
+  ` ac `.` sex `,
+  ` ac `.` is_delete `,
+  ` ac `.` user_name `,
+  ` ac `.` is_normal `,
+  ` ac `.` birthday] `,
+  ` ar `.*
+FROM
+...>
+  AuthTest.test:63 null
+
+Tests run: 55, Failures: 3, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for KS2dZZ8XCdgncmJ2n5BX2zbyA489Q7Sz0+wuoYgM954=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex" -DnondexJarDir="/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex" -DnondexExecid=16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.mybatisflex.coretest.LambdaSqlTest#test04
+[[1;33mWARNING[m] com.mybatisflex.coretest.LambdaSqlTest#test05
+[[1;33mWARNING[m] com.mybatisflex.coretest.AuthTest#test
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex" -DnondexJarDir="/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex" -DnondexExecid=XzSXGLwAGyBrxmqJBNvBrTWENjxjS2xYoKfhWJugY= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.mybatisflex.coretest.LambdaSqlTest#test04
+[[1;33mWARNING[m] com.mybatisflex.coretest.LambdaSqlTest#test05
+[[1;33mWARNING[m] com.mybatisflex.coretest.AuthTest#test
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex" -DnondexJarDir="/home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex" -DnondexExecid=KS2dZZ8XCdgncmJ2n5BX2zbyA489Q7Sz0+wuoYgM954= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.mybatisflex.coretest.LambdaSqlTest#test04
+[[1;33mWARNING[m] com.mybatisflex.coretest.LambdaSqlTest#test05
+[[1;33mWARNING[m] com.mybatisflex.coretest.AuthTest#test
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.mybatisflex.coretest.LambdaSqlTest#test04
+[[1;34mINFO[m] com.mybatisflex.coretest.LambdaSqlTest#test05
+[[1;34mINFO[m] com.mybatisflex.coretest.AuthTest#test
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex/16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  15.498 s
+[[1;34mINFO[m] Finished at: 2026-10-02T17:33:05-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mmybatis-flex-core[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/mybatis-flex/mybatis-flex-core/.nondex/16UFh6QaXT4Y6NPlcrwF73XFYHGq5qEDisIIFvqNIA= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

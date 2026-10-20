@@ -1,0 +1,123 @@
+[[1;34mINFO[m] Scanning for projects...
+[90mDownloading from [0msynergian-repo[90m: https://raw.github.com/synergian/wagon-git/releases/[0medu/illinois/cs/idflakies-maven-plugin/2.0.1-SNAPSHOT/maven-metadata.xml
+[90mDownloading from [0msynergian-repo[90m: https://raw.github.com/synergian/wagon-git/releases/[0medu/illinois/cs/idflakies/2.0.1-SNAPSHOT/maven-metadata.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mnet.consensys.quorum.tessera:eclipselink-utils[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding eclipselink-utils 20.10.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] [1;33mParameter '[0;1;33mformatTest[0;1;33m' is unknown for plugin '[0;1;33mgoogleformatter-maven-plugin[0;1;33m:[0;1;33m1.7.3[0;1;33m:[0;1;33mformat[0;1;33m ([0;1;33mreformat-sources[0;1;33m)[0;1;33m'[m
+[[1;33mWARNING[m] [1;33mParameter '[0;1;33mformatMain[0;1;33m' is unknown for plugin '[0;1;33mgoogleformatter-maven-plugin[0;1;33m:[0;1;33m1.7.3[0;1;33m:[0;1;33mformat[0;1;33m ([0;1;33mreformat-sources[0;1;33m)[0;1;33m'[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36meclipselink-utils[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] Checking for vulnerabilities; 36 artifacts
+[[1;34mINFO[m] Exclude coordinates: []
+[[1;34mINFO[m] Exclude vulnerability identifiers: [7ea56ad4-8a8b-4e51-8ed9-5aad83d8efb1, 33fe5e62-2998-4820-aebc-68e348539b22]
+[[1;34mINFO[m] CVSS-score threshold: 0.0
+[[1;33mWARNING[m] Failed to fetch component-reports
+[1;31morg.sonatype.ossindex.service.client.transport.Transport$TransportException[m: [1;31mUnexpected response; status: HTTP/1.1 401 Unauthorized[m
+    [1mat[m org.sonatype.ossindex.service.client.transport.HttpClientTransport.post ([1mHttpClientTransport.java:101[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.doRequestComponentReports ([1mOssindexClientImpl.java:204[m)
+    [1mat[m org.sonatype.ossindex.service.client.internal.OssindexClientImpl.requestComponentReports ([1mOssindexClientImpl.java:170[m)
+    [1mat[m org.sonatype.ossindex.maven.common.ComponentReportAssistant.request ([1mComponentReportAssistant.java:86[m)
+    [1mat[m org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies$Task.run ([1mBanVulnerableDependencies.java:220[m)
+    [1mat[m org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies.execute ([1mBanVulnerableDependencies.java:142[m)
+    [1mat[m org.apache.maven.plugins.enforcer.EnforceMojo.execute ([1mEnforceMojo.java:194[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:126[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:328[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:316[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions ([1mMojoExecutor.java:448[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:311[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:105[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:73[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:53[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:118[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:261[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:173[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:101[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:919[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:285[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:207[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[[1;34mINFO[m] Adding ignore: module-info
+[[1;34mINFO[m] Adding ignore: META-INF/versions/*/module-info
+[[1;34mINFO[m] Adding ignore: com.google.*
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.5:prepare-agent[m [1m(default)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/a360/research/projects/tessera/eclipselink-utils/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mgoogleformatter:1.7.3:format[m [1m(reformat-sources)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] Found 1 uncompiled/modified files in /home/a360/research/projects/tessera/eclipselink-utils/src/main/java to reformat.
+[[1;34mINFO[m] Found 2 uncompiled/modified files in /home/a360/research/projects/tessera/eclipselink-utils/src/test/java to reformat.
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/tessera/eclipselink-utils' && 'git' 'rev-parse' '--show-prefix'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/tessera/eclipselink-utils
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/tessera/eclipselink-utils' && 'git' 'status' '--porcelain' '.'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/tessera/eclipselink-utils
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/tessera/eclipselink-utils/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.1.1:check[m [1m(verify-style)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36meclipselink-utils[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36meclipselink-utils[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36meclipselink-utils[0;1m ---[m
+[90mDownloading from [0msynergian-repo[90m: https://raw.github.com/synergian/wagon-git/releases/[0medu/illinois/cs/idflakies-core/2.0.1-SNAPSHOT/maven-metadata.xml
+INFO: Locating tests...
+INFO: Located 5 tests. Time taken: 0.10799980163574219 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving net.consensys.quorum.tessera:eclipselink-utils:20.10.1-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/tessera/eclipselink-utils/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/tessera/eclipselink-utils/.dtfixingtools/original-order
+[INFO] Getting original results (5 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (2.8 total), 0.0 seconds remaining).
+Verified com.quorum.tessera.eclipselink.AtomicLongSequenceTest.customisedWithNullDbLogin, status: expected PASS, got PASS
+Verified com.quorum.tessera.eclipselink.AtomicLongSequenceTest.customisedWithNullDbLogin, status: expected ERROR, got ERROR
+Verified com.quorum.tessera.eclipselink.AtomicLongSequenceTest.onDisconnectDoesNothing, status: expected ERROR, got ERROR
+Verified com.quorum.tessera.eclipselink.AtomicLongSequenceTest.onDisconnectDoesNothing, status: expected PASS, got PASS
+[INFO] Found 2 tests in round 2 of 3 (2.8 seconds elapsed (16.5 total), 1.4 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (0.0 seconds elapsed (19.4 total), 0.0 seconds remaining).
+
+[INFO] Found 2 tests, writing list to /home/a360/research/projects/tessera/eclipselink-utils/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/tessera/eclipselink-utils/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  35.539 s
+[[1;34mINFO[m] Finished at: 2026-10-01T18:57:46-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

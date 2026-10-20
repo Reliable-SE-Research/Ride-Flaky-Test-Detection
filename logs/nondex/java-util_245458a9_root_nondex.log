@@ -1,0 +1,457 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.cedarsoftware:java-util[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding java-util 2.4.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjava-util[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mjava-util[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/java-util/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mjava-util[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:5.1.9:manifest[m [1m(bundle-manifest)[m @ [36mjava-util[0;1m ---[m
+[[1;34mINFO[m] Writing manifest: /home/a360/research/projects/java-util/target/classes/META-INF/MANIFEST.MF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjava-util[0;1m ---[m
+[[1;34mINFO[m] Copying 8 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mjava-util[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjava-util[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mjava-util[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-util/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_sW7feLmbCfHjtL1WTjDE4lSquOxmvZC905TwUbZ0ba0=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s -- in com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s -- in com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m77[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.120 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m92[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.136 s -- in com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m16[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.025 s -- in com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s -- in com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m25[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.560 s -- in com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestGraphComparator[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/a360/research/projects/java-util/target/classes/) to field java.util.ArrayList.size
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java-util using server id=88 for last two digits of generated unique IDs. Set using new SecureRandom()
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m61[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 s -- in com.cedarsoftware.util.[1mTestGraphComparator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m21[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.244 s -- in com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m37[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.086 s -- in com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.163 s -- in com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+(end - start) / 1000000.0 = 1331.043
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.535 s -- in com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 588, Failures: 0, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-util/.nondex
+nondexJarDir=/home/a360/research/projects/java-util/.nondex
+nondexExecid=z08TOaS3V4yXq7uFS066AKXVcBeA+bvB9KFsnmaAH2c=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s -- in com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 s -- in com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m77[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.238 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m92[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.287 s -- in com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m16[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.046 s -- in com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 s -- in com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m25[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s -- in com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.572 s -- in com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestGraphComparator[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/a360/research/projects/java-util/target/classes/) to field java.util.ArrayList.size
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java-util using server id=7 for last two digits of generated unique IDs. Set using new SecureRandom()
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m61[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.378 s[1;31m <<< FAILURE![m -- in com.cedarsoftware.util.[1mTestGraphComparator[m
+[[1;31mERROR[m] com.cedarsoftware.util.TestGraphComparator.testNewArrayElement -- Time elapsed: 0.014 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at com.cedarsoftware.util.TestGraphComparator.testNewArrayElement(TestGraphComparator.java:605)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m21[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 s -- in com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m37[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s -- in com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.076 s -- in com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s -- in com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+(end - start) / 1000000.0 = 1278.37453
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.821 s -- in com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestGraphComparator.testNewArrayElement:605 expected: <true> but was: <false>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 588, Failures: 1, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for z08TOaS3V4yXq7uFS066AKXVcBeA+bvB9KFsnmaAH2c=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-util/.nondex
+nondexJarDir=/home/a360/research/projects/java-util/.nondex
+nondexExecid=k5qJCJY4z3DQX24GLie3RxG0sVgVF6eePkmOQ3vg=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s -- in com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s -- in com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m77[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.221 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m92[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.307 s -- in com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m16[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.053 s -- in com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s -- in com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m25[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s -- in com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.634 s -- in com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestGraphComparator[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/a360/research/projects/java-util/target/classes/) to field java.util.ArrayList.size
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java-util using server id=84 for last two digits of generated unique IDs. Set using new SecureRandom()
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m61[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.391 s -- in com.cedarsoftware.util.[1mTestGraphComparator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m21[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 s -- in com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m37[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s -- in com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.110 s -- in com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 s -- in com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+(end - start) / 1000000.0 = 1249.787124
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.313 s -- in com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 588, Failures: 0, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/java-util/.nondex
+nondexJarDir=/home/a360/research/projects/java-util/.nondex
+nondexExecid=NXPpIak3ercvALjBnSDYTm9zVGXoyntsdydPb0NCt5A=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in com.cedarsoftware.util.[1mClassUtilitiesTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m14[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 s -- in com.cedarsoftware.util.[1mLRUCacheTest[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.cedarsoftware.util.[1mTestArrayUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.cedarsoftware.util.[1mTestByteUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m77[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.214 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m34[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s -- in com.cedarsoftware.util.[1mTestCaseInsensitiveSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m92[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.321 s -- in com.cedarsoftware.util.[1mTestCompactMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m16[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.050 s -- in com.cedarsoftware.util.[1mTestCompactSet[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s -- in com.cedarsoftware.util.[1mTestConverter[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s -- in com.cedarsoftware.util.[1mTestDateUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m25[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.080 s -- in com.cedarsoftware.util.[1mTestDeepEquals[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.cedarsoftware.util.[1mTestDeepEqualsUnordered[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.603 s -- in com.cedarsoftware.util.[1mTestEncryption[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.cedarsoftware.util.[1mTestExceptionUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.cedarsoftware.util.[1mTestExecutor[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.cedarsoftware.util.[1mTestFastByteArrayBuffer[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestGraphComparator[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.cedarsoftware.util.ReflectionUtils (file:/home/a360/research/projects/java-util/target/classes/) to field java.util.ArrayList.size
+WARNING: Please consider reporting this to the maintainers of com.cedarsoftware.util.ReflectionUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java-util using server id=7 for last two digits of generated unique IDs. Set using new SecureRandom()
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m61[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.404 s -- in com.cedarsoftware.util.[1mTestGraphComparator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.cedarsoftware.util.[1mTestIO[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m21[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.324 s -- in com.cedarsoftware.util.[1mTestIOUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.cedarsoftware.util.[1mTestInetAddressUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.cedarsoftware.util.[1mTestMapUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in com.cedarsoftware.util.[1mTestMathUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.cedarsoftware.util.[1mTestProxyFactory[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m37[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s -- in com.cedarsoftware.util.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.101 s -- in com.cedarsoftware.util.[1mTestSimpleDateFormat[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m33[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.230 s -- in com.cedarsoftware.util.[1mTestStringUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.cedarsoftware.util.[1mTestSystemUtilities[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in com.cedarsoftware.util.[1mTestTrackingMap[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.cedarsoftware.util.[1mTestTraverser[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+(end - start) / 1000000.0 = 1453.636763
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.685 s -- in com.cedarsoftware.util.[1mTestUniqueIdGenerator[m
+[[1;34mINFO[m] Running com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.cedarsoftware.util.[1mTestUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 588, Failures: 0, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-util/.nondex" -DnondexJarDir="/home/a360/research/projects/java-util/.nondex" -DnondexExecid=z08TOaS3V4yXq7uFS066AKXVcBeA+bvB9KFsnmaAH2c= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.cedarsoftware.util.TestGraphComparator#testNewArrayElement
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-util/.nondex" -DnondexJarDir="/home/a360/research/projects/java-util/.nondex" -DnondexExecid=k5qJCJY4z3DQX24GLie3RxG0sVgVF6eePkmOQ3vg= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/java-util/.nondex" -DnondexJarDir="/home/a360/research/projects/java-util/.nondex" -DnondexExecid=NXPpIak3ercvALjBnSDYTm9zVGXoyntsdydPb0NCt5A= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.cedarsoftware.util.TestGraphComparator#testNewArrayElement
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/java-util/.nondex/z08TOaS3V4yXq7uFS066AKXVcBeA+bvB9KFsnmaAH2c=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: z08TOaS3V4yXq7uFS066AKXVcBeA+bvB9KFsnmaAH2c=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  57.216 s
+[[1;34mINFO[m] Finished at: 2026-10-02T10:15:42-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mjava-util[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/java-util/.nondex/z08TOaS3V4yXq7uFS066AKXVcBeA+bvB9KFsnmaAH2c= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,223 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.mikesamuel:json-sanitizer[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding json-sanitizer 1.2.4-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mjson-sanitizer[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.5:prepare-agent[m [1m(jacoco-initialize)[m @ [36mjson-sanitizer[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/a360/research/projects/json-sanitizer/target/coverage-reports/jacoco-unit.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mjson-sanitizer[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/json-sanitizer/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mjson-sanitizer[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mjson-sanitizer[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/json-sanitizer/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mjson-sanitizer[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mjson-sanitizer[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mjson-sanitizer[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Z4v5u5QJoKNGlcFtOoeeK+DyEvcthIOxlExRjGw7wDk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/json-sanitizer/.nondex/clean_Z4v5u5QJoKNGlcFtOoeeK+DyEvcthIOxlExRjGw7wDk=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.google.json.EvalMinifierTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in com.google.json.EvalMinifierTest
+Running com.google.json.JsonSanitizerTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in com.google.json.JsonSanitizerTest
+Running com.google.json.FuzzyTest
+Fuzzing with -Dfuzz.seed=293432cea02aa6d0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.2 sec - in com.google.json.FuzzyTest
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexJarDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexExecid=44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/json-sanitizer/.nondex/44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.google.json.EvalMinifierTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in com.google.json.EvalMinifierTest
+testMinify(com.google.json.EvalMinifierTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: ['foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','z'] expected:<...unction(a,b){return[[a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a],"z"]}("foo","bar"))> but was:<...unction(a,b){return[[b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b],"z"]}("foo","bar"))>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.TestCase.assertEquals(TestCase.java:253)
+	at com.google.json.EvalMinifierTest.assertMinified(EvalMinifierTest.java:31)
+	at com.google.json.EvalMinifierTest.testMinify(EvalMinifierTest.java:50)
+
+Running com.google.json.JsonSanitizerTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec - in com.google.json.JsonSanitizerTest
+Running com.google.json.FuzzyTest
+Fuzzing with -Dfuzz.seed=feb9ebce94fe4663
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.335 sec - in com.google.json.FuzzyTest
+
+Results :
+
+Failed tests: 
+  EvalMinifierTest.testMinify:50->assertMinified:31 ['foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','z'] expected:<...unction(a,b){return[[a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a],"z"]}("foo","bar"))> but was:<...unction(a,b){return[[b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b],"z"]}("foo","bar"))>
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for 44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexJarDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexExecid=sdf7sN6XPa6l1N8mrk5xaM05+NHnTgLZunuODYDsVP8=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/json-sanitizer/.nondex/sdf7sN6XPa6l1N8mrk5xaM05+NHnTgLZunuODYDsVP8=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.google.json.EvalMinifierTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in com.google.json.EvalMinifierTest
+testMinify(com.google.json.EvalMinifierTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: ['foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','z'] expected:<...,b,a,b,a,b,a,"z"]}("[foo","bar]"))> but was:<...,b,a,b,a,b,a,"z"]}("[bar","foo]"))>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.TestCase.assertEquals(TestCase.java:253)
+	at com.google.json.EvalMinifierTest.assertMinified(EvalMinifierTest.java:31)
+	at com.google.json.EvalMinifierTest.testMinify(EvalMinifierTest.java:50)
+
+Running com.google.json.JsonSanitizerTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in com.google.json.JsonSanitizerTest
+Running com.google.json.FuzzyTest
+Fuzzing with -Dfuzz.seed=f78add24373f50f6
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.135 sec - in com.google.json.FuzzyTest
+
+Results :
+
+Failed tests: 
+  EvalMinifierTest.testMinify:50->assertMinified:31 ['foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','z'] expected:<...,b,a,b,a,b,a,"z"]}("[foo","bar]"))> but was:<...,b,a,b,a,b,a,"z"]}("[bar","foo]"))>
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for sdf7sN6XPa6l1N8mrk5xaM05+NHnTgLZunuODYDsVP8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexJarDir=/home/a360/research/projects/json-sanitizer/.nondex
+nondexExecid=t7N5LvSjyvsazuvXivvgXr5Vq3+SMuvaJSexl5O1cdA=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] Surefire report directory: /home/a360/research/projects/json-sanitizer/.nondex/t7N5LvSjyvsazuvXivvgXr5Vq3+SMuvaJSexl5O1cdA=
+[[1;34mINFO[m] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.google.json.EvalMinifierTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE! - in com.google.json.EvalMinifierTest
+testMinify(com.google.json.EvalMinifierTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: ['foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','z'] expected:<...unction(a,b){return[[a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,"z"]}("foo","bar]"))> but was:<...unction(a,b){return[[b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,"z"]}("bar","foo]"))>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.TestCase.assertEquals(TestCase.java:253)
+	at com.google.json.EvalMinifierTest.assertMinified(EvalMinifierTest.java:31)
+	at com.google.json.EvalMinifierTest.testMinify(EvalMinifierTest.java:50)
+
+Running com.google.json.JsonSanitizerTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in com.google.json.JsonSanitizerTest
+Running com.google.json.FuzzyTest
+Fuzzing with -Dfuzz.seed=36200af1ee4a6201
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.342 sec - in com.google.json.FuzzyTest
+
+Results :
+
+Failed tests: 
+  EvalMinifierTest.testMinify:50->assertMinified:31 ['foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','bar','foo','z'] expected:<...unction(a,b){return[[a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,"z"]}("foo","bar]"))> but was:<...unction(a,b){return[[b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,a,b,"z"]}("bar","foo]"))>
+
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for t7N5LvSjyvsazuvXivvgXr5Vq3+SMuvaJSexl5O1cdA=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/json-sanitizer/.nondex" -DnondexJarDir="/home/a360/research/projects/json-sanitizer/.nondex" -DnondexExecid=44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.google.json.EvalMinifierTest#testMinify
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/json-sanitizer/.nondex" -DnondexJarDir="/home/a360/research/projects/json-sanitizer/.nondex" -DnondexExecid=sdf7sN6XPa6l1N8mrk5xaM05+NHnTgLZunuODYDsVP8= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.google.json.EvalMinifierTest#testMinify
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/json-sanitizer/.nondex" -DnondexJarDir="/home/a360/research/projects/json-sanitizer/.nondex" -DnondexExecid=t7N5LvSjyvsazuvXivvgXr5Vq3+SMuvaJSexl5O1cdA= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.google.json.EvalMinifierTest#testMinify
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.google.json.EvalMinifierTest#testMinify
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/json-sanitizer/.nondex/44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  12.832 s
+[[1;34mINFO[m] Finished at: 2026-10-01T21:58:51-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mjson-sanitizer[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/json-sanitizer/.nondex/44U1vMuqPY2o80gvhi0A6yrSpmKgC8IPxx8xfDzfftc= for the individual test results.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

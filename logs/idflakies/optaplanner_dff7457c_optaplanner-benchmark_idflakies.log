@@ -1,0 +1,94 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36morg.optaplanner:optaplanner-benchmark[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding OptaPlanner benchmark 7.30.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36moptaplanner-benchmark[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(enforce-plugin-versions)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(ban-blacklisted-dependencies)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(enforce-java-version)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(enforce-maven-version)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcheckstyle:3.0.0:check[m [1m(validate)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+[WARN] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/test/java/org/optaplanner/benchmark/impl/DefaultPlannerBenchmarkTest.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(no-managed-deps)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.4:create[m [1m(get-scm-revision)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/optaplanner/optaplanner-benchmark' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/optaplanner/optaplanner-benchmark
+[[1;34mINFO[m] Storing buildNumber: dff7457cb5ba1557727deddef5b675dd00fbf8a8 at timestamp: 1790975933771
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/home/a360/research/projects/optaplanner/optaplanner-benchmark' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/optaplanner/optaplanner-benchmark
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:add-source[m [1m(default)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/optaplanner/optaplanner-benchmark/target/generated-sources/annotations added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.0.0:parse-version[m [1m(default)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 28 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 85 source files to /home/a360/research/projects/optaplanner/optaplanner-benchmark/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;33mWARNING[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/SolverBenchmarkResult.java:[29,32] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/SolverBenchmarkResult.java:[263,16] org.apache.commons.lang3.StringEscapeUtils in org.apache.commons.lang3 has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/DefaultPlannerBenchmarkFactory.java:[56,82] Varargs method could cause heap pollution from non-reifiable varargs parameter problems
+[[1;33mWARNING[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/config/PlannerBenchmarkConfig.java:[430,49] Configuration() in freemarker.template.Configuration has been deprecated
+[[1;33mWARNING[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/statistic/bestsolutionmutation/BestSolutionMutationSubSingleStatistic.java:[51,19] redundant cast to org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory<Solution_>
+[[1;34mINFO[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/SubSingleBenchmarkResult.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/main/java/org/optaplanner/benchmark/impl/result/SubSingleBenchmarkResult.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 7 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36moptaplanner-benchmark[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /home/a360/research/projects/optaplanner/optaplanner-benchmark/target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;34mINFO[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/test/java/org/optaplanner/benchmark/impl/ranking/AbstractSolverRankingComparatorTest.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/optaplanner/optaplanner-benchmark/src/test/java/org/optaplanner/benchmark/impl/ranking/AbstractSolverRankingComparatorTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36moptaplanner-benchmark[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36moptaplanner-benchmark[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 81 tests. Time taken: 0.3320000171661377 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving org.optaplanner:optaplanner-benchmark:7.30.0-SNAPSHOT 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/optaplanner/optaplanner-benchmark/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/optaplanner/optaplanner-benchmark/.dtfixingtools/original-order
+[INFO] Getting original results (81 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (16.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (16.6 seconds elapsed (33.7 total), 8.3 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (33.7 seconds elapsed (50.5 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/optaplanner/optaplanner-benchmark/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/optaplanner/optaplanner-benchmark/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:15 min
+[[1;34mINFO[m] Finished at: 2026-10-02T16:20:05-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

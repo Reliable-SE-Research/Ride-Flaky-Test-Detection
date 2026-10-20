@@ -1,0 +1,1082 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.apache.tez:tez-api[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding tez-api 0.10.3-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mtez-api[0;1m >>>[m
+[[1;33mWARNING[m] 2 problems were encountered while building the effective model for org.apache.yetus:audience-annotations:jar:0.5.0 during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(enforce-maven-version)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(clean)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd /home/a360/research/projects/tez/tez-api && git rev-parse --verify HEAD
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/tez/tez-api
+[[1;34mINFO[m] Storing buildNumber: 51d6f53967110e2b91b6d90b46f8e16bdc062091 at timestamp: 1790942041384
+[[1;34mINFO[m] Executing: /bin/sh -c cd /home/a360/research/projects/tez/tez-api && git rev-parse --verify HEAD
+[[1;34mINFO[m] Working directory: /home/a360/research/projects/tez/tez-api
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.8:maven-version[m [1m(maven-version)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotoc-jar:3.11.4:run[m [1m(default)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Skipping code generation, proto files appear unchanged since last compilation
+[[1;34mINFO[m] Input directories:
+[[1;34mINFO[m]     /home/a360/research/projects/tez/tez-api/src/main/proto
+[[1;34mINFO[m] Adding generated sources (java): /home/a360/research/projects/tez/tez-api/target/generated-sources/java
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0:enforce[m [1m(banned-illegal-imports)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 7 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mtez-api[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mtez-api[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mtez-api[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_R8Tn94dmGU9+jS2kIM2ljxbPjcxhYwzyu87IIKruwMo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m36[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.862 s - in org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.478 s - in org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.518 s - in org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.276 s - in org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.376 s - in org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 s - in org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.183 s - in org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.476 s - in org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.779 s - in org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAG[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.7 s - in org.apache.tez.dag.api.[1mTestDAG[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.534 s - in org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.691 s - in org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.759 s - in org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 s - in org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.417 s - in org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 s - in org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.944 s - in org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.599 s - in org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.344 s - in org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.299 s - in org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 202, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexJarDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexExecid=1GkEhAJjRXDVwNh7TiDAeq96w4aOeF4VUIij9RMYceM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m36[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.789 s - in org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.4 s - in org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.618 s - in org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.634 s - in org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.412 s - in org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.181 s - in org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.422 s - in org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.706 s - in org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAG[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.724 s[1;31m <<< FAILURE![m - in org.apache.tez.dag.api.[1mTestDAG[m
+[[1;31mERROR[m] org.apache.tez.dag.api.TestDAG.testRecreateDAG  Time elapsed: 0.656 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+> but was:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+>
+	at org.apache.tez.dag.api.TestDAG.testRecreateDAG(TestDAG.java:363)
+
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.637 s - in org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.337 s - in org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.655 s - in org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.285 s - in org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 s - in org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.227 s - in org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.487 s - in org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s - in org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 s - in org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.827 s - in org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestDAG.testRecreateDAG:363 expected:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+> but was:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 202, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 1GkEhAJjRXDVwNh7TiDAeq96w4aOeF4VUIij9RMYceM=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexJarDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexExecid=7gpUc8h++r2QWDBTqHlEApPTBIVnmSoU+ssYRNzJhLI=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m36[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.733 s - in org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 s - in org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.377 s - in org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.677 s - in org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.338 s - in org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.024 s - in org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.391 s - in org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.669 s - in org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAG[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.7 s[1;31m <<< FAILURE![m - in org.apache.tez.dag.api.[1mTestDAG[m
+[[1;31mERROR[m] org.apache.tez.dag.api.TestDAG.testRecreateDAG  Time elapsed: 0.642 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+> but was:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+>
+	at org.apache.tez.dag.api.TestDAG.testRecreateDAG(TestDAG.java:363)
+
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.456 s - in org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.313 s - in org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 s - in org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s - in org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s - in org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 s - in org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.168 s - in org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.481 s - in org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s - in org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 s - in org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.885 s - in org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestDAG.testRecreateDAG:363 expected:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+> but was:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 202, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for 7gpUc8h++r2QWDBTqHlEApPTBIVnmSoU+ssYRNzJhLI=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexJarDir=/home/a360/research/projects/tez/tez-api/.nondex
+nondexExecid=cbi8y5KogkkTebwSyMl5yidd9Z6ytuqC3ZIFJcs+fA=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.tez.runtime.api.event.[1mTestCompositeDataMovementEvent[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m36[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.788 s - in org.apache.tez.dag.api.[1mTestDAGVerify[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.407 s - in org.apache.tez.dag.api.[1mTestDagTypeConverters[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.484 s - in org.apache.tez.dag.api.client.[1mTestTimelineReaderFactory[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.551 s - in org.apache.tez.dag.api.client.rpc.[1mTestDAGClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.346 s - in org.apache.tez.dag.api.client.[1mTestATSHttpClient[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in org.apache.tez.dag.api.[1mTestHistoryLogLevel[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.042 s - in org.apache.tez.dag.api.[1mTestEntityDescriptor[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.397 s - in org.apache.tez.dag.api.[1mTestTezConfiguration[m
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m9[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.664 s[1;31m <<< FAILURE![m - in org.apache.tez.dag.api.[1mTestDAGPlan[m
+[[1;31mERROR[m] org.apache.tez.dag.api.TestDAGPlan.userVertexOrderingIsMaintained  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.apache.tez.dag.api.TestDAGPlan.userVertexOrderingIsMaintained(TestDAGPlan.java:249)
+
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestDAG[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m12[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.72 s[1;31m <<< FAILURE![m - in org.apache.tez.dag.api.[1mTestDAG[m
+[[1;31mERROR[m] org.apache.tez.dag.api.TestDAG.testRecreateDAG  Time elapsed: 0.66 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+> but was:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+>
+	at org.apache.tez.dag.api.TestDAG.testRecreateDAG(TestDAG.java:363)
+
+[[1;34mINFO[m] Running org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.apache.tez.dag.api.[1mTestTaskLocationHint[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.463 s - in org.apache.tez.client.[1mTestTezClientUtils[m
+[[1;34mINFO[m] Running org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m26[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.287 s - in org.apache.tez.client.[1mTestTezClient[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.666 s - in org.apache.tez.common.[1mTestReflectionUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 s - in org.apache.tez.common.[1mTestVersionInfo[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 s - in org.apache.tez.common.[1mTestTezYARNUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.apache.tez.common.[1mTestRPCUtil[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.269 s - in org.apache.tez.common.[1mTestJavaOptsChecker[m
+[[1;34mINFO[m] Running org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.184 s - in org.apache.tez.common.[1mTestTezCommonUtils[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.47 s - in org.apache.tez.common.security.[1mTestACLManager[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 s - in org.apache.tez.common.security.[1mTestACLConfigurationParser[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 s - in org.apache.tez.common.security.[1mTestDAGAccessControls[m
+[[1;34mINFO[m] Running org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.756 s - in org.apache.tez.common.security.[1mTestTokenCache[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestDAG.testRecreateDAG:363 expected:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+> but was:<name: "DAG-testRecreateDAG"
+vertex {
+  name: "v1"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor1"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v1"
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+  }
+}
+vertex {
+  name: "v2"
+  type: NORMAL
+  processor_descriptor {
+    class_name: "dummyProcessor2"
+  }
+  taskConfig {
+    numTasks: 1
+    memoryMb: 1
+    virtualCores: 1
+    javaOpts: "-server -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -verbose:gc -Xlog:gc*,safepoint::time,uptime -XX:+UseNUMA -XX:+UseParallelGC "
+    taskModule: "v2"
+    environmentSetting {
+      key: "CLASSPATH"
+      value: "$PWD:$PWD/*:"
+    }
+    environmentSetting {
+      key: "LD_LIBRARY_PATH"
+      value: "$PWD:$PWD:$HADOOP_COMMON_HOME/lib/native/"
+    }
+  }
+}
+dagConf {
+}
+credentials_binary: "HDTS\000\000\000"
+local_resource {
+  name: "LR1"
+  uri: "file://localhost:0/test1"
+  size: 1
+  timeStamp: 1
+  type: FILE
+  visibility: PUBLIC
+}
+>[m
+[[1;31mERROR[m] [1;31m  TestDAGPlan.userVertexOrderingIsMaintained:249[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 202, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for cbi8y5KogkkTebwSyMl5yidd9Z6ytuqC3ZIFJcs+fA=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/tez/tez-api/.nondex" -DnondexJarDir="/home/a360/research/projects/tez/tez-api/.nondex" -DnondexExecid=1GkEhAJjRXDVwNh7TiDAeq96w4aOeF4VUIij9RMYceM= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.tez.dag.api.TestDAG#testRecreateDAG
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/tez/tez-api/.nondex" -DnondexJarDir="/home/a360/research/projects/tez/tez-api/.nondex" -DnondexExecid=7gpUc8h++r2QWDBTqHlEApPTBIVnmSoU+ssYRNzJhLI= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.tez.dag.api.TestDAG#testRecreateDAG
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/tez/tez-api/.nondex" -DnondexJarDir="/home/a360/research/projects/tez/tez-api/.nondex" -DnondexExecid=cbi8y5KogkkTebwSyMl5yidd9Z6ytuqC3ZIFJcs+fA= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.tez.dag.api.TestDAG#testRecreateDAG
+[[1;33mWARNING[m] org.apache.tez.dag.api.TestDAGPlan#userVertexOrderingIsMaintained
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.tez.dag.api.TestDAG#testRecreateDAG
+[[1;34mINFO[m] org.apache.tez.dag.api.TestDAGPlan#userVertexOrderingIsMaintained
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/tez/tez-api/.nondex/1GkEhAJjRXDVwNh7TiDAeq96w4aOeF4VUIij9RMYceM=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: 1GkEhAJjRXDVwNh7TiDAeq96w4aOeF4VUIij9RMYceM=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  06:49 min
+[[1;34mINFO[m] Finished at: 2026-10-02T07:00:48-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mtez-api[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/tez/tez-api/.nondex/1GkEhAJjRXDVwNh7TiDAeq96w4aOeF4VUIij9RMYceM= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,312 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.cloudera.altus:altus-sdk-java[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Cloudera Altus Java SDK 1.3.7[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36maltus-sdk-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(enforce)[m @ [36maltus-sdk-java[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:3.0.0-M1:enforce[m [1m(enforce-no-commons-logging)[m @ [36maltus-sdk-java[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:resources[m [1m(default-resources)[m @ [36maltus-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:compile[m [1m(default-compile)[m @ [36maltus-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.1.0:testResources[m [1m(default-testResources)[m @ [36maltus-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36maltus-sdk-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36maltus-sdk-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36maltus-sdk-java[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_qI9pByvAmRIn2BPHCb+Py7VhF5ET53gWa48MK2EABM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.067 s - in com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.327 s - in com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 s - in com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 79, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexExecid=FGyusvV6lMZ931cdBPOIlCMXvUv38O3zcUSWIQd3YPE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.245 s - in com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.457 s - in com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 79, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexExecid=c+XJOcS6bhFhDm+rZ+qvYai71wNmFx76p7MNaFyEw=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.228 s - in com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 s - in com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 s - in com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 79, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexJarDir=/home/a360/research/projects/altus-sdk-java/.nondex
+nondexExecid=y9lfDvIRrx2KaxMzEsACEezOJ6cZ+t+GhKmjSNtd0bo=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in com.cloudera.altus.client.[1mAltusClientConfigurationBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.227 s - in com.cloudera.altus.client.[1mAltusClientTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.cloudera.altus.client.[1mCredentialUtilitiesTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.469 s - in com.cloudera.altus.client.[1mClientConnectionWrapperTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.cloudera.altus.client.[1mAltusClientBuilderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.cloudera.altus.client.[1mAltusClientConfigurationTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.cloudera.altus.[1mAltusHTTPExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 s - in com.cloudera.altus.authentication.[1mSignerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in com.cloudera.altus.authentication.credentials.[1mAltusProfileCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.altus.authentication.credentials.[1mStaticAltusCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.cloudera.altus.authentication.credentials.profile.path.[1mAltusProfileConfigFileTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.cloudera.altus.authentication.credentials.[1mAltusSystemPropertiesCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.cloudera.altus.authentication.credentials.[1mAltusEnvironmentVariableCredentialsProviderTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.cloudera.altus.authentication.credentials.[1mDefaultCredentialsProviderChainTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.cloudera.altus.authentication.credentials.[1mBasicAltusCredentialsTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.cloudera.altus.http.[1mExponentialBackoffDelayPolicyTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.altus.http.[1mNeverRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.cloudera.altus.http.[1mHttpCodesRetryCheckerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.cloudera.altus.http.[1mSimpleRetryHandlerTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.cloudera.altus.[1mAltusClientExceptionTest[m
+[[1;34mINFO[m] Running com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.cloudera.altus.[1mAltusServiceExceptionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 79, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/altus-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/altus-sdk-java/.nondex" -DnondexExecid=FGyusvV6lMZ931cdBPOIlCMXvUv38O3zcUSWIQd3YPE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/altus-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/altus-sdk-java/.nondex" -DnondexExecid=c+XJOcS6bhFhDm+rZ+qvYai71wNmFx76p7MNaFyEw= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/altus-sdk-java/.nondex" -DnondexJarDir="/home/a360/research/projects/altus-sdk-java/.nondex" -DnondexExecid=y9lfDvIRrx2KaxMzEsACEezOJ6cZ+t+GhKmjSNtd0bo= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/altus-sdk-java/.nondex/FGyusvV6lMZ931cdBPOIlCMXvUv38O3zcUSWIQd3YPE=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: FGyusvV6lMZ931cdBPOIlCMXvUv38O3zcUSWIQd3YPE=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  22.050 s
+[[1;34mINFO[m] Finished at: 2026-10-02T07:55:50-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

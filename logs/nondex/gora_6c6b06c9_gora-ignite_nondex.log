@@ -1,0 +1,1185 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.gora:gora-ignite[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Gora :: Ignite 1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mgora-ignite[0;1m >>>[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.apache.hadoop:hadoop-annotations:jar:2.5.2 during dependency collection step for project (use -X to see details)
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.1-GA during dependency collection step for project (use -X to see details)
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.19.0-GA during dependency collection step for project (use -X to see details)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-maven-version)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-java-version)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.4.1:enforce[m [1m(enforce-output-timestamp-property)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:1.7:add-source[m [1m(default)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/a360/research/projects/gora/gora-ignite/src/examples/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.7.0:process[m [1m(process-resource-bundles)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[[1;34mINFO[m] Copying 3 resources from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:resources[m [1m(default-resources)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/gora/gora-ignite/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:compile[m [1m(default-compile)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 15 source files to /home/a360/research/projects/gora/gora-ignite/target/classes
+[[1;33mWARNING[m] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+/home/a360/research/projects/gora/gora-ignite/src/main/java/org/apache/gora/ignite/utils/IgniteSQLBuilder.java:[124,48] non-varargs call of varargs method with inexact argument type for last parameter;
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.2.0:testResources[m [1m(default-testResources)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.1:testCompile[m [1m(default-testCompile)[m @ [36mgora-ignite[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mgora-ignite[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mgora-ignite[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_rQR2sMJKNVi4QSzOvsjxrMWFB5sAYcxTTchxwkTZ7g=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[03:14:37] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:14:37]    __________  ________________ 
+[03:14:37]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:14:37]  _/ // (7 7    // /  / / / _/   
+[03:14:37] /___/\___/_/|_/___/ /_/ /x___/  
+[03:14:37] 
+[03:14:37] ver. 2.14.0#20220929-sha1:951e8deb
+[03:14:37] 2022 Copyright(C) Apache Software Foundation
+[03:14:37] 
+[03:14:37] Ignite documentation: https://ignite.apache.org
+[03:14:37] 
+[03:14:37] Quiet mode.
+[03:14:37]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-f2a47958.0.log'
+[03:14:37]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:14:37]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:14:37] 
+[03:14:37] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:14:37] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:14:37] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:14:37] Configured plugins:
+[03:14:37]   ^-- None
+[03:14:37] 
+[03:14:37] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:14:37] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:14:38] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:14:41] Data Regions Started: 4
+[03:14:41] 
+[03:14:41]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:14:41]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:14:41]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:14:41]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:14:41]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:14:41]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:14:41]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:14:41]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:14:41] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:14:41] Performance suggestions for grid  (fix if possible)
+[03:14:41] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:14:41]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:14:41]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:14:41]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:14:41]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:14:41] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:14:41] 
+[03:14:41] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:14:41] 
+[03:14:41] Ignite node started OK (id=f2a47958)
+[03:14:41] Topology snapshot [ver=1, locNode=f2a47958, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:14:41]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+Formatting using clusterid: testClusterID
+[03:14:50] New version is available at ignite.apache.org: 2.18.0
+[03:15:19] Ignite node stopped OK [uptime=00:00:38.438]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.723 s - in org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[[1;34mINFO[m] Running org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[03:15:21] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:15:21]    __________  ________________ 
+[03:15:21]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:15:21]  _/ // (7 7    // /  / / / _/   
+[03:15:21] /___/\___/_/|_/___/ /_/ /x___/  
+[03:15:21] 
+[03:15:21] ver. 2.14.0#20220929-sha1:951e8deb
+[03:15:21] 2022 Copyright(C) Apache Software Foundation
+[03:15:21] 
+[03:15:21] Ignite documentation: https://ignite.apache.org
+[03:15:21] 
+[03:15:21] Quiet mode.
+[03:15:21]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-db045bbc.0.log'
+[03:15:21]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:15:21]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:15:21] 
+[03:15:21] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:15:21] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:15:21] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:15:21] Configured plugins:
+[03:15:21]   ^-- None
+[03:15:21] 
+[03:15:21] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:15:21] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:15:21] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:15:24] Data Regions Started: 4
+[03:15:24] 
+[03:15:24]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:15:24]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:15:24]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:15:24]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:15:24]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:15:24]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:15:24]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:15:24]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:15:24] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:15:24] Performance suggestions for grid  (fix if possible)
+[03:15:24] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:15:24]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:15:24]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:15:24]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:15:24]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:15:24] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:15:24] 
+[03:15:24] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:15:24] 
+[03:15:24] Ignite node started OK (id=db045bbc)
+[03:15:24] Topology snapshot [ver=1, locNode=db045bbc, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:15:24]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[03:15:34] New version is available at ignite.apache.org: 2.18.0
+[03:15:37] Ignite node stopped OK [uptime=00:00:12.413]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m45[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.462 s - in org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 46, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexJarDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexExecid=i+0+yJZv7md80wLUTJRNgPQGbZ+0z4C8ok1F0lS0bP4=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[03:15:38] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:15:38]    __________  ________________ 
+[03:15:38]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:15:38]  _/ // (7 7    // /  / / / _/   
+[03:15:38] /___/\___/_/|_/___/ /_/ /x___/  
+[03:15:38] 
+[03:15:38] ver. 2.14.0#20220929-sha1:951e8deb
+[03:15:38] 2022 Copyright(C) Apache Software Foundation
+[03:15:38] 
+[03:15:38] Ignite documentation: https://ignite.apache.org
+[03:15:38] 
+[03:15:38] Quiet mode.
+[03:15:38]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-8b177b87.0.log'
+[03:15:38]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:15:38]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:15:38] 
+[03:15:38] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:15:38] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:15:38] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:15:39] Configured plugins:
+[03:15:39]   ^-- None
+[03:15:39] 
+[03:15:39] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:15:39] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:15:39] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:15:42] Data Regions Started: 4
+[03:15:42] 
+[03:15:42]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:15:42]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:15:42]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:15:42]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:15:42]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:15:42]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:15:42]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:15:42]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:15:42] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:15:42] Performance suggestions for grid  (fix if possible)
+[03:15:42] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:15:42]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:15:42]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:15:42]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:15:42]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:15:42] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:15:42] 
+[03:15:42] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:15:42] 
+[03:15:42] Ignite node started OK (id=8b177b87)
+[03:15:42] Topology snapshot [ver=1, locNode=8b177b87, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:15:42]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+Formatting using clusterid: testClusterID
+[03:15:52] New version is available at ignite.apache.org: 2.18.0
+[03:16:39] Ignite node stopped OK [uptime=00:00:56.720]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 60.758 s[1;31m <<< FAILURE![m - in org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[[1;31mERROR[m] testCountQuery(org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest)  Time elapsed: 60.757 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[03:16:40] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:16:41]    __________  ________________ 
+[03:16:41]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:16:41]  _/ // (7 7    // /  / / / _/   
+[03:16:41] /___/\___/_/|_/___/ /_/ /x___/  
+[03:16:41] 
+[03:16:41] ver. 2.14.0#20220929-sha1:951e8deb
+[03:16:41] 2022 Copyright(C) Apache Software Foundation
+[03:16:41] 
+[03:16:41] Ignite documentation: https://ignite.apache.org
+[03:16:41] 
+[03:16:41] Quiet mode.
+[03:16:41]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-eff977d8.0.log'
+[03:16:41]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:16:41]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:16:41] 
+[03:16:41] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:16:41] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:16:41] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:16:41] Configured plugins:
+[03:16:41]   ^-- None
+[03:16:41] 
+[03:16:41] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [timeout=0, tryStop=false, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:16:41] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:16:41] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:16:44] Data Regions Started: 4
+[03:16:44] 
+[03:16:44]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:16:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:16:44]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:16:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:16:44]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:16:44]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:16:44]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:16:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:16:44] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:16:44] Performance suggestions for grid  (fix if possible)
+[03:16:44] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:16:44]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:16:44]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:16:44]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:16:44]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:16:44] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:16:44] 
+[03:16:44] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:16:44] 
+[03:16:44] Ignite node started OK (id=eff977d8)
+[03:16:44] Topology snapshot [ver=1, locNode=eff977d8, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:16:44]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[[1;34mINFO[m] Running org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[03:16:53] New version is available at ignite.apache.org: 2.18.0
+[03:16:55] Ignite node stopped OK [uptime=00:00:11.140]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m45[m, [1;31mFailures: [0;1;31m12[m, [1;31mErrors: [0;1;31m15[m, Skipped: 0, Time elapsed: 11.128 s[1;31m <<< FAILURE![m - in org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[[1;31mERROR[m] testGetPartitions(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testQuery(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.301 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testGetNested(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.248 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGet3UnionField(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.236 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGetWebPage(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.222 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testPutNested(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.257 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testGetWebPageDefaultFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.229 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testUpdate(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.28 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testDelete(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.2 s  <<< FAILURE!
+java.lang.AssertionError: expected:<9> but was:<0>
+
+[[1;31mERROR[m] testQueryWebPageSingleKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.203 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testObjectFieldValue(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.19 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.Long, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.Long, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.Long, to=java.lang.Integer]
+
+[[1;31mERROR[m] testExists(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.232 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testQueryKeyRange(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.173 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+[[1;31mERROR[m] testQueryStartKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.215 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testPutMixedMaps(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.158 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=METADATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=METADATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=METADATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testQueryWebPageSingleKeyDefaultFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.146 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testDeleteByQueryFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.167 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testBenchmarkExists(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.166 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGetDoubleRecursive(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.153 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=BOSS, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=BOSS, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=BOSS, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testPutMap(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.168 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=PARSEDCONTENT, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=PARSEDCONTENT, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=PARSEDCONTENT, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testDeleteByQuery(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.16 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testGetWithFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.146 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGet(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.16 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testQueryEndKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.15 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+[[1;31mERROR[m] testGetRecursive(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.16 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testPutBytes(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.149 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=CONTENT, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=CONTENT, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=CONTENT, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testAutoCreateSchema(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.139 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  IgniteStoreMapReduceTest>DataStoreMapReduceTestBase.testCountQuery:82 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDelete:353 expected:<9> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDeleteByQuery:359 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDeleteByQueryFields:365 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetPartitions:371[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWebPage:293[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWebPageDefaultFields:299[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQuery:311 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryEndKey:323 expected:<1> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryKeyRange:329 expected:<1> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryStartKey:317 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryWebPageSingleKey:335[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryWebPageSingleKeyDefaultFields:341[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testAutoCreateSchema:123 » Gora org.apache.g...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testBenchmarkExists:226 » Gora org.apache.go...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testExists:220 » Gora org.apache.gora.util.G...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGet:232 » Gora org.apache.gora.util.Gora...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGet3UnionField:281 » Gora org.apache.gor...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetDoubleRecursive:256 » Gora org.apache...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetNested:269 » Gora org.apache.gora.uti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetRecursive:244 » Gora org.apache.gora....[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWithFields:287 » Gora org.apache.gora...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testObjectFieldValue:426 » Gora org.apache.g...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutBytes:179 » Gora org.apache.gora.util...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutMap:189 » Gora org.apache.gora.util.G...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutMixedMaps:199 » Gora org.apache.gora....[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutNested:163 » Gora org.apache.gora.uti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testUpdate:205 » Gora org.apache.gora.util.G...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 46, Failures: 13, Errors: 15, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for i+0+yJZv7md80wLUTJRNgPQGbZ+0z4C8ok1F0lS0bP4=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexJarDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexExecid=PxwCdY7RKag5j1N3eKjw1BJuvou3eeKXhVNYxgUwq9w=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[03:16:57] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:16:57]    __________  ________________ 
+[03:16:57]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:16:57]  _/ // (7 7    // /  / / / _/   
+[03:16:57] /___/\___/_/|_/___/ /_/ /x___/  
+[03:16:57] 
+[03:16:57] ver. 2.14.0#20220929-sha1:951e8deb
+[03:16:57] 2022 Copyright(C) Apache Software Foundation
+[03:16:57] 
+[03:16:57] Ignite documentation: https://ignite.apache.org
+[03:16:57] 
+[03:16:57] Quiet mode.
+[03:16:57]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-bfdc2360.0.log'
+[03:16:57]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:16:57]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:16:57] 
+[03:16:57] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:16:57] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:16:57] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:16:57] Configured plugins:
+[03:16:57]   ^-- None
+[03:16:57] 
+[03:16:57] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:16:57] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:16:57] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:17:00] Data Regions Started: 4
+[03:17:00] 
+[03:17:00]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:17:00]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:17:00]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:17:00]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:17:00]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:17:00]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:17:00]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:17:00]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:17:00] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:17:00] Performance suggestions for grid  (fix if possible)
+[03:17:00] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:17:00]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:17:00]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:17:00]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:17:00]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:17:00] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:17:00] 
+[03:17:00] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:17:00] 
+[03:17:00] Ignite node started OK (id=bfdc2360)
+[03:17:00] Topology snapshot [ver=1, locNode=bfdc2360, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:17:00]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+Formatting using clusterid: testClusterID
+[03:17:10] New version is available at ignite.apache.org: 2.18.0
+[03:17:40] Ignite node stopped OK [uptime=00:00:39.425]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 43.171 s[1;31m <<< FAILURE![m - in org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[[1;31mERROR[m] testCountQuery(org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest)  Time elapsed: 43.17 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[03:17:41] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:17:41]    __________  ________________ 
+[03:17:41]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:17:41]  _/ // (7 7    // /  / / / _/   
+[03:17:41] /___/\___/_/|_/___/ /_/ /x___/  
+[03:17:41] 
+[03:17:41] ver. 2.14.0#20220929-sha1:951e8deb
+[03:17:41] 2022 Copyright(C) Apache Software Foundation
+[03:17:41] 
+[03:17:41] Ignite documentation: https://ignite.apache.org
+[03:17:41] 
+[03:17:41] Quiet mode.
+[03:17:41]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-88c7ca5d.0.log'
+[03:17:41]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:17:41]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:17:41] 
+[03:17:41] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:17:41] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:17:41] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:17:41] Configured plugins:
+[03:17:41]   ^-- None
+[03:17:41] 
+[03:17:41] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:17:41] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:17:42] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:17:44] Data Regions Started: 4
+[03:17:44] 
+[03:17:44]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:17:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:17:44]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:17:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:17:44]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:17:44]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:17:44]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:17:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:17:45] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:17:45] Performance suggestions for grid  (fix if possible)
+[03:17:45] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:17:45]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:17:45]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:17:45]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:17:45]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:17:45] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:17:45] 
+[03:17:45] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:17:45] 
+[03:17:45] Ignite node started OK (id=88c7ca5d)
+[03:17:45] Topology snapshot [ver=1, locNode=88c7ca5d, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:17:45]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[[1;34mINFO[m] Running org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[03:17:54] New version is available at ignite.apache.org: 2.18.0
+[03:17:56] Ignite node stopped OK [uptime=00:00:10.936]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m45[m, [1;31mFailures: [0;1;31m11[m, [1;31mErrors: [0;1;31m17[m, Skipped: 0, Time elapsed: 10.927 s[1;31m <<< FAILURE![m - in org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[[1;31mERROR[m] testGetWebPage(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.483 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testQueryStartKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.369 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testQueryWebPageSingleKeyDefaultFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.307 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testQueryWebPageSingleKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.317 s  <<< ERROR!
+java.io.EOFException
+
+[[1;31mERROR[m] testUpdate(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.271 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testPutBytes(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.234 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=CONTENT, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=CONTENT, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=CONTENT, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testDeleteByQuery(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.214 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testGetWebPageDefaultFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.244 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testPutMap(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.227 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testQuery(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.206 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testQueryKeyRange(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.205 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+[[1;31mERROR[m] testObjectFieldValue(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.198 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testExists(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.186 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGet3UnionField(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.166 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=[B, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=[B, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=[B, to=java.lang.Long]
+
+[[1;31mERROR[m] testPutMixedMaps(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.213 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=BYTEDATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=BYTEDATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=BYTEDATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testGetRecursive(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.181 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testPutArray(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.184 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testDelete(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.175 s  <<< FAILURE!
+java.lang.AssertionError: expected:<9> but was:<0>
+
+[[1;31mERROR[m] testGetNested(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.149 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGetWithFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.154 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testQueryEndKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.147 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+[[1;31mERROR[m] testDeleteByQueryFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.138 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testGetPartitions(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.166 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testBenchmarkExists(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.153 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testAutoCreateSchema(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.163 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.Long, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.Long, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.Long, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGetDoubleRecursive(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.168 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=[B, to=java.lang.Integer]
+
+[[1;31mERROR[m] testPutNested(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.163 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=BYTEDATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=BYTEDATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=BYTEDATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testGet(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.151 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  IgniteStoreMapReduceTest>DataStoreMapReduceTestBase.testCountQuery:82 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDelete:353 expected:<9> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDeleteByQuery:359 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDeleteByQueryFields:365 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetPartitions:371[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWebPage:293[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWebPageDefaultFields:299[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQuery:311 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryEndKey:323 expected:<1> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryKeyRange:329 expected:<1> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryStartKey:317 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryWebPageSingleKeyDefaultFields:341[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testAutoCreateSchema:123 » Gora org.apache.g...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testBenchmarkExists:226 » Gora org.apache.go...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testExists:220 » Gora org.apache.gora.util.G...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGet:232 » Gora org.apache.gora.util.Gora...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGet3UnionField:281 » Gora org.apache.gor...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetDoubleRecursive:256 » Gora org.apache...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetNested:269 » Gora org.apache.gora.uti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetRecursive:244 » Gora org.apache.gora....[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWithFields:287 » Gora org.apache.gora...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testObjectFieldValue:426 » Gora org.apache.g...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutArray:169 » Gora org.apache.gora.util...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutBytes:179 » Gora org.apache.gora.util...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutMap:189 » Gora org.apache.gora.util.G...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutMixedMaps:199 » Gora org.apache.gora....[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutNested:163 » Gora org.apache.gora.uti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryWebPageSingleKey:335 » EOF[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testUpdate:205 » Gora org.apache.gora.util.G...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 46, Failures: 12, Errors: 17, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for PxwCdY7RKag5j1N3eKjw1BJuvou3eeKXhVNYxgUwq9w=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexJarDir=/home/a360/research/projects/gora/gora-ignite/.nondex
+nondexExecid=lxMnJOIcCjvODZ575eW9igO3MARrVbgz7qOz44+qjs=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[03:17:57] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:17:57]    __________  ________________ 
+[03:17:57]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:17:57]  _/ // (7 7    // /  / / / _/   
+[03:17:57] /___/\___/_/|_/___/ /_/ /x___/  
+[03:17:57] 
+[03:17:57] ver. 2.14.0#20220929-sha1:951e8deb
+[03:17:57] 2022 Copyright(C) Apache Software Foundation
+[03:17:57] 
+[03:17:57] Ignite documentation: https://ignite.apache.org
+[03:17:57] 
+[03:17:57] Quiet mode.
+[03:17:57]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-c20aa330.0.log'
+[03:17:57]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:17:57]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:17:57] 
+[03:17:57] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:17:57] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:17:57] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:17:57] Configured plugins:
+[03:17:57]   ^-- None
+[03:17:57] 
+[03:17:57] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:17:57] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:17:58] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:18:00] Data Regions Started: 4
+[03:18:00] 
+[03:18:00]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:18:00]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:18:00]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:18:00]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:18:00]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:18:00]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:18:00]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:18:00]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:18:01] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:18:01] Performance suggestions for grid  (fix if possible)
+[03:18:01] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:18:01]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:18:01]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:18:01]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:18:01]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:18:01] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:18:01] 
+[03:18:01] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:18:01] 
+[03:18:01] Ignite node started OK (id=c20aa330)
+[03:18:01] Topology snapshot [ver=1, locNode=c20aa330, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:18:01]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+Formatting using clusterid: testClusterID
+[03:18:10] New version is available at ignite.apache.org: 2.18.0
+[03:18:39] Ignite node stopped OK [uptime=00:00:38.256]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 42.063 s[1;31m <<< FAILURE![m - in org.apache.gora.ignite.mapreduce.[1mIgniteStoreMapReduceTest[m
+[[1;31mERROR[m] testCountQuery(org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest)  Time elapsed: 42.061 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[03:18:40] (wrn) Default Spring XML file not found (is IGNITE_HOME set?): config/default-config.xml
+
+[03:18:41]    __________  ________________ 
+[03:18:41]   /  _/ ___/ |/ /  _/_  __/ __/ 
+[03:18:41]  _/ // (7 7    // /  / / / _/   
+[03:18:41] /___/\___/_/|_/___/ /_/ /x___/  
+[03:18:41] 
+[03:18:41] ver. 2.14.0#20220929-sha1:951e8deb
+[03:18:41] 2022 Copyright(C) Apache Software Foundation
+[03:18:41] 
+[03:18:41] Ignite documentation: https://ignite.apache.org
+[03:18:41] 
+[03:18:41] Quiet mode.
+[03:18:41]   ^-- Logging to file '/home/a360/research/projects/gora/gora-ignite/ignite/work/log/ignite-b7ad6504.0.log'
+[03:18:41]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[03:18:41]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[03:18:41] 
+[03:18:41] OS: Linux 6.18.33.2-microsoft-standard-WSL2 amd64
+[03:18:41] VM information: OpenJDK Runtime Environment 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu Ubuntu OpenJDK 64-Bit Server VM 11.0.32.1+1-post-1ubuntu1-26.04-Ubuntu
+[03:18:41] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[03:18:41] Configured plugins:
+[03:18:41]   ^-- None
+[03:18:41] 
+[03:18:41] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[03:18:41] Initial heap size is 104MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[03:18:41] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[03:18:44] Data Regions Started: 4
+[03:18:44] 
+[03:18:44]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[03:18:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:18:44]     ^--   default region [type=default, persistence=false, lazyAlloc=true,
+[03:18:44]       ...  initCfg=256MB, maxCfg=1320MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[03:18:44]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[03:18:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:18:44]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[03:18:44]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[03:18:44] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[03:18:44] Performance suggestions for grid  (fix if possible)
+[03:18:44] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[03:18:44]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[03:18:44]   ^-- Speed up flushing of dirty pages by OS (alter vm.dirty_expire_centisecs parameter by setting to 500)
+[03:18:44]   ^-- Reduce pages swapping ratio (set vm.swappiness=10 or less)
+[03:18:44]   ^-- Disable assertions (remove '-ea' from JVM options)
+[03:18:44] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[03:18:44] 
+[03:18:44] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[03:18:44] 
+[03:18:44] Ignite node started OK (id=b7ad6504)
+[03:18:44] Topology snapshot [ver=1, locNode=b7ad6504, servers=1, clients=0, state=ACTIVE, CPUs=12, offheap=1.3GB, heap=0.5GB]
+[03:18:44]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[[1;34mINFO[m] Running org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[03:18:54] New version is available at ignite.apache.org: 2.18.0
+[03:18:55] Ignite node stopped OK [uptime=00:00:10.986]
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m45[m, [1;31mFailures: [0;1;31m12[m, [1;31mErrors: [0;1;31m17[m, Skipped: 0, Time elapsed: 10.977 s[1;31m <<< FAILURE![m - in org.apache.gora.ignite.store.[1mTestIgniteStore[m
+[[1;31mERROR[m] igniteStoreMetadataAnalyzerTest(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 1.347 s  <<< FAILURE!
+java.lang.AssertionError: Ignite Store Metadata Table Names
+	at org.apache.gora.ignite.store.TestIgniteStore.igniteStoreMetadataAnalyzerTest(TestIgniteStore.java:42)
+
+[[1;31mERROR[m] testDelete(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.46 s  <<< FAILURE!
+java.lang.AssertionError: expected:<9> but was:<0>
+
+[[1;31mERROR[m] testGetNested(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.293 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testAutoCreateSchema(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.258 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testUpdate(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.304 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testPutBytes(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.258 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testQueryKeyRange(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.243 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+[[1;31mERROR[m] testGet(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.259 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGet3UnionField(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.213 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testPutMap(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.222 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=OUTLINKS, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testGetWithFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.193 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=WEBPAGE, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=WEBPAGE, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=WEBPAGE, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testDeleteByQueryFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.23 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testGetRecursive(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.167 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testQueryWebPageSingleKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.178 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testDeleteByQuery(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.172 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testObjectFieldValue(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.16 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testGetWebPageDefaultFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.196 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testPutArray(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.158 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testExists(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.162 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testGetPartitions(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.152 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testGetWebPage(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.184 s  <<< ERROR!
+org.apache.gora.util.GoraException: java.io.EOFException
+Caused by: java.io.EOFException
+
+[[1;31mERROR[m] testQueryStartKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.19 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;31mERROR[m] testQueryWebPageSingleKeyDefaultFields(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.169 s  <<< FAILURE!
+java.lang.AssertionError
+
+[[1;31mERROR[m] testQueryEndKey(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.155 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+[[1;31mERROR[m] testPutMixedMaps(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.159 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=METADATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=METADATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=METADATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testBenchmarkExists(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.152 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+Caused by: java.sql.SQLException: Value conversion failed [column=DATEOFBIRTH, from=java.lang.String, to=java.lang.Long]
+
+[[1;31mERROR[m] testGetDoubleRecursive(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.166 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+Caused by: java.sql.SQLException: Value conversion failed [column=SALARY, from=java.lang.String, to=java.lang.Integer]
+
+[[1;31mERROR[m] testPutNested(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.158 s  <<< ERROR!
+org.apache.gora.util.GoraException: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+Caused by: org.apache.gora.util.GoraException: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+Caused by: java.sql.SQLException: Value conversion failed [column=STRINGDATA, from=java.lang.String, to=[B]
+
+[[1;31mERROR[m] testQuery(org.apache.gora.ignite.store.TestIgniteStore)  Time elapsed: 0.148 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<0>
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  IgniteStoreMapReduceTest>DataStoreMapReduceTestBase.testCountQuery:82 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore.igniteStoreMetadataAnalyzerTest:42 Ignite Store Metadata Table Names[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDelete:353 expected:<9> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDeleteByQuery:359 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testDeleteByQueryFields:365 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetPartitions:371[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWebPageDefaultFields:299[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQuery:311 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryEndKey:323 expected:<1> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryKeyRange:329 expected:<1> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryStartKey:317 expected:<10> but was:<0>[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryWebPageSingleKey:335[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testQueryWebPageSingleKeyDefaultFields:341[m
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testAutoCreateSchema:123 » Gora org.apache.g...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testBenchmarkExists:226 » Gora org.apache.go...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testExists:220 » Gora org.apache.gora.util.G...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGet:232 » Gora org.apache.gora.util.Gora...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGet3UnionField:281 » Gora org.apache.gor...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetDoubleRecursive:256 » Gora org.apache...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetNested:269 » Gora org.apache.gora.uti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetRecursive:244 » Gora org.apache.gora....[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWebPage:293 » Gora java.io.EOFExcepti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testGetWithFields:287 » Gora org.apache.gora...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testObjectFieldValue:426 » Gora org.apache.g...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutArray:169 » Gora org.apache.gora.util...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutBytes:179 » Gora org.apache.gora.util...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutMap:189 » Gora org.apache.gora.util.G...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutMixedMaps:199 » Gora org.apache.gora....[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testPutNested:163 » Gora org.apache.gora.uti...[m
+[[1;31mERROR[m] [1;31m  TestIgniteStore>DataStoreTestBase.testUpdate:205 » Gora org.apache.gora.util.G...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 46, Failures: 13, Errors: 17, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for lxMnJOIcCjvODZ575eW9igO3MARrVbgz7qOz44+qjs=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/gora/gora-ignite/.nondex" -DnondexJarDir="/home/a360/research/projects/gora/gora-ignite/.nondex" -DnondexExecid=i+0+yJZv7md80wLUTJRNgPQGbZ+0z4C8ok1F0lS0bP4= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest#testCountQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetPartitions
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetNested
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGet3UnionField
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPage
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutNested
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPageDefaultFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testUpdate
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDelete
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testObjectFieldValue
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testExists
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryKeyRange
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryStartKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMixedMaps
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKeyDefaultFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQueryFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testBenchmarkExists
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetDoubleRecursive
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMap
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWithFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGet
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryEndKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetRecursive
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutBytes
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testAutoCreateSchema
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/gora/gora-ignite/.nondex" -DnondexJarDir="/home/a360/research/projects/gora/gora-ignite/.nondex" -DnondexExecid=PxwCdY7RKag5j1N3eKjw1BJuvou3eeKXhVNYxgUwq9w= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest#testCountQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPage
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryStartKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKeyDefaultFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testUpdate
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutBytes
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPageDefaultFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMap
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryKeyRange
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testObjectFieldValue
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testExists
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGet3UnionField
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMixedMaps
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetRecursive
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutArray
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDelete
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetNested
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWithFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryEndKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQueryFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetPartitions
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testBenchmarkExists
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testAutoCreateSchema
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetDoubleRecursive
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutNested
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGet
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/gora/gora-ignite/.nondex" -DnondexJarDir="/home/a360/research/projects/gora/gora-ignite/.nondex" -DnondexExecid=lxMnJOIcCjvODZ575eW9igO3MARrVbgz7qOz44+qjs= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest#testCountQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#igniteStoreMetadataAnalyzerTest
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDelete
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetNested
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testAutoCreateSchema
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testUpdate
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutBytes
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryKeyRange
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGet
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGet3UnionField
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMap
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWithFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQueryFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetRecursive
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQuery
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testObjectFieldValue
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPageDefaultFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutArray
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testExists
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetPartitions
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPage
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryStartKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKeyDefaultFields
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryEndKey
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMixedMaps
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testBenchmarkExists
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testGetDoubleRecursive
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testPutNested
+[[1;33mWARNING[m] org.apache.gora.ignite.store.TestIgniteStore#testQuery
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] org.apache.gora.ignite.mapreduce.IgniteStoreMapReduceTest#testCountQuery
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetPartitions
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testQuery
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetNested
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGet3UnionField
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPage
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testPutNested
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWebPageDefaultFields
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testUpdate
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testDelete
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKey
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testObjectFieldValue
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testExists
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryKeyRange
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryStartKey
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMixedMaps
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryWebPageSingleKeyDefaultFields
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQueryFields
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testBenchmarkExists
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetDoubleRecursive
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testPutMap
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testDeleteByQuery
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetWithFields
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGet
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testQueryEndKey
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testGetRecursive
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testPutBytes
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testAutoCreateSchema
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#testPutArray
+[[1;34mINFO[m] org.apache.gora.ignite.store.TestIgniteStore#igniteStoreMetadataAnalyzerTest
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/gora/gora-ignite/.nondex/i+0+yJZv7md80wLUTJRNgPQGbZ+0z4C8ok1F0lS0bP4=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: i+0+yJZv7md80wLUTJRNgPQGbZ+0z4C8ok1F0lS0bP4=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  04:28 min
+[[1;34mINFO[m] Finished at: 2026-10-02T03:18:55-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:2.2.1:nondex[m [1m(default-cli)[m on project [36mgora-ignite[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/a360/research/projects/gora/gora-ignite/.nondex/i+0+yJZv7md80wLUTJRNgPQGbZ+0z4C8ok1F0lS0bP4= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

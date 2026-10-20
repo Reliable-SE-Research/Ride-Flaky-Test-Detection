@@ -1,0 +1,51 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mus.bpsm:edn-java[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding EDN Java 0.7.1[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36medn-java[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0:enforce[m [1m(enforce-maven)[m @ [36medn-java[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36medn-java[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.6.1:compile[m [1m(default-compile)[m @ [36medn-java[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 41 source files to /home/a360/research/projects/edn-java/target/classes
+[[1;34mINFO[m] /home/a360/research/projects/edn-java/src/main/java/us/bpsm/edn/printer/LoosePrinter.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/a360/research/projects/edn-java/src/main/java/us/bpsm/edn/printer/LoosePrinter.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36medn-java[0;1m ---[m
+[[1;34mINFO[m] Copying 27 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.6.1:testCompile[m [1m(default-testCompile)[m @ [36medn-java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36medn-java[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32midflakies:2.0.1-SNAPSHOT:detect[m [1m(default-cli)[m @ [36medn-java[0;1m ---[m
+INFO: Locating tests...
+INFO: Located 128 tests. Time taken: 0.27300000190734863 seconds
+INFO: No timeout specified. Using randomize.rounds: 3
+INFO: ROUNDS_CALCULATED: Giving us.bpsm:edn-java:0.7.1 3 rounds to run for random-class-method
+INFO: Using original order in path: /home/a360/research/projects/edn-java/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /home/a360/research/projects/edn-java/.dtfixingtools/original-order
+[INFO] Getting original results (128 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 3 (0.0 seconds elapsed (1.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 3 (1.1 seconds elapsed (2.2 total), 0.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 3 (2.2 seconds elapsed (3.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/a360/research/projects/edn-java/.dtfixingtools/detection-results/list.txt and dt lists to /home/a360/research/projects/edn-java/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.385 s
+[[1;34mINFO[m] Finished at: 2026-10-02T07:43:54-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,0 +1,1158 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.github.davidmoten:rxjava2-extras[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding rxjava2-extras 0.2.3-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mrxjava2-extras[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.10:prepare-agent[m [1m(prepare-agent)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/a360/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/home/a360/research/projects/rxjava2-extras/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/a360/research/projects/rxjava2-extras/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:compile[m [1m(default-compile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Copying 4 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mrxjava2-extras[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex:2.2.1:nondex[m [1m(default-cli)[m @ [36mrxjava2-extras[0;1m ---[m
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_aPjdg2ehzfcvgWkXDsONC39eovpMo97fYx6L5cVKiL8=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m22[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.242 s -- in com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+main|schedId=[com.github.davidmoten.rx2.SchedulerHelperTest:testWithCallSite:47]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 39 more
+Exception in thread "main" io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 39 more
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.071 s -- in com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.kryo.util.UnsafeUtil (file:/home/a360/.m2/repository/com/esotericsoftware/kryo/4.0.3/kryo-4.0.3.jar) to constructor java.nio.DirectByteBuffer(long,int,java.lang.Object)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.kryo.util.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s -- in com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.030 s -- in com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+testCancel
+testCancelObservable
+testing fragments sync
+LITTLE_ENDIAN
+byte arrays sync rate = 37.313MB/s
+65536
+byte arrays async 1K rate = 182.857MB/s, msgs/sec = 187245.714
+byte arrays async rate = 16.667MB/s, msgs/sec = 436906.667
+byte arrays async rebatched rate = 30.120MB/s, msgs/sec=789590.361
+byte arrays async rate obs = 78.125MB/s, msgs/sec = 2048000.000
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m29[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 4.540 s -- in com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mRetryWhenTest[m
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 120000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 10ms
+WARN: boo
+waiting for 20ms
+WARN: boo
+waiting for 40ms
+WARN: boo
+waiting for 80ms
+WARN: boo
+waiting for 160ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.343 s -- in com.github.davidmoten.rx2.[1mRetryWhenTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.006 s -- in com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m26[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.405 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+pool-3-thread-3: a
+loop 0
+pool-3-thread-5: hello there
+pool-3-thread-9: hello there
+pool-3-thread-3: hell
+pool-3-thread-4: 1234
+pool-3-thread-6: 
+pool-3-thread-10: hello there
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.05 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+main: boo
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.184 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.559 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+5
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m31[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.964 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | com.github.davidmoten.rx2.exceptions.ThrowingException
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+1
+2
+3
+1
+2
+3
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.030 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 407, Failures: 0, Errors: 0, Skipped: 5[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexJarDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexExecid=xBISLJ1cH+kEs2U58iyL50p6vpEpwhBOkTRu62vio08=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m22[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.172 s -- in com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+main|schedId=[com.github.davidmoten.rx2.SchedulerHelperTest:testWithCallSite:47]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 50 more
+Exception in thread "main" io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 50 more
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.062 s -- in com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.kryo.util.UnsafeUtil (file:/home/a360/.m2/repository/com/esotericsoftware/kryo/4.0.3/kryo-4.0.3.jar) to constructor java.nio.DirectByteBuffer(long,int,java.lang.Object)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.kryo.util.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s -- in com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.028 s -- in com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+testCancel
+testCancelObservable
+testing fragments sync
+LITTLE_ENDIAN
+byte arrays sync rate = 49.020MB/s
+65536
+byte arrays async 1K rate = 212.625MB/s, msgs/sec = 217727.575
+byte arrays async rate = 46.296MB/s, msgs/sec = 1213629.630
+byte arrays async rebatched rate = 59.524MB/s, msgs/sec=1560380.952
+byte arrays async rate obs = 73.529MB/s, msgs/sec = 1927529.412
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m29[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 4.271 s -- in com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mRetryWhenTest[m
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 120000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 10ms
+WARN: boo
+waiting for 20ms
+WARN: boo
+waiting for 40ms
+WARN: boo
+waiting for 80ms
+WARN: boo
+waiting for 160ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 s -- in com.github.davidmoten.rx2.[1mRetryWhenTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.006 s -- in com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m26[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.361 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+pool-3-thread-2: a
+loop 0
+pool-3-thread-1: hello there
+pool-3-thread-5: hello there
+pool-3-thread-3: hell
+pool-3-thread-10: 1234
+pool-3-thread-6: 
+pool-3-thread-2: hello there
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.35 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+main: boo
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.058 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.613 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+5
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m31[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.946 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | com.github.davidmoten.rx2.exceptions.ThrowingException
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+1
+2
+3
+1
+2
+3
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.030 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 407, Failures: 0, Errors: 0, Skipped: 5[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexJarDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexExecid=RafrTWpsIIUvWbMPLW4IVHbQRwv1oJfDNajDIQSrO4=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m22[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.177 s -- in com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+main|schedId=[com.github.davidmoten.rx2.SchedulerHelperTest:testWithCallSite:47]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 50 more
+Exception in thread "main" io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 50 more
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.059 s -- in com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.kryo.util.UnsafeUtil (file:/home/a360/.m2/repository/com/esotericsoftware/kryo/4.0.3/kryo-4.0.3.jar) to constructor java.nio.DirectByteBuffer(long,int,java.lang.Object)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.kryo.util.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s -- in com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.028 s -- in com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+testCancel
+testCancelObservable
+testing fragments sync
+LITTLE_ENDIAN
+byte arrays sync rate = 47.170MB/s
+65536
+byte arrays async 1K rate = 290.909MB/s, msgs/sec = 297890.909
+byte arrays async rate = 49.020MB/s, msgs/sec = 1285019.608
+byte arrays async rebatched rate = 54.348MB/s, msgs/sec=1424695.652
+byte arrays async rate obs = 65.789MB/s, msgs/sec = 1724631.579
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m29[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 4.224 s -- in com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mRetryWhenTest[m
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 120000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 10ms
+WARN: boo
+waiting for 20ms
+WARN: boo
+waiting for 40ms
+WARN: boo
+waiting for 80ms
+WARN: boo
+waiting for 160ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 s -- in com.github.davidmoten.rx2.[1mRetryWhenTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.004 s -- in com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m26[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.367 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+pool-3-thread-2: a
+loop 0
+pool-3-thread-8: hello there
+pool-3-thread-7: hello there
+pool-3-thread-6: hell
+pool-3-thread-3: 1234
+pool-3-thread-4: 
+pool-3-thread-7: hello there
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.35 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+main: boo
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.238 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.523 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+5
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m31[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.853 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | com.github.davidmoten.rx2.exceptions.ThrowingException
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+1
+2
+3
+1
+2
+3
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.032 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 407, Failures: 0, Errors: 0, Skipped: 5[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexJarDir=/home/a360/research/projects/rxjava2-extras/.nondex
+nondexExecid=suCyyIFFH6ml2qhu3c1hrHKpK8gZGecQ2saJ0l71CEQ=
+nondexLogging=CONFIG
+test=
+[[1;33mWARNING[m]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m22[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.164 s -- in com.github.davidmoten.rx2.[1mStringsSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+main|schedId=[com.github.davidmoten.rx2.SchedulerHelperTest:testWithCallSite:47]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in com.github.davidmoten.rx2.[1mSchedulerHelperTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.github.davidmoten.rx2.[1mStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.observable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m1[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mSpecializedMspcLinkedQueueTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 50 more
+Exception in thread "main" io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.io.IOException: boo
+	at io.reactivex.plugins.RxJavaPlugins.onError(RxJavaPlugins.java:367)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onError(FlowableInsertMaybe.java:115)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2$1.request(TransformersTest.java:231)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.request(FlowableInsertMaybe.java:204)
+	at io.reactivex.subscribers.TestSubscriber.onSubscribe(TestSubscriber.java:174)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe$InsertSubscriber.onSubscribe(FlowableInsertMaybe.java:81)
+	at com.github.davidmoten.rx2.flowable.TransformersTest$2.subscribeActual(TransformersTest.java:222)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at com.github.davidmoten.rx2.internal.flowable.FlowableInsertMaybe.subscribeActual(FlowableInsertMaybe.java:39)
+	at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+	at io.reactivex.Flowable.test(Flowable.java:18639)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.countMapperCalls(TransformersTest.java:243)
+	at com.github.davidmoten.rx2.flowable.TransformersTest.testInsertNoOnNextOrErrorEventsProcessedAfterMapperError(TransformersTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: boo
+	... 50 more
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m24[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.061 s -- in com.github.davidmoten.rx2.flowable.[1mTransformersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.esotericsoftware.kryo.util.UnsafeUtil (file:/home/a360/.m2/repository/com/esotericsoftware/kryo/4.0.3/kryo-4.0.3.jar) to constructor java.nio.DirectByteBuffer(long,int,java.lang.Object)
+WARNING: Please consider reporting this to the maintainers of com.esotericsoftware.kryo.util.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s -- in com.github.davidmoten.rx2.flowable.[1mSerializedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.029 s -- in com.github.davidmoten.rx2.[1mObservablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mCallablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+testCancel
+testCancelObservable
+testing fragments sync
+LITTLE_ENDIAN
+byte arrays sync rate = 48.077MB/s
+65536
+byte arrays async 1K rate = 293.578MB/s, msgs/sec = 300623.853
+byte arrays async rate = 62.500MB/s, msgs/sec = 1638400.000
+byte arrays async rebatched rate = 56.818MB/s, msgs/sec=1489454.545
+byte arrays async rate obs = 65.789MB/s, msgs/sec = 1724631.579
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m29[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 4.422 s -- in com.github.davidmoten.rx2.buffertofile.[1mFlowableOnBackpressureBufferToFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.buffertofile.[1mSerializersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mBiPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mRetryWhenTest[m
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 120000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 10ms
+WARN: boo
+waiting for 20ms
+WARN: boo
+waiting for 40ms
+WARN: boo
+waiting for 80ms
+WARN: boo
+waiting for 160ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.342 s -- in com.github.davidmoten.rx2.[1mRetryWhenTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mMaybesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.util.[1mPairTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.003 s -- in com.github.davidmoten.rx2.[1mFlowablesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mActionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.[1mBiFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.github.davidmoten.rx2.[1mBytesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.github.davidmoten.rx2.[1mConsumersTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableReverseTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m26[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 0.383 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTransformTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+pool-3-thread-2: a
+loop 0
+pool-3-thread-3: hello there
+pool-3-thread-9: hello there
+pool-3-thread-10: hell
+pool-3-thread-1: 1234
+pool-3-thread-3: 
+pool-3-thread-10: hello there
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.17 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableServerSocketTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mUnsafeAccessTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+main: boo
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mPageListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.buffertofile.[1mMemoryMappedFileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m17[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.832 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMaxRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMergeInterleavedTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m23[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStateMachineTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerStringSplitTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mTransformerDecodeTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+5
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m31[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.006 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMatchTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableWindowMinMaxTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableDoOnEmptyTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableRepeatingTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | com.github.davidmoten.rx2.exceptions.ThrowingException
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableCollectWhileTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableFetchPagesByRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mDelimitedStringLinkedListTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mSerializerJavaIOTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+1
+2
+3
+1
+2
+3
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowablePassThroughTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMapLastTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableMinRequestTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.030 s -- in com.github.davidmoten.rx2.internal.flowable.[1mFlowableStringInputStreamTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mFunctionsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.rx2.[1mPredicatesTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.github.davidmoten.rx2.[1mStringsTest[m
+[[1;34mINFO[m] Running com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.github.davidmoten.util.[1mRingBufferTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 407, Failures: 0, Errors: 0, Skipped: 5[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/rxjava2-extras/.nondex" -DnondexJarDir="/home/a360/research/projects/rxjava2-extras/.nondex" -DnondexExecid=xBISLJ1cH+kEs2U58iyL50p6vpEpwhBOkTRu62vio08= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/rxjava2-extras/.nondex" -DnondexJarDir="/home/a360/research/projects/rxjava2-extras/.nondex" -DnondexExecid=RafrTWpsIIUvWbMPLW4IVHbQRwv1oJfDNajDIQSrO4= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/a360/research/projects/rxjava2-extras/.nondex" -DnondexJarDir="/home/a360/research/projects/rxjava2-extras/.nondex" -DnondexExecid=suCyyIFFH6ml2qhu3c1hrHKpK8gZGecQ2saJ0l71CEQ= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] All tests pass without NonDex shuffling
+[[1;34mINFO[m] ####################
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/a360/research/projects/rxjava2-extras/.nondex/xBISLJ1cH+kEs2U58iyL50p6vpEpwhBOkTRu62vio08=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: xBISLJ1cH+kEs2U58iyL50p6vpEpwhBOkTRu62vio08=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:38 min
+[[1;34mINFO[m] Finished at: 2026-10-02T08:06:29-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

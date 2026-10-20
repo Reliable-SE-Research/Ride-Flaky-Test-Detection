@@ -1,0 +1,14 @@
+Flaky Test Detection Summary
+
+Tool, Flaky Tests Found, Tests Not in IDoFT
+iDFlakies, 0, 0
+NonDex, 30, 4
+
+Tests Not in IDoFT:
+org.apache.commons.lang3.reflect.FieldUtilsTest#testGetAllFieldsList
+org.apache.commons.lang3.reflect.FieldUtilsTest#testGetAllFields
+org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testFixture
+org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testFixtureWithTransients
+
+Total Unique Flaky Tests: 30
+Total New Flaky Tests: 4

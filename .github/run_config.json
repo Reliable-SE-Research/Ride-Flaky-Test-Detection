@@ -1,0 +1,7 @@
+{
+  "shard_size": 5,
+  "max_shards": 1,
+  "jdk": "8",
+  "_triggered": "2026-10-10T10:10:00Z",
+  "_comment": "PILOT-5 final: verify push to sanskriti-data works end-to-end."
+}

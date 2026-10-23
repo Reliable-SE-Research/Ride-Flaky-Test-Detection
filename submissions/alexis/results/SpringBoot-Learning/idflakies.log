@@ -1,0 +1,18 @@
+[[1;34mINFO[m] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.5.10.RELEASE/spring-boot-starter-parent-1.5.10.RELEASE.pom
+Progress (1): 959 BProgress (1): 2.5 kBProgress (1): 5.5 kBProgress (1): 7.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.5.10.RELEASE/spring-boot-starter-parent-1.5.10.RELEASE.pom (7.5 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.10.RELEASE/spring-boot-dependencies-1.5.10.RELEASE.pom
+Progress (1): 929 BProgress (1): 2.3 kBProgress (1): 4.3 kBProgress (1): 6.1 kBProgress (1): 7.4 kBProgress (1): 9.8 kBProgress (1): 14 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 24 kBProgress (1): 28 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 38 kBProgress (1): 42 kBProgress (1): 43 kBProgress (1): 47 kBProgress (1): 51 kBProgress (1): 53 kBProgress (1): 57 kBProgress (1): 61 kBProgress (1): 64 kBProgress (1): 68 kBProgress (1): 70 kBProgress (1): 74 kBProgress (1): 77 kBProgress (1): 81 kBProgress (1): 85 kBProgress (1): 89 kBProgress (1): 91 kBProgress (1): 95 kBProgress (1): 97 kBProgress (1): 102 kBProgress (1): 102 kBProgress (1): 102 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.10.RELEASE/spring-boot-dependencies-1.5.10.RELEASE.pom (102 kB at 1.2 MB/s)
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'packaging' with value 'jar' is invalid. Aggregator projects require 'pom' as packaging. @ line 3, column 109
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.didispace:SpringCloud-Learning:1.0-SNAPSHOT (/work/repo/pom.xml) has 1 error
+[[1;31mERROR[m]     'packaging' with value 'jar' is invalid. Aggregator projects require 'pom' as packaging. @ line 3, column 109
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException

@@ -1,0 +1,119 @@
+================================================================================
+TEST: com.baidu.disconf.core.test.zookeeper.ZookeeperMgrTest.testWritePersistentUrl
+TOOL: iDFlakies
+SOURCE: results/disconf/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: io.elasticjob.lite.event.rdb.JobEventRdbSearchTest.assertFindJobStatusTraceEventsWithTime
+TOOL: iDFlakies
+SOURCE: results/elastic-job-lite/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready
+TOOL: iDFlakies
+SOURCE: results/elastic-job-lite/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull
+TOOL: iDFlakies
+SOURCE: results/elastic-job-lite/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential
+TOOL: iDFlakies
+SOURCE: results/elastic-job-lite/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetRegistryCenterTime
+TOOL: iDFlakies
+SOURCE: results/elastic-job-lite/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: org.apache.flink.testutils.junit.RetryOnFailureTest.testDontRetryOnSuccess
+TOOL: iDFlakies
+SOURCE: results/flink/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: org.apache.flink.testutils.junit.RetryOnFailureTest.testRetryOnFailure
+TOOL: iDFlakies
+SOURCE: results/flink/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: org.apache.flink.testutils.junit.RetryOnFailureTest.testRetryOnceOnFailure
+TOOL: iDFlakies
+SOURCE: results/flink/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: com.iluwatar.async.method.invocation.ThreadAsyncExecutorTest.testNullTaskWithCallback
+TOOL: iDFlakies
+SOURCE: results/java-design-patterns/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: com.codahale.metrics.logback.InstrumentedAppenderTest.usesDefaultRegistry
+TOOL: iDFlakies
+SOURCE: results/metrics/idflakies.log
+RULE: Verified TEST + matching detector result
+================================================================================
+
+================================================================================
+TEST: com.taobao.arthas.core.view.ObjectViewTest.testNestedClass
+TOOL: NonDex
+RULE: testName + <<< FAILURE! detected
+SOURCE: nondex_failures.txt
+================================================================================
+
+================================================================================
+TEST: com.taobao.arthas.core.view.ObjectViewTest.testObjectTooLarge
+TOOL: NonDex
+RULE: testName + <<< FAILURE! detected
+SOURCE: nondex_failures.txt
+================================================================================
+
+================================================================================
+TEST: junit.samples.SimpleTest.testAdd
+TOOL: NonDex
+RULE: testName + <<< FAILURE! detected
+SOURCE: nondex_failures.txt
+================================================================================
+
+================================================================================
+TEST: junit.samples.SimpleTest.testEquals
+TOOL: NonDex
+RULE: testName + <<< FAILURE! detected
+SOURCE: nondex_failures.txt
+================================================================================
+
+================================================================================
+TEST: org.junit.samples.SimpleTest.testEquals
+TOOL: NonDex
+RULE: testName + <<< FAILURE! detected
+SOURCE: nondex_failures.txt
+================================================================================
+
+================================================================================
+TEST: org.junit.internal.MethodSorterTest.testJvmMethodSorter
+TOOL: NonDex
+RULE: testName + <<< FAILURE! detected
+SOURCE: nondex_failures.txt
+================================================================================
+

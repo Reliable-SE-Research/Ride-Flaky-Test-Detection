@@ -1,0 +1,31 @@
+Flaky Test Detection
+
+Total Projects: 100
+
+Results:
+
+SUCCESS: 16
+IDFLAKIES_FAILED: 47
+NO_PASSING_ORDER: 19
+NONDEX_FAILED: 10
+CHECKOUT_FAILED: 3
+CLONE_FAILED: 3
+TIMEOUT: 2
+
+Files Included:
+
+- experiment_results.csv
+- experiment_results_full.csv
+- successful_projects.csv
+
+Logs:
+
+Per-project logs are included under results/
+
+Files available for each project:
+
+- idflakies.log
+- nondex.log
+- repository.txt
+- sha.txt
+- status.txt

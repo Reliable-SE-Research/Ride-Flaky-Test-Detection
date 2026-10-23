@@ -1,0 +1,21 @@
+[[1;34mINFO[m] Scanning for projects...
+Downloading from spring-snapshots: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading from spring-snapshots-continuous: http://repo.spring.io/libs-snapshot-continuous-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata org.springframework.cloud:spring-cloud-starter-parent:Brixton.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/libs-snapshot-local): Failed to transfer file: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/maven-metadata.xml. Return code is: 405 , ReasonPhrase:Not Allowed.
+[[1;33mWARNING[m] Could not transfer metadata org.springframework.cloud:spring-cloud-starter-parent:Brixton.BUILD-SNAPSHOT/maven-metadata.xml from/to spring-snapshots-continuous (http://repo.spring.io/libs-snapshot-continuous-local): Failed to transfer file: http://repo.spring.io/libs-snapshot-continuous-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/maven-metadata.xml. Return code is: 405 , ReasonPhrase:Not Allowed.
+Downloading from spring-snapshots: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/spring-cloud-starter-parent-Brixton.BUILD-SNAPSHOT.pom
+Downloading from spring-snapshots-continuous: http://repo.spring.io/libs-snapshot-continuous-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/spring-cloud-starter-parent-Brixton.BUILD-SNAPSHOT.pom
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.kbastani:spring-cloud-microservice-example-parent:0.1.0-SNAPSHOT: Could not transfer artifact org.springframework.cloud:spring-cloud-starter-parent:pom:Brixton.BUILD-SNAPSHOT from/to spring-snapshots (http://repo.spring.io/libs-snapshot-local): Failed to transfer file: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/spring-cloud-starter-parent-Brixton.BUILD-SNAPSHOT.pom. Return code is: 405 , ReasonPhrase:Not Allowed. and 'parent.relativePath' points at no local POM @ line 23, column 13
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.kbastani:spring-cloud-microservice-example-parent:0.1.0-SNAPSHOT (/work/repo/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.kbastani:spring-cloud-microservice-example-parent:0.1.0-SNAPSHOT: Could not transfer artifact org.springframework.cloud:spring-cloud-starter-parent:pom:Brixton.BUILD-SNAPSHOT from/to spring-snapshots (http://repo.spring.io/libs-snapshot-local): Failed to transfer file: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/Brixton.BUILD-SNAPSHOT/spring-cloud-starter-parent-Brixton.BUILD-SNAPSHOT.pom. Return code is: 405 , ReasonPhrase:Not Allowed. and 'parent.relativePath' points at no local POM @ line 23, column 13 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException

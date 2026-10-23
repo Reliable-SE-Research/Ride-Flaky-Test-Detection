@@ -1,0 +1,84 @@
+
+FAILURE PARSING REPORT
+======================
+
+Professor Requirement
+---------------------
+
+Build failures are not counted as flaky failures.
+
+Tool Separation
+---------------
+
+iDFlakies = Order Dependent
+
+NonDex = Implementation Dependent
+
+Tools are analyzed independently.
+
+NonDex Parsing Rule
+-------------------
+
+A test is valid when:
+
+testName(...)
+
+and
+
+<<< FAILURE!
+
+or
+
+<<< ERROR!
+
+appear in the extracted NonDex failure evidence.
+
+Evidence Source:
+nondex_failures.txt
+
+iDFlakies Parsing Rule
+----------------------
+
+A test is valid when:
+
+Verified TEST_NAME
+
+appears in idflakies.log together with
+a successful detector verification such as:
+
+expected ERROR, got ERROR
+
+expected FAILURE, got FAILURE
+
+expected PASS, got PASS
+
+Evidence Source:
+idflakies.log
+
+Verified Tests Audited
+----------------------
+com.baidu.disconf.core.test.zookeeper.ZookeeperMgrTest.testWritePersistentUrl
+io.elasticjob.lite.event.rdb.JobEventRdbSearchTest.assertFindJobStatusTraceEventsWithTime
+io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready
+io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull
+io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential
+io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetRegistryCenterTime
+org.apache.flink.testutils.junit.RetryOnFailureTest.testDontRetryOnSuccess
+org.apache.flink.testutils.junit.RetryOnFailureTest.testRetryOnFailure
+org.apache.flink.testutils.junit.RetryOnFailureTest.testRetryOnceOnFailure
+com.iluwatar.async.method.invocation.ThreadAsyncExecutorTest.testNullTaskWithCallback
+com.codahale.metrics.logback.InstrumentedAppenderTest.usesDefaultRegistry
+com.taobao.arthas.core.view.ObjectViewTest.testNestedClass
+com.taobao.arthas.core.view.ObjectViewTest.testObjectTooLarge
+junit.samples.SimpleTest.testAdd
+junit.samples.SimpleTest.testEquals
+org.junit.samples.SimpleTest.testEquals
+org.junit.internal.MethodSorterTest.testJvmMethodSorter
+
+
+Summary
+-------
+
+Valid Findings: 17
+
+Total Tests Audited: 17

@@ -1,0 +1,11 @@
+iDFlakies,com.baidu.disconf.core.test.zookeeper.ZookeeperMgrTest.testWritePersistentUrl,VERIFIED_IDFLAKIES_DETECTOR,results/disconf/idflakies.log
+iDFlakies,io.elasticjob.lite.event.rdb.JobEventRdbSearchTest.assertFindJobStatusTraceEventsWithTime,VERIFIED_IDFLAKIES_DETECTOR,results/elastic-job-lite/idflakies.log
+iDFlakies,io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready,VERIFIED_IDFLAKIES_DETECTOR,results/elastic-job-lite/idflakies.log
+iDFlakies,io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull,VERIFIED_IDFLAKIES_DETECTOR,results/elastic-job-lite/idflakies.log
+iDFlakies,io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential,VERIFIED_IDFLAKIES_DETECTOR,results/elastic-job-lite/idflakies.log
+iDFlakies,io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetRegistryCenterTime,VERIFIED_IDFLAKIES_DETECTOR,results/elastic-job-lite/idflakies.log
+iDFlakies,org.apache.flink.testutils.junit.RetryOnFailureTest.testDontRetryOnSuccess,VERIFIED_IDFLAKIES_DETECTOR,results/flink/idflakies.log
+iDFlakies,org.apache.flink.testutils.junit.RetryOnFailureTest.testRetryOnFailure,VERIFIED_IDFLAKIES_DETECTOR,results/flink/idflakies.log
+iDFlakies,org.apache.flink.testutils.junit.RetryOnFailureTest.testRetryOnceOnFailure,VERIFIED_IDFLAKIES_DETECTOR,results/flink/idflakies.log
+iDFlakies,com.iluwatar.async.method.invocation.ThreadAsyncExecutorTest.testNullTaskWithCallback,VERIFIED_IDFLAKIES_DETECTOR,results/java-design-patterns/idflakies.log
+iDFlakies,com.codahale.metrics.logback.InstrumentedAppenderTest.usesDefaultRegistry,VERIFIED_IDFLAKIES_DETECTOR,results/metrics/idflakies.log

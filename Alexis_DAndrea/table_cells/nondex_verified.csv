@@ -1,0 +1,6 @@
+NonDex,com.taobao.arthas.core.view.ObjectViewTest.testNestedClass,VERIFIED_NONDEX_FAILURE,nondex_failures.txt
+NonDex,com.taobao.arthas.core.view.ObjectViewTest.testObjectTooLarge,VERIFIED_NONDEX_FAILURE,nondex_failures.txt
+NonDex,junit.samples.SimpleTest.testAdd,VERIFIED_NONDEX_FAILURE,nondex_failures.txt
+NonDex,junit.samples.SimpleTest.testEquals,VERIFIED_NONDEX_FAILURE,nondex_failures.txt
+NonDex,org.junit.samples.SimpleTest.testEquals,VERIFIED_NONDEX_FAILURE,nondex_failures.txt
+NonDex,org.junit.internal.MethodSorterTest.testJvmMethodSorter,VERIFIED_NONDEX_FAILURE,nondex_failures.txt

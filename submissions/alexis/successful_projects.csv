@@ -1,0 +1,17 @@
+project,status
+DiskLruCache,SUCCESS
+JCSprout,SUCCESS
+RxRelay,SUCCESS
+algs4,SUCCESS
+atmosphere,SUCCESS
+auto,SUCCESS
+clojure,SUCCESS
+disconf,SUCCESS
+elasticsearch-analysis-ik,SUCCESS
+google-java-format,SUCCESS
+jsoup,SUCCESS
+lanproxy,SUCCESS
+mpush,SUCCESS
+parceler,SUCCESS
+spring-boot-api-project-seed,SUCCESS
+vectalign,SUCCESS

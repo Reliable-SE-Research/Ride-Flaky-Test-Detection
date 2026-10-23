@@ -1,0 +1,51 @@
+[[1;34mINFO[m] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-parent/14/vertx-parent-14.pom
+Progress (1): 968 BProgress (1): 2.3 kBProgress (1): 4.9 kBProgress (1): 7.2 kBProgress (1): 9.0 kBProgress (1): 13 kB Progress (1): 13 kBProgress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-parent/14/vertx-parent-14.pom (15 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Progress (1): 848 BProgress (1): 1.9 kBProgress (1): 4.0 kBProgress (1): 4.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 91 kB/s)
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/vertx/vertx-dependencies/3.6.0-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/vertx/vertx-dependencies/3.6.0-SNAPSHOT/vertx-dependencies-3.6.0-SNAPSHOT.pom
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Non-resolvable import POM: Could not find artifact io.vertx:vertx-dependencies:pom:3.6.0-SNAPSHOT in sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots) @ line 64, column 19
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-common:jar is missing. @ line 77, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ line 81, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @ line 85, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ line 89, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler-proxy:jar is missing. @ line 93, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http:jar is missing. @ line 97, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-codec-http2:jar is missing. @ line 101, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver:jar is missing. @ line 105, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-resolver-dns:jar is missing. @ line 109, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-native-epoll:jar is missing. @ line 113, column 17
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport-native-kqueue:jar is missing. @ line 118, column 17
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-core:jar is missing. @ line 125, column 17
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 129, column 17
+[ERROR] 'dependencies.dependency.version' for io.vertx:vertx-codegen:jar is missing. @ line 161, column 17
+[ERROR] 'dependencies.dependency.version' for io.vertx:vertx-docgen:jar is missing. @ line 166, column 17
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project io.vertx:vertx-core:3.6.0-SNAPSHOT (/work/repo/pom.xml) has 16 errors
+[[1;31mERROR[m]     Non-resolvable import POM: Could not find artifact io.vertx:vertx-dependencies:pom:3.6.0-SNAPSHOT in sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots) @ line 64, column 19 -> [1m[Help 2][m
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-common:jar is missing. @ line 77, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ line 81, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @ line 85, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ line 89, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-handler-proxy:jar is missing. @ line 93, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-codec-http:jar is missing. @ line 97, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-codec-http2:jar is missing. @ line 101, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-resolver:jar is missing. @ line 105, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-resolver-dns:jar is missing. @ line 109, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-transport-native-epoll:jar is missing. @ line 113, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.netty:netty-transport-native-kqueue:jar is missing. @ line 118, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-core:jar is missing. @ line 125, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 129, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.vertx:vertx-codegen:jar is missing. @ line 161, column 17
+[[1;31mERROR[m]     'dependencies.dependency.version' for io.vertx:vertx-docgen:jar is missing. @ line 166, column 17
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
